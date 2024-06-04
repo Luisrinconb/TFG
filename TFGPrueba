@@ -1,0 +1,543 @@
+import os
+import openai  # pip install openai
+import config
+from rich import print  # pip install rich
+import json
+import time
+from rdflib import Graph, Literal, RDF, URIRef, Namespace
+from rdflib.namespace import RDF, FOAF, XSD
+from flask import Flask, render_template, request
+import datetime
+import subprocess
+
+
+#Sección rdflib
+# Crear un grafo RDF
+g = Graph()
+
+# Definir espacios de nombres para las URIs
+dct = Namespace("http://purl.org/dc/terms/")
+owl = Namespace("http://www.w3.org/2002/07/owl#")
+dcat = Namespace("http://www.w3.org/ns/dcat#")
+vcard = Namespace("http://www.w3.org/2006/vcard/ns#")
+ns1 = Namespace("http://data.europa.eu/r5r/")
+foaf = Namespace("http://xmlns.com/foaf/0.1/")
+skos = Namespace("http://www.w3.org/2004/02/skos/core#")
+
+
+
+#  Crear la aplicación Flask
+app = Flask(__name__, template_folder='templates')
+
+
+
+archivo_datos= None
+fecha_creacion_archivo= None
+tamaño_archivo= None
+
+datos_0 =""
+datos_1=""
+datos_2=""
+datos_3=""
+datos_4=""
+datos_5=""
+datos_6=""
+datos_7=""
+datos_8=""
+datos_9=""
+datos_10=""
+datos_11=""
+datos_12=""
+datos_13= ""
+
+@app.route('/', methods=['GET', 'POST'])
+def index():
+        global archivo_datos
+        global fecha_creacion_archivo
+        global tamaño_archivo
+        global datos_0
+        global datos_1
+        global datos_2
+        global datos_3
+        global datos_4
+        global datos_5
+        global datos_6
+        global datos_7
+        global datos_8
+        global datos_9
+        global datos_10
+        global datos_11
+        global datos_12
+        global datos_13
+
+        if request.method == 'GET':
+            return render_template('index.html')
+        
+        if request.method == 'POST':
+            archivo_subido = request.files['file']
+            nombre_archivo = archivo_subido.filename
+            fecha_creacion_archivo= datetime.datetime.now()
+            tamaño_archivo = len(archivo_subido.read())
+            # Restablecer el puntero del archivo para que pueda ser leído nuevamente si es necesario
+            archivo_subido.seek(0)
+            # Aquí puedes manejar el archivo subido, por ejemplo, guardarlo en el servidor
+            contenido_archivo= archivo_subido.read()
+            archivo_datos= contenido_archivo
+            main()
+            datos_1 = datos_1
+            datos_2 = datos_2
+            print (datos_1)
+            datos_3 = datos_3
+        return render_template('resultados.html', datos_1 = datos_1, datos_2 = datos_2, datos_3 = datos_3, datos_4 = datos_4, datos_5 = datos_5, datos_6 = datos_6, datos_7 = datos_7, datos_8 = datos_8, datos_9 = datos_9, datos_10 = datos_10, datos_11 = datos_11, datos_12 = datos_12, nombre_archivo = nombre_archivo )
+
+
+#Sección con rutas necesarias para obtener metadatos (por ahora son temporales)
+
+#Ruta web JSON Retiro
+ruta_webRetiro = "https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:9263D-1"
+
+#Ruta MQA-Scoring
+script_path = "C:/Users/luisr/Desktop/Universidad/TFG/mqa-scoring/mqa-scoring.py"
+working_dir= "C:/Users/luisr/Desktop/Universidad/TFG/mqa-scoring"
+
+#ruta Notas
+ruta_Notas = os.path.join(os.path.dirname(__file__), 'NotasHerramienta.txt')
+with open(ruta_Notas, 'r') as archivo_notas_herramienta:
+    archivo_notas = archivo_notas_herramienta.read()
+ 
+#Codigo lectura JSON EJEMPLO 
+ruta_jsonRetiro = os.path.join(os.path.dirname(__file__), 'Madrid_retiro.json')
+with open(ruta_jsonRetiro, 'r') as archivo_json_retiro:
+    datos_Retiro = archivo_json_retiro.read()
+
+#Codigo lectura JSON EJEMPLO 
+ruta_jsonPamplona = os.path.join(os.path.dirname(__file__), 'Pamplona_aeropuerto.json')
+with open(ruta_jsonPamplona, 'r') as archivo_json_pamplona:
+    datos_Pamplona = archivo_json_pamplona.read()
+
+
+#Codigo lectura JSON 
+ruta_json = os.path.join(os.path.dirname(__file__), 'Ciudad.json')
+with open(ruta_json, 'r') as archivo_json:
+    datos_Ciudad = json.load(archivo_json)
+
+
+#Metodos para obtener las fechas de creacion y modificación del fichero JSON
+if os.path.exists(ruta_jsonRetiro):
+    # Obtiene la fecha de creación del archivo
+    fecha_creacion_retiro = os.path.getctime(ruta_jsonRetiro)
+    fecha_creacion_retiro= time.ctime(fecha_creacion_retiro)
+    # Obtiene la fecha de modificación del archivo
+    fecha_modificacion_retiro = os.path.getmtime(ruta_jsonRetiro)
+    fecha_modificacion_retiro = time.ctime(fecha_modificacion_retiro)
+
+if os.path.exists(ruta_jsonPamplona):
+    # Obtiene la fecha de creación del archivo
+    fecha_creacion_pamplona = os.path.getctime(ruta_jsonPamplona)
+    fecha_creacion_pamplona= time.ctime(fecha_creacion_pamplona)
+    # Obtiene la fecha de modificación del archivo
+    fecha_modificacion_pamplona = os.path.getmtime(ruta_jsonPamplona)    
+    fecha_modificacion_pamplona= time.ctime(fecha_modificacion_pamplona)
+
+
+if os.path.exists(ruta_jsonPamplona):
+    # Obtiene la fecha de creación del archivo
+    fecha_creacion_pamplona = os.path.getctime(ruta_jsonPamplona)
+    fecha_creacion_pamplona= time.ctime(fecha_creacion_pamplona)
+    # Obtiene la fecha de modificación del archivo
+    fecha_modificacion_pamplona = os.path.getmtime(ruta_jsonPamplona)    
+    fecha_modificacion_pamplona= time.ctime(fecha_modificacion_pamplona)
+
+
+
+
+#Obtener el tamaño en bytes del fichero JSON
+tamaño_archivo_pamplona = os.path.getsize(ruta_jsonPamplona)    
+
+prompt_ejemplo = f"1)Punto de contacto: yoda ; 2) Versión: 1.0; 3) Fuente: https://yoda.dit.upm.es/; 4) Descripción: Climatología de la estación de MADRID RETIRO siguiendo el modelo WeatherObserved de NGSI-LD. Información elaborada utilizando, entre otras, la obtenida de la Agencia Estatal de Meteorología. ; 5) Fecha de modificación: {fecha_modificacion_retiro} ; 6) Fecha de creación:{fecha_creacion_retiro}; 7) Derechos de acceso: http://publications.europa.eu/resource/authority/access-right/PUBLIC ; 8) Palabra Clave: tiempo ; 9) Página web: https://yoda.dit.upm.es/ ; 10)Identificador: 0d7509d6-82ca-4dc3-a61a-95e45dab7a1e ; 11) Título: madrid_retiro_3195 ; 12) Tema: http://publications.europa.eu/resource/authority/data-theme/ENVI "
+
+
+
+def main():
+
+
+    global archivo_datos
+    global fecha_creacion_archivo
+    global tamaño_archivo
+    global datos_0
+    global datos_1
+    global datos_2
+    global datos_3
+    global datos_4
+    global datos_5
+    global datos_6
+    global datos_7
+    global datos_8
+    global datos_9
+    global datos_10
+    global datos_11
+    global datos_12
+    global datos_13
+
+    openai.api_key = config.api_key
+    # Contexto del asistente
+    context = {"role": "system",
+               "content": archivo_notas
+    }
+              
+    messages = [context]
+
+    messages.append({"role": "user", "content": ruta_jsonRetiro,
+               "role": "assistant", "content": prompt_ejemplo
+               })
+
+
+
+   
+
+    prompt_necesario= f"Este es el JSON {archivo_datos}. Aqui tienes los datos de creacion {fecha_creacion_archivo} y de modificación {fecha_creacion_archivo}"
+
+    messages.append({"role": "user", "content": prompt_necesario })
+
+    response = openai.chat.completions.create(
+            model="gpt-3.5-turbo", messages=messages , n=4)
+
+    response_content_1 = response.choices[0].message.content
+    response_content_2 = response.choices[1].message.content
+    response_content_3 = response.choices[2].message.content
+
+    response_texto_1 = response_content_1.strip()
+    response_texto_2 = response_content_2.strip()
+    response_texto_3 = response_content_3.strip()
+
+
+
+    inicio_0 ="Dataset:"
+    fin_0 = "; 1)"
+
+    inicio_1 = "1) Punto de contacto:"
+    fin_1 = "; 2)"
+
+    inicio_2 = "2) Versión:"
+    fin_2 = "; 3)"
+
+    inicio_3 = "3) Fuente:"
+    fin_3 = "; 4)"
+
+    inicio_4 = "4) Descripción:"
+    fin_4 = "; 5)"
+
+    inicio_5 = "5) Fecha de modificación:"
+    fin_5 = "; 6)"
+
+    inicio_6 ="6) Fecha de creación:"
+    fin_6 = "; 7)"
+
+    inicio_7 ="7) Derechos de acceso:"
+    fin_7 = "; 8)"
+
+    inicio_8 ="8) Palabra Clave:"
+    fin_8 = "; 9)"
+
+    inicio_9 ="9) Página web:"
+    fin_9 = "; 10)"
+
+    inicio_10 ="10) Identificador"
+    fin_10 = "; 11)"
+
+    inicio_11 ="11) Título:"
+    fin_11 = "; 12)"
+
+    inicio_12 ="12) Tema"
+    fin_12 = "; 13)"
+
+    inicio_13 = "13)"
+    fin_13 = "Fin" 
+
+    
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_1)
+        fin_index = response_content.find(fin_1, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_1):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_1= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_1= frase_guardada
+                break
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_2)
+        fin_index = response_content.find(fin_2, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_2):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_2= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_2= frase_guardada
+                break
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_3)
+        fin_index = response_content.find(fin_3, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_3):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_3= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_3= frase_guardada
+                break
+    
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_4)
+        fin_index = response_content.find(fin_4, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_4):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_4= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_4= frase_guardada
+                break
+   
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_5)
+        fin_index = response_content.find(fin_5, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_5):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_5= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_5= frase_guardada
+                break
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_6)
+        fin_index = response_content.find(fin_6, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_6):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_6= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_6= frase_guardada
+                break
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_7)
+        fin_index = response_content.find(fin_7, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_7):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_7= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_7= frase_guardada
+                break
+    
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_8)
+        fin_index = response_content.find(fin_8, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_8):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_8= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_8= frase_guardada
+                break
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_9)
+        fin_index = response_content.find(fin_9, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_9):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_9= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_9= frase_guardada
+                break
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_10)
+        fin_index = response_content.find(fin_10, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_10):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_10= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_10= frase_guardada
+                break
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_11)
+        fin_index = response_content.find(fin_11, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_11):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_11= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_11= frase_guardada
+                break
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_12)
+        fin_index = response_content.find(fin_12, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_12):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_12= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_12= frase_guardada
+                break
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_13)
+        fin_index = response_content.find(fin_13, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_13):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_13= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_13= frase_guardada
+                break        
+
+    for response_content in [response_texto_1, response_texto_2, response_texto_3]:
+        inicio_index = response_content.find(inicio_0)
+        fin_index = response_content.find(fin_0, inicio_index)
+        if inicio_index != -1 and fin_index != -1:
+            frase_guardada = response_content[inicio_index+len(inicio_12):fin_index].strip()
+            if "No se encuentra" in frase_guardada :
+                datos_0= "No se encuentra en el JSON proporcionado" 
+            else:
+                datos_0= frase_guardada
+                break 
+
+    # Agregar tripletas al grafo
+    tema=""
+    derechos=""
+    dataset_URL = "http://data.europa.eu/88u/dataset/"+datos_0
+    dataset_uri = URIRef(dataset_URL)
+    if "biente" in datos_12:
+        tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/ENVI")
+    elif "ricultura" in datos_12:
+        tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/AGRI")
+    elif "conomía" in datos_12:
+        tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/ECON")
+    elif "ducación" in datos_12:
+        tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/EDUC")
+    elif "nergía" in datos_12:
+        tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/ENER")
+    elif "obierno" in datos_12:
+        tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/GOVE")
+    elif "alud" in datos_12:
+        tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/HEAL")
+    elif "egional" in datos_12:
+        tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/REGI")
+    elif "ecnología" in datos_12:
+        tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/TECH")
+    if "privado" in datos_7:
+        derechos= URIRef("http://publications.europa.eu/resource/authority/access-right/NON_PUBLIC")
+    else :
+        derechos = URIRef("http://publications.europa.eu/resource/authority/access-right/PUBLIC")    
+
+
+    contact_point_uri=URIRef(datos_9)
+    publisher_uri=URIRef(datos_9)
+    distribution_uri=URIRef("http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1")
+    rights_statement_uri= derechos
+    file_type_uri=URIRef("http://publications.europa.eu/resource/authority/file-type/JSON_LD")
+    media_type_uri= URIRef("https://www.iana.org/assignments/media-types/application/ld+json")
+    license_uri=URIRef("http://publications.europa.eu/resource/authority/licence/CC_BY_4_0")
+    location_uri=URIRef("https://publications.europa.eu/resource/authority/country/ESP")
+    uri_datos_9= URIRef(datos_9)
+    #uri_datos_3= URIRef(datos_3)
+    dct_format = URIRef("http://purl.org/dc/terms/format")
+    
+  
+    tripletas = [
+    (dataset_uri, RDF.type, dcat.Dataset),
+    (dataset_uri, dcat.contactPoint, contact_point_uri),
+    (contact_point_uri, vcard.fn, Literal(datos_1)),
+    (dataset_uri, owl.versionInfo, Literal(datos_2)),
+    (dataset_uri, dct.publisher, publisher_uri),
+    (publisher_uri, foaf.name, Literal(dataset_uri)),
+    (publisher_uri, dct.type, URIRef("http://purl.org/adms/publishertype/Academia-ScientificOrganisation")),
+    (dataset_uri, dct.description, Literal(datos_4)),
+    (dataset_uri, dcat.distribution, distribution_uri),
+    (distribution_uri, dcat.Distribution, distribution_uri),
+    (distribution_uri, dct.modified, Literal(datos_5, datatype=XSD.dateTime)),
+    (distribution_uri, dct.description, Literal(datos_4)),
+    (distribution_uri, dcat.accessURL, URIRef("https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:9263D-1")),
+    (distribution_uri, dct.rights, rights_statement_uri),
+    (distribution_uri, dcat.downloadURL, URIRef("https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:9263D-1")),
+    (distribution_uri, dct.issued, Literal("2022-01-01T00:00:00+00:00", datatype=XSD.dateTime)),
+    (distribution_uri, dcat.byteSize, Literal(tamaño_archivo, datatype=XSD.decimal)),
+    (distribution_uri, dct_format, file_type_uri),
+    (distribution_uri, ns1.availability, URIRef("http://data.europa.eu/r5r/availability/available")),
+    (distribution_uri, dcat.mediaType, media_type_uri),
+    (distribution_uri, dct.license, license_uri),
+    (distribution_uri, dct.title, Literal(datos_11)),
+    (dataset_uri, dct.modified, Literal(datos_5, datatype=XSD.dateTime)),
+    (dataset_uri, dct.accessRights, rights_statement_uri),
+    (dataset_uri, dcat.keyword, Literal(datos_8)),
+    (dataset_uri, dcat.landingPage, URIRef("https://yoda.dit.upm.es/")),
+    (dataset_uri, dct.spatial, location_uri),
+    (dataset_uri, dct.identifier, Literal(datos_10)),
+    (dataset_uri, dct.issued, Literal("2022-07-18T20:08:31.590236", datatype=XSD.dateTime)),
+    (dataset_uri, dcat.theme, tema),
+    (dataset_uri, dct.title, Literal(datos_11)),
+    (media_type_uri, RDF.type, dct.MediaType),
+    (license_uri, RDF.type, dct.LicenseDocument),
+    (skos.Concept, RDF.type, dct.MediaTypeOrExtent),
+    ]
+
+    
+
+
+    g.bind("dcat", dcat)
+    g.bind("dct", dct)
+    g.bind("foaf", foaf)
+    g.bind("vcard", vcard)
+    g.bind("owl", owl)
+    g.bind("skos", skos)
+    
+
+    for tripleta in tripletas:
+        g.add(tripleta)
+
+    # Serializar el grafo en formato RDF/XML y guardarlo en un archivo
+    archivo_rdf =f"{datos_13}.rdf"
+    g.serialize(destination="archivo.rdf", format="xml")
+
+    
+   
+    
+
+    messages.append({"role": "assistant", "content": response_content_1 + response_content_2 + response_content_3})
+
+    print(f"[bold green]> [/bold green] [green] 1) Punto de contacto: {datos_1} 2) Versión:{datos_2} 3) Fuente: {datos_3} 4) Descripción: {datos_4} 5) Fecha de modificación: {datos_5} 6) Fecha de creación: {datos_6} 7) Derechos de acceso: {datos_7} 8) Palabra Clave: {datos_8} 9) Página web: {datos_9} 10) identificador: {datos_10} 11) Título: {datos_11} 12) Tema: {datos_12}[/green]")
+
+    result = subprocess.Popen(["python", script_path, "-f", "C:/Users/luisr/Desktop/Universidad/TFG/Codigo/archivo.rdf"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=working_dir)
+
+# Leer la salida en tiempo real
+    while True:
+        output = result.stdout.readline()
+        if output == "" and result.poll() is not None:
+            break
+        if output:
+            lineas = output.split('\n')
+            linea_deseada = None
+            for linea in lineas:
+                if "Overall MQA scoring:" in linea:
+                    linea_deseada = linea
+                    print(linea_deseada.strip())
+                break
+            
+    
+
+
+
+if __name__ == "__main__":
+    #typer_thread = Thread(target=typer.run, args=(main,))
+    #yper_thread.start()
+    app.run(debug=True)
+
+
+ 

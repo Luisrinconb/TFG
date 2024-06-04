@@ -1,0 +1,79 @@
+{
+  "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+  "id": "urn:ngsi-ld:WeatherObserved:3195-1",
+  "type": "WeatherObserved",
+  "address": {
+    "type": "Property",
+    "value": {
+      "addressLocality": "MADRID RETIRO",
+      "addressCountry": "ES",
+      "type": "PostalAddress"
+    }
+  },
+  "atmosphericPressure": {
+    "type": "Property",
+    "value": 937.2
+  },
+  "source": {
+    "type": "Property",
+    "value": "http://www.aemet.es"
+  },
+  "dateObserved": {
+    "type": "Property",
+    "value": {
+      "@value": "2024-03-24T10:00:00.00Z",
+      "@type": "DateTime"
+    }
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        -3.678095,
+        40.411804,
+        667
+      ]
+    }
+  },
+  "precipitation": {
+    "type": "Property",
+    "value": 0
+  },
+  "windSpeed": {
+    "type": "Property",
+    "value": 2.3
+  },
+  "windSpeedMax": {
+    "type": "Property",
+    "value": 6.8
+  },
+  "windDirection": {
+    "type": "Property",
+    "value": 69
+  },
+  "windDirectionMax": {
+    "type": "Property",
+    "value": 49
+  },
+  "relativeHumidity": {
+    "type": "Property",
+    "value": 0.46
+  },
+  "temperature": {
+    "type": "Property",
+    "value": 16.1
+  },
+  "temperatureMin": {
+    "type": "Property",
+    "value": 14.4
+  },
+  "temperatureMax": {
+    "type": "Property",
+    "value": 16.1
+  },
+  "stationCode": {
+    "type": "Property",
+    "value": "3195"
+  }
+}

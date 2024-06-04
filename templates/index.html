@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Obtención de Metadatos con ChatGPT</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/dropzone/5.9.3/min/dropzone.min.css">
+</head>
+<body>
+    <h1>Proporcionar JSON</h1>
+    <form action="/" method="post" enctype="multipart/form-data">
+        <input type="file" name="file" id="file-input">
+        <button type="submit" id="submit-btn">Subir Archivo</button>
+    </form>
+    <script>
+        // Opcional: mostrar el nombre del archivo seleccionado
+        document.getElementById('file-input').addEventListener('change', function() {
+            var fileName = this.files[0].name;
+            console.log('Nombre del archivo seleccionado:', fileName);
+        });
+    </script>
+</body>
+</html>

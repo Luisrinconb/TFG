@@ -1,0 +1,80 @@
+
+{
+  "@context": "https://uri.etsi.org/ngsi-ld/v1/ngsi-ld-core-context.jsonld",
+  "id": "urn:ngsi-ld:WeatherObserved:9263D-1",
+  "type": "WeatherObserved",
+  "address": {
+    "type": "Property",
+    "value": {
+      "addressLocality": "PAMPLONA  AEROPUERTO",
+      "addressCountry": "ES",
+      "type": "PostalAddress"
+    }
+  },
+  "atmosphericPressure": {
+    "type": "Property",
+    "value": 959.3
+  },
+  "source": {
+    "type": "Property",
+    "value": "http://www.aemet.es"
+  },
+  "dateObserved": {
+    "type": "Property",
+    "value": {
+      "@value": "2024-04-07T16:00:00.00Z",
+      "@type": "DateTime"
+    }
+  },
+  "location": {
+    "type": "GeoProperty",
+    "value": {
+      "type": "Point",
+      "coordinates": [
+        -1.649869,
+        42.77695,
+        459
+      ]
+    }
+  },
+  "precipitation": {
+    "type": "Property",
+    "value": 0
+  },
+  "windSpeed": {
+    "type": "Property",
+    "value": 1.9
+  },
+  "windSpeedMax": {
+    "type": "Property",
+    "value": 4.6
+  },
+  "windDirection": {
+    "type": "Property",
+    "value": 170
+  },
+  "windDirectionMax": {
+    "type": "Property",
+    "value": 80
+  },
+  "relativeHumidity": {
+    "type": "Property",
+    "value": 0.53
+  },
+  "temperature": {
+    "type": "Property",
+    "value": 21.7
+  },
+  "temperatureMin": {
+    "type": "Property",
+    "value": 20.8
+  },
+  "temperatureMax": {
+    "type": "Property",
+    "value": 21.9
+  },
+  "stationCode": {
+    "type": "Property",
+    "value": "9263D"
+  }
+}
