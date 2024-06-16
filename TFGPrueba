@@ -49,6 +49,7 @@ datos_10=""
 datos_11=""
 datos_12=""
 datos_13= ""
+puntuacion=""
 
 @app.route('/', methods=['GET', 'POST'])
 def index():
@@ -69,6 +70,7 @@ def index():
         global datos_11
         global datos_12
         global datos_13
+        global puntuacion
 
         if request.method == 'GET':
             return render_template('index.html')
@@ -88,7 +90,7 @@ def index():
             datos_2 = datos_2
             print (datos_1)
             datos_3 = datos_3
-        return render_template('resultados.html', datos_1 = datos_1, datos_2 = datos_2, datos_3 = datos_3, datos_4 = datos_4, datos_5 = datos_5, datos_6 = datos_6, datos_7 = datos_7, datos_8 = datos_8, datos_9 = datos_9, datos_10 = datos_10, datos_11 = datos_11, datos_12 = datos_12, nombre_archivo = nombre_archivo )
+        return render_template('resultados.html', datos_1 = datos_1, datos_2 = datos_2, datos_3 = datos_3, datos_4 = datos_4, datos_5 = datos_5, datos_6 = datos_6, datos_7 = datos_7, datos_8 = datos_8, datos_9 = datos_9, datos_10 = datos_10, datos_11 = datos_11, datos_12 = datos_12, puntuacion= puntuacion, nombre_archivo = nombre_archivo )
 
 
 #Sección con rutas necesarias para obtener metadatos (por ahora son temporales)
@@ -178,6 +180,7 @@ def main():
     global datos_11
     global datos_12
     global datos_13
+    global puntuacion
 
     openai.api_key = config.api_key
     # Contexto del asistente
@@ -190,10 +193,6 @@ def main():
     messages.append({"role": "user", "content": ruta_jsonRetiro,
                "role": "assistant", "content": prompt_ejemplo
                })
-
-
-
-   
 
     prompt_necesario= f"Este es el JSON {archivo_datos}. Aqui tienes los datos de creacion {fecha_creacion_archivo} y de modificación {fecha_creacion_archivo}"
 
@@ -242,13 +241,13 @@ def main():
     inicio_9 ="9) Página web:"
     fin_9 = "; 10)"
 
-    inicio_10 ="10) Identificador"
+    inicio_10 ="10) Identificador:"
     fin_10 = "; 11)"
 
     inicio_11 ="11) Título:"
     fin_11 = "; 12)"
 
-    inicio_12 ="12) Tema"
+    inicio_12 ="12) Tema:"
     fin_12 = "; 13)"
 
     inicio_13 = "13)"
@@ -262,6 +261,8 @@ def main():
             frase_guardada = response_content[inicio_index+len(inicio_1):fin_index].strip()
             if "No se encuentra" in frase_guardada :
                 datos_1= "No se encuentra en el JSON proporcionado" 
+            elif "yoda" in frase_guardada :
+                datos_1 = "Portal de datos Europeo"
             else:
                 datos_1= frase_guardada
                 break
@@ -283,7 +284,9 @@ def main():
         if inicio_index != -1 and fin_index != -1:
             frase_guardada = response_content[inicio_index+len(inicio_3):fin_index].strip()
             if "No se encuentra" in frase_guardada :
-                datos_3= "No se encuentra en el JSON proporcionado" 
+                datos_3= "No se encuentra en el JSON proporcionado"
+            elif "yoda" in frase_guardada :
+                datos_3 = "https://data.europa.eu"
             else:
                 datos_3= frase_guardada
                 break
@@ -351,6 +354,8 @@ def main():
             frase_guardada = response_content[inicio_index+len(inicio_9):fin_index].strip()
             if "No se encuentra" in frase_guardada :
                 datos_9= "No se encuentra en el JSON proporcionado" 
+            elif "yoda" in frase_guardada :
+                datos_9 = "https://data.europa.eu"
             else:
                 datos_9= frase_guardada
                 break
@@ -437,9 +442,16 @@ def main():
     else :
         derechos = URIRef("http://publications.europa.eu/resource/authority/access-right/PUBLIC")    
 
+    if datos_9 == "No se encuentra en el JSON proporcionado" :
+        contact_point_uri=URIRef("https://datos.gob.es/es/catalogo")
+    else:
+        contact_point_uri= URIRef(datos_9)
+    if datos_9 == "No se encuentra en el JSON proporcionado" :
+        publisher_uri=URIRef("https://datos.gob.es/es/catalogo")
+    else :
+        publisher_uri=URIRef(datos_9)
+    
 
-    contact_point_uri=URIRef(datos_9)
-    publisher_uri=URIRef(datos_9)
     distribution_uri=URIRef("http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1")
     rights_statement_uri= derechos
     file_type_uri=URIRef("http://publications.europa.eu/resource/authority/file-type/JSON_LD")
@@ -464,9 +476,9 @@ def main():
     (distribution_uri, dcat.Distribution, distribution_uri),
     (distribution_uri, dct.modified, Literal(datos_5, datatype=XSD.dateTime)),
     (distribution_uri, dct.description, Literal(datos_4)),
-    (distribution_uri, dcat.accessURL, URIRef("https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:9263D-1")),
+    (distribution_uri, dcat.accessURL, URIRef(datos_3)),
     (distribution_uri, dct.rights, rights_statement_uri),
-    (distribution_uri, dcat.downloadURL, URIRef("https://broker-yoda.dit.upm.es/ngsi-ld/v1/entities/urn:ngsi-ld:WeatherObserved:9263D-1")),
+    (distribution_uri, dcat.downloadURL, URIRef(datos_3)),
     (distribution_uri, dct.issued, Literal("2022-01-01T00:00:00+00:00", datatype=XSD.dateTime)),
     (distribution_uri, dcat.byteSize, Literal(tamaño_archivo, datatype=XSD.decimal)),
     (distribution_uri, dct_format, file_type_uri),
@@ -477,7 +489,7 @@ def main():
     (dataset_uri, dct.modified, Literal(datos_5, datatype=XSD.dateTime)),
     (dataset_uri, dct.accessRights, rights_statement_uri),
     (dataset_uri, dcat.keyword, Literal(datos_8)),
-    (dataset_uri, dcat.landingPage, URIRef("https://yoda.dit.upm.es/")),
+    (dataset_uri, dcat.landingPage, URIRef("http://data.europa.eu/")),
     (dataset_uri, dct.spatial, location_uri),
     (dataset_uri, dct.identifier, Literal(datos_10)),
     (dataset_uri, dct.issued, Literal("2022-07-18T20:08:31.590236", datatype=XSD.dateTime)),
@@ -499,6 +511,9 @@ def main():
     g.bind("skos", skos)
     
 
+
+    print(f"[bold green]> [/bold green] [green] 1) Punto de contacto: {datos_1} 2) Versión:{datos_2} 3) Fuente: {datos_3} 4) Descripción: {datos_4} 5) Fecha de modificación: {datos_5} 6) Fecha de creación: {datos_6} 7) Derechos de acceso: {datos_7} 8) Palabra Clave: {datos_8} 9) Página web: {datos_9} 10) identificador: {datos_10} 11) Título: {datos_11} 12) Tema: {datos_12}[/green]")
+
     for tripleta in tripletas:
         g.add(tripleta)
 
@@ -512,7 +527,7 @@ def main():
 
     messages.append({"role": "assistant", "content": response_content_1 + response_content_2 + response_content_3})
 
-    print(f"[bold green]> [/bold green] [green] 1) Punto de contacto: {datos_1} 2) Versión:{datos_2} 3) Fuente: {datos_3} 4) Descripción: {datos_4} 5) Fecha de modificación: {datos_5} 6) Fecha de creación: {datos_6} 7) Derechos de acceso: {datos_7} 8) Palabra Clave: {datos_8} 9) Página web: {datos_9} 10) identificador: {datos_10} 11) Título: {datos_11} 12) Tema: {datos_12}[/green]")
+    #print(f"[bold green]> [/bold green] [green] 1) Punto de contacto: {datos_1} 2) Versión:{datos_2} 3) Fuente: {datos_3} 4) Descripción: {datos_4} 5) Fecha de modificación: {datos_5} 6) Fecha de creación: {datos_6} 7) Derechos de acceso: {datos_7} 8) Palabra Clave: {datos_8} 9) Página web: {datos_9} 10) identificador: {datos_10} 11) Título: {datos_11} 12) Tema: {datos_12}[/green]")
 
     result = subprocess.Popen(["python", script_path, "-f", "C:/Users/luisr/Desktop/Universidad/TFG/Codigo/archivo.rdf"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True, cwd=working_dir)
 
@@ -528,6 +543,9 @@ def main():
                 if "Overall MQA scoring:" in linea:
                     linea_deseada = linea
                     print(linea_deseada.strip())
+                    partes = linea_deseada.split(":")
+                    if len(partes) == 2:
+                        puntuacion = partes[1].strip()
                 break
             
     
