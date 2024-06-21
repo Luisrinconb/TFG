@@ -106,46 +106,53 @@ def main():
   m_res = {}
   m_res = m_res.fromkeys(['result', 'weight'])
 
+
+  
+
   for pred in metrics.keys():
     met = str_metric(pred, g)
     objs = metrics[pred]
     print('*',met)
-    if met == "dcat:accessURL":
-      weight = mqa.accessURL(objs, weight)
-    elif met == "dcat:downloadURL":
-      weight = mqa.downloadURL(objs, weight)
-    elif met == "dcat:keyword":
-      weight = mqa.keyword(weight)
-    elif met == "dcat:theme":
-      weight = mqa.theme(weight)
-    elif met == "dct:spatial":
-      weight = mqa.spatial(weight)
-    elif met == "dct:temporal":
-      weight = mqa.temporal(weight)
-    elif met == "dct:format":
-      f_res = mqa.format(objs, mach_read_voc, non_prop_voc, weight)
-      weight = f_res['weight']
-    elif met == "dct:license":
-      weight = mqa.license(objs, weight)
-    elif met == "dcat:contactPoint":
-      weight = mqa.contactpoint(weight)
-    elif met == "dcat:mediaType":
-      m_res = mqa.mediatype(objs, weight)
-      weight = m_res['weight']
-    elif met == "dct:publisher":
-      weight = mqa.publisher(weight)
-    elif met == "dct:accessRights":
-      weight = mqa.accessrights(objs, weight)
-    elif met == "dct:issued":
-      weight = mqa.issued(weight)
-    elif met == "dct:modified":
-      weight = mqa.modified(weight)
-    elif met == "dct:rights":
-      weight = mqa.rights(weight)
-    elif met == "dcat:byteSize":
-      weight = mqa.byteSize(weight)
-    else:
-      otherCases(pred, objs, g)
+    try:
+      if met == "dcat:accessURL":
+        weight = mqa.accessURL(objs, weight, timeout=10)
+      elif met == "dcat:downloadURL":
+        weight = mqa.downloadURL(objs, weight, timeout=10)
+      elif met == "dcat:keyword":
+        weight = mqa.keyword(weight)
+      elif met == "dcat:theme":
+        weight = mqa.theme(weight)
+      elif met == "dct:spatial":
+        weight = mqa.spatial(weight)
+      elif met == "dct:temporal":
+        weight = mqa.temporal(weight)
+      elif met == "dct:format":
+        f_res = mqa.format(objs, mach_read_voc, non_prop_voc, weight)
+        weight = f_res['weight']
+      elif met == "dct:license":
+        weight = mqa.license(objs, weight)
+      elif met == "dcat:contactPoint":
+        weight = mqa.contactpoint(weight)
+      elif met == "dcat:mediaType":
+        m_res = mqa.mediatype(objs, weight)
+        weight = m_res['weight']
+      elif met == "dct:publisher":
+        weight = mqa.publisher(weight)
+      elif met == "dct:accessRights":
+        weight = mqa.accessrights(objs, weight)
+      elif met == "dct:issued":
+        weight = mqa.issued(weight)
+      elif met == "dct:modified":
+        weight = mqa.modified(weight)
+      elif met == "dct:rights":
+        weight = mqa.rights(weight)
+      elif met == "dcat:byteSize":
+        weight = mqa.byteSize(weight)
+      else:
+        otherCases(pred, objs, g)
+    except Exception as e:
+      print(f'   Result: ERROR. An error occurred while processing {met}. Error: {e}')
+      weight = weight + 0
     print('   Current weight =',weight)
 
   print('* dct:format & dcat:mediaType')
@@ -161,3 +168,4 @@ def main():
 
 if __name__ == "__main__":
   main()
+
