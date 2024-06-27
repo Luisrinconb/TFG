@@ -284,7 +284,7 @@ def main():
         if inicio_index != -1 and fin_index != -1:
             frase_guardada = response_content[inicio_index+len(inicio_3):fin_index].strip()
             if "No se encuentra" in frase_guardada :
-                datos_3= "No se encuentra en el JSON proporcionado"
+                datos_3= "https://data.europa.eu"
             elif "yoda" in frase_guardada :
                 datos_3 = "https://data.europa.eu"
             else:
@@ -353,9 +353,11 @@ def main():
         if inicio_index != -1 and fin_index != -1:
             frase_guardada = response_content[inicio_index+len(inicio_9):fin_index].strip()
             if "No se encuentra" in frase_guardada :
-                datos_9= "No se encuentra en el JSON proporcionado" 
+                datos_9= "https://data.europa.eu" 
             elif "yoda" in frase_guardada :
                 datos_9 = "https://data.europa.eu"
+            elif "@" in frase_guardada :
+                datos_9 = "https://datos.gob.es"
             else:
                 datos_9= frase_guardada
                 break
@@ -418,7 +420,7 @@ def main():
     tema=""
     derechos=""
     dataset_URL = "http://data.europa.eu/88u/dataset/"+datos_0
-    dataset_uri = URIRef(dataset_URL)
+    dataset_uri = URIRef(dataset_URL.strip())
     if "biente" in datos_12:
         tema= URIRef("http://publications.europa.eu/resource/authority/data-theme/ENVI")
     elif "ricultura" in datos_12:
@@ -458,7 +460,7 @@ def main():
     media_type_uri= URIRef("https://www.iana.org/assignments/media-types/application/ld+json")
     license_uri=URIRef("http://publications.europa.eu/resource/authority/licence/CC_BY_4_0")
     location_uri=URIRef("https://publications.europa.eu/resource/authority/country/ESP")
-    uri_datos_9= URIRef(datos_9)
+    uri_datos_9= URIRef(datos_9.strip())
     #uri_datos_3= URIRef(datos_3)
     dct_format = URIRef("http://purl.org/dc/terms/format")
     
@@ -476,9 +478,9 @@ def main():
     (distribution_uri, dcat.Distribution, distribution_uri),
     (distribution_uri, dct.modified, Literal(datos_5, datatype=XSD.dateTime)),
     (distribution_uri, dct.description, Literal(datos_4)),
-    (distribution_uri, dcat.accessURL, URIRef(datos_3)),
+    (distribution_uri, dcat.accessURL, URIRef(datos_3.strip())),
     (distribution_uri, dct.rights, rights_statement_uri),
-    (distribution_uri, dcat.downloadURL, URIRef(datos_3)),
+    (distribution_uri, dcat.downloadURL, URIRef(datos_3.strip())),
     (distribution_uri, dct.issued, Literal("2022-01-01T00:00:00+00:00", datatype=XSD.dateTime)),
     (distribution_uri, dcat.byteSize, Literal(tamaño_archivo, datatype=XSD.decimal)),
     (distribution_uri, dct_format, file_type_uri),
@@ -515,11 +517,15 @@ def main():
     print(f"[bold green]> [/bold green] [green] 1) Punto de contacto: {datos_1} 2) Versión:{datos_2} 3) Fuente: {datos_3} 4) Descripción: {datos_4} 5) Fecha de modificación: {datos_5} 6) Fecha de creación: {datos_6} 7) Derechos de acceso: {datos_7} 8) Palabra Clave: {datos_8} 9) Página web: {datos_9} 10) identificador: {datos_10} 11) Título: {datos_11} 12) Tema: {datos_12}[/green]")
 
     for tripleta in tripletas:
-        g.add(tripleta)
+        try:
+            g.add(tripleta)
+        except Exception as e:
+            print(f"Error adding triplet: {tripleta}")
+            print(f"Exception: {e}")
 
     # Serializar el grafo en formato RDF/XML y guardarlo en un archivo
     archivo_rdf =f"{datos_13}.rdf"
-    g.serialize(destination="archivo.rdf", format="xml")
+    g.serialize(destination="C:/Users/luisr/Desktop/Universidad/TFG/Codigo/archivo.rdf", format="xml")
 
     
    
