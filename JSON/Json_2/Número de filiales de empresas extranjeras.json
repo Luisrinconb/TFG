@@ -1,0 +1,80 @@
+{
+  "metadata": {
+    "Contacto": {
+      "value": "icane@cantabria.es",
+      "rdf property": "http://purl.org/dc/terms/publisher"
+    },
+    "Descripción de la serie": {
+      "value": "Número de filiales de empresas extranjeras",
+      "rdf property": "http://purl.org/dc/terms/title"
+    },
+    "Categorización": {
+      "value": "Economía -\u003e Empresas y Establecimientos -\u003e Estadística de filiales de empresas extranjeras en España",
+      "rdf property": "http://purl.org/dc/terms/subject"
+    },
+    "Fuente": {
+      "value": "Estadística de filiales de empresas extranjeras en  España. Instituto Nacional de Estadística (INE)",
+      "rdf property": "http://purl.org/dc/terms/source"
+    },
+    "Periodicidad": {
+      "value": "Anual",
+      "rdf property": "http://purl.org/dc/terms/accrualPeriodicity"
+    },
+    "Período inicial": {
+      "value": "2008",
+      "rdf property": "http://purl.org/dc/terms/date"
+    },
+    "Último período": {
+      "value": "2018",
+      "rdf property": "http://purl.org/dc/terms/date"
+    },
+    "Ámbito territorial": {
+      "value": "Regional",
+      "rdf property": "http://purl.org/dc/terms/spatial"
+    },
+    "Última actualización": {
+      "value": "02-10-20 12:00 AM",
+      "rdf property": "http://purl.org/dc/terms/modified"
+    },
+    "Notas al pie": {
+      "value": "Desde el año 2019, inclusive, no hay datos para Cantabria ya que el INE no los proporciona por CCAA.",
+      "rdf property": "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Unidades": {
+      "value": "Valor: Número de empresas; Porcentaje: Porcentaje.",
+      "rdf property": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+    }
+  },
+  "headers": [
+    "Variables",
+    "Año"
+  ],
+  "data": {
+    "Valor": {
+      "2008": 29.0,
+      "2009": 31.0,
+      "2010": 33.0,
+      "2011": 39.0,
+      "2012": 42.0,
+      "2013": 42.0,
+      "2014": 50.0,
+      "2015": 45.0,
+      "2016": 53.0,
+      "2017": 65.0,
+      "2018": 53.0
+    },
+    "Porcentaje": {
+      "2008": 0.12,
+      "2009": 0.13,
+      "2010": 0.14,
+      "2011": 0.17,
+      "2012": 0.18,
+      "2013": 0.18,
+      "2014": 0.21,
+      "2015": 0.19,
+      "2016": 0.2,
+      "2017": 0.26,
+      "2018": 0.21
+    }
+  }
+}

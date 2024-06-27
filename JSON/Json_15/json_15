@@ -1,0 +1,228 @@
+{
+    "type": "FeatureCollection",
+    "totalFeatures": 12,
+    "features": [
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57ac",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            373641.50574045,
+            4064760.28771016,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1018,
+          "TOOLTIP": "Negociado de Registro General (SecretarÃ­a General)",
+          "FINALIDAD": "Realiza las funciones de gestion del Registro General. Compulsa de documentos que vayan a surtir efecto ante este Ayuntamiento. Registro de firma electronica."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57ad",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            373416.9255569,
+            4065218.5519844,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1951,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (MÃ¡laga Centro)",
+          "FINALIDAD": "Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57ae",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            378639.49156894,
+            4064833.29225845,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1891,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (OMAC 2 - MÃ¡laga Este)",
+          "FINALIDAD": "Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57af",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            373460.65434504,
+            4067991.96417877,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1888,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (Ciudad JardÃ­n)",
+          "FINALIDAD": "Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos. \r\n"
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57b0",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            371672.73460489,
+            4064941.60931888,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1943,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (BailÃ©n-Miraflores)",
+          "FINALIDAD": "Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos. "
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57b1",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            372504.17305794,
+            4066905.42540031,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1976,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (Palma-Palmilla)",
+          "FINALIDAD": "Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57b2",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            371213.64910553,
+            4064055.25381174,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1015,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (Cruz de Humilladero)",
+          "FINALIDAD": "- Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57b3",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            371627.83767481,
+            4062781.83578987,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1975,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (Carretera de CÃ¡diz)",
+          "FINALIDAD": "Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57b4",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            365705.22485296,
+            4059224.13783873,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1905,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (Churriana)",
+          "FINALIDAD": "Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57b5",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            362050.18640423,
+            4065781.57928512,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1907,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (Campanillas) \r\n",
+          "FINALIDAD": "Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57b6",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            367718.79567436,
+            4066716.24500958,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 1950,
+          "TOOLTIP": "Oficina Municipal de AtenciÃ³n a la CiudadanÃ­a (Puerto de la Torre)",
+          "FINALIDAD": "Oficina de atenciÃ³n a la ciudadanÃ­a dÃ³nde le informarÃ¡n de todos los servicios que ofrece en el Ayuntamiento de MÃ¡laga, y podrÃ¡ realizar algunos de ellos."
+        }
+      },
+      {
+        "type": "Feature",
+        "id": "da_oficinasRegistroMunicipales.fid-7e811540_18ffab980f1_57b7",
+        "geometry": {
+          "type": "Point",
+          "coordinates": [
+            373641.50574045,
+            4064760.28771016,
+            0
+          ]
+        },
+        "geometry_name": "SDOPUNTO",
+        "properties": {
+          "ID_EQUIPAMIENTO": 330,
+          "TOOLTIP": "Ayuntamiento de MÃ¡laga (Casa Consistorial)",
+          "FINALIDAD": "Edificio principal del Ayuntamiento de MÃ¡laga.\r\n\r\nPeriodo: Siglo XX.\r\nEl 11 de abril del 1919 el Exmo. Ayuntamiento tomÃ³ posesiÃ³n de la que es su sede hasta nuestros dÃ­as. El nuevo edificio, obra de los arquitectos <i>Guerrero Strachan</i> y <i>Manuel Rivera Vera</i>, vendrÃ­a a satisfacer una doble necesidad: por un lado, hacer frente a la creciente demanda administrativa de una ciudad en desarrollo y, por otro, proyectar una imagen renovada, de prestigio y de progreso. \r\n\r\nSe proyectÃ³ no sÃ³lo como consistorio, sino tambiÃ©n como sede de la Audiencia Provincial y de los Juzgados de InstrucciÃ³n. El edificio se encuentra en el Paseo del Parque, localizÃ¡ndose en la principal vÃ­a de comunicaciÃ³n, integrando el espacio que lo acoge como un elemento mÃ¡s de decoraciÃ³n, dada su representatividad como monumento artÃ­stico que viene dado por la decoraciÃ³n de sus fachadas y de los salones que acoge en su interior, que transmite valores de prestigio."
+        }
+      }
+    ],
+    "crs": {
+      "type": "name",
+      "properties": {
+        "name": "urn:ogc:def:crs:EPSG::25830"
+      }
+    }
+  }

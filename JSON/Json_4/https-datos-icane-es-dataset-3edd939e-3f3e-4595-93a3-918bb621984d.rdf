@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-icane-es-dataset-3edd939e-3f3e-4595-93a3-918bb621984d">
+    <dct:identifier>https://datos.icane.es/dataset/3edd939e-3f3e-4595-93a3-918bb621984d</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:38:17Z</dct:issued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-05T23:38:40Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-icane-es-dataset-3edd939e-3f3e-4595-93a3-918bb621984d">
+        <dct:identifier>https://datos.icane.es/dataset/3edd939e-3f3e-4595-93a3-918bb621984d</dct:identifier>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A06004074">
+            <foaf:name>Instituto Cántabro de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/db137e30-303b-4d8d-825e-ae6763620bbf">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Índice de confianza empresarial » Índice de confianza empresarial</dct:title>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-confianza-empresarial-serie.pc-axis"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-indice-de-confianza-empresarial1/resource/8782ba8e-dc07-4bf5-9559-fd2510bcb772</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-30T20:41:40+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/42aa0394-8fe6-44d2-8760-daf4c75df96c">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/indice-confianza-empresarial-serie#timeseries"/>
+            <dct:title xml:lang="es">Índice de confianza empresarial » Índice de confianza empresarial</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-indice-de-confianza-empresarial1/resource/4f923e92-2e49-4e39-baaf-a00aa5fc4396</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Empresas y Establecimientos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7a3925a8-029b-42c5-91c9-1faa542334eb">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-confianza-empresarial-serie.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-indice-de-confianza-empresarial1/resource/e1a86d44-19ea-4891-aeb2-d5b7490f038a</dct:identifier>
+            <dct:title xml:lang="es">Índice de confianza empresarial » Índice de confianza empresarial</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3e13e9c0-f6ba-4098-8106-b503ef07bf5e">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-confianza-empresarial-serie.sdmx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-indice-de-confianza-empresarial1/resource/4bbe5016-dc52-4767-b9f4-29b81a10c516</dct:identifier>
+            <dct:title xml:lang="es">Índice de confianza empresarial » Índice de confianza empresarial</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Índice de confianza empresarial</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e1bbd4d1-c7ce-4d75-aced-6ca4a6836d1d">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-indice-de-confianza-empresarial1/resource/6f642cf0-64df-442f-8a6e-0d5dc38c3fd4</dct:identifier>
+            <dct:title xml:lang="es">Índice de confianza empresarial » Índice de confianza empresarial</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-confianza-empresarial-serie.rdf"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Índice de confianza empresarial</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/905c87d1-f9b0-4097-9e83-c7132eca6e7c">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-confianza-empresarial-serie.excel"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Índice de confianza empresarial » Índice de confianza empresarial</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-indice-de-confianza-empresarial1/resource/7fa0cada-1ac7-4df0-b11d-7a87e4d9b8e1</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-11T15:19:47+02:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>bd30b17e3bb6682163b9f45b4a847b56</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-icane-es-dataset-3edd939e-3f3e-4595-93a3-918bb621984d"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-05T23:38:40Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

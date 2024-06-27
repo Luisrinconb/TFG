@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-www-opendatabizkaia-eus-es-catalogo-contenedores-ondarroa">
+    <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/contenedores-ondarroa</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:25:41Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>3937bdcffccc7ae6f9608bbf33390b93</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-www-opendatabizkaia-eus-es-catalogo-contenedores-ondarroa">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/64f7775f-6344-44fa-a801-3ac1afad3e14">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2d20a45e-0587-4be5-8453-a0b33ed41460/contenedores-reutilizacion-ondarroa-2023?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Ondarroa 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/71c8e81b-f525-4469-9e71-d9c25f0ba459</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Ondarroa 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048">
+            <foaf:name>Diputación Foral de Bizkaia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Containrar – Ondarroa</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">L’emplacement des conteneurs dans cette municipalité est indiqué.</dct:description>
+        <dct:title xml:lang="es">Contenedores - Ondarroa</dct:title>
+        <dcat:keyword xml:lang="eu">Hondakinak</dcat:keyword>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Taispeántar suíomh na gcoimeádán sa bhardas seo.</dct:description>
+        <dcat:keyword xml:lang="eu">Papera</dcat:keyword>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Mostra-se a localização dos contentores neste município.</dct:description>
+        <dct:description xml:lang="eu">Bizkaiko edukiontzien kokapena erakusten da.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Показано розташування контейнерів у цьому муніципалітеті.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Показано е местоположението на контейнерите в тази община.</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Containere – Ondarroa</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Uvádza sa umiestnenie kontajnerov v tejto obci.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Containere — Ondarroa</dct:title>
+        <dcat:keyword xml:lang="es">Bioresiduos</dcat:keyword>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Контейнери - Ondarroa</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Kontejnery – Ondarroa</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Prikazana je lokacija zabojnikov v tej občini.</dct:description>
+        <dcat:keyword xml:lang="es">Residuos</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:keyword xml:lang="eu">Beira</dcat:keyword>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Contentores — Ondarroa</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Kontajnery – Ondarroa</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8e6232d5-ebe2-43f0-bd44-9ebb6e432241">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2020</dct:title>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8ef07f4f-4cb3-4d93-bbbf-ba5b29a07e8f/contenedores-envases-ligeros-ondarroa-2020?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/25caf471-3045-477d-812f-a96ba1bc8688</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Il-post tal-kontejners f’din il-muniċipalità huwa muri.</dct:description>
+        <dcat:keyword xml:lang="es">Voluminosos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/96126abe-b413-4d8c-ae33-a29cff198af2">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/b3f44510-505f-4859-a229-b8589eaa9cdf</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/682b963f-3704-45ca-b6e5-5f943ecdd64d/contenedores-envases-ligeros-ondarroa-2023?format=xml"/>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2023</dct:title>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Orgánicos</dcat:keyword>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Konteineri — Ondarroa</dct:title>
+        <dcat:keyword xml:lang="es">Envases</dcat:keyword>
+        <dct:description xml:lang="it-t-es-t0-mtec">È indicata l'ubicazione dei contenitori in questo comune.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3e6bcc8b-2c8f-45c2-a80e-aca8f4d26c06">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/682b963f-3704-45ca-b6e5-5f943ecdd64d/contenedores-envases-ligeros-ondarroa-2023?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/5b9c8eff-7262-4be9-8d9e-7d33518ce085</dct:identifier>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2023</dct:title>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Vidrio</dcat:keyword>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Kontenituri — Ondarroa</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8b4b8f8c-b3c6-4a6f-92df-61ffcd04ef68">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/08e197a0-a3af-4deb-9d54-c547d1cefda8</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2020</dct:title>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2020</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8ef07f4f-4cb3-4d93-bbbf-ba5b29a07e8f/contenedores-envases-ligeros-ondarroa-2020?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Konténerek – Ondarroa</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Coimeádáin — Ondarroa</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Contenitori — Ondarroa</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4e9a3351-294b-4ff1-92cf-bea5dfa95c04">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/0dcdeee1-8ca6-4736-8566-1298b10de781</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/682b963f-3704-45ca-b6e5-5f943ecdd64d/contenedores-envases-ligeros-ondarroa-2023?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2023</dct:title>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Papel</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0136cf02-ff01-4fea-bdb9-7fbdda600b2c">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/e234d240-72ce-427c-b70f-7bcc2ea60d0b</dct:identifier>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2020</dct:title>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2020</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8ef07f4f-4cb3-4d93-bbbf-ba5b29a07e8f/contenedores-envases-ligeros-ondarroa-2020?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/337df998-3508-4286-b4be-70b4984a775d">
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2020</dct:title>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8ef07f4f-4cb3-4d93-bbbf-ba5b29a07e8f/contenedores-envases-ligeros-ondarroa-2020?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/5e6cbfb6-50c7-4bf5-8aa4-107871d9c25a</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Plástico</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-22T00:00:00+02:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2020-03-03T00:00:00+01:00</dct:issued>
+        <dcat:keyword xml:lang="eu">Edukiontzia</dcat:keyword>
+        <dct:title xml:lang="et-t-es-t0-mtec">Konteinerid – Ondarroa</dct:title>
+        <dcat:keyword xml:lang="es">Reciclaje</dcat:keyword>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Parodyta konteinerių vieta šioje savivaldybėje.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Containerens placering i denne kommune er angivet.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0360ee81-9b79-4e8c-9c2a-a6b286a4fd23">
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2020</dct:title>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/6ba1f0a4-7477-4db0-9d31-8e8d623bcc74</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8ef07f4f-4cb3-4d93-bbbf-ba5b29a07e8f/contenedores-envases-ligeros-ondarroa-2020?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="de-t-es-t0-mtec">Container – Ondarroa</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/92b7e521-84de-4461-ab91-aa10f8314544">
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/5eaa3778-efc8-456a-99ca-fbf409fa417c</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/682b963f-3704-45ca-b6e5-5f943ecdd64d/contenedores-envases-ligeros-ondarroa-2023?format=csv"/>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Berrerabilpena</dcat:keyword>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Ukazuje se umístění kontejnerů v této obci.</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fe274870-0897-46e5-b586-d576767ef38a">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Ondarroa 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/aeaab935-dece-44a9-acf1-83c8297efe01</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2d20a45e-0587-4be5-8453-a0b33ed41460/contenedores-reutilizacion-ondarroa-2023?format=tsv"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Ondarroa 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Reutilización</dcat:keyword>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Kontit – Ondarroa</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Εμπορευματοκιβώτια — Ondarroa</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Konteineriai – Ondarroa</dct:title>
+        <dcat:keyword xml:lang="eu">Birziklatzea</dcat:keyword>
+        <dcat:keyword xml:lang="es">Contenedor</dcat:keyword>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Przedstawiono lokalizację kontenerów w tej gminie.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Ir norādīta konteineru atrašanās vieta šajā pašvaldībā.</dct:description>
+        <dcat:keyword xml:lang="eu">Plastikoa</dcat:keyword>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Amplasarea containerelor în această municipalitate este indicată.</dct:description>
+        <dcat:keyword xml:lang="es">Aceite</dcat:keyword>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Konttien sijainti tässä kunnassa on esitetty.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A konténerek elhelyezkedése ebben a településen látható.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Pojemniki – Ondarroa</dct:title>
+        <dcat:keyword xml:lang="eu">Kartoia</dcat:keyword>
+        <dcat:keyword xml:lang="es">Cartón</dcat:keyword>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Контейнери — Ondarroa</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Prikazana je lokacija kontejnera u ovoj općini.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Placeringen av containrarna i denna kommun visas.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/"/>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Kontejnerji – Ondarroa</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5271d83a-7a9a-402d-b854-0b8b6f61f899">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2d20a45e-0587-4be5-8453-a0b33ed41460/contenedores-reutilizacion-ondarroa-2023?format=csv"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Ondarroa 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/c50abe57-8efd-4a2f-b698-9e70d499f9a8</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Ondarroa 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en-t-es-t0-mtec">Containers – Ondarroa</dct:title>
+        <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/contenedores-ondarroa</dct:identifier>
+        <dcat:keyword xml:lang="eu">Organikoak</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:description xml:lang="en-t-es-t0-mtec">The location of the containers in this municipality is shown.</dct:description>
+        <dct:title xml:lang="eu">Edukiontziak - Ondarroa</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">De locatie van de containers in deze gemeente wordt getoond.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Αναγράφεται η θέση των εμπορευματοκιβωτίων σε αυτόν τον δήμο.</dct:description>
+        <dcat:keyword xml:lang="eu">Ontziak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7f261f24-5342-4617-8f84-d585c58444b6">
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Ondarroa 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/d6412335-f432-4ed3-a23e-8ed1f7e2052c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/682b963f-3704-45ca-b6e5-5f943ecdd64d/contenedores-envases-ligeros-ondarroa-2023?format=xlsx"/>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Ondarroa 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Containers — Ondarroa</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ed11c097-f150-4797-b288-86fe0eac8de3">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Ondarroa 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2d20a45e-0587-4be5-8453-a0b33ed41460/contenedores-reutilizacion-ondarroa-2023?format=json"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Ondarroa 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/52a8b6b2-db11-4154-a006-5370dd38678a</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Bio-hondakinak</dcat:keyword>
+        <dct:description xml:lang="es">Se muestra la ubicación de los contenedores en este municipio.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Der Standort der Container in dieser Gemeinde wird angezeigt.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/catalogo/contenedores-ondarroa"/>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Spremnici – Ondarroa</dct:title>
+        <dcat:keyword xml:lang="eu">Olioa</dcat:keyword>
+        <dct:description xml:lang="et-t-es-t0-mtec">Näidatud on konteinerite asukoht selles omavalitsusüksuses.</dct:description>
+        <dcat:keyword xml:lang="eu">Handiak</dcat:keyword>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/DurationDescription">
+                <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:years>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Conteneurs — Ondarroa</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e467e40c-1cea-49e6-883b-dd1dbf93a3f8">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Ondarroa 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-ondarroa1/resource/f5f60feb-74d4-4314-bc76-62d103f6e49b</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2d20a45e-0587-4be5-8453-a0b33ed41460/contenedores-reutilizacion-ondarroa-2023?format=xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Ondarroa 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-www-opendatabizkaia-eus-es-catalogo-contenedores-ondarroa"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:14:02Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:25:41Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

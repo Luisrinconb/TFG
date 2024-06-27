@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-icane-es-dataset-7aadfe2c-351a-4fd8-8663-d467ba5d254e">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-icane-es-dataset-7aadfe2c-351a-4fd8-8663-d467ba5d254e"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-05T23:30:46Z</edp:transIssued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:30:23Z</dct:issued>
+    <dct:identifier>https://datos.icane.es/dataset/7aadfe2c-351a-4fd8-8663-d467ba5d254e</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-05T23:30:46Z</dct:modified>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-icane-es-dataset-7aadfe2c-351a-4fd8-8663-d467ba5d254e">
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-10T12:51:39+02:00</dct:issued>
+        <dcat:keyword xml:lang="es">Generales</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1c5c8601-38c4-4c19-af57-2e5123438284">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/f5837cd2-2364-4a1d-b022-b177ca976cbd</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/elecciones-senado-votos-senadores-partido-politico#timeseries"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Votos y número de senadores elegidos por partido político</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/dd8e9acc-f367-4a1d-a104-082e49abd068">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/2f9528c2-ce99-4d84-aab9-2f75d39148a7</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Datos generales</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-datos-generales.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/043e8e12-ca3d-487a-8b3d-f78da681b0a3">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/daab01ce-7a3c-4348-b1d4-3c7192f39094</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Datos generales</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-datos-generales.rdf"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/593281e7-7165-471e-8c6a-ebfc9281c518">
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Datos generales</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-datos-generales.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/2b53d2fb-2687-4885-a80e-0d9dee1fb198</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/458ddc91-e747-446a-9d84-c83ed1f9e263">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-votos-senadores-partido-politico.rdf"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/afdffbdb-2913-4c91-9aa8-a093e4e7f624</dct:identifier>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Votos y número de senadores elegidos por partido político</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8ff2864d-6068-49ac-a7fa-cfe68dd5905f">
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Datos generales</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/18787919-ca3b-4f68-95c8-33ef9c71e682</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/elecciones-senado-datos-generales#timeseries"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1a8e9c9e-89f4-4024-9a6f-bbbadc8b97a1">
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Datos generales</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-datos-generales.excel"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/8019013e-835d-474c-96d6-0604663d4064</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9374597f-4e1b-41d9-bd75-a7186f58b404">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/1d7efcc2-bc30-4c7a-b9aa-6fbcc9a844a0</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Votos y número de senadores elegidos por partido político</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-votos-senadores-partido-politico.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-31T16:33:00+02:00</dct:modified>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A06004074">
+            <foaf:name>Instituto Cántabro de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:identifier>https://datos.icane.es/dataset/7aadfe2c-351a-4fd8-8663-d467ba5d254e</dct:identifier>
+        <dcat:keyword xml:lang="es">Elecciones</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/afa0a6c8-00c3-4f70-9c7e-c039f71cc069">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/64b69548-3495-4a54-9138-24f581f28bb3</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-votos-escanos-partido-politico.excel"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Votos y escaños por partido político</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1f1c962f-b685-4f0c-a6d7-d38345a3ab56">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-votos-escanos-partido-politico.sdmx"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Votos y escaños por partido político</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/c7a4bcb4-9db4-4edf-bf01-5614fed685b3</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/37048812-7edb-4cdf-a73b-afeab68aed8b">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-votos-escanos-partido-politico.pc-axis"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Votos y escaños por partido político</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/1fd74aa9-81d6-4253-a50b-42caf9ae5c6d</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/27213582-3b93-46b6-84f7-85753e9e5ce9">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-votos-escanos-partido-politico.rdf"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Votos y escaños por partido político</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/ccbf778c-7cc0-422c-b7f9-281abd452b59</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/47657d28-b88d-4370-b49e-374683696206">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-votos-senadores-partido-politico.sdmx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/ed047c4e-3cc5-4067-aa01-9846920a9f19</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Votos y número de senadores elegidos por partido político</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d7be82b3-ed7e-464e-afa6-43ce96aac096">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/2c42436d-224f-4f45-bd21-df1e14a90d6b</dct:identifier>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Datos generales</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-datos-generales.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Elecciones Generales</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+        <dct:description xml:lang="es">Elecciones Generales</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5f60f672-9dd3-4429-bbaf-22140f4bd1ea">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/8b6ecc4c-bcc8-4c7d-a332-a8a7feaf6e4c</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Datos generales</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-datos-generales.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1c8c6b83-5f56-4f21-af5c-f1da7a30131e">
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Datos generales</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/7d066416-0a1f-4615-b093-23d064e2e593</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-datos-generales.sdmx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/856b6694-a930-49dd-b446-a79675e3b81b">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Datos generales</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-datos-generales.sdmx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/be75ba12-2bc6-419f-be97-31816411b7c0</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ba8f8141-9655-4c04-9f06-7c713e44ee07">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Datos generales</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-datos-generales.excel"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/7fcdce08-7528-497f-a473-49e572c53752</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/95af005e-6795-4e32-a4ef-8674faaf460e">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Votos y número de senadores elegidos por partido político</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-votos-senadores-partido-politico.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/87b98949-34e8-4364-b8e9-06fe429b106e</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0f46c93c-07c4-4081-b7ea-d1634b725161">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-senado-votos-senadores-partido-politico.excel"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/637bf784-2c18-4044-aaaf-afe8cb818ff1</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Senado. Votos y número de senadores elegidos por partido político</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cc0283cc-4404-4b1f-a977-a8fc44dc5c24">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/elecciones-congreso-datos-generales#timeseries"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Datos generales</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/8792cab2-ef30-4d1a-9202-3bb62ef79437</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/72a7d038-0919-466c-a5ff-bfbedd00d610">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/b856bf6c-5535-44e8-a941-549077270bb6</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-votos-escanos-partido-politico.json"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Votos y escaños por partido político</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1af09e46-839d-4503-90d8-08cc25777a6c">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/elecciones-congreso-datos-generales.rdf"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Datos generales</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/56a6168a-c410-4bec-9636-7e7e6697ddc4</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5d8e04ad-9f56-49df-b30a-472ed97dcc7a">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/elecciones-congreso-votos-escanos-partido-politico#timeseries"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-elecciones-generales2/resource/a0686178-dba8-4ff3-918b-a756caf6d31c</dct:identifier>
+            <dct:title xml:lang="es">Elecciones Generales » Elecciones al Congreso. Votos y escaños por partido político</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>5577b48f7b6153a3792221927355e543</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,538 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-icane-es-dataset-e1a52a71-ea6c-4938-bf5d-ea7a703592b4">
+    <dct:identifier>https://datos.icane.es/dataset/e1a52a71-ea6c-4938-bf5d-ea7a703592b4</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-icane-es-dataset-e1a52a71-ea6c-4938-bf5d-ea7a703592b4"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>62287085372117de98e9278bce2ff1f4</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-icane-es-dataset-e1a52a71-ea6c-4938-bf5d-ea7a703592b4">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6b6ddc03-ee1e-482e-979f-f991d49a5d82">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de precios hoteleros</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/d0ff4f06-8956-44ef-b02f-d89e4cfe1e49</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-precios-hoteleros-series.json"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/440a17e4-90f3-4ffa-955b-a84c2b490d1b">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/9ef6020c-a1fb-416e-a831-e8a6f278380c</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-estancia-media.json"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Estancia media</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5e3e7e56-c9dd-44b5-8c9d-810c1ce95a28">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/75c8d8bc-cdce-4328-b4c0-2f01708469ee</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Ingresos por habitación disponible (Revenue per Available Room, RevPAR)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/indicadores-rentabilidad-sector-hotelero-ingresos-habitacion-disponible#timeseries"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fde06ca5-aa25-41c7-b7f5-01ea3bef4311">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-estancia-media.excel"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Estancia media</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/5835c594-9c3c-4741-bc0e-191ad68a6085</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ac8856a2-8fab-4599-9b9f-1bb0f2a41ac0">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/encuesta-ocupacion-hotelera-estancia-media#timeseries"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Estancia media</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/7a69dead-7767-492f-8c33-9efce64288fe</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7156ef27-f93a-4d54-9902-32de20c9ea06">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/07fec59c-888a-47bf-980a-ee085029da56</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-tarifa-media-diaria.sdmx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Tarifa media diaria (Average Daily Rate, ADR)</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/50de2763-0403-431a-b448-65851bde6b1b">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Distribución porcentual de pernoctaciones y viajeros según la CCAA de procedencia</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/9c6b6579-61c2-4d7e-8242-ad21172818d0</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-pernoctaciones-viajeros-distribucion-origen.sdmx"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">CTH</dcat:keyword>
+        <dcat:keyword xml:lang="es">Coyuntura</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/24ee5291-749b-497a-80db-100e3b757901">
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-estancia-media.pc-axis"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Estancia media</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/5f0073d9-e6c7-4510-8c4a-082596f196f0</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ce88296d-601d-4e74-b0b0-16afbdf0974b">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de precios hoteleros</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/e50c2654-200c-4c37-a2da-3ec078d07e30</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-precios-hoteleros-series.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d2fb063a-bbd3-4523-ada5-466eecfe8ae8">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-tarifa-media-diaria.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/798cf820-9b3f-4134-9c20-efc23285eaed</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Tarifa media diaria (Average Daily Rate, ADR)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ec8e308e-7f80-4c3b-990d-24b513224840">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/71842051-60bd-41e9-93ca-d4d0993708c3</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-ingresos-hoteleros-series.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de ingresos hoteleros</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Turismo</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1ecf134c-5f00-4b85-b6ec-1466a82c87e4">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/9363bb4a-425b-4758-9c3a-9aadc6d1c3e7</dct:identifier>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Distribución porcentual de pernoctaciones y viajeros según la CCAA de procedencia</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-pernoctaciones-viajeros-distribucion-origen.json"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e5ed8126-cb87-4271-bf61-8700b035e6bb">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/30acb871-bdf2-4c80-971f-5fc2f0639108</dct:identifier>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de precios hoteleros</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-precios-hoteleros-series.rdf"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5ae5f9b1-7879-4dc8-8d5c-f4a8fab6eff2">
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-tarifa-media-diaria.pc-axis"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Tarifa media diaria (Average Daily Rate, ADR)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/f659a622-defd-4282-85b2-99a688eaadaa</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bf622690-c367-443a-a24d-f8be447ef2ce">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Coeficientes de enlace</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-coeficientes-enlace.rdf"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/a8b9543e-5344-4002-86ef-ef39f006a834</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9d63cdd1-3497-454f-a369-8d6470ce3947">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Establecimientos, plazas, grados de ocupación y personal empleado</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/7ef21ad9-a8e9-4716-ae82-2d221729e0ee</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-establecimientos-plazas-ocupacion-personal.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6e1e07bf-df59-4a0e-a9af-bf92d93ea200">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-ingresos-habitacion-disponible.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/627a154d-9832-43d2-90c9-5bc50675d81b</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Ingresos por habitación disponible (Revenue per Available Room, RevPAR)</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/131864ad-b064-4857-ac46-2c01be38fae6">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/44ea5808-9faa-4e4a-abc5-19ae218d48d7</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-estancia-media.rdf"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Estancia media</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datos.icane.es/dataset/e1a52a71-ea6c-4938-bf5d-ea7a703592b4</dct:identifier>
+        <dcat:keyword xml:lang="es">Turística</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b03d5b2e-e2fd-40f9-b883-712ad0df8dd5">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Coeficientes de enlace</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/d7b0e283-5034-4645-b617-01bf2b31a2ff</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-coeficientes-enlace.excel"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/80f26674-64f9-423d-abb3-a0f897b9aa80">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/30405bbf-8542-46e7-b431-35a7b4f2a197</dct:identifier>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Viajeros y pernoctaciones</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-viajeros-pernoctaciones.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Coyuntura turística hotelera (CTH)</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8b226ebb-77c0-4048-a75e-a0e712b2ebb6">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Viajeros y pernoctaciones</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-viajeros-pernoctaciones.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/efcbc13b-b274-4f91-b748-2e9a0b4e8a84</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ae462d8d-dc84-4eeb-8a97-f8d4fdf2bec3">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Coeficientes de enlace</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-coeficientes-enlace.pc-axis"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/f8dabbfa-40eb-45c5-826a-6b42e0e9327c</dct:identifier>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ef643a90-1baa-4945-ab4a-56f30ea9035a">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/encuesta-ocupacion-hotelera-coeficientes-enlace#timeseries"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/ce123ce2-a852-4fad-a20e-6d8114559435</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Coeficientes de enlace</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f7de3f9f-502e-4ef6-a585-f77d1fa11104">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/encuesta-ocupacion-hotelera-viajeros-pernoctaciones#timeseries"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Viajeros y pernoctaciones</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/eb83871a-1f31-40f3-a44a-78ddd340f846</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/710c9fc2-9b9c-4135-bbd1-899e98bf0089">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-tarifa-media-diaria.rdf"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/db7b7713-0037-4c3f-ab32-0691cdb5055f</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Tarifa media diaria (Average Daily Rate, ADR)</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fbad2e68-a05e-431b-86d6-cde990eb3d4d">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/5e44e219-88cc-4dea-a5c2-f786f05c86e5</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/indice-precios-hoteleros-series#timeseries"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de precios hoteleros</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-31T14:47:12+02:00</dct:modified>
+        <dcat:keyword xml:lang="es">Hotelera</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/89f7e041-709c-4cc0-ba37-2cc149ccc041">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/ec0c3b60-2ca9-4fc1-8b24-43fdbf7f262e</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-ingresos-habitacion-disponible.rdf"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Ingresos por habitación disponible (Revenue per Available Room, RevPAR)</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Coyuntura turística hotelera (CTH)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/820cab37-1ea4-44ce-ba30-aae583b29fa3">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de precios hoteleros</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/e9757212-929d-4df4-8153-ec874e2e1fef</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-precios-hoteleros-series.sdmx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e9e1ddbb-ee53-42a6-829a-92571837e25e">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/encuesta-ocupacion-hotelera-pernoctaciones-viajeros-distribucion-origen#timeseries"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Distribución porcentual de pernoctaciones y viajeros según la CCAA de procedencia</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/ead0d749-e24b-49e7-858b-131d67d3301d</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d518c00b-2837-4961-9104-45babc929121">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/4727c4aa-9be3-4de3-b760-093b85cb2cc7</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/encuesta-ocupacion-hotelera-establecimientos-plazas-ocupacion-personal#timeseries"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Establecimientos, plazas, grados de ocupación y personal empleado</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b588595a-0115-43f0-885b-cf8a1629e203">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-ingresos-hoteleros-series.excel"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de ingresos hoteleros</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/653dc6e4-cd26-4758-a4eb-b4b70c893162</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0ed56519-0159-4d62-b59c-123600aa5667">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Establecimientos, plazas, grados de ocupación y personal empleado</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-establecimientos-plazas-ocupacion-personal.json"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/aeeebb50-6dfe-40ac-a248-b570a78738ef</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/62be3125-e21a-4600-8921-3e7aaebb3073">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Distribución porcentual de pernoctaciones y viajeros según la CCAA de procedencia</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/710df1ef-8707-4948-b210-44c7f65af292</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-pernoctaciones-viajeros-distribucion-origen.rdf"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A06004074">
+            <foaf:name>Instituto Cántabro de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4fd5ff0e-6a2c-435d-b294-c90273fd264d">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Establecimientos, plazas, grados de ocupación y personal empleado</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/85232c2b-531b-4156-ac73-13f786193b4d</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-establecimientos-plazas-ocupacion-personal.sdmx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/41b060fb-fba8-454b-ab8d-5ae35a67bd15">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-viajeros-pernoctaciones.sdmx"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/3673c5dc-9361-4d8e-bd09-919de399d483</dct:identifier>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Viajeros y pernoctaciones</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/83f5f1c2-0a8c-4298-9faa-656941405536">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Coeficientes de enlace</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-coeficientes-enlace.sdmx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/583c670b-602e-4f94-a79c-bbecba15d505</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/33ff4ad8-fe68-4db6-9f32-b6b36015954d">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/4b749960-104c-4e0e-8807-46d3fafd4e67</dct:identifier>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Coeficientes de enlace</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-coeficientes-enlace.json"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-10T12:00:42+02:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d9db265a-d7dd-4d10-a1b4-f532dd8556f5">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-establecimientos-plazas-ocupacion-personal.rdf"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/54a1c9b6-56a0-4a81-a062-801648ca16f8</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Establecimientos, plazas, grados de ocupación y personal empleado</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/901c0155-dc20-4999-b591-967169d1f139">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Viajeros y pernoctaciones</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-viajeros-pernoctaciones.excel"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/b1da9230-ef1e-4ac9-aa30-87e219e95bc7</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b286741b-0621-473f-ad63-4958a9facc09">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-ingresos-habitacion-disponible.sdmx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/60f10932-6511-4355-b1c0-fc50b131a3e6</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Ingresos por habitación disponible (Revenue per Available Room, RevPAR)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e04476e3-7f17-4ed2-974a-8b7163c70fa8">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-estancia-media.sdmx"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Estancia media</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/c04315e6-fbc7-4617-bc99-245822b6ec62</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f83ab766-465e-4e81-b2c9-ca086100f78d">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-tarifa-media-diaria.excel"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/0c396b51-bc62-4729-a3e2-943e97cb43ad</dct:identifier>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Tarifa media diaria (Average Daily Rate, ADR)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b31f62b4-0a42-4f66-8c6a-9d178743bc58">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/268aead7-1f67-46c7-9bfb-adbcaab1161f</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-ingresos-hoteleros-series.rdf"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de ingresos hoteleros</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/525b33ed-19d6-410c-9e52-49258af3c1c2">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de ingresos hoteleros</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-ingresos-hoteleros-series.json"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/bfee3717-91a1-43b7-8cd6-6b63365931c0</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c9e7b724-6db0-4bd7-ad99-26805caadb6e">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-establecimientos-plazas-ocupacion-personal.excel"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/0dfc16a4-1bbd-4d42-868e-385ab8ea6447</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Establecimientos, plazas, grados de ocupación y personal empleado</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/70bbd8b2-7160-48d6-bfe7-c31354ad5318">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-pernoctaciones-viajeros-distribucion-origen.pc-axis"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/2763eb2b-e710-4f58-b942-b026e181657f</dct:identifier>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Distribución porcentual de pernoctaciones y viajeros según la CCAA de procedencia</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4e625411-90bd-4681-9623-f237a064d142">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Viajeros y pernoctaciones</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/06257986-83ef-403f-b9b2-3be0e142d9a7</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-viajeros-pernoctaciones.rdf"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/36c1f79d-8488-4fd0-8133-b85b2d008eaa">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Distribución porcentual de pernoctaciones y viajeros según la CCAA de procedencia</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/5458d700-d0e2-42a3-a27e-a3eec1f1ae6c</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/encuesta-ocupacion-hotelera-pernoctaciones-viajeros-distribucion-origen.excel"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/eed5bdf7-3d3b-4668-ac93-d7624db85d75">
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/4666d3bb-1a14-4f22-8b3f-10e9d3eb6d0f</dct:identifier>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de precios hoteleros</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-precios-hoteleros-series.excel"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/47da7bf0-66be-4060-bf5d-0ef42619d6e9">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/5afd7d6c-02bc-4f3c-8ba4-753c1f9daff8</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-ingresos-habitacion-disponible.excel"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Ingresos por habitación disponible (Revenue per Available Room, RevPAR)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/33290c58-fa0a-4e73-9dee-b67fc5dc8b91">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de ingresos hoteleros</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/923c9f05-7554-402d-bd56-bac5725f7927</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/indice-ingresos-hoteleros-series#timeseries"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e2ab103a-8d03-4765-a352-b0d5f7ad8cb0">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Ingresos por habitación disponible (Revenue per Available Room, RevPAR)</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indicadores-rentabilidad-sector-hotelero-ingresos-habitacion-disponible.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/2c475707-891a-4915-8895-86d760412f07</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e952496d-41b7-4de3-8c85-0a55e3cea0c7">
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Tarifa media diaria (Average Daily Rate, ADR)</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/indicadores-rentabilidad-sector-hotelero-tarifa-media-diaria#timeseries"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/a787d593-c7c3-44ee-9a39-601af4aee3c5</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/77a152ed-cdec-473c-a62c-f56c5ed4dac7">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/indice-ingresos-hoteleros-series.sdmx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-coyuntura-turistica-hotelera-cth2/resource/342b74d2-3c25-4cf7-b2d4-5c5df3db300f</dct:identifier>
+            <dct:title xml:lang="es">Coyuntura turística hotelera (CTH) » Índice de ingresos hoteleros</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:35:58Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-05T23:36:21Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-05T23:36:20Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

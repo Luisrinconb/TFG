@@ -1,0 +1,520 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-malaga-eu-dataset-comedores-sociales">
+    <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:19:51Z</edp:transIssued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:19:51Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-malaga-eu-dataset-comedores-sociales"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>a79702f2459b7b85df5f402ffe65172f</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-malaga-eu-dataset-comedores-sociales">
+        <dct:title xml:lang="et-t-es-t0-mtec">Sotsiaalsed sööklad</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-17T00:00:00+02:00</dct:modified>
+        <dct:title xml:lang="de-t-es-t0-mtec">Soziale Kantinen</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1065778c-cd2d-466e-b252-71d44e01a328">
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema CSV EPSG 25830</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">CSV-järjestelmän viite EPSG 25830</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul CSV de referință EPSG 25830</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">CSV Córas Tagartha EPSG 25830</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til CSV-systemet EPSG 25830</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">CSV-systeemreferentie EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">CSV Riferimento di sistema EPSG 25830</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">CSV Referenční systém EPSG 25830</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">CSV sistemos nuoroda EPSG 25830</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">CSV Systemreferenz EPSG 25830</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">CSV süsteemi viitenumber EPSG 25830</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">CSV sistēmas atsauce EPSG 25830</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">CSV System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">CSV System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">CSV System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">CSV System Referens EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Referenca CSV sustava EPSG 25830</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-25830.csv"/>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/d7613b8b-329f-43c7-94b0-aae9c08e3512</dct:identifier>
+            <dct:title xml:lang="es">CSV Sistema Referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Odniesienie do systemu CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">CSV rendszer referencia EPSG 25830</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Comedores sociales del municipio  **Descripción de las columnas destacables incluidas en los recursos**   * NOMBRE: Nombre del equipamiento. * DESCRIPCIÓN: descripción del equipamiento. * DIRECCIÓN: Dirección postal. * HORARIO: de apertura. * TITULARIDAD: Las opciones posibles son PRIVADA, AUTONÓMICA, MUNICIPAL u OTRAS. * ACCESOPMR: Si el equipamiento dispone de acceso a personas con movilidad reducida (Los valores posibles son Si, No) * INFOESP: Formato JSON de información especial del equipamiento.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Sociálne jedálne obce **Opis zostávajúcich stĺpcov zahrnutých do zdrojov** * Názov: Názov zariadenia. * POPIS: opis zariadenia. * ADRESA: Poštová adresa. * OTVÁRACIE HODINY: otvoriť ju. * VLASTNÍCTVO: Možné možnosti sú PRIVATE, AUTONOMICKÉ, MUNICIPAL alebo Iné. * ACCESOPMR: Ak má zariadenie prístup k osobám so zníženou pohyblivosťou (možné hodnoty sú Áno, Nie) * INFOESP: JSON formát špeciálnej výbavy informácií.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Social canteens</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Družabne menze</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Savivaldybės socialinės valgyklos **į išteklius įtrauktų stulpelių aprašymas** * NAME: Įrangos pavadinimas. * APRAŠYMAS: įrangos aprašymas. * ADRESAS: Pašto adresas. * DARBO LAIKAS: atidarykite jį. * NUOSAVYBĖ: Galimi variantai yra PRIVATE, AUTONOMIC, MUNICIPAL arba KITA. * ACCESOPMR: Jei įranga turi prieigą prie riboto judumo asmenų (galimos reikšmės yra „Taip“, „Ne“) * INFOESP: JSON specialios įrangos informacijos formatas.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Sociala matsalar</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Cantine sociale</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Social canteens of the municipality **Description of the outstanding columns included in the resources** * NAME: Name of equipment. * DESCRIPTION: description of equipment. * ADDRESS: Postal address. * OPENING HOURS: opening it. * OWNERSHIP: Possible options are PRIVATE, AUTONOMIC, MUNICIPAL or OTHER. * ACCESOPMR: If the equipment has access to people with reduced mobility (The possible values are Yes, No) * INFOESP: JSON format of special equipment information.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Pašvaldības sociālās ēdnīcas **resursos iekļauto nenokārtoto ailes apraksts** * VĀRDS: Aprīkojuma nosaukums. * APRAKSTS: aprīkojuma apraksts. * ADRESE: Pasta adrese. * DARBA LAIKS: atveriet to. * ĪPAŠUMTIESĪBAS: Iespējamās opcijas ir PRIVATE, AUTONOMIC, MUNICIPAL vai OTHER. * ACCESOPMR: Ja aprīkojums ir pieejams cilvēkiem ar ierobežotām pārvietošanās spējām (iespējamās vērtības ir Jā, Nē) * INFOESP: JSON formāts speciālā aprīkojuma informācijai.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Cantine sociale ale municipiului **Descrierea coloanelor restante incluse în resurse** * NAME: Denumirea echipamentului. * DESCRIERE: descrierea echipamentului. * ADRESĂ: Adresa poștală. * ORAR DE FUNCȚIONARE: deschizându-l.
+* DREPTUL DE PROPRIETATE:
+Opțiunile posibile sunt PRIVATE, AUTONOMIC, MUNICIPAL sau ALTE.
+* ACCESOPMR:
+Dacă echipamentul are acces la persoane cu mobilitate redusă (valorile posibile sunt Da, Nu) * INFOESP:
+Formatul JSON de informații despre echipamente speciale.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Socialne menze občine **Opis preostalih stolpcev, vključenih v vire** * IME: Ime opreme. * OPIS: opis opreme. * NASLOV: Poštni naslov.
+* DELOVNI ČAS:
+odpri ga.
+* LASTNIŠTVO:
+Možne možnosti so PRIVATE, AUTONOMIC, MUNICIPAL ali DRUGI.
+* ACCESOPMR:
+Če ima oprema dostop do oseb z omejeno mobilnostjo (možne vrednosti so da, ne) * INFOESP:
+JSON format informacij o posebni opremi.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Mense sociali</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f258ccdf-247e-4533-972e-d709fd844f51">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">GeoJSON Sistemul de referință EPSG 4326</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">GeoJSON Systeem Referentie EPSG 4326</dct:title>
+            <dct:title xml:lang="es">GEOJSON Sistema Referencia EPSG 4326</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">GeoJSON Referenca sistema EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/81db1197-f899-45b1-9327-733d2b5933f7</dct:identifier>
+            <dct:title xml:lang="lv-t-es-t0-mtec">GeoJSON sistēmas atsauces EPSG 4326</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος GeoJSON EPSG 4326</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Tagairt Chóras GeoJSON EPSG 4326</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">GeoJSON Sistemos nuoroda EPSG 4326</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">GeoJSON System Referens EPSG 4326</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">GeoJSON Referência do Sistema EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на системата GeoJSON EPSG 4326</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">GeoJSON-järjestelmän viite EPSG 4326</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">GeoJSON Systemreferenz EPSG 4326</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">GeoJSON Systémové reference EPSG 4326</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">GeoJSON Systém Referenčné EPSG 4326</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">GeoJSON Riferimento di sistema EPSG 4326</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">GeoJSON rendszer referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema GeoJSON EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système GeoJSON EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-4326.geojson"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">GeoJSON Referentni sustav EPSG 4326</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="et-t-es-t0-mtec">Omavalitsuse sotsiaalsöögid **ressurssides sisalduvate täitmata veergude kirjeldus** * NIMI: Varustuse nimi. * KIRJELDUS: varustuse kirjeldus. * AADRESS: Postiaadress. * LAHTIOLEKUAJAD: avage see. * OMAND: Võimalikud valikud on PRIVATE, AUTONOMIC, MUNICIPAL või muu. * ACCESOPMR: Kui seadmel on juurdepääs piiratud liikumisvõimega inimestele (võimalikud väärtused on jah, ei) * INFOESP: JSON erivarustuse teabe vorming.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6ffe3887-2126-4c4a-b1ed-af3b1e73a9d8">
+            <dct:title xml:lang="ga-t-es-t0-mtec">CSV Córas Tagartha EPSG 4326</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">CSV System Referens EPSG 4326</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul CSV de referință EPSG 4326</dct:title>
+            <dct:title xml:lang="es">CSV Sistema Referencia EPSG 4326</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til CSV-systemet EPSG 4326</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος CSV EPSG 4326</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">CSV sistēmas atsauces EPSG 4326</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">CSV System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">CSV-järjestelmän viite EPSG 4326</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">CSV Referenční systém EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">CSV System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">CSV System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema CSV EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-4326.csv"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Odniesienie do systemu CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">CSV Systemreferenz EPSG 4326</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">CSV rendszer referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">CSV-systeemreferentie EPSG 4326</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">CSV Riferimento di sistema EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">CSV sistemos nuoroda EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/abd984aa-587d-4f8e-993e-d6459ea2894e</dct:identifier>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Referenca CSV sustava EPSG 4326</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">CSV süsteemi viitenumber EPSG 4326</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Az önkormányzat szociális étkezdéi **A forrásokban szereplő fennmaradó oszlopok leírása** * NÉV: Felszerelés neve. * LEÍRÁS: felszerelés leírása. * E-MAIL CÍM: A postacím. * NYITVATARTÁSI IDŐ: nyissa ki. * TULAJDONJOG: Lehetséges opciók: PRIVATE, AUTONOMIC, MUNICIPAL vagy EGYÉB. * ACCESOPMR: Ha a berendezés hozzáfér a csökkent mozgásképességű személyekhez (A lehetséges értékek Igen, Nem) * INFOESP: Speciális berendezésekre vonatkozó információk JSON formátuma.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Društvene kantine</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dcat:keyword xml:lang="es">geoportal</dcat:keyword>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Cantines sociales de la municipalité **Description des colonnes en suspens incluses dans les ressources** * NOM: Nom de l’équipement. * DESCRIPTION: description de l’équipement. * ADRESSE: Adresse postale. * HEURES D’OUVERTURE: je l’ouvre. * PROPRIÉTÉ: Les options possibles sont PRIVÉES, AUTONOMIQUES, MUNICIPALES ou AUTRES. * ACCESOPMR: Si l’équipement a accès aux personnes à mobilité réduite (les valeurs possibles sont Oui, Non) * INFOESP: Format JSON des informations sur l’équipement spécial.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Szociális étkezdék</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Ceaintíní sóisialta</dct:title>
+        <dcat:keyword xml:lang="es">equipamiento</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a77d463e-07d3-413f-9054-e1da4e852e18">
+            <dct:title xml:lang="es">GML Sistema Referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">GML Referentni sustav EPSG 4326</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="de-t-es-t0-mtec">GML Systemreferenz EPSG 4326</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">GML-järjestelmän viite EPSG 4326</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul GML de referință EPSG 4326</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Odniesienie do systemu GML EPSG 4326</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til GML-systemet EPSG 4326</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">GML System Referentie EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">GML система референтен EPSG 4326</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema GML EPSG 4326</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος GML EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système GML EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-4326.gml"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">GML System Referens EPSG 4326</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">GML-süsteemi viide EPSG 4326</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">GML sistēmas atsauce EPSG 4326</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">GML System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">GML System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Tagairt an Chórais GML EPSG 4326</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">GML sistemos nuoroda EPSG 4326</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento di sistema GML EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/dc87aae6-ed2c-4674-ac6e-b055787b5f55</dct:identifier>
+            <dct:title xml:lang="hu-t-es-t0-mtec">GML rendszer referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema ta’ GML EPSG 4326</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">GML Systémové reference EPSG 4326</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenčni sistem GML EPSG 4326</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">GML Systém Referenčné EPSG 4326</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="da-t-es-t0-mtec">Sociale kantiner</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01290672">
+            <foaf:name>Ayuntamiento de Málaga</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="es">comedores sociales</dcat:keyword>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Malaga"/>
+        <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales</dct:identifier>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0e56dbdf-ef76-41bc-baa1-7e59c73313bb">
+            <dct:title xml:lang="et-t-es-t0-mtec">ZIP-süsteemi viide EPSG 4326</dct:title>
+            <dct:title xml:lang="es">ZIP Sistema Referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Zip-järjestelmän viite EPSG 4326</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema ta’ ŻIP EPSG 4326</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Zip sistēmas atsauces EPSG 4326</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Поштовий індекс системи EPSG 4326</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Zip System Referentie EPSG 4326</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Zip System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Zip System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Zip-system Referens EPSG 4326</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistem zip de referință EPSG 4326</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Odkaz na systém zip EPSG 4326</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema zip EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/6d4cf4ab-e626-45a1-b78c-32b93c54b575</dct:identifier>
+            <dct:title xml:lang="lt-t-es-t0-mtec">ZIP sistemos nuoroda EPSG 4326</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema zip EPSG 4326</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento del sistema zip EPSG 4326</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">ZIP System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">ZIP System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système zippé EPSG 4326</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Zip System Referenčné EPSG 4326</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Córas zip Tagartha EPSG 4326</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Zip System Referenz EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-4326.zip"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Zip rendszer referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστημάτων φερμουάρ EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на системата за цип EPSG 4326</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/72dc956d-836a-46c4-a05b-7b4dd611ff3d">
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema zip EPSG 25830</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Zip System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Zip System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Поштовий індекс системи EPSG 25830</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Córas zip Tagartha EPSG 25830</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Odkaz na systém zip EPSG 25830</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Zip-system Referens EPSG 25830</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">ZIP System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">ZIP System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">ZIP System Reference EPSG 25830</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-25830.zip"/>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système zippé EPSG 25830</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">ZIP sistemos nuoroda EPSG 25830</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistem zip de referință EPSG 25830</dct:title>
+            <dct:title xml:lang="es">ZIP Sistema Referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστημάτων φερμουάρ EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento del sistema zip EPSG 25830</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Zip sistēmas atsauces EPSG 25830</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Zip sistem referenca EPSG 25830</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Zip System Referenčné EPSG 25830</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Zip System Referenz EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Zip-järjestelmän viite EPSG 25830</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">ZIP-süsteemi viitenumber EPSG 25830</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Zip rendszer referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema ta’ ŻIP EPSG 25830</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Zip System Referentie EPSG 25830</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/64878d2d-1c9c-430c-a13f-b88bb2b827e1</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Sociální jídelny obce **Popis zbývajících sloupců zahrnutých do zdrojů** * NAME: Název vybavení. * POPIS: popis vybavení. * ADRESA: Poštovní adresa. * OTEVÍRACÍ DOBA: otvíráme ho. * VLASTNICTVÍ: Možné možnosti jsou PRIVATE, AUTONOMIC, MUNICIPAL nebo Jiné. * ACCESOPMR: Pokud má zařízení přístup k lidem se sníženou pohyblivostí (Možné hodnoty jsou ano, ne) * INFOESP: JSON formát speciálních informací o vybavení.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Stołówki społeczne gminy **Opis pozostałych kolumn ujętych w zasobach** * Nazwa: Nazwa sprzętu. * OPIS: opis sprzętu. * ADRES: Adres pocztowy. * GODZINY OTWARCIA: otwieram go.
+* WŁASNOŚĆ:
+Możliwe opcje to PRIVATE, AUTONOMIC, MUNICIPAL lub INNE.
+* ACCESOPMR:
+Jeśli sprzęt ma dostęp do osób o ograniczonej sprawności ruchowej (możliwe wartości to Tak, Nie) * INFOESP:
+Format JSON informacji o sprzęcie specjalnym.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Mense sociali del comune **Descrizione delle colonne in sospeso incluse nelle risorse** * NOME: Nome dell'attrezzatura. * DESCRIZIONE: descrizione dell'attrezzatura. * INDIRIZZO: Indirizzo postale. * ORARI DI APERTURA:
+L'ho aperto.
+* PROPRIETÀ:
+Le opzioni possibili sono PRIVATE, AUTONOMIC, MUNICIPAL o ALTRE.
+* ACCESOPMR:
+Se l'attrezzatura ha accesso a persone a mobilità ridotta (i valori possibili sono Sì, No) * INFOESP:
+Formato JSON di informazioni speciali sull'attrezzatura.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2021-11-19T00:00:00+01:00</dct:issued>
+        <dct:description xml:lang="da-t-es-t0-mtec">Kommunens sociale kantiner **Beskrivelse af de udestående kolonner, der indgår i ressourcerne** *NAVN: Navn på udstyr. * BESKRIVELSE: beskrivelse af udstyr. * ADRESSE: Postadresse. * ÅBNINGSTIDER: Åbn den. * EJERSKAB:
+Mulige muligheder er PRIVATE, AUTONOMIC, MUNICIPAL eller ANDER.
+* ACCESOPMR:
+Hvis udstyret har adgang til bevægelseshæmmede personer (de mulige værdier er Ja, Nej) * INFOESP:
+JSON-format af oplysninger om særligt udstyr.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Социални столове</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Соціальна їдальня</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Κοινωνικές καντίνες</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Sociale kantines</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/48810906-50e6-41e5-afb8-a459b00b65c8">
+            <dct:title xml:lang="de-t-es-t0-mtec">KML Systemreferenz EPSG 25830</dct:title>
+            <dct:title xml:lang="es">KML Sistema Referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému KML EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento di sistema KML EPSG 25830</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">KML System Referens EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">KML-järjestelmän viite EPSG 25830</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">KML Systeemreferentie EPSG 25830</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema KML EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος KML EPSG 25830</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">KML Referentni sustav EPSG 25830</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">KML Référence du système EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">KML System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">KML System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">KML-süsteemi viide EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">KML System Reference EPSG 25830</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-25830.kml"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">KML Córas Tagartha EPSG 25830</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ir-Referenza tas-Sistema tal-KML EPSG 25830</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Odkaz na systém KML EPSG 25830</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">KML sistemos nuoroda EPSG 25830</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на KML системата EPSG 25830</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul KML de referință EPSG 25830</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/5d4d8f73-a074-46c0-befa-859281bbb900</dct:identifier>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema KML EPSG 25830</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til KML-systemet EPSG 25830</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">KML rendszer referencia EPSG 25830</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">KML sistēmas atsauce EPSG 25830</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Kunnan sosiaaliset ruokalat **Resursseihin sisältyvien jäljellä olevien sarakkeiden kuvaus** * NIMI: Laitteiden nimi. * KUVAUS:
+laitteiden kuvaus.
+* OSOITE:
+Postiosoite.
+* AUKIOLOAJAT:
+avaan sen.
+* OMISTUS:
+Mahdollisia vaihtoehtoja ovat PRIVATE, AUTONOMIC, MUNICIPAL tai MUUT.
+* ACCESOPMR:
+Jos laitteella on mahdollisuus käyttää liikuntarajoitteisia henkilöitä (mahdolliset arvot ovat kyllä, ei) * INFOESP:
+JSON-muodossa erikoislaitteiden tiedot.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Ceaintíní sóisialta an bhardais **Cur síos ar na colúin gan íoc atá san áireamh sna hacmhainní** * AINM: Ainm an trealaimh. * CUR SÍOS: tuairisc ar threalamh. * SEOLADH: Seoladh poist. * UAIREANTA OSCAILTE: é a oscailt. * ÚINÉIREACHT:
+Is iad na roghanna a d’fhéadfadh a bheith ann ná PRÍOMHAÍOCHT, AONTAIS, MÍNIÚIL nó EILE.
+* ACCESOPMR:
+Má tá rochtain ag an trealamh ar dhaoine a bhfuil a soghluaisteacht laghdaithe (Is iad na luachanna féideartha Tá, Níl) * INFOESP:
+Formáid JSON d’fhaisnéis faoi threalamh speisialta.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Sozialkantinen der Gemeinde **Beschreibung der ausstehenden Spalten, die in den Ressourcen enthalten sind** * Name: Name der Ausrüstung. * BESCHREIBUNG:
+Beschreibung der Ausrüstung.
+* ADRESSE:
+Postanschrift.
+* ÖFFNUNGSZEITEN:
+öffnen Sie es.
+* EIGENTUM:
+Mögliche Optionen sind PRIVATE, AUTONOMIC, MUNICIPAL oder OTHER.
+* ACCESOPMR:
+Wenn die Ausrüstung Zugang zu Personen mit eingeschränkter Mobilität hat (Die möglichen Werte sind Ja, Nein) * INFOESP:
+JSON Format der speziellen Ausrüstung Informationen.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Sociālās ēdnīcas</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κοινωνικά κυλικεία του Δήμου **Περιγραφή των εκκρεμών στηλών που περιλαμβάνονται στους πόρους** * ΟΝΟΜΑ: Το όνομα του εξοπλισμού. * ΠΕΡΙΓΡΑΦΉ: περιγραφή του εξοπλισμού. * ΔΙΕΎΘΥΝΣΗ: Ταχυδρομική διεύθυνση. * ΏΡΕΣ ΛΕΙΤΟΥΡΓΊΑΣ: ανοίγοντάς το. * ΙΔΙΟΚΤΗΣΊΑ: Πιθανές επιλογές είναι ΙΔΙΩΤΙΚΕΣ, ΑΥΤΟΝΟΜΙΚΕΣ, ΔΗΜΟΣ ή ΑΛΛΕΣ. * ACCESOPMR: Εάν ο εξοπλισμός έχει πρόσβαση σε άτομα με μειωμένη κινητικότητα (οι πιθανές τιμές είναι Ναι, Όχι) * INFOESP: Μορφή JSON των ειδικών πληροφοριών εξοπλισμού.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e62e6fe9-1dab-48ec-aed1-cb6ddd1a7a6f">
+            <dct:title xml:lang="lv-t-es-t0-mtec">GeoJSON sistēmas atsauces EPSG 25830</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">An Córas Tagartha GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">GeoJSON Referentni sustav EPSG 25830</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">GeoJSON Systeem Referentie EPSG 25830</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-25830.geojson"/>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">GeoJSON System Referens EPSG 25830</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/d69b08f0-d81e-4ca8-8cc2-6c549c4e815a</dct:identifier>
+            <dct:title xml:lang="de-t-es-t0-mtec">GeoJSON Systemreferenz EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">GeoJSON System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">GeoJSON System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на системата GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">GeoJSON System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">GeoJSON rendszer referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">GeoJSON System referencyjny EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">GeoJSON System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">GeoJSON-järjestelmän viite EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">GeoJSON Riferimento di sistema EPSG 25830</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">GeoJSON Systémové reference EPSG 25830</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">GeoJSON Sistemul de referință EPSG 25830</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">GeoJSON Sistemos nuoroda EPSG 25830</dct:title>
+            <dct:title xml:lang="es">GEOJSON Sistema Referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">GeoJSON Referência do Sistema EPSG 25830</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">GeoJSON Referenca sistema EPSG 25830</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">GeoJSON Systém Referenčné EPSG 25830</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Социални столове на общината **Описание на неизплатените колони, включени в ресурсите** * ИМЕ: Име на оборудването. * ОПИСАНИЕ: описание на оборудването. * АДРЕС: Пощенски адрес. * РАБОТНО ВРЕМЕ: да го отворим. * СОБСТВЕНОСТ: Възможните варианти са PRIVATE, AUTONOMIC, MUNICIPAL или OTHER. * ACCESOPMR: Ако оборудването има достъп до хора с намалена подвижност (Възможните стойности са Да, Не) * INFOESP: JSON формат на информация за специално оборудване.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Kantins soċjali tal-muniċipalità **Deskrizzjoni tal-kolonni pendenti inklużi fir-riżorsi** * ISEM: L-isem tat-tagħmir. * DESKRIZZJONI: deskrizzjoni tat-tagħmir. * INDIRIZZ: Indirizz postali.
+* ĦINIJIET TAL-FTUĦ:
+kif tiftaħha.
+* SJIEDA:
+Għażliet possibbli huma PRIVATE, AUTONOMIC, MUNICIPAL jew OĦRA.
+* ACCESOPMR:
+Jekk it-tagħmir ikollu aċċess għal persuni b’mobbiltà mnaqqsa (Il-valuri possibbli huma Iva, Le) * INFOESP:
+Format JSON ta’ informazzjoni dwar tagħmir speċjali.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Společenské jídelny</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Kantins soċjali</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Cantines sociales</dct:title>
+        <dct:title xml:lang="es">Comedores sociales</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Соціальні їдальні муніципалітету **Опис видатних рубрик, включених до ресурсів**** Ім'я: Назва обладнання. * ОПИС: опис обладнання. * АДРЕСА: Поштова адреса. * ЧАС РОБОТИ: відкрий його. * ПРАВО ВЛАСНОСТІ:
+Можливі варіанти: PRIVATE, AUTONOMIC, MUNICIPAL або ІНШИЙ.
+* ACCESOPMR:
+Якщо обладнання має доступ до людей з обмеженими фізичними можливостями (Можливі значення: Так, Ні) * ІНФОРМАЦІЯ:
+JSON формат інформації про спеціальне обладнання.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Socialinės valgyklos</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Cantinas sociais</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Cantinas sociais do concelho **Descrição das colunas pendentes incluídas nos recursos** * Nome: Nome do equipamento. * DESCRIÇÃO: descrição do equipamento. * ENDEREÇO: Endereço postal. * HORÁRIO DE FUNCIONAMENTO: estou a abri-la.
+* PROPRIEDADE:
+As opções possíveis são PRIVATE, AUTONÓMICO, MUNICIPAL ou OUTRO.
+* ACCESOPMR:
+Se o equipamento tiver acesso a pessoas com mobilidade reduzida (os valores possíveis são Sim, Não) * INFOESP:
+Formato JSON de informações sobre equipamentos especiais.</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Sosiaaliset ruokalat</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Sociale kantines van de gemeente **Beschrijving van de uitstaande kolommen opgenomen in de bronnen** * NAAM: Naam van de apparatuur. * BESCHRIJVING: beschrijving van de apparatuur. * ADRES: Postadres.
+* OPENINGSTIJDEN:
+open het.
+* EIGENDOM:
+Mogelijke opties zijn PRIVATE, AUTONOMIC, MUNICIPAL of ANDERE.
+* ACCESOPMR:
+Als de apparatuur toegang heeft tot personen met beperkte mobiliteit (de mogelijke waarden zijn Ja, Nee) * INFOESP:
+JSON formaat van speciale apparatuur informatie.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Socialmatsalar i kommunen **Beskrivning av utestående kolumner som ingår i resurserna** * Namn: Utrustningens namn. * BESKRIVNING:
+beskrivning av utrustningen.
+* ADRESS:
+Postadress.
+* ÖPPETTIDER:
+öppna den.
+* ÄGANDE:
+Möjliga alternativ är PRIVAT, AUTONOMIC, MUNICIPAL eller ANDRA.
+* ACCESOPMR:
+Om utrustningen har tillgång till personer med nedsatt rörlighet (de möjliga värdena är Ja, Nej) * INFOESP:
+JSON-format för information om specialutrustning.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/68171d2b-207e-4897-b94d-5b4ecc819298">
+            <dct:title xml:lang="hr-t-es-t0-mtec">GML Referentni sustav EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">GML-järjestelmän viite EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">GML System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">GML System Reference EPSG 25830</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-25830.gml"/>
+            <dct:title xml:lang="de-t-es-t0-mtec">GML Systemreferenz EPSG 25830</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema ta’ GML EPSG 25830</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">GML система референтен EPSG 25830</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul GML de referință EPSG 25830</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Córas GML Tagartha EPSG 25830</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema GML EPSG 25830</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenčni sistem GML EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Odniesienie systemu GML EPSG 25830</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">GML Systémové reference EPSG 25830</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til GML-systemet EPSG 25830</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">GML sistēmas atsauce EPSG 25830</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">GML-süsteemi viide EPSG 25830</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">GML sistemos nuoroda EPSG 25830</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">GML System Referentie EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος GML EPSG 25830</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/2eaaddd6-f46c-47fc-a9a2-442c55269850</dct:identifier>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système GML EPSG 25830</dct:title>
+            <dct:title xml:lang="es">GML Sistema Referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">GML rendszer referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">GML System Referens EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento di sistema GML EPSG 25830</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">GML Systém Referenčné EPSG 25830</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Socijalne kantine općine **Opis nepodmirenih stupaca uključenih u resurse** * NAME: Naziv opreme. * OPIS: opis opreme. * ADRESA: Poštanska adresa. * RADNO VRIJEME: otvori ga. * VLASNIŠTVO:
+Moguće opcije su PRIVATE, AUTONOMIC, MUNICIPAL ili drugi.
+* ACCESOPMR:
+Ako oprema ima pristup osobama smanjene pokretljivosti (moguće vrijednosti su da, ne) * INFOESP:
+JSON format informacija o posebnoj opremi.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/04fe15da-be8a-4fe4-9907-9c07f31e3ff6">
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ir-Referenza tas-Sistema ta’ KML EPSG 4326</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema KML EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на KML системата EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">KML Référence du système EPSG 4326</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">KML System Referens EPSG 4326</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">KML-järjestelmän viite EPSG 4326</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">KML Córas Tagartha EPSG 4326</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til KML-systemet EPSG 4326</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">KML rendszer referencia EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/higiali/da_higialim_comedores-4326.kml"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">KML-süsteemi viide EPSG 4326</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">KML sistēmas atsauce EPSG 4326</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">KML Referentni sustav EPSG 4326</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">KML sistemos nuoroda EPSG 4326</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος KML EPSG 4326</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">KML Systeem Referentie EPSG 4326</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema KML EPSG 4326</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému KML EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/comedores-sociales/resource/72f31e85-590c-4122-9314-4ff2241c1486</dct:identifier>
+            <dct:title xml:lang="es">KML Sistema Referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento di sistema KML EPSG 4326</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">KML Systemreferenz EPSG 4326</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Odkaz na systém KML EPSG 4326</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul KML de referință EPSG 4326</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">KML System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">KML System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">KML System Reference EPSG 4326</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Sociálne jedálne</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Stołówki towarzyskie</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:29:23Z</dct:modified>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-04T12:55:08Z</edp:transReceived>
+  </dcat:CatalogRecord>
+</rdf:RDF>

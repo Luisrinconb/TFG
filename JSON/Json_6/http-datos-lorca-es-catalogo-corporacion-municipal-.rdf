@@ -1,0 +1,281 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/http-datos-lorca-es-catalogo-corporacion-municipal-">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/http-datos-lorca-es-catalogo-corporacion-municipal-"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:21:46Z</edp:transIssued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:21:46Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:30:52Z</dct:modified>
+    <dct:identifier>http://datos.lorca.es/catalogo/corporacion-municipal/</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-04T20:18:16Z</edp:transReceived>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>58c04c7e28c6ad5959785b00124a7226</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/http-datos-lorca-es-catalogo-corporacion-municipal-">
+        <dcat:keyword xml:lang="es">corporación</dcat:keyword>
+        <dct:description xml:lang="el-t-es-t0-mtec">Δημοτική Εταιρεία του Δημοτικού Συμβουλίου της Αυτού Εξοχότητος Lorca</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cbf1c03e-796a-499a-84fd-8bb52cb34f46">
+            <dct:title xml:lang="mt-t-es-t0-mtec">Format ta ‘Excel</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Формат на Excel</dct:title>
+            <dct:identifier>http://datos.lorca.es/catalogo/corporacion-municipal/Excel</dct:identifier>
+            <dct:title xml:lang="de-t-es-t0-mtec">Excel-Format</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Excel-format</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Excel-format</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Formát programu Excel</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Formato di Excel</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Formatul Excel</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Formato Excel</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Excel-indeling</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Oblika zapisa Excela</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Excel-muoto</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Formát Excelu</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Exceli formaat</dct:title>
+            <dct:title xml:lang="es">Formato Excel</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">„Excel“ formatas</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Excel format</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Excel format</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Format Excel</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Format Excel</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Formáid Excel</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Μορφή Excel</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Формат Excel</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Excel formāts</dct:title>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/corporacion-municipal/corporacion-municipal.excel"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Excel formátum</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Bardas bardasach a Shoilse Comhairle Cathrach Lorca</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Corporação municipal</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Kommunalt bolag</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Δημοτική Εταιρεία</dct:title>
+        <dct:identifier>http://datos.lorca.es/catalogo/corporacion-municipal/</dct:identifier>
+        <dct:title xml:lang="da-t-es-t0-mtec">Kommunalt selskab</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Munitsipaalkorporatsioon</dct:title>
+        <dct:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-27T00:00:00+02:00</dct:valid>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3c69e1f8-7fb4-45b3-b6d4-17cb02881ef9">
+            <dct:title xml:lang="lt-t-es-t0-mtec">JSON formatas</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Formatul JSON</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">JSON formátum</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">JSON formaat</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">JSON formaat</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Формат JSON</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Формат JSON</dct:title>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/corporacion-municipal/corporacion-municipal.json"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">JSON formāts</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">JSON-muoto</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Formáid JSON</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">JSON-format</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Μορφή JSON</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">JSON format</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">JSON format</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Formát JSON</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">JSON format</dct:title>
+            <dct:identifier>http://datos.lorca.es/catalogo/corporacion-municipal/JSON</dct:identifier>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Formát JSON</dct:title>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Format JSON</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Format JSON</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Format JSON</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Format JSON</dct:title>
+            <dct:title xml:lang="es">Formato JSON</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Formato JSON</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Formato JSON</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">JSON-Format</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Komunalna korporacija</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Kommunalt bolag i hans excellens Lorca kommunfullmäktige</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Gemeentelijk bedrijf van Zijne Excellentie Lorca gemeenteraad</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Municipal Corporation</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Gminna korporacja Jego Ekscelencji Rady Miasta Lorca</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-05-24T00:00:00+02:00</dct:issued>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Korporazzjoni Muniċipali</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Pašvaldības korporācija</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Муніципальна корпорація</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Corporação municipal de Sua Excelência Câmara Municipal de Lorca</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Società municipale</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Bardas an Bhardais</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Savivaldybės korporacija</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Občinska korporacija</dct:title>
+        <dcat:keyword xml:lang="es">equipo de gobierno</dcat:keyword>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Общинска корпорация</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6cbef945-2558-43ec-89d2-89c77e80ae71">
+            <dct:title xml:lang="da-t-es-t0-mtec">XML-format</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">XML-format</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">XML-vormingus</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">XML format</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">XML format</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Formáid XML</dct:title>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">XML формат</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">XML formátum</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Μορφή XML</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">XML formāts</dct:title>
+            <dct:identifier>http://datos.lorca.es/catalogo/corporacion-municipal/XML</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Formato XML</dct:title>
+            <dct:title xml:lang="es">Formato XML</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Format XML</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Format XML</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Formato XML</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Formát XML</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Formát XML</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Formatul XML</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Format XML</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Format XML</dct:title>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/corporacion-municipal/corporacion-municipal.xml"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">XML-muoto</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Формат XML</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">XML formatas</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">XML-Format</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">XML-formaat</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Obecní korporace Jeho Excelence Lorca City Council</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Őexcellenciája Lorca városi tanácsának önkormányzati vállalata</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Société municipale</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Murcia"/>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Муніципальна корпорація Його Високоповажності Лорки міської ради</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/02d0b795-451e-4f44-a8cc-d7d26440688e">
+            <dct:title xml:lang="hu-t-es-t0-mtec">CSV formátum elválasztva;</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">CSV-vorming, mis on eraldatud;</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">CSV формат, разделен с;</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">CSV-format adskilt af</dct:title>
+            <dct:title xml:lang="es">Formato csv separado por ;</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Format CSV oddzielony;</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">CSV-formaat gescheiden door;</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">CSV-Format getrennt durch;</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Format CSV séparé par;</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Formát CSV oddelený;</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Format CSV, ločen z;</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Formáid CSV scartha ag;</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Μορφότυπο CSV διαχωρισμένο από</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/corporacion-municipal/corporacion-municipal.csv"/>
+            <dct:title xml:lang="en-t-es-t0-mtec">Csv format separated by;</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Формат CSV розділений;</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Formatul CSV separat de;</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">CSV-format åtskilt med;</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Formato CSV separado por;</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">CSV-muoto erotettuna;</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">CSV formát oddělený;</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">CSV formāts, ko atdala;</dct:title>
+            <dct:identifier>http://datos.lorca.es/catalogo/corporacion-municipal/CSV</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">Formato CSV separato da;</dct:title>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">CSV format odvojen s;</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Format CSV separat bi;</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">CSV formatas atskirtas;</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Jo Ekscelencijos Lorkos miesto tarybos savivaldybės korporacija</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Obecná korporácia</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Gemeentelijk bedrijf</dct:title>
+        <dct:description xml:lang="es">Corporación municipal del Excmo. Ayuntamiento de Lorca</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Korporacja miejska</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Kuntayhtymä</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Corporation municipale de Son Excellence le Conseil municipal de Lorca</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:description xml:lang="da-t-es-t0-mtec">Kommunalt selskab af Hans Excellence Lorca byråd</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-27T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="en-t-es-t0-mtec">Municipal corporation of His Excellency Lorca City Council</dct:description>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l01300243-corporacion-municipal/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l01300243-corporacion-municipal/DurationDescription">
+                <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >7</time:days>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Corporația municipală a Excelenței Sale Consiliul Local Lorca</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Stadtverwaltung</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Obecní korporace</dct:title>
+        <dct:title xml:lang="es">Corporación municipal</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia"/>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Önkormányzati vállalat</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01300243">
+            <foaf:name>Ayuntamiento de Lorca</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="de-t-es-t0-mtec">Stadtverwaltung von Seiner Exzellenz Lorca Stadtrat</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Korporazzjoni muniċipali tal-Kunsill Muniċipali tal-Eċċellenza Tiegħu Lorca</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Corporație municipală</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Pašvaldības korporācija Viņa Ekselences Lorkas pilsētas dome</dct:description>
+        <dcat:keyword xml:lang="es">municipal</dcat:keyword>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Općinska korporacija Njegove Ekscelencija Gradskog vijeća Lorca</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Общинска корпорация на Градския съвет на Негово Превъзходителство Лорка</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Hänen ylhäisyytensä kuntayhtymä Lorcan kaupunginvaltuusto</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Società municipale del consiglio comunale di Sua Eccellenza Lorca</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5b582032-7ead-468f-b5bb-d1ce44043ef4">
+            <dct:title xml:lang="cs-t-es-t0-mtec">Formát HTML</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Formát HTML</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">HTML-format</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">HTML-format</dct:title>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">HTML-vormingus</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">HTML-muoto</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">HTML-indeling</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">HTML formatas</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Format HTML</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Format HTML</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Μορφή HTML</dct:title>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/corporacion-municipal/corporacion-municipal.html"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">HTML formátum</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Format HTML</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Formatul HTML</dct:title>
+            <dct:identifier>http://datos.lorca.es/catalogo/corporacion-municipal/HTML</dct:identifier>
+            <dct:title xml:lang="es">Formato HTML</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Formato HTML</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Formato HTML</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Формат HTML</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">HTML formāts</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Formáid HTML</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">HTML формат</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">HTML-Format</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">HTML format</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">HTML format</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">HTML format</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Občinska družba njegovega mestnega sveta ekscelence Lorca</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Tema Ekstsellents Lorca linnavolikogu munitsipaalettevõte</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Obecná korporácia Jeho Excelencie mestskej rady Lorca</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+  </dcat:CatalogRecord>
+</rdf:RDF>

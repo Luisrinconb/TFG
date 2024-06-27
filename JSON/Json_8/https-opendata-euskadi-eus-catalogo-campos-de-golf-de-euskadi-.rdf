@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-euskadi-eus-catalogo-campos-de-golf-de-euskadi-">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:identifier>https://opendata.euskadi.eus/catalogo/-/campos-de-golf-de-euskadi/</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:37:38Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-euskadi-eus-catalogo-campos-de-golf-de-euskadi-"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:37:38Z</edp:transIssued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-euskadi-eus-catalogo-campos-de-golf-de-euskadi-">
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Informácie o golfových ihriskách Baskicka: opis, služby, kapacita, počet otvorov, prístup atď.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Euskadi golfo aikštynai</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Korsijiet tal-Golf ta’ Euskadi</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Informationen zu den Golfplätzen des Baskenlandes:
+Beschreibung, Dienstleistungen, Kapazität, Anzahl der Löcher, Zugang usw.</dct:description>
+        <dcat:keyword xml:lang="eu">kirola</dcat:keyword>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Golf igrišča Euskadi</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Terenuri de golf Euskadi</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Euskadi Golf Courses</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Information om Baskiens golfbanor: beskrivning, tjänster, kapacitet, antal hål, åtkomst etc.</dct:description>
+        <dcat:keyword xml:lang="es">campos</dcat:keyword>
+        <dct:isReferencedBy rdf:resource="http://turismoa.euskadi.eus/"/>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Euskadin golfkentät</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni sui campi da golf dei Paesi Baschi: descrizione, servizi, capacità, numero di fori, accesso, ecc.</dct:description>
+        <dct:identifier>https://opendata.euskadi.eus/catalogo/-/campos-de-golf-de-euskadi/</dct:identifier>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Информация за голф игрищата в Страната на баските: описание, услуги, капацитет, брой дупки, достъп и т.н.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Поля для гольфу Euskadi</dct:title>
+        <dcat:keyword xml:lang="eu">zelaiak</dcat:keyword>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Terrains de golf Euskadi</dct:title>
+        <dct:description xml:lang="es">Información sobre los campos de golf de Euskadi: descripción, servicios, capacidad, número de hoyos, acceso, etc.</dct:description>
+        <dct:title xml:lang="eu">Euskadiko golf zelaiak</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Γήπεδα γκολφ Euskadi</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Informacje o polach golfowych Kraju Basków: opis, usługi, pojemność, liczba otworów, dostęp itp.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Hoteller i nærheden af Euskadi Golf Courses</dct:title>
+        <dct:description xml:lang="eu">Euskadiko golf-zelaiei buruzko informazioa: deskribapena, zerbitzuak, edukiera, zulo-kopurua, sarbidea, etab.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2010-03-25T00:00:00+01:00</dct:issued>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/como-utilizar-datos/"/>
+        <dct:description xml:lang="et-t-es-t0-mtec">Teave Baskimaa golfiväljakute kohta: kirjeldus, teenused, mahutavus, aukude arv, juurdepääs jne.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/x65-15332/es/"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8bb84e87-6e6f-4962-b3de-787d3e4684dd">
+            <dct:title xml:lang="eu">Golf-zelaiak</dct:title>
+            <dcat:mediaType>application/api</dcat:mediaType>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/webopd00-resbus/es?r01kQry=tT%3Ai_deportes%3Bm%3AsportType.EQ.1003%2CdocumentLanguage.EQ.es%3Bp%3AInter_portal%2CInter%3B"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/resource/7f269a58-2a1d-4c5a-a713-61ef551f1260</dct:identifier>
+            <dct:title xml:lang="es">Campos de golf</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dcat:keyword xml:lang="es">eventos deportivos</dcat:keyword>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Golfové ihriská Euskadi</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Euskadi pól golfowych</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Golfové hřiště Euskadi</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πληροφορίες για τα γήπεδα γκολφ της Χώρας των Βάσκων: περιγραφή, υπηρεσίες, χωρητικότητα, αριθμός οπών, πρόσβαση, κ.λπ.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tietoa Baskimaan golfkentistä: kuvaus, palvelut, kapasiteetti, reikien määrä, pääsy jne.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Euskadi golfpályák</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/12d1e511-b441-46b9-a716-f6534fa7b87c">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campos_golf_euskadi/opendata/campos-golf.geojson"/>
+            <dct:title xml:lang="eu">Golf-zelaiak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >16763</dcat:byteSize>
+            <dct:title xml:lang="es">Campos de golf</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/resource/bea34d7d-0414-4a5e-833f-53acc4942a08</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">deporte</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/00e41cfd-55fc-4363-80cc-eae32c454605">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/resource/5e4733d8-9354-4ff0-9cb1-846e2708aed1</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dcat:accessURL rdf:resource="http://turismo.euskadi.net/x65-15809/es/s12GoogleMapsWar/gMapsJSP/VisorGMapsNP.jsp?lang=es"/>
+            <dct:title xml:lang="es">Aeropuertos</dct:title>
+            <dct:title xml:lang="eu">Aireportuak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">golfa</dcat:keyword>
+        <dct:description xml:lang="da-t-es-t0-mtec">Oplysninger om Baskerlandets golfbaner: beskrivelse, tjenester, kapacitet, antal huller, adgang osv.</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations sur les terrains de golf du Pays Basque: description, services, capacité, nombre de trous, accès, etc.</dct:description>
+        <dct:title xml:lang="es">Campos de golf de Euskadi</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Hotels in der Nähe von Euskadi Golf Courses</dct:title>
+        <dcat:keyword xml:lang="eu">Kirol-instalazioak</dcat:keyword>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni dwar il-korsijiet tal-golf tal-Pajjiż Bask: deskrizzjoni, servizzi, kapaċità, numru ta’ toqob, aċċess, eċċ.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Informace o golfových hřištích Baskicka: popis, služby, kapacita, počet otvorů, přístup atd.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9ff4af60-2fc9-4e9d-a40f-83d08dc5c431">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="http://www.euskadi.net/r01hSearchResultWar/r01hPresentationRSS.jsp?r01kLang=es&amp;r01kQry=tT%3Ai_deportes%3Bm%3AsportType.EQ.1003%2CdocumentLanguage.EQ.es%3Bp%3AInter_portal%2CInter%3Bpp%3Ar01NavBarBlockSize.10%2Cr01PageSize.100"/>
+            <dct:title xml:lang="es">Campos de golf</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/resource/0282edb4-127f-45b7-981b-d016c7fbc1f2</dct:identifier>
+            <dct:title xml:lang="eu">Golf zelaiak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/220ea0cb-4f5a-4f20-81b3-195df6fd7880">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campos_golf_euskadi/opendata/campos-golf.xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Golf-zelaiak</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/resource/1779ca96-fdda-48c2-9488-6b0b45f8a75f</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >17613</dcat:byteSize>
+            <dct:title xml:lang="es">Campos de golf</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Eolas faoi chúrsaí gailf Thír na mBascach: cur síos, seirbhísí, toilleadh, líon na bpoll, rochtain, etc.</dct:description>
+        <dcat:keyword xml:lang="eu">kirol-jarduerak</dcat:keyword>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Activiteiten in de omgeving van Euskadi Golf Courses</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Euskadi golfa laukumi</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Information about the golf courses of the Basque Country: description, services, capacity, number of holes, access, etc.</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Informacija apie Baskų krašto golfo aikštynus: aprašymas, paslaugos, talpa, skylių skaičius, prieiga ir kt.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Golf tereni Euskadi</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A16003011">
+            <foaf:name>Comunidad Autónoma de País Vasco</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="es">golf</dcat:keyword>
+        <dcat:keyword xml:lang="eu">golf</dcat:keyword>
+        <dcat:keyword xml:lang="es">instalaciones deportivas</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/37769042-06a8-4acc-bf74-4a57b7a983e5">
+            <dcat:mediaType>application/javascript</dcat:mediaType>
+            <dct:title xml:lang="eu">Golf-zelaiak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >22262</dcat:byteSize>
+            <dct:title xml:lang="es">Campos de golf</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/resource/be7b711e-442e-40f2-bd30-cee4d3ed7ef3</dct:identifier>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campos_golf_euskadi/opendata/campos-golf.jsonp"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Голф игрища Euskadi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/39123cf2-c012-4148-a8ea-7ff835bee0ac">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campos_golf_euskadi/opendata/campos-golf-padding.geojson"/>
+            <dct:title xml:lang="eu">Golf-zelaiak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/resource/4ec9d362-22e8-439f-a8bd-4e45a51f8327</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >16773</dcat:byteSize>
+            <dct:title xml:lang="es">Campos de golf</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Informācija par Basku zemes golfa laukumiem: apraksts, pakalpojumi, jauda, caurumu skaits, piekļuve utt.</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Informatie over de golfbanen van Baskenland: beschrijving, diensten, capaciteit, aantal gaten, toegang, enz.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Információk a Baszkföld golfpályáiról: leírás, szolgáltatások, kapacitás, lyukak száma, hozzáférés stb.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-23T00:00:00+02:00</dct:modified>
+        <dct:title xml:lang="et-t-es-t0-mtec">Euskadi golfiväljakud</dct:title>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/DurationDescription">
+                <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:weeks>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Informacije o igrišču za golf v Baskiji: opis, storitve, zmogljivost, število lukenj, dostop itd.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații despre terenurile de golf din Țara Bascilor: descriere, servicii, capacitate, număr de găuri, acces etc.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Euskadi campi da golf</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Hotell nära Euskadi Golf Courses</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f9bd18fe-6aff-4a7e-b8c2-6b0bb9e8b3bd">
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campos_golf_euskadi/opendata/campos-golf.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/resource/42dfe215-e59b-42eb-8690-68715e3b4581</dct:identifier>
+            <dct:title xml:lang="eu">Golf-zelaiak</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >22221</dcat:byteSize>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Campos de golf</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/37a9bd53-f596-45cc-9da9-b32c4cacb5d5">
+            <dct:identifier>https://datos.gob.es/catalogo/a16003011-campos-de-golf-de-euskadi/resource/e800bf66-6851-426a-91d6-c901b88c061a</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >8878</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://opendata.euskadi.eus/contenidos/ds_recursos_turisticos/campos_golf_euskadi/opendata/campos-golf.xlsx"/>
+            <dct:title xml:lang="eu">Golf-zelaiak</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Campos de golf</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Gailfchúrsaí Euskadi</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Informacije o golf igralištima Baskije: opis, usluge, kapacitet, broj rupa, pristup itd.</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Інформація про поля для гольфу країни Басків: опис, послуги, місткість, кількість отворів, доступ і т.д.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações sobre os campos de golfe do País Basco: descrição, serviços, capacidade, número de furos, acesso, etc.</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Campos de Golfe Euskadi</dct:title>
+        <dct:isReferencedBy rdf:resource="https://opendata.euskadi.eus/catalogo/-/campos-de-golf-de-euskadi/"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:31:36Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>2540115507f6e94c09572aea8ba931fe</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

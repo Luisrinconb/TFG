@@ -1,0 +1,161 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-icane-es-dataset-4a92c640-6529-4161-8c9e-94f1376df62d">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-05T23:33:22Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>a869c05ce7b8396f291196e964fccdd1</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-06-05T23:33:22Z</edp:transIssued>
+    <dct:identifier>https://datos.icane.es/dataset/4a92c640-6529-4161-8c9e-94f1376df62d</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:32:59Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-icane-es-dataset-4a92c640-6529-4161-8c9e-94f1376df62d"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-icane-es-dataset-4a92c640-6529-4161-8c9e-94f1376df62d">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0ff4de40-bae1-462d-99ff-1d7392dfa7e1">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-numero.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/c469fc0a-770c-4c1c-bf24-f76f23d6197f</dct:identifier>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Número de filiales de empresas extranjeras</dct:title>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6418f75c-15e3-4093-9378-fb2387a9bb9f">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-numero.excel"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/3934be8e-7072-4205-89f9-b5f4f16552db</dct:identifier>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Número de filiales de empresas extranjeras</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cc7ba558-5fe1-48a7-a92b-7f379f75ad3c">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-principales-variables-ccaa.sdmx"/>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Principales variables</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/53441e0e-b4b4-4f17-b54d-f1a2389d8e04</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/43db6607-994d-4769-b260-aa261dafdabb">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/filiales-empresas-extranjeras-principales-variables-ccaa#timeseries"/>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Principales variables</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/6d259b6b-4ae5-4f10-8584-1b4090ddbfca</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/95c49062-14c6-4f03-bb43-8cdb9c9ab2ad">
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Principales variables</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-principales-variables-ccaa.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/9fb20e2a-e3f4-4c6b-8146-2dc477ec47e3</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Extranjeras</dcat:keyword>
+        <dcat:keyword xml:lang="es">Estadística</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dcat:keyword xml:lang="es">Empresas y Establecimientos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3b6638d5-7ef2-4b6c-91cc-2ba248f63459">
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Principales variables</dct:title>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-principales-variables-ccaa.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/3aa6b671-255a-4e10-86e8-1bfb21c483ae</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9f56c7df-c448-4a9c-b26e-9f1b4ed780e2">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-principales-variables-ccaa.rdf"/>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Principales variables</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/29a1a36b-e807-49e3-8b19-71496ad939f2</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A06004074">
+            <foaf:name>Instituto Cántabro de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="es">España</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/05fb9c43-0d52-421a-aaf2-7c63472460b4">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/cf29bb68-afae-4760-9b5c-6f13e14e236c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/filiales-empresas-extranjeras-numero#timeseries"/>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Número de filiales de empresas extranjeras</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España</dct:title>
+        <dcat:keyword xml:lang="es">Filiales</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e1644e78-9f83-4ea1-95fb-fe13effb2977">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-numero.sdmx"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/f15c691a-e79d-4b68-91b8-b1e4fe2b0988</dct:identifier>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Número de filiales de empresas extranjeras</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/18710385-160b-48b6-a098-9c1f58f73b2a">
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-numero.pc-axis"/>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/f4873be1-8547-4007-aaa2-6023d68b8b44</dct:identifier>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Número de filiales de empresas extranjeras</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Empresas</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b589688a-aa0d-4775-899a-bcd3f506f4ba">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-principales-variables-ccaa.excel"/>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Principales variables</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/678edc6d-a32b-4bf9-a27d-1a4585ebf34e</dct:identifier>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datos.icane.es/dataset/4a92c640-6529-4161-8c9e-94f1376df62d</dct:identifier>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-31T16:32:57+02:00</dct:modified>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-10T12:51:37+02:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a3984c2a-2a30-4fc9-9c09-8821c2ab37cd">
+            <dcat:accessURL rdf:resource="https://www.icane.es/data/api/filiales-empresas-extranjeras-numero.rdf"/>
+            <dct:title xml:lang="es">Estadística de filiales de empresas extranjeras en España » Número de filiales de empresas extranjeras</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a06004074-estadistica-de-filiales-de-empresas-extranjeras-en-espana2/resource/2bd611e9-d47e-46a1-8e97-144c841f7d5a</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:license rdf:resource="https://www.icane.es/footer/legal-advisory"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Estadística de filiales de empresas extranjeras en España</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+  </dcat:CatalogRecord>
+</rdf:RDF>

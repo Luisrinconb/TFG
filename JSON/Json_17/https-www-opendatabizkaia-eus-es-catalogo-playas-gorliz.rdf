@@ -1,0 +1,598 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-www-opendatabizkaia-eus-es-catalogo-playas-gorliz">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-www-opendatabizkaia-eus-es-catalogo-playas-gorliz"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:40:15Z</dct:issued>
+    <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/playas-gorliz</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-www-opendatabizkaia-eus-es-catalogo-playas-gorliz">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/23a4e398-71dd-44c4-95ae-247439112adb">
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz (2014-2018)</dct:title>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz (2014-2018)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fcc026c-1903-44fd-a4d1-429e94ee8136/asistencia-personas-usuarias-gorliz-2014-2018?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/da6943c2-9322-4ece-96b2-7195eecc5dc4</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e06012bf-60c3-4327-b855-f24e583d79b4">
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ac803def-b87c-40a5-bc60-981954d4d561/asistencia-personas-usuarias-gorliz?format=json"/>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/cf4e512f-5ecb-4dd7-9bd1-f6384993a2b1</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Temperatura</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ef28499b-e5df-4a1b-a75b-32182a034669">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fcc026c-1903-44fd-a4d1-429e94ee8136/asistencia-personas-usuarias-gorliz-2014-2018?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/26487698-1682-4766-9437-e46ef88d3b19</dct:identifier>
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz (2014-2018)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz (2014-2018)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/148f1b6b-f1d9-40a1-9eb0-8a287913a75f">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Bandera - Gorliz (2019-2021)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/bb7a374b-8344-4c94-85c7-570d5b6c2f79</dct:identifier>
+            <dct:title xml:lang="es">Banderas - Gorliz (2019-2021)</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca7eff37-147a-4604-8fab-5d4121ff3324/banderas-gorliz-2019-2021?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/24f67e1a-33fe-467d-86fd-b815c3625b40">
+            <dct:title xml:lang="es">Tiempo - Gorliz (2022-2023)</dct:title>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2022-2023)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/acc4b3e7-5985-4f39-ad8b-8824cd8d638a</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/23a8c7ed-d9cb-41f9-9134-da1eda4a1f92/tiempo-gorliz-2022-2023?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3329c221-83af-4cc3-b453-b8d6f3d75b45">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/0665a325-092a-41b5-a269-292d82a45371</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Bandera - Gorliz (2019-2021)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Banderas - Gorliz (2019-2021)</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca7eff37-147a-4604-8fab-5d4121ff3324/banderas-gorliz-2019-2021?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3cccaee9-8e60-4e87-8f8b-86ac469bb624">
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz</dct:title>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5fe0c6bd-8038-460f-ac7b-ce512056512b/equipamientos-servicios-gorliz?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/5ad58ba7-2d76-43ba-90cf-e8de78444005</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f25cd855-d2d7-406f-9815-675aaab1aec9">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/44ba0b99-fd5a-4aa6-985a-d566ba344ef3</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/23a8c7ed-d9cb-41f9-9134-da1eda4a1f92/tiempo-gorliz-2022-2023?format=xml"/>
+            <dct:title xml:lang="es">Tiempo - Gorliz (2022-2023)</dct:title>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2022-2023)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Socorristas</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e977cff7-a3f7-4b12-8556-38735d33dc9c">
+            <dcat:accessURL rdf:resource="http://appsec.aldundia.bfa/HKDE000M/rest/situacion/43"/>
+            <dct:title xml:lang="es">Estado de las playas en tiempo real - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Hondartzen egoera denbora errealean - Gorliz</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/41cc6725-317c-41b6-8661-24774c7b6018</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0fbf866a-a94f-410d-ab27-52dd0cedc51d">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ac803def-b87c-40a5-bc60-981954d4d561/asistencia-personas-usuarias-gorliz?format=xlsx"/>
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/9df92229-6ad6-490a-bb48-0c27e7f32d70</dct:identifier>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/29358a34-6537-40c3-9b08-54a6f2698e79">
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/40424467-ae1e-401e-9c6d-a2bafe4fd113</dct:identifier>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5fe0c6bd-8038-460f-ac7b-ce512056512b/equipamientos-servicios-gorliz?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cc6d19a4-4bc8-4b7c-823d-a5e82d275bff">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/e7a05419-52cd-4448-8994-30ba4ca73d94</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5fe0c6bd-8038-460f-ac7b-ce512056512b/equipamientos-servicios-gorliz?format=tsv"/>
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a0626152-5f54-44a5-b874-5f0ecbb6aa0c">
+            <dct:title xml:lang="es">Tiempo - Gorliz (2022-2023)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/820e8a8c-b346-4c15-bfb5-1b2ab62f7f9f</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/23a8c7ed-d9cb-41f9-9134-da1eda4a1f92/tiempo-gorliz-2022-2023?format=csv"/>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2022-2023)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0c57ecce-25e2-4d4d-984f-e1b3ecc87385">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/f7d25844-8334-4a58-85b9-b54844a11c7c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ac803def-b87c-40a5-bc60-981954d4d561/asistencia-personas-usuarias-gorliz?format=tsv"/>
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz</dct:title>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/336b1b16-36ba-4423-891e-fdab3e18cacc">
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz (2014-2018)</dct:title>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz (2014-2018)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/8cedc46a-3c85-45f9-9724-f26346601046</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fcc026c-1903-44fd-a4d1-429e94ee8136/asistencia-personas-usuarias-gorliz-2014-2018?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/790c5516-723f-48fa-8f71-66b3bcbf34e5">
+            <dct:title xml:lang="eu">Sorosleen laguntzak - Gorliz</dct:title>
+            <dct:title xml:lang="es">Asistencias de socorristas - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/a61d9de2-bd72-4498-bfcb-b265f348389d</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b594dd60-6eb8-4d7e-8e0c-a853e117f4b4/asistencias-socorristas-gorliz?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4d938a24-556e-49cb-96dc-cda16e6ea325">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/32ea8916-d759-4c5b-9738-84381583d6b9</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Tiempo - Gorliz (2019-2021)</dct:title>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2019-2021)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/441e2f73-0500-4a9c-814e-4698026c0d1b/tiempo-gorliz-2019-2021?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Información sobre las playas de este municipio.</dct:description>
+        <dcat:keyword xml:lang="es">Agua</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Haizea</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b2a08fcf-1969-4e0c-8b72-4f358b371856">
+            <dct:title xml:lang="es">Tiempo - Gorliz (2022-2023)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/59b12f1b-2054-4fe7-a82b-04e37287933c</dct:identifier>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2022-2023)</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/23a8c7ed-d9cb-41f9-9134-da1eda4a1f92/tiempo-gorliz-2022-2023?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/51054bba-2b2a-47c8-89e0-7e2e9a9e4d63">
+            <dct:title xml:lang="es">Estado de las playas - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/71a9e2e5-74f5-436e-b65b-75848be59751</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Hondartzen egoera - Gorliz</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a4aeb547-b463-4242-b6ef-e4a71c13eb3b/estado-playas-gorliz?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Oleaje</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Olatuak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/da34eca4-991f-4950-869d-6c29163fbd8a">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a4aeb547-b463-4242-b6ef-e4a71c13eb3b/estado-playas-gorliz?format=json"/>
+            <dct:title xml:lang="es">Estado de las playas - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/0a6a1dc2-1ce5-4b88-b96c-4005fb2fbadc</dct:identifier>
+            <dct:title xml:lang="eu">Hondartzen egoera - Gorliz</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Mareak</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Aparkalekuak</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="es">Playas - Gorliz</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/74ac0694-db35-4fa8-9496-e1703f52996a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Bandera - Gorliz (2019-2021)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Banderas - Gorliz (2019-2021)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/7cc183b2-dd69-405b-9ffd-e675b6db3e1b</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca7eff37-147a-4604-8fab-5d4121ff3324/banderas-gorliz-2019-2021?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Aparcamientos</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Sorosleak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/980e01a1-5716-4888-be7a-961276d6b38e">
+            <dct:title xml:lang="es">Tiempo - Gorliz (2022-2023)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/f9ef3581-6f55-44fb-9e9b-ef26389cc873</dct:identifier>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2022-2023)</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/23a8c7ed-d9cb-41f9-9134-da1eda4a1f92/tiempo-gorliz-2022-2023?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Hondartzainas</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6cf75bce-bd21-468f-9e1f-e4045cd292cf">
+            <dct:title xml:lang="eu">Sorosleen laguntzak - Gorliz</dct:title>
+            <dct:title xml:lang="es">Asistencias de socorristas - Gorliz</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/8cfe8376-be04-4e57-895a-56dfedffbb49</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b594dd60-6eb8-4d7e-8e0c-a853e117f4b4/asistencias-socorristas-gorliz?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6396cacb-66d6-4f2f-8279-15aed566ca72">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Hondartzen egoera - Gorliz</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/c8e10712-d7f5-407b-8002-be9ad7455d09</dct:identifier>
+            <dct:title xml:lang="es">Estado de las playas - Gorliz</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a4aeb547-b463-4242-b6ef-e4a71c13eb3b/estado-playas-gorliz?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Ura</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/53b23633-cdeb-4c23-b521-07c58831b57a">
+            <dct:title xml:lang="es">Estado de las playas - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Hondartzen egoera - Gorliz</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/31df2bb0-da46-4b15-8a5d-2d9ddd5758bd</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a4aeb547-b463-4242-b6ef-e4a71c13eb3b/estado-playas-gorliz?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/63dd45b0-02e6-4f4e-9768-2e221cf954a0">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2019-2021)</dct:title>
+            <dct:title xml:lang="es">Tiempo - Gorliz (2019-2021)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/34c67d3c-cbc3-4754-90ad-a68d3e0b4344</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/441e2f73-0500-4a9c-814e-4698026c0d1b/tiempo-gorliz-2019-2021?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-15T00:00:00+02:00</dct:modified>
+        <dcat:keyword xml:lang="es">Mareas</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0043c7e5-4ffb-446f-a47e-8599a1908b7a">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/ef1c0f3f-361b-483e-87a1-413a2fd31728</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ac803def-b87c-40a5-bc60-981954d4d561/asistencia-personas-usuarias-gorliz?format=csv"/>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/23901347-2f82-4dae-8571-24b677d1e661">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/e6c66b77-a354-4ba0-b005-9c217ef2931c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Hondartzen egoera - Gorliz</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a4aeb547-b463-4242-b6ef-e4a71c13eb3b/estado-playas-gorliz?format=tsv"/>
+            <dct:title xml:lang="es">Estado de las playas - Gorliz</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048">
+            <foaf:name>Diputación Foral de Bizkaia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="eu">Bandera</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3a03aa13-7515-49d5-9fb3-8c9099ba8e62">
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz (2014-2018)</dct:title>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz (2014-2018)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fcc026c-1903-44fd-a4d1-429e94ee8136/asistencia-personas-usuarias-gorliz-2014-2018?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/bfd6fa33-06d2-4c88-b4b0-78286dd511d3</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Bandera</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d478bb48-d953-4c51-b9ce-dfa4e33e0151">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/91ee5e62-9811-45d0-8b98-8c4337acd46c</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca7eff37-147a-4604-8fab-5d4121ff3324/banderas-gorliz-2019-2021?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Bandera - Gorliz (2019-2021)</dct:title>
+            <dct:title xml:lang="es">Banderas - Gorliz (2019-2021)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a0a4f668-e243-4901-a496-82811ee8e2c0">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/53d9ad9e-0d5a-4804-9630-fcb01ce5c2b2</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz 2023</dct:title>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/374a91fa-e9e6-496c-a643-0c14bad6caee/equipamientos-servicios-gorliz-2023?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Baño</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-06-20T00:00:00+02:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5b3bf0ce-7e6f-431a-9266-003e38604c26">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/876febfc-1f63-48ab-8db4-92bb9c105045</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Tiempo - Gorliz (2019-2021)</dct:title>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2019-2021)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/441e2f73-0500-4a9c-814e-4698026c0d1b/tiempo-gorliz-2019-2021?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0cf1b412-b434-4c99-8e86-570faa536d8a">
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz (2014-2018)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/5d32c18b-7df9-498b-837f-d425d22be134</dct:identifier>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz (2014-2018)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fcc026c-1903-44fd-a4d1-429e94ee8136/asistencia-personas-usuarias-gorliz-2014-2018?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bf47cd2b-b5bd-413b-82aa-133dc78d4a9f">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5fe0c6bd-8038-460f-ac7b-ce512056512b/equipamientos-servicios-gorliz?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/4d170700-af3c-4b15-8644-2a1284ac5f7a</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz</dct:title>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4cdcb8ff-b9ab-4f12-a34e-c396af7a0ff9">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/ef13b255-24e6-43f6-9d71-92915fc81e78</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2019-2021)</dct:title>
+            <dct:title xml:lang="es">Tiempo - Gorliz (2019-2021)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/441e2f73-0500-4a9c-814e-4698026c0d1b/tiempo-gorliz-2019-2021?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/15341318-f125-4aa1-bad7-cfa6d8c3143f">
+            <dct:title xml:lang="eu">Bandera - Gorliz 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca5e4fe0-ad65-4c3a-88b5-91afaeb1f2cd/banderas-gorliz-2022?format=tsv"/>
+            <dct:title xml:lang="es">Banderas - Gorliz 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/2cbaed44-bf39-479f-917c-e9a80431e5ac</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="eu">Udalerri honetako hondartzei buruzko informazioa.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4484c183-d03c-46b4-8581-a067033f2008">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/72c68c0d-19c9-4c91-8bc1-44109032fd53</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Bandera - Gorliz (2019-2021)</dct:title>
+            <dct:title xml:lang="es">Banderas - Gorliz (2019-2021)</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca7eff37-147a-4604-8fab-5d4121ff3324/banderas-gorliz-2019-2021?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/51a8c3d6-be34-44fb-977f-1327869f36ef">
+            <dct:title xml:lang="eu">Bandera - Gorliz 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/e3e351ef-8e3d-4149-9c3c-89177553d494</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca5e4fe0-ad65-4c3a-88b5-91afaeb1f2cd/banderas-gorliz-2022?format=json"/>
+            <dct:title xml:lang="es">Banderas - Gorliz 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Vigilancia</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Hondartzainak</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Zaintza</dcat:keyword>
+        <dct:title xml:lang="eu">Hondartzak - Gorliz</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8f0210a3-38d5-429d-bff3-dc8d303a28c3">
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/0efe2f7e-8b8f-4fbf-a3bc-4472faa3a90e</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/374a91fa-e9e6-496c-a643-0c14bad6caee/equipamientos-servicios-gorliz-2023?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l02000048-playas-gorliz/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l02000048-playas-gorliz/DurationDescription">
+                <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:years>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/91152791-2326-4f40-b817-c0e25aef61d2">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b594dd60-6eb8-4d7e-8e0c-a853e117f4b4/asistencias-socorristas-gorliz?format=xml"/>
+            <dct:title xml:lang="es">Asistencias de socorristas - Gorliz</dct:title>
+            <dct:title xml:lang="eu">Sorosleen laguntzak - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/e140d1d1-b01b-4dde-a4d3-56a86b4b4db2</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/playas-gorliz</dct:identifier>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dcat:keyword xml:lang="es">Viento</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Tenperatura</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f27675d3-8cfb-46fc-8778-75353238ad89">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/9b80ad33-dad3-4c5f-b6e6-99456d6ec9d8</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/374a91fa-e9e6-496c-a643-0c14bad6caee/equipamientos-servicios-gorliz-2023?format=json"/>
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz 2023</dct:title>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/070cecce-0b0d-4b21-809f-fcb114761c19">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/6c241aed-0fa6-484f-a8e1-b862b5468abd</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ac803def-b87c-40a5-bc60-981954d4d561/asistencia-personas-usuarias-gorliz?format=xml"/>
+            <dct:title xml:lang="eu">Erabiltzaileen asistentzia - Gorliz</dct:title>
+            <dct:title xml:lang="es">Asistencia de personas usuarias - Gorliz</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/catalogo/playas-gorliz"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9d73587a-b01a-415a-8c93-879174a23ee8">
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz 2023</dct:title>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/9e70af97-45bf-47e8-89a3-444598bacce3</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/374a91fa-e9e6-496c-a643-0c14bad6caee/equipamientos-servicios-gorliz-2023?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9b899b26-20cb-46a9-bb72-a23dd96819e7">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/4b422e88-898e-4781-ba8c-8df2cc200b7b</dct:identifier>
+            <dct:title xml:lang="es">Asistencias de socorristas - Gorliz</dct:title>
+            <dct:title xml:lang="eu">Sorosleen laguntzak - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b594dd60-6eb8-4d7e-8e0c-a853e117f4b4/asistencias-socorristas-gorliz?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/72ca0c68-fd4e-4a65-b236-20480809eb4e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/08ee2880-e87d-4c02-99c5-c14b32e01ed8</dct:identifier>
+            <dct:title xml:lang="es">Tiempo - Gorliz (2019-2021)</dct:title>
+            <dct:title xml:lang="eu">Eguraldia - Gorliz (2019-2021)</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/441e2f73-0500-4a9c-814e-4698026c0d1b/tiempo-gorliz-2019-2021?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3ed06774-b9bb-41be-bc67-ddf371cbfd9d">
+            <dct:title xml:lang="eu">Bandera - Gorliz 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Banderas - Gorliz 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca5e4fe0-ad65-4c3a-88b5-91afaeb1f2cd/banderas-gorliz-2022?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/0cff0b2c-f11f-4ea3-90e0-bdd818b160b3</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/619a6c70-9b2e-455f-b70b-5b0db3d40553">
+            <dct:title xml:lang="es">Asistencias de socorristas - Gorliz</dct:title>
+            <dct:title xml:lang="eu">Sorosleen laguntzak - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/a8702807-8ef9-4968-aaa4-b429094fc044</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b594dd60-6eb8-4d7e-8e0c-a853e117f4b4/asistencias-socorristas-gorliz?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1cb8613f-bb21-492e-8be4-8993c23e6dec">
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz</dct:title>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5fe0c6bd-8038-460f-ac7b-ce512056512b/equipamientos-servicios-gorliz?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/ecdabda4-749a-4db0-915f-21f644338f95</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4cf27746-1d22-4375-95bb-bbcd4075a1b4">
+            <dct:title xml:lang="eu">Bandera - Gorliz 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Banderas - Gorliz 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca5e4fe0-ad65-4c3a-88b5-91afaeb1f2cd/banderas-gorliz-2022?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/dcb24e28-90d1-4893-bab6-9723a8e2d77b</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/09d4b942-fbdf-46e3-9165-1b019b821ad1">
+            <dct:title xml:lang="eu">Bandera - Gorliz 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/50e8385a-a573-4b8c-ba52-d0abd214fc5e</dct:identifier>
+            <dct:title xml:lang="es">Banderas - Gorliz 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca5e4fe0-ad65-4c3a-88b5-91afaeb1f2cd/banderas-gorliz-2022?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Bainua</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c7f86f0f-cd35-412d-812d-52f8e8adb60a">
+            <dct:title xml:lang="eu">Ekipamenduak eta zerbitzuak - Gorliz 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Equipamientos y servicios - Gorliz 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/374a91fa-e9e6-496c-a643-0c14bad6caee/equipamientos-servicios-gorliz-2023?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-playas-gorliz/resource/a14734c1-017c-466c-a133-df4317b01f53</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:40:22Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>d275abeb02e5b2dbb4469615e9798f5c</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:40:22Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="http://data.europa.eu/r5r/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/">
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1"/>
+    <dct:identifier>json_75293647</dct:identifier>
+    <dcat:keyword>oficinas</dcat:keyword>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dcat:contactPoint rdf:resource="https://datos.gob.es/es/catalogo"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:publisher rdf:resource="https://datos.gob.es/es/catalogo"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-18T20:08:31.590236</dct:issued>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/"/>
+    <dct:description>Lista de oficinas municipales de atención a la ciudadanía en Málaga con información sobre sus servicios.</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-22 13:36:17.828559</dct:modified>
+    <dct:spatial rdf:resource="https://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:title>Oficinas Municipales Málaga</dct:title>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1">
+    <ns1:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+    <dct:title>Oficinas Municipales Málaga</dct:title>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9544</dcat:byteSize>
+    <dcat:downloadURL rdf:resource="https://datos.gob.es"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dct:issued>
+    <dct:description>Lista de oficinas municipales de atención a la ciudadanía en Málaga con información sobre sus servicios.</dct:description>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-22 13:36:17.828559</dct:modified>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+    <dcat:Distribution rdf:resource="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1"/>
+    <dcat:accessURL rdf:resource="https://datos.gob.es"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://datos.gob.es/es/catalogo">
+    <foaf:name>http://data.europa.eu/88u/dataset/</foaf:name>
+    <vcard:fn>Negociado de Registro General (Secretaría General)</vcard:fn>
+    <dct:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.iana.org/assignments/media-types/application/ld+json">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaType"/>
+  </rdf:Description>
+</rdf:RDF>

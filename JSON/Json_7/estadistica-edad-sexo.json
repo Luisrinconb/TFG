@@ -1,0 +1,542 @@
+[
+  {
+    "edad": 0,
+    "hombres": 450,
+    "mujeres": 409
+  },
+  {
+    "edad": 1,
+    "hombres": 470,
+    "mujeres": 469
+  },
+  {
+    "edad": 2,
+    "hombres": 526,
+    "mujeres": 476
+  },
+  {
+    "edad": 3,
+    "hombres": 480,
+    "mujeres": 443
+  },
+  {
+    "edad": 4,
+    "hombres": 508,
+    "mujeres": 491
+  },
+  {
+    "edad": 5,
+    "hombres": 541,
+    "mujeres": 502
+  },
+  {
+    "edad": 6,
+    "hombres": 551,
+    "mujeres": 471
+  },
+  {
+    "edad": 7,
+    "hombres": 577,
+    "mujeres": 550
+  },
+  {
+    "edad": 8,
+    "hombres": 633,
+    "mujeres": 518
+  },
+  {
+    "edad": 9,
+    "hombres": 638,
+    "mujeres": 588
+  },
+  {
+    "edad": 10,
+    "hombres": 617,
+    "mujeres": 613
+  },
+  {
+    "edad": 11,
+    "hombres": 589,
+    "mujeres": 619
+  },
+  {
+    "edad": 12,
+    "hombres": 657,
+    "mujeres": 620
+  },
+  {
+    "edad": 13,
+    "hombres": 616,
+    "mujeres": 570
+  },
+  {
+    "edad": 14,
+    "hombres": 647,
+    "mujeres": 542
+  },
+  {
+    "edad": 15,
+    "hombres": 654,
+    "mujeres": 612
+  },
+  {
+    "edad": 16,
+    "hombres": 644,
+    "mujeres": 568
+  },
+  {
+    "edad": 17,
+    "hombres": 640,
+    "mujeres": 544
+  },
+  {
+    "edad": 18,
+    "hombres": 622,
+    "mujeres": 549
+  },
+  {
+    "edad": 19,
+    "hombres": 658,
+    "mujeres": 556
+  },
+  {
+    "edad": 20,
+    "hombres": 632,
+    "mujeres": 538
+  },
+  {
+    "edad": 21,
+    "hombres": 723,
+    "mujeres": 597
+  },
+  {
+    "edad": 22,
+    "hombres": 642,
+    "mujeres": 600
+  },
+  {
+    "edad": 23,
+    "hombres": 698,
+    "mujeres": 587
+  },
+  {
+    "edad": 24,
+    "hombres": 724,
+    "mujeres": 567
+  },
+  {
+    "edad": 25,
+    "hombres": 706,
+    "mujeres": 600
+  },
+  {
+    "edad": 26,
+    "hombres": 648,
+    "mujeres": 573
+  },
+  {
+    "edad": 27,
+    "hombres": 635,
+    "mujeres": 595
+  },
+  {
+    "edad": 28,
+    "hombres": 624,
+    "mujeres": 580
+  },
+  {
+    "edad": 29,
+    "hombres": 646,
+    "mujeres": 563
+  },
+  {
+    "edad": 30,
+    "hombres": 672,
+    "mujeres": 565
+  },
+  {
+    "edad": 31,
+    "hombres": 645,
+    "mujeres": 641
+  },
+  {
+    "edad": 32,
+    "hombres": 652,
+    "mujeres": 613
+  },
+  {
+    "edad": 33,
+    "hombres": 650,
+    "mujeres": 644
+  },
+  {
+    "edad": 34,
+    "hombres": 662,
+    "mujeres": 624
+  },
+  {
+    "edad": 35,
+    "hombres": 628,
+    "mujeres": 606
+  },
+  {
+    "edad": 36,
+    "hombres": 648,
+    "mujeres": 636
+  },
+  {
+    "edad": 37,
+    "hombres": 645,
+    "mujeres": 641
+  },
+  {
+    "edad": 38,
+    "hombres": 637,
+    "mujeres": 655
+  },
+  {
+    "edad": 39,
+    "hombres": 665,
+    "mujeres": 620
+  },
+  {
+    "edad": 40,
+    "hombres": 708,
+    "mujeres": 665
+  },
+  {
+    "edad": 41,
+    "hombres": 791,
+    "mujeres": 730
+  },
+  {
+    "edad": 42,
+    "hombres": 828,
+    "mujeres": 756
+  },
+  {
+    "edad": 43,
+    "hombres": 944,
+    "mujeres": 746
+  },
+  {
+    "edad": 44,
+    "hombres": 930,
+    "mujeres": 786
+  },
+  {
+    "edad": 45,
+    "hombres": 892,
+    "mujeres": 815
+  },
+  {
+    "edad": 46,
+    "hombres": 853,
+    "mujeres": 805
+  },
+  {
+    "edad": 47,
+    "hombres": 995,
+    "mujeres": 786
+  },
+  {
+    "edad": 48,
+    "hombres": 928,
+    "mujeres": 767
+  },
+  {
+    "edad": 49,
+    "hombres": 980,
+    "mujeres": 778
+  },
+  {
+    "edad": 50,
+    "hombres": 820,
+    "mujeres": 738
+  },
+  {
+    "edad": 51,
+    "hombres": 817,
+    "mujeres": 708
+  },
+  {
+    "edad": 52,
+    "hombres": 754,
+    "mujeres": 744
+  },
+  {
+    "edad": 53,
+    "hombres": 767,
+    "mujeres": 719
+  },
+  {
+    "edad": 54,
+    "hombres": 744,
+    "mujeres": 706
+  },
+  {
+    "edad": 55,
+    "hombres": 708,
+    "mujeres": 676
+  },
+  {
+    "edad": 56,
+    "hombres": 705,
+    "mujeres": 657
+  },
+  {
+    "edad": 57,
+    "hombres": 746,
+    "mujeres": 684
+  },
+  {
+    "edad": 58,
+    "hombres": 658,
+    "mujeres": 621
+  },
+  {
+    "edad": 59,
+    "hombres": 615,
+    "mujeres": 652
+  },
+  {
+    "edad": 60,
+    "hombres": 653,
+    "mujeres": 658
+  },
+  {
+    "edad": 61,
+    "hombres": 558,
+    "mujeres": 580
+  },
+  {
+    "edad": 62,
+    "hombres": 547,
+    "mujeres": 559
+  },
+  {
+    "edad": 63,
+    "hombres": 519,
+    "mujeres": 527
+  },
+  {
+    "edad": 64,
+    "hombres": 499,
+    "mujeres": 527
+  },
+  {
+    "edad": 65,
+    "hombres": 478,
+    "mujeres": 478
+  },
+  {
+    "edad": 66,
+    "hombres": 456,
+    "mujeres": 484
+  },
+  {
+    "edad": 67,
+    "hombres": 417,
+    "mujeres": 446
+  },
+  {
+    "edad": 68,
+    "hombres": 419,
+    "mujeres": 400
+  },
+  {
+    "edad": 69,
+    "hombres": 361,
+    "mujeres": 382
+  },
+  {
+    "edad": 70,
+    "hombres": 347,
+    "mujeres": 371
+  },
+  {
+    "edad": 71,
+    "hombres": 382,
+    "mujeres": 416
+  },
+  {
+    "edad": 72,
+    "hombres": 341,
+    "mujeres": 394
+  },
+  {
+    "edad": 73,
+    "hombres": 352,
+    "mujeres": 384
+  },
+  {
+    "edad": 74,
+    "hombres": 299,
+    "mujeres": 339
+  },
+  {
+    "edad": 75,
+    "hombres": 326,
+    "mujeres": 387
+  },
+  {
+    "edad": 76,
+    "hombres": 277,
+    "mujeres": 364
+  },
+  {
+    "edad": 77,
+    "hombres": 252,
+    "mujeres": 306
+  },
+  {
+    "edad": 78,
+    "hombres": 289,
+    "mujeres": 395
+  },
+  {
+    "edad": 79,
+    "hombres": 238,
+    "mujeres": 280
+  },
+  {
+    "edad": 80,
+    "hombres": 201,
+    "mujeres": 308
+  },
+  {
+    "edad": 81,
+    "hombres": 179,
+    "mujeres": 242
+  },
+  {
+    "edad": 82,
+    "hombres": 169,
+    "mujeres": 236
+  },
+  {
+    "edad": 83,
+    "hombres": 164,
+    "mujeres": 246
+  },
+  {
+    "edad": 84,
+    "hombres": 147,
+    "mujeres": 205
+  },
+  {
+    "edad": 85,
+    "hombres": 106,
+    "mujeres": 180
+  },
+  {
+    "edad": 86,
+    "hombres": 123,
+    "mujeres": 196
+  },
+  {
+    "edad": 87,
+    "hombres": 108,
+    "mujeres": 174
+  },
+  {
+    "edad": 88,
+    "hombres": 102,
+    "mujeres": 167
+  },
+  {
+    "edad": 89,
+    "hombres": 77,
+    "mujeres": 158
+  },
+  {
+    "edad": 90,
+    "hombres": 76,
+    "mujeres": 139
+  },
+  {
+    "edad": 91,
+    "hombres": 43,
+    "mujeres": 115
+  },
+  {
+    "edad": 92,
+    "hombres": 50,
+    "mujeres": 79
+  },
+  {
+    "edad": 93,
+    "hombres": 32,
+    "mujeres": 87
+  },
+  {
+    "edad": 94,
+    "hombres": 25,
+    "mujeres": 47
+  },
+  {
+    "edad": 95,
+    "hombres": 18,
+    "mujeres": 40
+  },
+  {
+    "edad": 96,
+    "hombres": 12,
+    "mujeres": 31
+  },
+  {
+    "edad": 97,
+    "hombres": 4,
+    "mujeres": 17
+  },
+  {
+    "edad": 98,
+    "hombres": 7,
+    "mujeres": 18
+  },
+  {
+    "edad": 99,
+    "hombres": 4,
+    "mujeres": 14
+  },
+  {
+    "edad": 100,
+    "hombres": 2,
+    "mujeres": 3
+  },
+  {
+    "edad": 101,
+    "hombres": 2,
+    "mujeres": 8
+  },
+  {
+    "edad": 102,
+    "hombres": 1,
+    "mujeres": 7
+  },
+  {
+    "edad": 103,
+    "hombres": 2,
+    "mujeres": 2
+  },
+  {
+    "edad": 104,
+    "hombres": 1,
+    "mujeres": 1
+  },
+  {
+    "edad": 105,
+    "hombres": 1,
+    "mujeres": 3
+  },
+  {
+    "edad": 106,
+    "hombres": 0,
+    "mujeres": 1
+  },
+  {
+    "edad": 109,
+    "hombres": 1,
+    "mujeres": 0
+  }
+]

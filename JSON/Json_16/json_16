@@ -1,0 +1,182 @@
+{
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:EPSG::25830"
+    }
+  },
+  "totalFeatures": 5,
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          378772.47542091,
+          4064647.52153399,
+          0
+        ]
+      },
+      "geometry_name": "SDOGEOMETRIA",
+      "type": "Feature",
+      "properties": {
+        "TITULARIDAD": "PRIVADA",
+        "EMAIL": null,
+        "URL": null,
+        "PRECIOS": null,
+        "DIRECCION": "CALLE PRACTICANTE FERNÁNDEZ ALCOLEA, 11 ",
+        "ACCESOPMR": "No",
+        "INFOESP": [
+          {
+            "Calificacion_REA": "C",
+            "Cocina_propia": "Si"
+          }
+        ],
+        "TARJETAJOVEN": "No",
+        "NOMBRE": "COMEDOR SOCIAL ANFREMAR",
+        "DESCRIPCION": "COMEDOR SOCIAL",
+        "HORARIOS": null,
+        "CONTACTO": null,
+        "TELEFONO": "952294303",
+        "ID": 7756
+      },
+      "id": "da_higialim_comedores.fid-7e811540_18ffad73a18_-46f1"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          371605.50608507,
+          4065903.68634396,
+          0
+        ]
+      },
+      "geometry_name": "SDOGEOMETRIA",
+      "type": "Feature",
+      "properties": {
+        "TITULARIDAD": "PRIVADA",
+        "EMAIL": null,
+        "URL": null,
+        "PRECIOS": null,
+        "DIRECCION": "CALLE MORENO NIETO, 18 ",
+        "ACCESOPMR": "No",
+        "INFOESP": [
+          {
+            "Calificacion_REA": "C",
+            "Cocina_propia": "Si"
+          }
+        ],
+        "TARJETAJOVEN": "No",
+        "NOMBRE": "COMEDOR SOCIAL YO SOY TÚ",
+        "DESCRIPCION": "COMEDOR SOCIAL",
+        "HORARIOS": null,
+        "CONTACTO": null,
+        "TELEFONO": null,
+        "ID": 7709
+      },
+      "id": "da_higialim_comedores.fid-7e811540_18ffad73a18_-46f0"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          372451.72938851,
+          4064887.03731117,
+          0
+        ]
+      },
+      "geometry_name": "SDOGEOMETRIA",
+      "type": "Feature",
+      "properties": {
+        "TITULARIDAD": "PRIVADA",
+        "EMAIL": null,
+        "URL": null,
+        "PRECIOS": null,
+        "DIRECCION": "CALLE PULIDERO, 9 ",
+        "ACCESOPMR": "No",
+        "INFOESP": [
+          {
+            "Calificacion_REA": "C",
+            "Cocina_propia": "Si"
+          }
+        ],
+        "TARJETAJOVEN": "No",
+        "NOMBRE": "COMEDOR SOCIAL SANTO DOMINGO",
+        "DESCRIPCION": "COMEDOR SOCIAL",
+        "HORARIOS": null,
+        "CONTACTO": null,
+        "TELEFONO": "952277027",
+        "ID": 7700
+      },
+      "id": "da_higialim_comedores.fid-7e811540_18ffad73a18_-46ef"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          372563.8412741,
+          4064678.0876595,
+          0
+        ]
+      },
+      "geometry_name": "SDOGEOMETRIA",
+      "type": "Feature",
+      "properties": {
+        "TITULARIDAD": "PRIVADA",
+        "EMAIL": null,
+        "URL": null,
+        "PRECIOS": null,
+        "DIRECCION": "CALLE FUENTECILLA, 2 ",
+        "ACCESOPMR": "No",
+        "INFOESP": [
+          {
+            "Calificacion_REA": "C",
+            "Cocina_propia": "Si"
+          }
+        ],
+        "TARJETAJOVEN": "No",
+        "NOMBRE": "COMEDOR SOCIAL ÁNGELES DE LA NOCHE",
+        "DESCRIPCION": "COMEDOR SOCIAL",
+        "HORARIOS": null,
+        "CONTACTO": null,
+        "TELEFONO": "951130578",
+        "ID": 7705
+      },
+      "id": "da_higialim_comedores.fid-7e811540_18ffad73a18_-46ee"
+    },
+    {
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          372563.8412741,
+          4064678.0876595,
+          0
+        ]
+      },
+      "geometry_name": "SDOGEOMETRIA",
+      "type": "Feature",
+      "properties": {
+        "TITULARIDAD": "PRIVADA",
+        "EMAIL": null,
+        "URL": null,
+        "PRECIOS": null,
+        "DIRECCION": "CALLE FUENTECILLA, 2 ",
+        "ACCESOPMR": "No",
+        "INFOESP": [
+          {
+            "Calificacion_REA": "C",
+            "Cocina_propia": "Si"
+          }
+        ],
+        "TARJETAJOVEN": "No",
+        "NOMBRE": "COMEDOR ÁNGELES MALAGUEÑOS DE LA NOCHE SL",
+        "DESCRIPCION": "COMEDOR SOCIAL",
+        "HORARIOS": null,
+        "CONTACTO": null,
+        "TELEFONO": null,
+        "ID": 7708
+      },
+      "id": "da_higialim_comedores.fid-7e811540_18ffad73a18_-46ed"
+    }
+  ]
+}

@@ -1,0 +1,517 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-malaga-eu-dataset-oficinas-de-registros-municipales">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-02T05:02:09Z</edp:transReceived>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:07:07Z</dct:issued>
+    <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:20:53Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-malaga-eu-dataset-oficinas-de-registros-municipales">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6cd527ca-ab4e-44ff-98f4-d3acc4274fb7">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema KML EPSG 4326</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema KML EPSG 4326</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">KML Systeem Referentie EPSG 4326</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ir-Referenza tas-Sistema ta’ KML EPSG 4326</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">KML System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">KML System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">KML System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému KML EPSG 4326</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">KML rendszer referencia EPSG 4326</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος KML EPSG 4326</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">KML sistēmas atsauce EPSG 4326</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">KML sistemos nuoroda EPSG 4326</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Odkaz na systém KML EPSG 4326</dct:title>
+            <dct:title xml:lang="es">KML Sistema Referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">KML Référence du système EPSG 4326</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento di sistema KML EPSG 4326</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul KML de referință EPSG 4326</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">KML Systemreferenz EPSG 4326</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">KML Referentni sustav EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/3884f64b-21a4-4a4c-a3e6-191ee465b37f</dct:identifier>
+            <dct:title xml:lang="sv-t-es-t0-mtec">KML System Referens EPSG 4326</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">KML-süsteemi viide EPSG 4326</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">KML-järjestelmän viite EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-4326.kml"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til KML-systemet EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на KML системата EPSG 4326</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">KML Córas Tagartha EPSG 4326</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Locatie van de gemeentelijke registers kantoren. **Beschrijving van de kolommen die zijn opgenomen in de bronnen** * ID_EQUIPMENT: Unieke Apparatuur Identifier. * DOEL: Beschrijving of doel van de apparatuur. * GEREEDSCHAPSTIP: Naam van de apparatuur. * SDOPUNTO: Georeferenced locatie. Voorbeeld beschikbaar op de volgende Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Locatie van de gemeentelijke registers kantoren. **Beschrijving van de kolommen die zijn opgenomen in de bronnen** * ID_EQUIPMENT: Unieke Apparatuur Identifier. * DOEL: Beschrijving of doel van de apparatuur. * GEREEDSCHAPSTIP: Naam van de apparatuur. * SDOPUNTO: Georeferenced locatie. Voorbeeld beschikbaar op de volgende Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Locatie van de gemeentelijke registers kantoren. **Beschrijving van de kolommen die zijn opgenomen in de bronnen** * ID_EQUIPMENT: Unieke Apparatuur Identifier. * DOEL: Beschrijving of doel van de apparatuur. * GEREEDSCHAPSTIP: Naam van de apparatuur. * SDOPUNTO: Georeferenced locatie. Voorbeeld beschikbaar op de volgende Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Locatie van de gemeentelijke registers kantoren. **Beschrijving van de kolommen die zijn opgenomen in de bronnen** * ID_EQUIPMENT: Unieke Apparatuur Identifier. * DOEL: Beschrijving of doel van de apparatuur. * GEREEDSCHAPSTIP: Naam van de apparatuur. * SDOPUNTO: Georeferenced locatie. Voorbeeld beschikbaar op de volgende Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Locatie van de gemeentelijke registers kantoren. **Beschrijving van de kolommen die zijn opgenomen in de bronnen** * ID_EQUIPMENT:
+Unieke Apparatuur Identifier.
+* DOEL:
+Beschrijving of doel van de apparatuur.
+* GEREEDSCHAPSTIP:
+Naam van de apparatuur.
+* SDOPUNTO:
+Georeferenced locatie.
+Voorbeeld beschikbaar op de volgende Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Oifigí na dTaifead Bardasach</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Umiestnenie kancelárií obecných registrov. **Opis stĺpcov zahrnutých do zdrojov** * ID_EQUIPMENT: Jedinečný identifikátor zariadenia. * ÚČEL: Opis alebo účel zariadenia. * NÁRADIA: Názov zariadenia. * SDOPUNTO: Georeferenčná poloha. Náhľad je k dispozícii na nasledujúcej adrese Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Location of municipal registries offices. **Description of columns included in the resources** * ID_EQUIPMENT: Unique Equipment Identifier. * PURPOSE: Description or purpose of the equipment. * TOOLTIP: Name of equipment. * SDOPUNTO: Georeferenced location. Preview available at the following Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Uradi za vodenje občinskih evidenc</dct:title>
+        <dcat:keyword xml:lang="es">equipamiento</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Emplacement des bureaux des registres municipaux. **Description des colonnes incluses dans les ressources** * ID_EQUIPEMENT: Identifiant d’équipement unique. * BUT: Description ou but de l’équipement. * INFO-BULLE: Nom de l’équipement. * SDOPUNTO: Localisation géoréférencée. Aperçu disponible à l’URL Geoportal suivante https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Emplacement des bureaux des registres municipaux. **Description des colonnes incluses dans les ressources** * ID_EQUIPEMENT: Identifiant d’équipement unique. * BUT: Description ou but de l’équipement. * INFO-BULLE: Nom de l’équipement. * SDOPUNTO: Localisation géoréférencée. Aperçu disponible à l’URL Geoportal suivante https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Emplacement des bureaux des registres municipaux. **Description des colonnes incluses dans les ressources** * ID_EQUIPEMENT: Identifiant d’équipement unique. * BUT: Description ou but de l’équipement. * INFO-BULLE: Nom de l’équipement. * SDOPUNTO: Localisation géoréférencée. Aperçu disponible à l’URL Geoportal suivante https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Emplacement des bureaux des registres municipaux. **Description des colonnes incluses dans les ressources** * ID_EQUIPEMENT: Identifiant d’équipement unique. * BUT: Description ou but de l’équipement. * INFO-BULLE: Nom de l’équipement. * SDOPUNTO: Localisation géoréférencée. Aperçu disponible à l’URL Geoportal suivante https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Emplacement des bureaux des registres municipaux.
+**Description des colonnes incluses dans les ressources** * ID_EQUIPEMENT:
+Identifiant d’équipement unique.
+* BUT:
+Description ou but de l’équipement.
+* INFO-BULLE:
+Nom de l’équipement.
+* SDOPUNTO:
+Localisation géoréférencée.
+Aperçu disponible à l’URL Geoportal suivante https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d26fcf11-4eec-4412-ad26-0d11ed984950">
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-25830.kml"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="de-t-es-t0-mtec">KML Systemreferenz EPSG 25830</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/KML"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">KML rendszer referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">KML System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">KML System Referens EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">KML System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">KML System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="es">KML Sistema Referencia EPSG 25830</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/b539a75c-9aaf-4e69-92bb-0ff6a596bff8</dct:identifier>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema KML EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος KML EPSG 25830</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">KML Referentni sustav EPSG 25830</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">KML sistemos nuoroda EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento di sistema KML EPSG 25830</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">KML-süsteemi viide EPSG 25830</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">KML Systeemreferentie EPSG 25830</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til KML-systemet EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">KML-järjestelmän viite EPSG 25830</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на KML системата EPSG 25830</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému KML EPSG 25830</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">KML Référence du système EPSG 25830</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ir-Referenza tas-Sistema tal-KML EPSG 25830</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul KML de referință EPSG 25830</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema KML EPSG 25830</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">KML sistēmas atsauce EPSG 25830</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">KML Córas Tagartha EPSG 25830</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Odkaz na systém KML EPSG 25830</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Lokacija uradov občinskih registrov. **Opis stolpcev, vključenih v vire** * ID_EQUIPMENT: Edinstveni identifikator opreme. * NAMEN: Opis ali namen opreme. * NASVET ORODJA: Ime opreme. * SDOPUNTO: Georeferenčna lokacija. Predogled je na voljo na spletnem naslovu Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o.</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Gabinetes de Registos Municipais</dct:title>
+        <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales</dct:identifier>
+        <dct:description xml:lang="de-t-es-t0-mtec">Standort der kommunalen Registerämter. **Beschreibung der in den Ressourcen enthaltenen Spalten** * ID_EQUIPMENT: Einzigartiger Geräte-Identifikator. * ZWECK: Beschreibung oder Zweck der Ausrüstung. * TOOLTIP: Name der Ausrüstung. * SDOPUNTO: Georeferenzierter Standort. Vorschau unter der folgenden Geoportal-URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Standort der kommunalen Registerämter. **Beschreibung der in den Ressourcen enthaltenen Spalten** * ID_EQUIPMENT: Einzigartiger Geräte-Identifikator.
+* ZWECK:
+Beschreibung oder Zweck der Ausrüstung.
+* TOOLTIP:
+Name der Ausrüstung.
+* SDOPUNTO:
+Georeferenzierter Standort.
+Vorschau unter der folgenden Geoportal-URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Önkormányzati nyilvántartási hivatalok</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/32e554b3-5238-4d99-850b-0ed86463fe5b">
+            <dct:title xml:lang="fi-t-es-t0-mtec">GeoJSON-järjestelmän viite EPSG 4326</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">GeoJSON Referenca sistema EPSG 4326</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">GeoJSON Systém Referenčné EPSG 4326</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">GeoJSON System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Tagairt Chóras GeoJSON EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/1ff4c236-b926-40e1-b31b-5dd301abf1ae</dct:identifier>
+            <dct:title xml:lang="lv-t-es-t0-mtec">GeoJSON sistēmas atsauces EPSG 4326</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">GeoJSON Sistemul de referință EPSG 4326</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">GeoJSON Referência do Sistema EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système GeoJSON EPSG 4326</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">GeoJSON Referentni sustav EPSG 4326</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">GeoJSON Systeem Referentie EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-4326.geojson"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="it-t-es-t0-mtec">GeoJSON Riferimento di sistema EPSG 4326</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema GeoJSON EPSG 4326</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος GeoJSON EPSG 4326</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">GeoJSON Systemreferenz EPSG 4326</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">GeoJSON Sistemos nuoroda EPSG 4326</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">GEOJSON Sistema Referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на системата GeoJSON EPSG 4326</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">GeoJSON System Referens EPSG 4326</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">GeoJSON rendszer referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">GeoJSON Systémové reference EPSG 4326</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Pašvaldību reģistru biroju atrašanās vieta. **Resursos iekļauto aiļu apraksts** * ID_EQUIPMENT: Unikāls aprīkojuma identifikators. * MĒRĶIS: Aprīkojuma apraksts vai nolūks. * TOOLTIP: Aprīkojuma nosaukums. * SDOPUNTO: Ģeoatsauces atrašanās vieta. Priekšskatījums pieejams šādā Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Розташування муніципальних реєстрів офісів. **Опис стовпців, що входять до ресурсів*** * ID_EQUIPMENT: Унікальний ідентифікатор обладнання. * ПРИЗНАЧЕННЯ: Опис або призначення обладнання. * ПІДКАЗКА: Назва обладнання. * SDOPUNTO: Географічне розташування. Попередній перегляд доступний за наступною URL-адресою геопорталу https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Розташування муніципальних реєстрів офісів. **Опис стовпців, що входять до ресурсів*** * ID_EQUIPMENT: Унікальний ідентифікатор обладнання. * ПРИЗНАЧЕННЯ: Опис або призначення обладнання. * ПІДКАЗКА: Назва обладнання. * SDOPUNTO: Географічне розташування. Попередній перегляд доступний за наступною URL-адресою геопорталу https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Розташування муніципальних реєстрів офісів. **Опис стовпців, що входять до ресурсів*** * ID_EQUIPMENT: Унікальний ідентифікатор обладнання. * ПРИЗНАЧЕННЯ: Опис або призначення обладнання. * ПІДКАЗКА: Назва обладнання. * SDOPUNTO: Географічне розташування. Попередній перегляд доступний за наступною URL-адресою геопорталу https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Розташування муніципальних реєстрів офісів. **Опис стовпців, що входять до ресурсів*** * ID_EQUIPMENT: Унікальний ідентифікатор обладнання. * ПРИЗНАЧЕННЯ: Опис або призначення обладнання. * ПІДКАЗКА: Назва обладнання. * SDOPUNTO: Географічне розташування. Попередній перегляд доступний за наступною URL-адресою геопорталу https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Розташування муніципальних реєстрів офісів.
+**Опис стовпців, що входять до ресурсів*** * ID_EQUIPMENT:
+Унікальний ідентифікатор обладнання.
+* ПРИЗНАЧЕННЯ:
+Опис або призначення обладнання.
+* ПІДКАЗКА:
+Назва обладнання.
+* SDOPUNTO:
+Географічне розташування.
+Попередній перегляд доступний за наступною URL-адресою геопорталу https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Местоположение на общинските регистри. **Описание на колоните, включени в ресурсите** * ID_EQUIPMENT: Уникален идентификатор на оборудването. * ПРЕДНАЗНАЧЕНИЕ: Описание или предназначение на оборудването. * ПОДСКАЗКА: Име на оборудването.
+* SDOPUNTO:
+Геореферентно местоположение.
+Прегледът е достъпен на следния URL адрес на Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/75069f72-2055-404f-88e0-cf0955fe23c1">
+            <dct:title xml:lang="nl-t-es-t0-mtec">CSV-systeemreferentie EPSG 25830</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">CSV süsteemi viitenumber EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">CSV Systemreferenz EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">CSV System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">CSV System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">CSV System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til CSV-systemet EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">CSV Riferimento di sistema EPSG 25830</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">CSV System Referens EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Odniesienie do systemu CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">CSV-järjestelmän viite EPSG 25830</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">CSV sistēmas atsauce EPSG 25830</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">CSV Córas Tagartha EPSG 25830</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/fdbc25aa-9e88-4add-90e5-af22ca300b05</dct:identifier>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul CSV de referință EPSG 25830</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-25830.csv"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">CSV Referenční systém EPSG 25830</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Referenca CSV sustava EPSG 25830</dct:title>
+            <dct:title xml:lang="es">CSV Sistema Referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema CSV EPSG 25830</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">CSV sistemos nuoroda EPSG 25830</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">CSV rendszer referencia EPSG 25830</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="el-t-es-t0-mtec">Θέση των γραφείων δημοτικών μητρώων. **Περιγραφή των στηλών που περιλαμβάνονται στους πόρους** * ID_EQUIPMENT: Μοναδικός αναγνωριστικός εξοπλισμός. * ΣΚΟΠΌΣ: Περιγραφή ή σκοπός του εξοπλισμού. * ΣΥΜΒΟΥΛΉ ΕΡΓΑΛΕΊΟΥ: Το όνομα του εξοπλισμού. * SDOPUNTO: Γεωαναφερόμενη τοποθεσία. Η προεπισκόπηση είναι διαθέσιμη στο ακόλουθο URL του Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Θέση των γραφείων δημοτικών μητρώων. **Περιγραφή των στηλών που περιλαμβάνονται στους πόρους** * ID_EQUIPMENT: Μοναδικός αναγνωριστικός εξοπλισμός. * ΣΚΟΠΌΣ: Περιγραφή ή σκοπός του εξοπλισμού. * ΣΥΜΒΟΥΛΉ ΕΡΓΑΛΕΊΟΥ: Το όνομα του εξοπλισμού. * SDOPUNTO: Γεωαναφερόμενη τοποθεσία. Η προεπισκόπηση είναι διαθέσιμη στο ακόλουθο URL του Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Θέση των γραφείων δημοτικών μητρώων. **Περιγραφή των στηλών που περιλαμβάνονται στους πόρους** * ID_EQUIPMENT: Μοναδικός αναγνωριστικός εξοπλισμός. * ΣΚΟΠΌΣ: Περιγραφή ή σκοπός του εξοπλισμού. * ΣΥΜΒΟΥΛΉ ΕΡΓΑΛΕΊΟΥ: Το όνομα του εξοπλισμού. * SDOPUNTO: Γεωαναφερόμενη τοποθεσία. Η προεπισκόπηση είναι διαθέσιμη στο ακόλουθο URL του Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Θέση των γραφείων δημοτικών μητρώων. **Περιγραφή των στηλών που περιλαμβάνονται στους πόρους** * ID_EQUIPMENT: Μοναδικός αναγνωριστικός εξοπλισμός. * ΣΚΟΠΌΣ: Περιγραφή ή σκοπός του εξοπλισμού. * ΣΥΜΒΟΥΛΉ ΕΡΓΑΛΕΊΟΥ: Το όνομα του εξοπλισμού. * SDOPUNTO: Γεωαναφερόμενη τοποθεσία. Η προεπισκόπηση είναι διαθέσιμη στο ακόλουθο URL του Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Θέση των γραφείων δημοτικών μητρώων.
+**Περιγραφή των στηλών που περιλαμβάνονται στους πόρους** * ID_EQUIPMENT:
+Μοναδικός αναγνωριστικός εξοπλισμός.
+* ΣΚΟΠΌΣ:
+Περιγραφή ή σκοπός του εξοπλισμού.
+* ΣΥΜΒΟΥΛΉ ΕΡΓΑΛΕΊΟΥ:
+Το όνομα του εξοπλισμού.
+* SDOPUNTO:
+Γεωαναφερόμενη τοποθεσία.
+Η προεπισκόπηση είναι διαθέσιμη στο ακόλουθο URL του Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Birourile municipale de înregistrări</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Obecní evidenční úřady</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Gemeentelijke administratiekantoren</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Umístění obecních rejstříkových úřadů. **Popis sloupců zahrnutých do zdrojů** * ID_EQUIPMENT: Jedinečný identifikátor vybavení. * ÚČEL: Popis nebo účel zařízení. * NÁPOVĚDA: Název vybavení. * SDOPUNTO: Georeferenční poloha. Náhled k dispozici na následující Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Umístění obecních rejstříkových úřadů. **Popis sloupců zahrnutých do zdrojů** * ID_EQUIPMENT: Jedinečný identifikátor vybavení.
+* ÚČEL:
+Popis nebo účel zařízení.
+* NÁPOVĚDA:
+Název vybavení.
+* SDOPUNTO:
+Georeferenční poloha.
+Náhled k dispozici na následující Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-17T00:00:00+02:00</dct:modified>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l01290672-oficinas-de-registros-municipales/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l01290672-oficinas-de-registros-municipales/DurationDescription">
+                <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:days>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:title xml:lang="it-t-es-t0-mtec">Uffici di registrazione municipali</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01290672">
+            <foaf:name>Ayuntamiento de Málaga</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="es">oficina</dcat:keyword>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Pašvaldību reģistru biroji</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Gemeinderegisterbüros</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/67c13de9-ec2d-4a09-96c9-118f85876c6d">
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému SHP EPSG 4326</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">SHP Systemreferenz EPSG 4326</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος SHP EPSG 4326</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">SHP süsteemi viide EPSG 4326</dct:title>
+            <dct:title xml:lang="es">SHP Sistema Referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">SHP Referentni sustav EPSG 4326</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">SHP-järjestelmän viite EPSG 4326</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">SHP Система Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">SHP-systeemreferentie EPSG 4326</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">SHP System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">SHP System Reference EPSG 4326</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">SHP rendszer referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на системата за SHP EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-4326.zip"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">SHP Sistemul de referință EPSG 4326</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="it-t-es-t0-mtec">SHP Riferimento di sistema EPSG 4326</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Córas SHP Tagartha EPSG 4326</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema SHP EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/d490ceb5-c95e-4c83-8fbb-ed7c5bc58b22</dct:identifier>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Referenční systém SHP EPSG 4326</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Odniesienie systemu SHP EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système SHP EPSG 4326</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema SHP EPSG 4326</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema SHP EPSG 4326</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">SHP sistemos nuoroda EPSG 4326</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">SHP sistēmas atsauces EPSG 4326</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">SHP System Referens EPSG 4326</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Муніципальні офіси рекордів</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Lokacija ureda općinskih registara. **Opis stupaca uključenih u resurse** * ID_EQUIPMENT: Jedinstveni identifikator opreme. * SVRHA: Opis ili namjena opreme. * SAVJET ALATA: Naziv opreme. * SDOPUNTO: Georeferencirano mjesto. Pregled dostupan na sljedećem Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Δημοτικά Γραφεία Αρχείων</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Malaga"/>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Lokalisering av kommunala registerkontor. **Beskrivning av kolumner som ingår i resurserna** * ID_EQUIPMENT: Unik utrustningsidentifierare. * SYFTE: Beskrivning eller syfte med utrustningen. * VERKTYGSTIPS: Utrustningens namn. * SDOPUNTO: Georefererad plats. Förhandsgranskning finns på följande Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Lokalisering av kommunala registerkontor. **Beskrivning av kolumner som ingår i resurserna** * ID_EQUIPMENT: Unik utrustningsidentifierare. * SYFTE: Beskrivning eller syfte med utrustningen. * VERKTYGSTIPS: Utrustningens namn. * SDOPUNTO: Georefererad plats. Förhandsgranskning finns på följande Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Lokalisering av kommunala registerkontor. **Beskrivning av kolumner som ingår i resurserna** * ID_EQUIPMENT: Unik utrustningsidentifierare. * SYFTE: Beskrivning eller syfte med utrustningen. * VERKTYGSTIPS: Utrustningens namn. * SDOPUNTO: Georefererad plats. Förhandsgranskning finns på följande Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Lokalisering av kommunala registerkontor. **Beskrivning av kolumner som ingår i resurserna** * ID_EQUIPMENT: Unik utrustningsidentifierare. * SYFTE: Beskrivning eller syfte med utrustningen. * VERKTYGSTIPS: Utrustningens namn. * SDOPUNTO: Georefererad plats. Förhandsgranskning finns på följande Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Lokalisering av kommunala registerkontor.
+**Beskrivning av kolumner som ingår i resurserna** * ID_EQUIPMENT:
+Unik utrustningsidentifierare.
+* SYFTE:
+Beskrivning eller syfte med utrustningen.
+* VERKTYGSTIPS:
+Utrustningens namn.
+* SDOPUNTO:
+Georefererad plats.
+Förhandsgranskning finns på följande Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Ubicazione degli uffici dei registri comunali. **Descrizione delle colonne incluse nelle risorse** * ID_EQUIPMENT: Identificatore unico dell'attrezzatura. * SCOPO: Descrizione o scopo dell'attrezzatura. * SUGGERIMENTO DEGLI STRUMENTI: Nome dell'attrezzatura. * SDOPUNTO: Posizione georeferenziata. Anteprima disponibile al seguente URL Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="es">Oficinas de Registros Municipales</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Uffiċċji ta’ Rekords Muniċipali</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Općinski uredi za arhive</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Suíomh oifigí na gclárlann bardasach. **Cur síos ar na colúin a áirítear sna hacmhainní** * ID_EQUIPMENT: Aitheantóir Trealamh Uathúil. * CUSPÓIR: Tuairisc nó cuspóir an trealaimh. * SLISEANNA UIRLISÍ: Ainm an trealaimh. * SDOPUNTO: Suíomh geothagartha. Réamhamharc ar fáil ag an URL Geoportal seo a leanas https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Il-post fejn jinsabu l-uffiċċji tar-reġistri muniċipali. **Deskrizzjoni tal-kolonni inklużi fir-riżorsi** * ID_EQUIPMENT: Identifikatur Uniku tat-Tagħmir. * GĦAN: Deskrizzjoni jew għan tat-tagħmir. * IT-TARF TA ' L-GĦODDA: L-isem tat-tagħmir. * SDOPUNTO: Il-post ġeoreferenzjat. Preview disponibbli fuq il-URL Geoportal li ġejjin https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o Il-post fejn jinsabu l-uffiċċji tar-reġistri muniċipali. **Deskrizzjoni tal-kolonni inklużi fir-riżorsi** * ID_EQUIPMENT: Identifikatur Uniku tat-Tagħmir.
+* GĦAN:
+Deskrizzjoni jew għan tat-tagħmir.
+* IT-TARF TA ' L-GĦODDA:
+L-isem tat-tagħmir.
+* SDOPUNTO:
+Il-post ġeoreferenzjat.
+Preview disponibbli fuq il-URL Geoportal li ġejjin https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Lokalisering af de kommunale registres kontorer. **Beskrivelse af kolonner, der indgår i ressourcerne** * ID_EQUIPMENT: Unik udstyrsidentifikation. * FORMÅL: Beskrivelse eller formål med udstyret. * VÆRKTØJSTIP: Navn på udstyr. * SDOPUNTO: Georefereret placering. Forhåndsvisning tilgængelig på følgende Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dcat:keyword xml:lang="es">registro</dcat:keyword>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Lokalizacja biur rejestrów gminnych. **Opis kolumn zawartych w zasobach** * ID_EQUIPMENT: Unikalny identyfikator sprzętu. * CEL: Opis lub przeznaczenie sprzętu. * PODPOWIEDZI: Nazwa sprzętu. * SDOPUNTO: Lokalizacja georeferencyjna. Podgląd dostępny pod następującym adresem URL Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c188e2eb-7f27-4989-9aca-e55c9e66c13d">
+            <dct:title xml:lang="fi-t-es-t0-mtec">GML-järjestelmän viite EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/43486ffb-717f-41bd-b9dd-11c0b4b0916f</dct:identifier>
+            <dct:title xml:lang="sv-t-es-t0-mtec">GML System Referens EPSG 4326</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος GML EPSG 4326</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">GML-süsteemi viide EPSG 4326</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenčni sistem GML EPSG 4326</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">GML rendszer referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">GML System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">GML System Reference EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-4326.gml"/>
+            <dct:title xml:lang="de-t-es-t0-mtec">GML Systemreferenz EPSG 4326</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">GML Systémové reference EPSG 4326</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="es">GML Sistema Referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">GML система референтен EPSG 4326</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Tagairt an Chórais GML EPSG 4326</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Odniesienie do systemu GML EPSG 4326</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema ta’ GML EPSG 4326</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til GML-systemet EPSG 4326</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul GML de referință EPSG 4326</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">GML Systém Referenčné EPSG 4326</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">GML sistemos nuoroda EPSG 4326</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">GML System Referentie EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système GML EPSG 4326</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">GML Referentni sustav EPSG 4326</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento di sistema GML EPSG 4326</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema GML EPSG 4326</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">GML sistēmas atsauce EPSG 4326</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/517da9a4-15b9-4943-ba69-45ed3f941f6f">
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému SHP EPSG 25830</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système SHP EPSG 25830</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">SHP rendszer referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">SHP-järjestelmän viite EPSG 25830</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Córas SHP Tagartha EPSG 25830</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">SHP Referentni sustav EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">SHP System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">SHP System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">SHP System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="es">SHP Sistema Referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">SHP System Referens EPSG 25830</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">SHP Sistemul de referință EPSG 25830</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">SHP sistēmas atsauces EPSG 25830</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">SHP sistemos nuoroda EPSG 25830</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-25830.zip"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Referenční systém SHP EPSG 25830</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">SHP-systeemreferentie EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">System referencyjny SHP EPSG 25830</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/4d8d3a63-15a3-49de-8dec-4d32cc1b0b45</dct:identifier>
+            <dct:title xml:lang="et-t-es-t0-mtec">SHP süsteemi viide EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">SHP Система Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">SHP Systemreferenz EPSG 25830</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema SHP EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος SHP EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">SHP Riferimento di sistema EPSG 25830</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema SHP EPSG 25830</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema SHP EPSG 25830</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/SHP"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Savivaldybės įrašų tarnybos</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cc77e4e7-7f69-4b1f-bb23-26dc89fc36a1">
+            <dct:title xml:lang="nl-t-es-t0-mtec">CSV-systeemreferentie EPSG 4326</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">CSV System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">CSV System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">CSV System Reference EPSG 4326</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Referenca CSV sustava EPSG 4326</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">CSV sistēmas atsauces EPSG 4326</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul CSV de referință EPSG 4326</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">CSV rendszer referencia EPSG 4326</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">CSV sistemos nuoroda EPSG 4326</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema CSV EPSG 4326</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-4326.csv"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">CSV süsteemi viitenumber EPSG 4326</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til CSV-systemet EPSG 4326</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">CSV-järjestelmän viite EPSG 4326</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">CSV Systemreferenz EPSG 4326</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenca sistema CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">CSV System Referens EPSG 4326</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Odniesienie do systemu CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="es">CSV Sistema Referencia EPSG 4326</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">CSV Referenční systém EPSG 4326</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Referencia systému CSV EPSG 4326</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/97cff653-12d4-490a-a0e9-8e3b95dc5946</dct:identifier>
+            <dct:title xml:lang="ga-t-es-t0-mtec">CSV Córas Tagartha EPSG 4326</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema CSV EPSG 4326</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">CSV Riferimento di sistema EPSG 4326</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2016-08-11T00:00:00+02:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fa280b8c-45b1-4162-91a5-8e5ac0e0d89d">
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema ta’ GML EPSG 25830</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Córas GML Tagartha EPSG 25830</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">GML Systemreferenz EPSG 25830</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système GML EPSG 25830</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">GML System Referentie EPSG 25830</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GML"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">Reference til GML-systemet EPSG 25830</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Sistemul GML de referință EPSG 25830</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">GML Systém Referenčné EPSG 25830</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Referência do sistema GML EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">GML System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">GML System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος GML EPSG 25830</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-25830.gml"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">GML rendszer referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">GML система референтен EPSG 25830</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Referenčni sistem GML EPSG 25830</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">GML sistēmas atsauce EPSG 25830</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">GML Referentni sustav EPSG 25830</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/2f735b94-220e-4cf2-b336-675206e238e7</dct:identifier>
+            <dct:title xml:lang="sv-t-es-t0-mtec">GML System Referens EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Riferimento di sistema GML EPSG 25830</dct:title>
+            <dct:title xml:lang="es">GML Sistema Referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">GML sistemos nuoroda EPSG 25830</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">GML-süsteemi viide EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Odniesienie systemu GML EPSG 25830</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">GML Systémové reference EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">GML-järjestelmän viite EPSG 25830</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">geoportal</dcat:keyword>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Amplasarea birourilor de registre municipale. **Descrierea coloanelor incluse în resurse** * ID_EQUIPMENT: Identificator unic al echipamentului. * SCOP: Descrierea sau scopul echipamentului. * VÂRFUL DE INSTRUMENTE: Denumirea echipamentului. * SDOPUNTO: Locația georeferențiată. Previzualizare disponibilă la adresa URL Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Bureaux des archives municipales</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Municipal Records Offices</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Общински архиви</dct:title>
+        <dct:description xml:lang="es">Ubicación de las oficinas de registros municipales. **Descripción de columnas incluidas en los recursos**   * ID_EQUIPAMIENTO: Identificador único de equipamiento. * FINALIDAD: Descripción o finalidad del equipamiento. * TOOLTIP: Nombre del equipamiento. * SDOPUNTO: Localización georreferenciada.   Previsualización disponible en la siguiente URL de Geoportal https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Savivaldybių registrų biurų buvimo vieta. **Į išteklius įtrauktų stulpelių aprašymas** * ID_ĮRANGA: Unikalus įrangos identifikatorius. * TIKSLAS: Įrangos aprašymas arba paskirtis. * ĮRANKIŲ PATARIMAS: Įrangos pavadinimas. * SDOPUNTO:
+Georeferencinė vieta.
+Peržiūra prieinama šiuo Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Urząd Rekordów Miejskich</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Localização dos escritórios dos registos municipais. **Descrição das colunas incluídas nos recursos** * ID_EQUIPMENT: Identificador único do equipamento. * FINALIDADE: Descrição ou finalidade do equipamento. * DICA DA FERRAMENTA: Nome do equipamento. * SDOPUNTO: Localização georreferenciada. Visualização disponível no seguinte Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Kunnallisten rekisteritoimistojen sijainti. **Resurssiin sisältyvien sarakkeiden kuvaus** * ID_EQUIPMENT: Ainutlaatuinen laitetunniste. * TARKOITUS: Laitteen kuvaus tai tarkoitus. * TYÖKALUVIHJE:
+Laitteiden nimi.
+* SDOPUNTO:
+Georeferoitu sijainti.
+Esikatselu saatavilla seuraavassa Geoportal URL https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Kommunale registreringskontorer</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Kunnalliset rekisteritoimistot</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a78dabb2-3732-475c-8cf3-cec68f342776">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.malaga.eu/recursos/urbanismoEInfraestructura/equipamientos/da_oficinasRegistroMunicipales-25830.geojson"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">GeoJSON System Referens EPSG 25830</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">GeoJSON rendszer referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">GeoJSON Referenca sistema EPSG 25830</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">GeoJSON Systeem Referentie EPSG 25830</dct:title>
+            <dct:title xml:lang="es">GEOJSON Sistema Referencia EPSG 25830</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">GeoJSON Systémové reference EPSG 25830</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">An Córas Tagartha GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">GeoJSON Riferimento di sistema EPSG 25830</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Referenza tas-Sistema GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">GeoJSON-järjestelmän viite EPSG 25830</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">GeoJSON Referência do Sistema EPSG 25830</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">GeoJSON System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">GeoJSON System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">GeoJSON System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">GeoJSON System Reference EPSG 25830</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">GeoJSON Sistemos nuoroda EPSG 25830</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">GeoJSON sistēmas atsauces EPSG 25830</dct:title>
+            <dct:identifier>https://datosabiertos.malaga.eu/dataset/oficinas-de-registros-municipales/resource/80f54a84-08d2-49fe-b279-5ef7a613bb61</dct:identifier>
+            <dct:title xml:lang="hr-t-es-t0-mtec">GeoJSON Referentni sustav EPSG 25830</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">GeoJSON Systemreferenz EPSG 25830</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Референтен номер на системата GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Αναφορά συστήματος GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Référence du système GeoJSON EPSG 25830</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">GeoJSON Systém Referenčné EPSG 25830</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">GeoJSON Sistemul de referință EPSG 25830</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">GeoJSON System referencyjny EPSG 25830</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Az önkormányzati nyilvántartási hivatalok elhelyezkedése. ** A forrásokban szereplő oszlopok leírása** * ID_KÉPZÉS: Egyedi berendezésazonosító. * CÉL: A berendezés leírása vagy célja. * TOOLTIP: Felszerelés neve. * SDOPUNTO: Georeferált helyszín. Az előnézet a következő Geoportal URL-címen érhető el: https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Kommunala registerkontor</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Munitsipaalregistrite kontorite asukoht. **Ressurssides sisalduvate veergude kirjeldus** * ID_EQUIPMENT: Unikaalne seadme identifikaator. * EESMÄRK: Seadme kirjeldus või otstarve. * TOOLTIP: Varustuse nimi. * SDOPUNTO: Georeferentseeritud asukoht. Eelvaade on kättesaadav järgmisel Geoportaali URL-il https://callejero.malaga.eu/?gplayers=oficina-registro-municipal&amp;gp=o</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Kancelárie obecných rekordov</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Munitsipaalregistreerimisbürood</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-malaga-eu-dataset-oficinas-de-registros-municipales"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:07:07Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>f5b485d26cea55de6f6420f51dc1a720</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

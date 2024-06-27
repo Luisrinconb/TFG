@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-catalogodatos-cnmc-es-dataset-ds_2376_1">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:30:36Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:30:46Z</dct:modified>
+    <dct:identifier>https://catalogodatos.cnmc.es/dataset/ds_2376_1</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-catalogodatos-cnmc-es-dataset-ds_2376_1">
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-13T00:00:00+02:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-13T00:00:00+02:00</dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:keyword xml:lang="es">Energía</dcat:keyword>
+        <dcat:keyword xml:lang="es">Energía eléctrica</dcat:keyword>
+        <dcat:keyword xml:lang="es">Garantías de origen</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bee29513-14c7-43b2-83ac-35e1a8e29c03">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://data.cnmc.es/condiciones-de-uso"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >12492</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://catalogodatos.cnmc.es/dataset/e223adbf-57da-41a0-b55f-646a2e7dc6fb/resource/c1176955-c2a2-4c17-818b-d52c11014dc3/download/ds_2376_1.xml"/>
+            <dct:title xml:lang="es">ds_2376_1.xml</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0042931-garantias-de-origen1/resource/7b91640a-0619-4620-8f49-bf8282eef557</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Datos del Sistema de Garantías de Origen de electricidad. Los datos mostrados se corresponden con la información relativa a los participantes en el Sistema de Garantías de Origen de la electricidad procedente de fuentes de energía renovables y de cogeneración de alta eficiencia, gestionado por la Comisión Nacional de los Mercados y la Competencia (CNMC), según lo establecido en el artículo 7.23 de la Ley 3/2013, de 4 de junio, de creación de la CNMC y regulado según la Orden ITC/1522/2007, de 24 de mayo y la Circular 1/2018, de 18 de abril, de la CNMC.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f54f5579-d67f-4d32-a13f-b593501eb77d">
+            <dct:license rdf:resource="https://data.cnmc.es/condiciones-de-uso"/>
+            <dct:title xml:lang="es">ds_2376_1.csv</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0042931-garantias-de-origen1/resource/3c4d8044-0825-4efe-a5c4-704c6c369d93</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1065</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://catalogodatos.cnmc.es/dataset/e223adbf-57da-41a0-b55f-646a2e7dc6fb/resource/7c1fa5eb-7d0c-42e6-9bfb-2d98aa13008e/download/ds_2376_1.csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/741a42bd-882a-4f21-861a-1e100fab37c4">
+            <dct:title xml:lang="es">ds_2376_1.json</dct:title>
+            <dcat:accessURL rdf:resource="https://catalogodatos.cnmc.es/dataset/e223adbf-57da-41a0-b55f-646a2e7dc6fb/resource/fbbe7381-5c3c-47ce-804f-3bb013c55593/download/ds_2376_1.json"/>
+            <dct:license rdf:resource="https://data.cnmc.es/condiciones-de-uso"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0042931-garantias-de-origen1/resource/0b25b900-629f-4401-919a-94a0bb87ddbf</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >6856</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">2023</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/359ef3a6-abf2-4a79-b103-5eefa06399fe">
+            <dcat:accessURL rdf:resource="https://catalogodatos.cnmc.es/datastore/dump/dd25353a-075f-43e6-acfd-d167f93f30b3"/>
+            <dct:title xml:lang="es">2376_1</dct:title>
+            <dct:license rdf:resource="https://data.cnmc.es/condiciones-de-uso"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0042931-garantias-de-origen1/resource/dd47d760-8635-465e-ba7a-e9fd34788f6c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Garantías de origen</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042931">
+            <foaf:name>Comisión Nacional de los Mercados y la Competencia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:identifier>https://catalogodatos.cnmc.es/dataset/ds_2376_1</dct:identifier>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>5078687c249cb7c8e33919329c68433c</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-catalogodatos-cnmc-es-dataset-ds_2376_1"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:30:46Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

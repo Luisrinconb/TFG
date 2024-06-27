@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="http://data.europa.eu/r5r/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="https://archivo.ayto-arganda.es">
+    <vcard:fn>Centro Cultural Villalbilla</vcard:fn>
+    <foaf:name>http://data.europa.eu/88u/dataset/</foaf:name>
+    <dct:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1">
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    <dcat:accessURL rdf:resource="https://datos.gob.es"/>
+    <dct:description>Información sobre varios convenios y protocolos para el año 2024 en la ciudad de Arganda del Rey. Incluye detalle de organismos implicados y vigencias.</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-26 23:56:58.234325</dct:modified>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:downloadURL rdf:resource="https://datos.gob.es"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dct:issued>
+    <ns1:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dct:title>Convenios y Protocolos 2024</dct:title>
+    <dcat:Distribution rdf:resource="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1"/>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4181</dcat:byteSize>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/">
+    <dct:identifier>json_43820888</dct:identifier>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-18T20:08:31.590236</dct:issued>
+    <dcat:keyword>convenios</dcat:keyword>
+    <dcat:contactPoint rdf:resource="https://archivo.ayto-arganda.es"/>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dct:spatial rdf:resource="https://publications.europa.eu/resource/authority/country/ESP"/>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dct:description>Información sobre varios convenios y protocolos para el año 2024 en la ciudad de Arganda del Rey. Incluye detalle de organismos implicados y vigencias.</dct:description>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-26 23:56:58.234325</dct:modified>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:publisher rdf:resource="https://archivo.ayto-arganda.es"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/"/>
+    <dct:title>Convenios y Protocolos 2024</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.iana.org/assignments/media-types/application/ld+json">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaType"/>
+  </rdf:Description>
+</rdf:RDF>

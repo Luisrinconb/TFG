@@ -1,0 +1,204 @@
+{
+  "metadata": {
+    "Contacto": {
+      "value": "icane@cantabria.es",
+      "rdf property": "http://purl.org/dc/terms/publisher"
+    },
+    "Descripción de la serie": {
+      "value": "Coeficientes de enlace",
+      "rdf property": "http://purl.org/dc/terms/title"
+    },
+    "Categorización": {
+      "value": "Servicios -\u003e Turismo -\u003e Coyuntura turística hotelera (CTH)",
+      "rdf property": "http://purl.org/dc/terms/subject"
+    },
+    "Fuente": {
+      "value": "Coyuntura Turística Hotelera (CTH). Instituto Nacional de Estadística (INE)",
+      "rdf property": "http://purl.org/dc/terms/source"
+    },
+    "Periodicidad": {
+      "value": "Mensual",
+      "rdf property": "http://purl.org/dc/terms/accrualPeriodicity"
+    },
+    "Período inicial": {
+      "value": "Enero 2005",
+      "rdf property": "http://purl.org/dc/terms/date"
+    },
+    "Último período": {
+      "value": "Diciembre 2005",
+      "rdf property": "http://purl.org/dc/terms/date"
+    },
+    "Ámbito territorial": {
+      "value": "Regional",
+      "rdf property": "http://purl.org/dc/terms/spatial"
+    },
+    "Última actualización": {
+      "value": "11-03-09 12:00 AM",
+      "rdf property": "http://purl.org/dc/terms/modified"
+    },
+    "Notas al pie": {
+      "value": null,
+      "rdf property": "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "Unidades": {
+      "value": "Viajeros: Total, Viajeros: residentes en España, Viajeros: residentes en el extranjero, Pernoctaciones: Total, Pernoctaciones: residentes en España, Pernoctaciones: residentes en el extranjero, Estancia media, Número de establecimientos, Número de plazas, Grado de ocupación: Coeficiente.",
+      "rdf property": "http://purl.org/linked-data/sdmx/2009/attribute#unitMeasure"
+    }
+  },
+  "headers": [
+    "Variables",
+    "Mes"
+  ],
+  "data": {
+    "Viajeros: Total": {
+      "2005": null,
+      "2005 - Enero": 1.193,
+      "2005 - Febrero": 1.008,
+      "2005 - Marzo": 1.076,
+      "2005 - Abril": 1.045,
+      "2005 - Mayo": 1.027,
+      "2005 - Junio": 1.026,
+      "2005 - Julio": 1.087,
+      "2005 - Agosto": 1.132,
+      "2005 - Septiembre": 1.075,
+      "2005 - Octubre": 1.083,
+      "2005 - Noviembre": 1.144,
+      "2005 - Diciembre": 1.032
+    },
+    "Viajeros: residentes en España": {
+      "2005": null,
+      "2005 - Enero": 1.217,
+      "2005 - Febrero": 1.007,
+      "2005 - Marzo": 1.076,
+      "2005 - Abril": 1.042,
+      "2005 - Mayo": 1.025,
+      "2005 - Junio": 1.028,
+      "2005 - Julio": 1.086,
+      "2005 - Agosto": 1.127,
+      "2005 - Septiembre": 1.071,
+      "2005 - Octubre": 1.087,
+      "2005 - Noviembre": 1.144,
+      "2005 - Diciembre": 1.034
+    },
+    "Viajeros: residentes en el extranjero": {
+      "2005": null,
+      "2005 - Enero": 1.044,
+      "2005 - Febrero": 1.016,
+      "2005 - Marzo": 1.073,
+      "2005 - Abril": 1.056,
+      "2005 - Mayo": 1.033,
+      "2005 - Junio": 1.016,
+      "2005 - Julio": 1.092,
+      "2005 - Agosto": 1.164,
+      "2005 - Septiembre": 1.098,
+      "2005 - Octubre": 1.064,
+      "2005 - Noviembre": 1.143,
+      "2005 - Diciembre": 1.015
+    },
+    "Pernoctaciones: Total": {
+      "2005": null,
+      "2005 - Enero": 1.124,
+      "2005 - Febrero": 0.982,
+      "2005 - Marzo": 1.054,
+      "2005 - Abril": 1.053,
+      "2005 - Mayo": 0.975,
+      "2005 - Junio": 0.972,
+      "2005 - Julio": 0.992,
+      "2005 - Agosto": 0.992,
+      "2005 - Septiembre": 1.013,
+      "2005 - Octubre": 1.01,
+      "2005 - Noviembre": 1.069,
+      "2005 - Diciembre": 0.973
+    },
+    "Pernoctaciones: residentes en España": {
+      "2005": null,
+      "2005 - Enero": 1.143,
+      "2005 - Febrero": 0.982,
+      "2005 - Marzo": 1.056,
+      "2005 - Abril": 1.053,
+      "2005 - Mayo": 0.972,
+      "2005 - Junio": 0.973,
+      "2005 - Julio": 0.993,
+      "2005 - Agosto": 0.992,
+      "2005 - Septiembre": 1.013,
+      "2005 - Octubre": 1.014,
+      "2005 - Noviembre": 1.07,
+      "2005 - Diciembre": 0.977
+    },
+    "Pernoctaciones: residentes en el extranjero": {
+      "2005": null,
+      "2005 - Enero": 1.01,
+      "2005 - Febrero": 0.982,
+      "2005 - Marzo": 1.033,
+      "2005 - Abril": 1.051,
+      "2005 - Mayo": 0.987,
+      "2005 - Junio": 0.967,
+      "2005 - Julio": 0.984,
+      "2005 - Agosto": 0.992,
+      "2005 - Septiembre": 1.016,
+      "2005 - Octubre": 0.997,
+      "2005 - Noviembre": 1.062,
+      "2005 - Diciembre": 0.943
+    },
+    "Estancia media": {
+      "2005": null,
+      "2005 - Enero": 0.943,
+      "2005 - Febrero": 0.979,
+      "2005 - Marzo": 0.976,
+      "2005 - Abril": 1.005,
+      "2005 - Mayo": 0.952,
+      "2005 - Junio": 0.947,
+      "2005 - Julio": 0.914,
+      "2005 - Agosto": 0.879,
+      "2005 - Septiembre": 0.941,
+      "2005 - Octubre": 0.932,
+      "2005 - Noviembre": 0.933,
+      "2005 - Diciembre": 0.942
+    },
+    "Número de establecimientos": {
+      "2005": null,
+      "2005 - Enero": 1.035,
+      "2005 - Febrero": 1.05,
+      "2005 - Marzo": 1.01,
+      "2005 - Abril": 1.03,
+      "2005 - Mayo": 1.01,
+      "2005 - Junio": 1.014,
+      "2005 - Julio": 1.018,
+      "2005 - Agosto": 1.013,
+      "2005 - Septiembre": 1.002,
+      "2005 - Octubre": 1.003,
+      "2005 - Noviembre": 1.0,
+      "2005 - Diciembre": 0.997
+    },
+    "Número de plazas": {
+      "2005": null,
+      "2005 - Enero": 1.018,
+      "2005 - Febrero": 0.988,
+      "2005 - Marzo": 1.008,
+      "2005 - Abril": 1.008,
+      "2005 - Mayo": 1.002,
+      "2005 - Junio": 1.008,
+      "2005 - Julio": 1.009,
+      "2005 - Agosto": 1.009,
+      "2005 - Septiembre": 1.004,
+      "2005 - Octubre": 1.003,
+      "2005 - Noviembre": 1.0,
+      "2005 - Diciembre": 0.991
+    },
+    "Grado de ocupación": {
+      "2005": null,
+      "2005 - Enero": 1.134,
+      "2005 - Febrero": 0.994,
+      "2005 - Marzo": 1.046,
+      "2005 - Abril": 1.045,
+      "2005 - Mayo": 0.973,
+      "2005 - Junio": 0.964,
+      "2005 - Julio": 0.984,
+      "2005 - Agosto": 0.984,
+      "2005 - Septiembre": 1.009,
+      "2005 - Octubre": 1.007,
+      "2005 - Noviembre": 1.069,
+      "2005 - Diciembre": 0.982
+    }
+  }
+}

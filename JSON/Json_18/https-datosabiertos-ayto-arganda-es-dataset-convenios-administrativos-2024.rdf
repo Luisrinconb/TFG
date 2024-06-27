@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-ayto-arganda-es-dataset-convenios-administrativos-2024">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:25:08Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-ayto-arganda-es-dataset-convenios-administrativos-2024"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>77535ee225695687bec66eef4ed18445</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:24:56Z</dct:issued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:25:08Z</edp:transIssued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/convenios-administrativos-2024</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-ayto-arganda-es-dataset-convenios-administrativos-2024">
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-15T00:00:00+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4b6355cc-1126-449d-8ca1-8a9e5e99e6d8">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Convenios administrativos. 2024</dct:title>
+            <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/convenios-administrativos-2024/resource/0d12ea6c-b6f6-45b1-a9ef-72f93504bb8a</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.ayto-arganda.es/dataset/8d68ec45-e59f-4743-a1d7-cdeab8770044/resource/0d12ea6c-b6f6-45b1-a9ef-72f93504bb8a/download/convenioadministrativos2024.csv"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >2802</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Convenios administrativos. 2024</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280148">
+            <foaf:name>Ayuntamiento de Arganda del Rey</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="es">convenios administrativos</dcat:keyword>
+        <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/convenios-administrativos-2024</dct:identifier>
+        <dct:title xml:lang="es">Convenios administrativos. 2024</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/44d23616-4e24-4d07-977b-af6882c8fc42">
+            <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/convenios-administrativos-2024/resource/8837f04d-fa5f-4315-a3cf-5a4bf4beec34</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.ayto-arganda.es/dataset/8d68ec45-e59f-4743-a1d7-cdeab8770044/resource/8837f04d-fa5f-4315-a3cf-5a4bf4beec34/download/convenioadministrativos2024.json"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >3732</dcat:byteSize>
+            <dct:title xml:lang="es">Convenios administrativos. 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-22T00:00:00+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7de6c5ce-a4a9-431f-8754-37e1787ca88f">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Convenios administrativos. 2024</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >31232</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://datosabiertos.ayto-arganda.es/dataset/8d68ec45-e59f-4743-a1d7-cdeab8770044/resource/503938f4-7108-492b-a229-cdd69e3ca9f5/download/convenioadministrativos2024.xls"/>
+            <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/convenios-administrativos-2024/resource/503938f4-7108-492b-a229-cdd69e3ca9f5</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+  </dcat:CatalogRecord>
+</rdf:RDF>

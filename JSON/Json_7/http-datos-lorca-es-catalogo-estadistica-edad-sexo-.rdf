@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/http-datos-lorca-es-catalogo-estadistica-edad-sexo-">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:22:06Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/http-datos-lorca-es-catalogo-estadistica-edad-sexo-"/>
+    <dct:identifier>http://datos.lorca.es/catalogo/estadistica-edad-sexo/</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/http-datos-lorca-es-catalogo-estadistica-edad-sexo-">
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l01300243-estadistica-habitantes-por-edad-y-sexo/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l01300243-estadistica-habitantes-por-edad-y-sexo/DurationDescription">
+                <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:days>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Статистически данни за населението по възраст и пол</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c9da4a0e-f8da-4527-b865-a3e565e0dd85">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/estadistica-edad-sexo/estadistica-edad-sexo.html"/>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:identifier>http://datos.lorca.es/catalogo/estadistica-edad-sexo/HTML</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Väestötilastot iän ja sukupuolen mukaan</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Iedzīvotāju statistika pēc vecuma un dzimuma</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Statystyki ludności według wieku i płci</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Statistika stanovništva prema dobi i spolu</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Befolkningsstatistik efter ålder och kön</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Population statistics by age and sex</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Statistika prebivalstva po starosti in spolu</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Statystyki ludności według wieku i płci</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Στατιστικά στοιχεία για τον πληθυσμό ανά ηλικία και φύλο</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Statistiche sulla popolazione per età e sesso</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Статистика населення за віком та статтю</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Staidreamh daonra de réir aoise agus inscne</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c5a18f13-0df1-40ab-8b27-9f2d897fd549">
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/estadistica-edad-sexo/estadistica-edad-sexo.xml"/>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:identifier>http://datos.lorca.es/catalogo/estadistica-edad-sexo/XML</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="et-t-es-t0-mtec">Rahvastikustatistika vanuse ja soo järgi</dct:description>
+        <dct:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-27T00:00:00+02:00</dct:valid>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Statistiques démographiques selon l’âge et le sexe</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Statistika stanovništva prema dobi i spolu</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Népességi statisztika kor és nem szerint</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Statistici privind populația în funcție de vârstă și sex</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Статистически данни за населението по възраст и пол</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Murcia"/>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Estatísticas da população por idade e sexo</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Bevolkingsstatistieken naar leeftijd en geslacht</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Befolkningsstatistik efter ålder och kön</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8772bce7-5d77-40cf-90cb-4be4eceaecfd">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/estadistica-edad-sexo/estadistica-edad-sexo.json"/>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:identifier>http://datos.lorca.es/catalogo/estadistica-edad-sexo/JSON</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Statistika prebivalstva po starosti in spolu</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dct:description xml:lang="it-t-es-t0-mtec">Statistiche sulla popolazione per età e sesso</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="es">Estadística habitantes por edad y sexo</dct:title>
+        <dcat:keyword xml:lang="es">sexo</dcat:keyword>
+        <dct:title xml:lang="de-t-es-t0-mtec">Bevölkerungsstatistik nach Alter und Geschlecht</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01300243">
+            <foaf:name>Ayuntamiento de Lorca</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Statistiques démographiques selon l’âge et le sexe</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Staidreamh daonra de réir aoise agus inscne</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Statistika populace podle věku a pohlaví</dct:description>
+        <dct:description xml:lang="es">Estadística habitantes por edad y sexo</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Befolkningsstatistik efter alder og køn</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Štatistiky obyvateľstva podľa veku a pohlavia</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Статистика населення за віком та статтю</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Väestötilastot iän ja sukupuolen mukaan</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/36dab512-9084-4343-918a-e503faf0771e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:identifier>http://datos.lorca.es/catalogo/estadistica-edad-sexo/Excel</dct:identifier>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/estadistica-edad-sexo/estadistica-edad-sexo.excel"/>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">habitantes</dcat:keyword>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Népességi statisztika kor és nem szerint</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-27T00:00:00+02:00</dct:modified>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Statistici privind populația în funcție de vârstă și sex</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Štatistiky obyvateľstva podľa veku a pohlavia</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-07-30T00:00:00+02:00</dct:issued>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Statistika populace podle věku a pohlaví</dct:title>
+        <dcat:keyword xml:lang="es">estadística</dcat:keyword>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Statistika dwar il-popolazzjoni skont l-età u s-sess</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Bevolkingsstatistieken naar leeftijd en geslacht</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1fa415e9-093e-42a5-a93a-8e2284dfadff">
+            <dct:identifier>http://datos.lorca.es/catalogo/estadistica-edad-sexo/CSV</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/estadistica-edad-sexo/estadistica-edad-sexo.csv"/>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia"/>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Estatísticas da população por idade e sexo</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Befolkningsstatistik efter alder og køn</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Gyventojų statistika pagal amžių ir lytį</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Statistika dwar il-popolazzjoni skont l-età u s-sess</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Bevölkerungsstatistik nach Alter und Geschlecht</dct:description>
+        <dct:identifier>http://datos.lorca.es/catalogo/estadistica-edad-sexo/</dct:identifier>
+        <dcat:keyword xml:lang="es">edad</dcat:keyword>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Gyventojų statistika pagal amžių ir lytį</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Population statistics by age and sex</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Iedzīvotāju statistika pēc vecuma un dzimuma</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Rahvastikustatistika vanuse ja soo järgi</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Στατιστικά στοιχεία για τον πληθυσμό ανά ηλικία και φύλο</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:08:38Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:08:38Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>b388ff66098552b88e965966beba0641</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-02T08:35:06Z</edp:transReceived>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

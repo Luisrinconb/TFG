@@ -1,0 +1,1438 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-www-opendatabizkaia-eus-es-catalogo-encomiendas-gestion-ifas">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:05:50Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-www-opendatabizkaia-eus-es-catalogo-encomiendas-gestion-ifas">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ddffee5a-9433-4ec8-b250-87e6e95bc474">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/c67a5690-0029-49cf-9b4e-ed43fbcbd961</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2016  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2016  - DICIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/36fcafae-f453-4524-ad5d-24f3d0237758/encomiendas-gestion-ifas-2016-diciembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="cs-t-es-t0-mtec">IFAS Management Encomiendas Systémové požadavky</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/32c7dd79-6ba1-44e9-9885-41d571d08c3e">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/91d5d38b-4a80-4767-9001-cd803ff179df/encomiendas-gestion-ifas-2022-septiembre?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/b37f68f0-718e-48e9-b255-d5c31a350657</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7b431840-396b-49b7-8a26-c264e5f03868">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a8888ed-324f-48e6-9508-4ef9d43c1a1e/encomiendas-gestion-ifas-2018-junio?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - EKAINA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/51055c99-df84-4703-8ed7-20600983d4df</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - JUNIO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/df3ef56f-7643-4bb1-8604-50c5de391680">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/339ab163-da1c-4470-b9e7-ee20acec3765</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - DICIEMBRE</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1dc37a60-40f8-4909-804b-adc3d6a7c9a9/encomiendas-gestion-ifas-2023-diciembre?format=xlsx"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - ABENDUA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1b04ee54-434b-4899-a7f5-7c1956efbc8d">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - SEPTIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/f10c298c-f29c-437c-9a9d-8a1bd6497891</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - IRAILA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b879b443-3d10-4b4c-8ab3-4cab8e4c1e36/encomiendas-gestion-ifas-2023-septiembre?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Informacije o upravljavskih nalogah, ki jih je dodelil Instituto Foral de Asistencia Social. To so proračunske informacije, ki se nanašajo na vmesna obdobja, zato niso dokončne.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/19928068-6332-4416-a8f9-36de635f979f">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - EKAINA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/ba9a51cc-2632-40c0-b776-c03470ff4005</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/09227021-0079-4f34-b399-9f94e598c58b/encomiendas-gestion-ifas-2023-junio?format=json"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - JUNIO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/167b7bcd-f2e1-4028-acd7-d72ee6b2c032">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - SEPTIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b4daa7f8-6a1f-4170-b1d1-fe3a9fd81478/encomiendas-gestion-ifas-2018-septiembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/b7debfad-852f-45d8-af68-e5323cdd0ccf</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - IRAILA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ddcfcb5e-a28f-4a15-8e7c-daf6028066ee">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - DICIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/1cf7803c-e85f-425c-b7b7-bf6a13f4b8a6</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7dea36c3-39d2-4dd9-89a9-60d3c80d5e20/encomiendas-gestion-ifas-2018-diciembre?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6463ae41-ffb1-4492-a2d4-561e998595eb">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - SEPTIEMBRE</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/4c8a24f8-bde8-4d08-bab1-826474efc8e5</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - IRAILA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b879b443-3d10-4b4c-8ab3-4cab8e4c1e36/encomiendas-gestion-ifas-2023-septiembre?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048">
+            <foaf:name>Diputación Foral de Bizkaia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações sobre as tarefas de gestão atribuídas pelo Instituto Foral de Asistencia Social. Trata-se de informações orçamentais relativas a períodos intermédios, pelo que não são definitivas.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3ab8fdc7-8668-424c-90ef-339a04d95fad">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - DICIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7dea36c3-39d2-4dd9-89a9-60d3c80d5e20/encomiendas-gestion-ifas-2018-diciembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/302d5443-5548-4ce0-9594-d03ee43c3cf3</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - ABENDUA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/03be5806-16df-4959-ac6d-4b30e1d5b093">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/d5b7f9aa-3850-4f79-855b-34856d3ed864</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b4daa7f8-6a1f-4170-b1d1-fe3a9fd81478/encomiendas-gestion-ifas-2018-septiembre?format=xlsx"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - SEPTIEMBRE</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - IRAILA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0c265c02-a2a0-442e-8ad1-99ac66e2b506">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/75a521ac-5cd3-412b-b844-e9dc2c864436</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15a2c256-dce3-42f6-860d-2f0e5e38e3ee/encomiendas-gestion-ifas-2022-diciembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - DICIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="da-t-es-t0-mtec">Oplysninger om de forvaltningsopgaver, der er tildelt af Instituto Foral de Asistencia Social. Der er tale om budgetoplysninger vedrørende delårsperioder, som derfor ikke er endelige.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/61a7cc80-0232-4629-9bb9-d61a0538d27a">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/c470da0c-38e4-4ee4-8a9f-8a0d510e6435/encomiendas-gestion-ifas-2017-junio?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - JUNIO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - EKAINA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/b75aed89-d102-49e1-a975-eb9bc6f3f3f9</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c74d9161-ec12-4800-8d27-33acaa0cd48a">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/0248fb73-bf28-4854-9593-1df0ed94c1f9</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a5d51d49-c0e5-47bc-b75d-de9f87e6a32b/encomiendas-gestion-ifas-2019-septiembre?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Gestão de IFAS Encomiendas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3d19c7ba-e737-4509-ad4c-b0bb7db34835">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fa8ac76a-7a9e-423a-b7ec-1f70bc8de7e5/encomiendas-gestion-ifas-2020-septiembre?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/eeafd9f9-553b-429a-9d24-6b35b3ff4550</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - IRAILA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0cb98c4f-a5fc-456b-8311-5c49701f8352">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - SEPTIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fa8ac76a-7a9e-423a-b7ec-1f70bc8de7e5/encomiendas-gestion-ifas-2020-septiembre?format=json"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - IRAILA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/b973e828-48ae-432f-84b8-49e8e5b987ff</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="et-t-es-t0-mtec">Teave Instituto Foral de Asistencia Sociali poolt antud juhtimisülesannete kohta. Tegemist on vaheperioodidega seotud eelarveteabega, mis ei ole seega lõplik.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Информация за управленските задачи, възложени от Instituto Foral de Asistencia Social. Това е бюджетна информация, свързана с междинни периоди, поради което не е окончателна.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ad3dce6d-77ae-4f41-969e-09f71ae7181d">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/d208f1dd-797d-459c-bd09-386c417f2493</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2014  - DICIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2014  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/3595d4e0-3df4-4a3b-bebe-7e1173221ee0/encomiendas-gestion-ifas-2014-diciembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5ac2647d-2764-4c84-aba3-195eb48bca9a">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15a2c256-dce3-42f6-860d-2f0e5e38e3ee/encomiendas-gestion-ifas-2022-diciembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - DICIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/acd18b3e-22b0-4555-955c-04b7b579228d</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9a3fb83e-b8e1-44bb-bce2-9cbbbb14c821">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6a51f482-5b70-4026-b6ee-a5521869ffc5/encomiendas-gestion-ifas-2017-diciembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/cb8daabc-7688-47c6-a35f-6cdf7221110b</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - DICIEMBRE</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="eu">GUFEren kudeaketa-aginduak</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bc2a6a20-c5e5-417f-9d6c-bc5e203b91ea">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - IRAILA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - SEPTIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/93885843-85e3-469f-a60e-7f32865fd117</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6c8d3a9f-af3b-4ced-a13f-d9aaee07503c/encomiendas-gestion-ifas-2017-septiembre?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6fb1bde8-3233-426f-90bc-b192cc0c0bd9">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/619c631f-e41b-450f-8123-b32e565cd80f/encomiendas-gestion-ifas-2020-junio?format=json"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - JUNIO</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/ad6b7352-cdee-40c3-af18-89e1a079e46f</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - EKAINA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2ee9bbd1-c316-4d3e-b258-829fee96e71e">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - DICIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6a51f482-5b70-4026-b6ee-a5521869ffc5/encomiendas-gestion-ifas-2017-diciembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/8ce4cd99-b492-4e8a-92c6-8c58592c00f4</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - ABENDUA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Informace o řídících úkolech udělených Instituto Foral de Asistencia Social. Jedná se o rozpočtové informace týkající se přechodných období, a proto nejsou konečné.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4f5132a2-ff2e-4586-a0e4-b57a2e85ed98">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - SEPTIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/1d08476d-9d00-4b2f-bc81-b0bb86cfb123</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - IRAILA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b879b443-3d10-4b4c-8ab3-4cab8e4c1e36/encomiendas-gestion-ifas-2023-septiembre?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/113d82e0-a407-43f9-985c-995193b6a453">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/1dc1a463-bae9-49e8-83b0-ccb7987c03a0</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - MARTXOA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - MARZO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/dataset/f9f0d574-b639-4f4a-8294-8d346a50afb6/resource/d20cc00f-5ee6-49df-9416-df182691d618/download/upload"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/65325697-6a5c-40e4-a60e-c9e9e054ba3e">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2014  - DICIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/3595d4e0-3df4-4a3b-bebe-7e1173221ee0/encomiendas-gestion-ifas-2014-diciembre?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/d7952941-a522-4fc0-867f-ea1502ec0548</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2014  - ABENDUA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c48feec9-9f64-4898-b5df-05f623b96d9a">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - ABENDUA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/36023750-584b-472a-ae30-33d36b92ce16</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6a51f482-5b70-4026-b6ee-a5521869ffc5/encomiendas-gestion-ifas-2017-diciembre?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - DICIEMBRE</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8436fde8-46c6-47ef-a926-1c060ac2d4ab">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - DICIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/c8b40ffc-cc23-4e6d-885d-e3739287e162</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/43bd1823-69c3-425a-9a2c-1b0058f46f68/encomiendas-gestion-ifas-2021-diciembre?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - ABENDUA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2f702849-5d2d-40b0-a99c-6ef39c704e45">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/039ac47a-098c-4e45-a086-24b14150bbfe/encomiendas-gestion-ifas-2022-marzo?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - MARTXOA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - MARZO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/5ac2c38d-1c26-4480-b7d2-5ced71e364a6</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/79f62e28-ba42-48b8-be0e-85392b2b3603">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/43bd1823-69c3-425a-9a2c-1b0058f46f68/encomiendas-gestion-ifas-2021-diciembre?format=xlsx"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/f18a7cfd-0616-45b6-a01c-579c25f20e34</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/eda9af23-a5da-47a1-a97e-403745e6c347">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2024  - MARZO</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2024  - MARTXOA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/faa00bbd-5cb2-4c08-882b-4f3378315fb6</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/162fbff8-4ae7-4607-887f-b2430d37c657/encomiendas-gestion-ifas-2024-marzo?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">kudeaketa aginduak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6a24fe9f-60c4-4d2a-96f1-d6028f5077d2">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/235e954c-dd21-4921-9073-c4dfeba8a689/encomiendas-gestion-ifas-2022-junio?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - EKAINA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/dedc6cd8-f776-4c0f-aa5a-7742fd834491</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - JUNIO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/95337595-5c96-44e2-b951-2870aa703fb8">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - MARZO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - MARTXOA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/07112820-f100-4836-81a7-baaae3085117</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/039ac47a-098c-4e45-a086-24b14150bbfe/encomiendas-gestion-ifas-2022-marzo?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d0668098-077e-46e0-888c-c4888acfbd62">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - MARTXOA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/039ac47a-098c-4e45-a086-24b14150bbfe/encomiendas-gestion-ifas-2022-marzo?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/ac5e0f44-147a-4863-ad65-bb582a1826fa</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - MARZO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a0bc17b2-d5c6-4e45-9e52-10607949b82a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/eddb0e30-31cd-49e9-8101-80aed0fc5fc8</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2015  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/e4e29c35-ea21-4e36-9053-3ef0e5637649/encomiendas-gestion-ifas-2015-diciembre?format=csv"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2015  - DICIEMBRE</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5a1fac4d-f427-4d81-b731-8f316a4fc207">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/c470da0c-38e4-4ee4-8a9f-8a0d510e6435/encomiendas-gestion-ifas-2017-junio?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/aeb8e876-48e1-44ca-b08d-0132de6edaca</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - JUNIO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - EKAINA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/716c5873-9e44-4415-962f-6170c6c5087c">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a5d51d49-c0e5-47bc-b75d-de9f87e6a32b/encomiendas-gestion-ifas-2019-septiembre?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - IRAILA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/32fa2ef2-6680-4b91-bf2f-aa7e8bff2cb4</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - SEPTIEMBRE</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Informacje na temat zadań związanych z zarządzaniem przyznawanych przez Instituto Foral de Asistencia Social. Jest to informacja budżetowa dotycząca okresów przejściowych, a zatem nie jest ostateczna.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/476697e4-fedf-4930-ab58-acdf17918d59">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - JUNIO</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/02022c93-b23b-4229-a6c6-c3a730f03c34</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - EKAINA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/09227021-0079-4f34-b399-9f94e598c58b/encomiendas-gestion-ifas-2023-junio?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tiedot Instituto Foral de Asistencia Socialin myöntämistä hallinnointitehtävistä. Kyse on välikausia koskevista talousarviotiedoista, jotka eivät näin ollen ole lopullisia.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7856cd5c-f845-4527-8be1-b5980be75912">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15a2c256-dce3-42f6-860d-2f0e5e38e3ee/encomiendas-gestion-ifas-2022-diciembre?format=tsv"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - DICIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/9068852f-b304-4a4c-b624-c349d4792baa</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Encomiendas de gestión del IFAS</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a7f207e4-f1d0-44bc-a55e-c553d7f2d086">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - DICIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/6b5e04b2-225e-4d75-98d2-1187aa6894bb</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1dc37a60-40f8-4909-804b-adc3d6a7c9a9/encomiendas-gestion-ifas-2023-diciembre?format=csv"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - ABENDUA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/acb08782-9967-48b5-8efd-4d908c6c43a0">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/f164a915-2c2f-41d1-b748-5f1135f30651</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - MARTXOA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d2f8474f-4b43-4eb6-8918-e0a10b199f56/encomiendas-gestion-ifas-2017-marzo?format=xlsx"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - MARZO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Información sobre las encomiendas de gestión otorgadas por el Instituto Foral de Asistencia Social. Se trata de información presupuestaria referida a periodos intermedios, por tanto, no definitiva.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a989009f-76f4-4eae-b0eb-346ccab0b760">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - DICIEMBRE</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - ABENDUA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/c1b0bc8b-4ffc-47ed-bd96-8e864509e1b9</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5d7ea7-8e6d-4c35-99e3-7b63832d6790/encomiendas-gestion-ifas-2019-diciembre?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ce4563e5-b746-448a-ba00-2151ce1172fa">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - EKAINA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/2a18e7c2-f7fe-441a-9c79-e0c9a6003052</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - JUNIO</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/619c631f-e41b-450f-8123-b32e565cd80f/encomiendas-gestion-ifas-2020-junio?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/29c8197e-ea51-4821-ab5b-87da3b6c1452">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - MARTXOA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d2f8474f-4b43-4eb6-8918-e0a10b199f56/encomiendas-gestion-ifas-2017-marzo?format=json"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - MARZO</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/f0f4941a-318a-4cc8-bcfa-d7fe30950dec</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a03db40e-8340-46d2-9c05-10c8cada5849">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2024  - MARTXOA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/1e33a548-cff3-42b0-8528-9deb04659374</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/162fbff8-4ae7-4607-887f-b2430d37c657/encomiendas-gestion-ifas-2024-marzo?format=csv"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2024  - MARZO</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b0309841-7f14-459a-91fc-a09088c8c320">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - DICIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/6d3579a8-0d97-42d1-8ffe-59dad4601914</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/43bd1823-69c3-425a-9a2c-1b0058f46f68/encomiendas-gestion-ifas-2021-diciembre?format=tsv"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - ABENDUA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8e43a8a8-8eb0-47a1-ac06-21c16c4e75c1">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - EKAINA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/2f6dad1c-cda3-4f6d-864b-748bc2852f42</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - JUNIO</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/619c631f-e41b-450f-8123-b32e565cd80f/encomiendas-gestion-ifas-2020-junio?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Informatie over de beheerstaken van het Instituto Foral de Asistencia Social. Dit betreft begrotingsinformatie met betrekking tot tussentijdse perioden, dus niet definitief.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/657cc71e-2ca6-4a7c-b224-81d54dd0fc19">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2024  - MARTXOA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/c1e65dfd-d0d5-458a-8154-64fc64c5386d</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/162fbff8-4ae7-4607-887f-b2430d37c657/encomiendas-gestion-ifas-2024-marzo?format=json"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2024  - MARZO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9ad482b4-f707-484f-9682-cba739c3f6f9">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/f7db413d-6582-4060-9f45-e85241e0223f</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/91d5d38b-4a80-4767-9001-cd803ff179df/encomiendas-gestion-ifas-2022-septiembre?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/53f80d9c-1547-46b6-9056-3d18bd30f17e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - MARZO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/74a6ab3a-fc1a-4dbe-b699-d0246d8f6faf</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - MARTXOA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/dataset/f9f0d574-b639-4f4a-8294-8d346a50afb6/resource/98e0920d-1f22-4c27-899f-1c1f359db6f3/download/upload"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/766139ba-c445-43a9-8f23-64818bfa3df1">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/c470da0c-38e4-4ee4-8a9f-8a0d510e6435/encomiendas-gestion-ifas-2017-junio?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/64b3dd04-d00b-427c-9ce1-ffb6f9fc555f</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - JUNIO</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - EKAINA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-20T00:00:00+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/27dbae94-a242-4e61-979a-822e3c7edb76">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/de1e6e53-38c7-494d-82ff-1ec9fa4bf8e0/encomiendas-gestion-ifas-2021-septiembre?format=tsv"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - IRAILA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - SEPTIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/b8c755f4-290e-4f73-856c-3c4b9c5f0f27</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/29f5053d-fb9b-49f6-b740-68c558e8601a">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fd8b71d-ae7b-42a5-840f-8bfd0ea6c32e/encomiendas-gestion-ifas-2020-diciembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/5bb23e9f-9c26-4b69-94c7-addb228fa68a</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - DICIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - ABENDUA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4813986e-097d-42a1-aee3-9f378e69ba1a">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/039ac47a-098c-4e45-a086-24b14150bbfe/encomiendas-gestion-ifas-2022-marzo?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - MARZO</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - MARTXOA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/e9b7e4a4-3923-45a5-95bd-f3ddaa845052</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/49d04931-0953-4736-8fea-571308e2f30d">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/039ac47a-098c-4e45-a086-24b14150bbfe/encomiendas-gestion-ifas-2022-marzo?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - MARZO</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - MARTXOA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/595473ee-6f8f-4c24-bde6-15d25134a35f</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Documentación</dcat:keyword>
+        <dct:title xml:lang="hu-t-es-t0-mtec">IFAS Menedzsment Encomiendas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a2233959-1cd3-46ac-acb6-c97988a40aad">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2016  - ABENDUA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/749f3eda-258a-4716-8305-fa375218f259</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2016  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/36fcafae-f453-4524-ad5d-24f3d0237758/encomiendas-gestion-ifas-2016-diciembre?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f31046ae-ec3e-4a11-b3d9-6f7625988699">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/ded4d629-9c41-4992-9abf-ebc6b5a07e3e</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - IRAILA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6c8d3a9f-af3b-4ced-a13f-d9aaee07503c/encomiendas-gestion-ifas-2017-septiembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/92afa47e-8b63-4c20-b713-4edc7c945ee1">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - DICIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/d9983fd8-0c04-43b6-ab7d-766097f90224</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - ABENDUA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5d7ea7-8e6d-4c35-99e3-7b63832d6790/encomiendas-gestion-ifas-2019-diciembre?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Zarządzanie IFAS Encomiendas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a283a874-df61-428d-ad3b-a236f87f6f01">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/9aee7e4c-204c-4f1c-97bb-635dc050189f</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - DICIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fd8b71d-ae7b-42a5-840f-8bfd0ea6c32e/encomiendas-gestion-ifas-2020-diciembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/053daf66-f954-4f35-aed7-7d178a358874">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/93b4025f-0863-475f-88c7-7a53e5836804</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a5d51d49-c0e5-47bc-b75d-de9f87e6a32b/encomiendas-gestion-ifas-2019-septiembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/745253b1-54dd-4101-b578-34786fa6eca6">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5d7ea7-8e6d-4c35-99e3-7b63832d6790/encomiendas-gestion-ifas-2019-diciembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - DICIEMBRE</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/665a6502-d5b4-42c8-9eb1-0e6409299e92</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - ABENDUA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/269cabf5-3c2a-4547-85bb-049893ee5592">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6c8d3a9f-af3b-4ced-a13f-d9aaee07503c/encomiendas-gestion-ifas-2017-septiembre?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/fa6cf3ae-5d8a-4ca2-90f0-f1f16d9388e0</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aef333a7-a395-4e91-956a-5d77b01c341d">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/b1175868-f686-4f65-b16e-5f7fae2c84e3</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2014  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2014  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/3595d4e0-3df4-4a3b-bebe-7e1173221ee0/encomiendas-gestion-ifas-2014-diciembre?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bc38ce15-5a29-479e-ae19-ddadf63fa4bf">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/8934504a-973e-4c95-8757-4ee7ce47e387</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/91d5d38b-4a80-4767-9001-cd803ff179df/encomiendas-gestion-ifas-2022-septiembre?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-es-t0-mtec">IFAS upravljački encomiendas</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Інформація про управлінські завдання, надані Інститутом Форал де Асистенсія Соціальний. Це бюджетна інформація, що стосується проміжних періодів, тому не остаточна.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b90bcd95-a02b-4502-b616-994f98abcdab">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - JUNIO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - EKAINA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/8d9b3d8a-c532-473d-8f97-278c357ccc38</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/235e954c-dd21-4921-9073-c4dfeba8a689/encomiendas-gestion-ifas-2022-junio?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Informácie o riadiacich úlohách udelených inštitútom Instituto Foral de Asistencia Social. Ide o rozpočtové informácie týkajúce sa prechodných období, a preto nie sú konečné.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b5347a5b-0c6f-49e0-a164-d11953226cae">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/9c9b4769-eacf-4dc3-94e1-17e0866f5ef2</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - JUNIO</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - EKAINA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a8888ed-324f-48e6-9508-4ef9d43c1a1e/encomiendas-gestion-ifas-2018-junio?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a26768a3-056f-41e4-af04-e9c633fc65bf">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - EKAINA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/ce5089b0-1ec8-4405-af7f-c85ddf5bfe97</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - JUNIO</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/619c631f-e41b-450f-8123-b32e565cd80f/encomiendas-gestion-ifas-2020-junio?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Informacija apie Instituto Foral de Asistencia Social pavestas valdymo užduotis. Tai biudžeto informacija, susijusi su tarpiniais laikotarpiais, todėl nėra galutinė.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Information on the management tasks granted by the Instituto Foral de Asistencia Social. This is budgetary information relating to interim periods, therefore not definitive.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6edd2c62-5ef7-4368-ba70-981f4be3420a">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15a2c256-dce3-42f6-860d-2f0e5e38e3ee/encomiendas-gestion-ifas-2022-diciembre?format=xlsx"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - DICIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - ABENDUA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/f2e69990-16ee-4332-ad66-94bfdbf8f5ef</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7652a197-31ed-4261-9101-2a250b340749">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - JUNIO</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/68f07118-68fd-41ef-b3b6-fd4e6f8f78a1</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - EKAINA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/09227021-0079-4f34-b399-9f94e598c58b/encomiendas-gestion-ifas-2023-junio?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e2ce748e-5568-4a9a-aa63-d0ea8321d7d3">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - DICIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/9f242cda-6882-40ce-8262-ea05fe6209fc</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/43bd1823-69c3-425a-9a2c-1b0058f46f68/encomiendas-gestion-ifas-2021-diciembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4ac574a5-bfa2-4240-9b99-32cad17f9ff4">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d2f8474f-4b43-4eb6-8918-e0a10b199f56/encomiendas-gestion-ifas-2017-marzo?format=csv"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - MARZO</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/a3380fd4-b98e-4957-89ca-9b5b591c0c37</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - MARTXOA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4fddfcc2-c60e-415b-b59c-53cc702b4b65">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - JUNIO</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/619c631f-e41b-450f-8123-b32e565cd80f/encomiendas-gestion-ifas-2020-junio?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/9c71e659-8fde-428a-9718-c5a248618f6a</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - EKAINA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/85cf852c-66b6-4f82-ba60-6969a5f0fa19">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/7d61ad6f-f578-4660-b052-ffbd00706ed5</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - SEPTIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/de1e6e53-38c7-494d-82ff-1ec9fa4bf8e0/encomiendas-gestion-ifas-2021-septiembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - IRAILA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3a398ffe-327f-42da-80dd-63be8f11cbb0">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/e4e29c35-ea21-4e36-9053-3ef0e5637649/encomiendas-gestion-ifas-2015-diciembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/863e31e7-0846-4833-ae71-ee39efd50279</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2015  - ABENDUA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2015  - DICIEMBRE</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/301598b5-ba9a-4dd9-b4c4-17dfdb3b017b">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2024  - MARZO</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/b8253918-dd82-4d59-9693-e0517af542a2</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2024  - MARTXOA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/162fbff8-4ae7-4607-887f-b2430d37c657/encomiendas-gestion-ifas-2024-marzo?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lt-t-es-t0-mtec">IFAS valdymas Encomiendas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/42bfd6ca-1100-4ba6-8fba-491ab52f721f">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/3595d4e0-3df4-4a3b-bebe-7e1173221ee0/encomiendas-gestion-ifas-2014-diciembre?format=json"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2014  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2014  - ABENDUA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/13af8d42-4cb3-4fdf-b095-85df7a47dd64</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8bffe6c4-0d89-4f14-a39f-404b54721a47">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - SEPTIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/3073c529-8272-4b1f-b929-3217334a0d52</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b4daa7f8-6a1f-4170-b1d1-fe3a9fd81478/encomiendas-gestion-ifas-2018-septiembre?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni dwar il-kompiti ta’ ġestjoni mogħtija mill-Instituto Foral de Asistencia Social. Din hija informazzjoni baġitarja relatata ma’ perjodi interim, għalhekk mhux definittiva.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/531db4da-ca22-4fa5-a41a-a238b7b8df6a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/de1e6e53-38c7-494d-82ff-1ec9fa4bf8e0/encomiendas-gestion-ifas-2021-septiembre?format=csv"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - IRAILA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - SEPTIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/5c4b73ff-4460-461a-a550-1222e4ee7076</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3a7708c5-74eb-474a-842b-6751fe847633">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - IRAILA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - SEPTIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/85decb5c-d8a1-4c57-ac63-411b3f4cb8a0</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b4daa7f8-6a1f-4170-b1d1-fe3a9fd81478/encomiendas-gestion-ifas-2018-septiembre?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d5ab30d0-8010-4f20-a53c-3841f7229740">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/6eb864e7-fda5-45dd-9866-2495a4281642</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2015  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/e4e29c35-ea21-4e36-9053-3ef0e5637649/encomiendas-gestion-ifas-2015-diciembre?format=xlsx"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2015  - DICIEMBRE</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/16ba1e22-c383-442d-95bf-fcf21d118dd1">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d2f8474f-4b43-4eb6-8918-e0a10b199f56/encomiendas-gestion-ifas-2017-marzo?format=xml"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - MARTXOA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - MARZO</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/777de80e-cdc2-49e6-9bc7-7cfda928d3ca</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/433732e9-20e0-47d9-a0b5-aa80029395fe">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a5d51d49-c0e5-47bc-b75d-de9f87e6a32b/encomiendas-gestion-ifas-2019-septiembre?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/e7e255b0-83ca-4027-8410-407de76e69ff</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - IRAILA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - SEPTIEMBRE</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Faisnéis faoi na cúraimí bainistíochta arna ndeonú ag an Instituto Foral de Asistencia Social. Is faisnéis bhuiséadach í seo a bhaineann le tréimhsí eatramhacha, agus dá bhrí sin ní faisnéis chinntitheach í.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d3370c69-c890-4833-ade1-dad1e3451328">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/03a40f0b-7f07-4732-855b-c91a5f672dd9</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - SEPTIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fa8ac76a-7a9e-423a-b7ec-1f70bc8de7e5/encomiendas-gestion-ifas-2020-septiembre?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Informacije o upravljačkim zadaćama koje dodjeljuje Instituto Foral de Asistencia Social. Riječ je o proračunskim podacima koji se odnose na privremena razdoblja, stoga nisu konačni.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">IFAS-Management Encomiendas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0252ddb6-a9b5-443c-80af-55870bdb0faa">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/e439da18-c29c-41e6-8710-c311b7bf0d98</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - SEPTIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fa8ac76a-7a9e-423a-b7ec-1f70bc8de7e5/encomiendas-gestion-ifas-2020-septiembre?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - IRAILA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5ba49456-2982-4d67-9188-cdb6c9418f2d">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2024  - MARTXOA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/8603997c-68ca-49a8-a49a-1aba069b913d</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2024  - MARZO</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/162fbff8-4ae7-4607-887f-b2430d37c657/encomiendas-gestion-ifas-2024-marzo?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Encomiendas de gestión</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/be2dd2d6-33a0-41e6-a12d-a1c70923f9f3">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/3e4143cd-0b52-4352-9076-227ecfd502d4</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - IRAILA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - SEPTIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6c8d3a9f-af3b-4ced-a13f-d9aaee07503c/encomiendas-gestion-ifas-2017-septiembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/abdf162b-4b7d-4878-b5c3-7551b7634482">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - JUNIO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/817e64ff-7f60-4d3d-9aea-9db9e06c6407</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - EKAINA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/235e954c-dd21-4921-9073-c4dfeba8a689/encomiendas-gestion-ifas-2022-junio?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aae1becf-ed0b-4427-9beb-d42b4b026b89">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/435de50d-73fa-46a4-a311-bc67b6487262</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2015  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/e4e29c35-ea21-4e36-9053-3ef0e5637649/encomiendas-gestion-ifas-2015-diciembre?format=xml"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2015  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9520438e-63dc-47ae-a50f-d5a3932edff3">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/1a76d7f5-c7a3-4614-b2ab-d7ec60e72959</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d2f8474f-4b43-4eb6-8918-e0a10b199f56/encomiendas-gestion-ifas-2017-marzo?format=tsv"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - MARTXOA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - MARZO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7b92281a-3de0-4f7a-9d7c-804ab68191c1">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - DICIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/9c5a2520-3770-4136-94dc-491f0ebd840b</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1dc37a60-40f8-4909-804b-adc3d6a7c9a9/encomiendas-gestion-ifas-2023-diciembre?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6115ffa7-ca74-4b70-b32d-1e26e7e5fb8b">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/c470da0c-38e4-4ee4-8a9f-8a0d510e6435/encomiendas-gestion-ifas-2017-junio?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - JUNIO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - EKAINA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/9ee187b1-bda9-41f0-acee-89720c49effb</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/252cc09c-e5c3-43a5-84a9-8a6a55ba7756">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - SEPTIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/741a9522-01b4-4e8e-b2a7-ed67f5ec7388</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - IRAILA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b879b443-3d10-4b4c-8ab3-4cab8e4c1e36/encomiendas-gestion-ifas-2023-septiembre?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0aa0caa3-e58c-4976-b1f6-ec3dd919da21">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/91d5d38b-4a80-4767-9001-cd803ff179df/encomiendas-gestion-ifas-2022-septiembre?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/8214cb35-e822-463a-a7ab-262fe0b68336</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1fc66b4e-6328-438b-8942-64ca7d195989">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fd8b71d-ae7b-42a5-840f-8bfd0ea6c32e/encomiendas-gestion-ifas-2020-diciembre?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/e502f46e-4453-4dac-a6d7-a4c37bb0e192</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - DICIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - ABENDUA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Encomiendas de gestion de l’IFAS</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4ac63ba5-5a57-4301-a696-0838745a7b3e">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/235e954c-dd21-4921-9073-c4dfeba8a689/encomiendas-gestion-ifas-2022-junio?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - EKAINA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/8de08835-ffe3-419e-a89e-da6f02c4a083</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - JUNIO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/254e0e73-1430-4646-95f3-4fe8dd2a0b44">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - JUNIO</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/1da1c104-fa09-4bf2-ab2b-a1a3d82d9423</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/235e954c-dd21-4921-9073-c4dfeba8a689/encomiendas-gestion-ifas-2022-junio?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - EKAINA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/273602fa-5c64-48f5-8f1d-8e14bf87eec3">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1dc37a60-40f8-4909-804b-adc3d6a7c9a9/encomiendas-gestion-ifas-2023-diciembre?format=json"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - ABENDUA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/5c8b3469-6163-4219-88ec-a50844b298d1</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">dokumentazioa</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/145cf03c-9a41-408f-a622-4c912ffd64ad">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - EKAINA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/09227021-0079-4f34-b399-9f94e598c58b/encomiendas-gestion-ifas-2023-junio?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/001f72a5-3bd0-498d-8538-38197a7ee418</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - JUNIO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5655d7e4-e621-4ed2-bc39-549792ceee52">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/de1e6e53-38c7-494d-82ff-1ec9fa4bf8e0/encomiendas-gestion-ifas-2021-septiembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/0ac37f1b-9582-4fda-9413-b00815ae4066</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - IRAILA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - SEPTIEMBRE</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/06e7741f-a683-4c0e-8b61-dcedad3a8a8c">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/d6731483-754d-48ed-8691-a85df8478f2f</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/a5d51d49-c0e5-47bc-b75d-de9f87e6a32b/encomiendas-gestion-ifas-2019-septiembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4bc9e097-aab1-4a62-844b-723149cf3bf0">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2016  - DICIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/36fcafae-f453-4524-ad5d-24f3d0237758/encomiendas-gestion-ifas-2016-diciembre?format=xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/12c13631-23fa-4310-810e-f47037cce30c</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2016  - ABENDUA</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4125d369-8f0d-4128-8903-df1da48f797b">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/3110c751-21aa-4692-987d-f875cacef6ac</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1dc37a60-40f8-4909-804b-adc3d6a7c9a9/encomiendas-gestion-ifas-2023-diciembre?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/014f215f-fbe3-434f-ac93-764b47e036f0">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - DICIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/01ee0410-18db-45ab-8238-08f8d5790fc3</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fd8b71d-ae7b-42a5-840f-8bfd0ea6c32e/encomiendas-gestion-ifas-2020-diciembre?format=csv"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - ABENDUA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3d7b3e05-d8fe-4910-a55a-a5be73541de6">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a8888ed-324f-48e6-9508-4ef9d43c1a1e/encomiendas-gestion-ifas-2018-junio?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - EKAINA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/55f22325-f932-4c4a-99ce-1189f37a9595</dct:identifier>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - JUNIO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații privind sarcinile de gestionare acordate de Instituto Foral de Asistencia Social. Acestea sunt informații bugetare referitoare la perioadele interimare și, prin urmare, nu sunt definitive.</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/482f6f16-80a1-4d4c-9e32-bc93620e79d8">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/e4e29c35-ea21-4e36-9053-3ef0e5637649/encomiendas-gestion-ifas-2015-diciembre?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2015  - ABENDUA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2015  - DICIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/8d412c10-a2ed-4c02-9098-dd25f9e22c08</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0466fa52-202e-4336-b96e-ee1a559265e0">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - JUNIO</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - EKAINA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/c470da0c-38e4-4ee4-8a9f-8a0d510e6435/encomiendas-gestion-ifas-2017-junio?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/e8c053ff-dc72-498f-8dfc-efc3d9874c78</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f6b31aee-b3db-4f97-878c-d26e3acc2d5b">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - DICIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/4b81608e-cac0-40a3-b656-e803b06dc43b</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15a2c256-dce3-42f6-860d-2f0e5e38e3ee/encomiendas-gestion-ifas-2022-diciembre?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bc144e53-0779-4cbb-b4f3-0e56c2267575">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/982ddd05-d295-48e6-9baf-2609df995a36</dct:identifier>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2016  - ABENDUA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2016  - DICIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/36fcafae-f453-4524-ad5d-24f3d0237758/encomiendas-gestion-ifas-2016-diciembre?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bad79b33-42a6-4d75-8dd3-ba88abe0599e">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/e532550d-c19f-4b14-85e6-9a6b1cce1fd7</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - IRAILA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b879b443-3d10-4b4c-8ab3-4cab8e4c1e36/encomiendas-gestion-ifas-2023-septiembre?format=xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/43ae37ce-d582-4642-b741-5da471e4d34d">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - ABENDUA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - DICIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7dea36c3-39d2-4dd9-89a9-60d3c80d5e20/encomiendas-gestion-ifas-2018-diciembre?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/2ecc889e-7759-491a-9b62-ddf2b0c74ef3</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/08bd0092-5da3-4043-a2ec-f8e254488476">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2023  - EKAINA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/09227021-0079-4f34-b399-9f94e598c58b/encomiendas-gestion-ifas-2023-junio?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/44f83089-ea78-45ae-bf8b-3eabefd09174</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2023  - JUNIO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni sui compiti di gestione assegnati dall'Instituto Foral de Asistencia Social. Si tratta di informazioni di bilancio relative a periodi intermedi, quindi non definitive.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/da648c38-b357-4261-91f4-d0628155c056">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - IRAILA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6c8d3a9f-af3b-4ced-a13f-d9aaee07503c/encomiendas-gestion-ifas-2017-septiembre?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/565f18b2-bf0a-48c3-b9d0-16bf08019728</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/66623d28-3a34-4a25-b83c-1a45bc974700">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6a51f482-5b70-4026-b6ee-a5521869ffc5/encomiendas-gestion-ifas-2017-diciembre?format=xlsx"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - ABENDUA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/9f3f24c4-aa58-44ac-bdad-f92b8629c966</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Információk az Instituto Foral de Asistencia Social által ellátott irányítási feladatokról. Ez az időközi időszakokra vonatkozó költségvetési információ, ezért nem végleges.</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations sur les tâches de gestion confiées par l’Instituto Foral de Asistencia Social. Il s’agit d’informations budgétaires relatives aux périodes intermédiaires, donc non définitives.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Informācija par Instituto Foral de Asistencia Social piešķirtajiem pārvaldības uzdevumiem. Tā ir budžeta informācija, kas attiecas uz starpperiodiem, tātad nav galīga.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4d3cda86-d8e2-4632-8983-8eb7c8f3ddeb">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fa8ac76a-7a9e-423a-b7ec-1f70bc8de7e5/encomiendas-gestion-ifas-2020-septiembre?format=csv"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - IRAILA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/f1e12892-6ca1-4cfd-9357-a87859188a6e</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - SEPTIEMBRE</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="el-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0832ae3e-9369-459d-95e7-4e706cb0c73b">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/2195f351-1bcc-4370-87c7-f1ccaa84dca7</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8fd8b71d-ae7b-42a5-840f-8bfd0ea6c32e/encomiendas-gestion-ifas-2020-diciembre?format=xlsx"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sv-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/DurationDescription">
+                <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >3</time:months>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fdf183c9-083b-4a48-853c-8cc38cca4295">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2017  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/cf1c8823-5b81-4c09-baf2-cd2e33384c2d</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6a51f482-5b70-4026-b6ee-a5521869ffc5/encomiendas-gestion-ifas-2017-diciembre?format=tsv"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2017  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="it-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:description xml:lang="eu">Gizarte Urgazpenerako Foru Erakundeak emandako kudeaketa-aginduei buruzko informazioa. Bitarteko aldiei buruzko aurrekontu-informazioa da, beraz, ez da behin betikoa.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/01b79441-517a-41a9-88a1-3273b7736029">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - EKAINA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a8888ed-324f-48e6-9508-4ef9d43c1a1e/encomiendas-gestion-ifas-2018-junio?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/6176edaf-d213-4a58-85c5-5efd4b4154d2</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - JUNIO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="uk-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dcat:keyword xml:lang="es">IFAS</dcat:keyword>
+        <dcat:keyword xml:lang="eu">GUFE</dcat:keyword>
+        <dct:title xml:lang="da-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">IFAS Management Encomiendas</dct:title>
+        <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/encomiendas-gestion-ifas</dct:identifier>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d29aa98d-51ec-4f54-9bc3-43ca34e170be">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - SEPTIEMBRE</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/c8f50dff-fc2f-44f0-b80b-809cb19c4dfe</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/de1e6e53-38c7-494d-82ff-1ec9fa4bf8e0/encomiendas-gestion-ifas-2021-septiembre?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5cb30cec-c108-4889-a3d4-3e793b6f68f3">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5d7ea7-8e6d-4c35-99e3-7b63832d6790/encomiendas-gestion-ifas-2019-diciembre?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - DICIEMBRE</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/6e362873-03d5-4e5a-94e8-9313ed7f7477</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πληροφορίες σχετικά με τα καθήκοντα διαχείρισης που ανατίθενται από το Instituto Foral de Asistencia Social. Πρόκειται για δημοσιονομικές πληροφορίες σχετικά με τις ενδιάμεσες περιόδους και, ως εκ τούτου, δεν είναι οριστικές.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/90b852d8-fdd7-4f18-96a6-8019aa0d9d53">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - DICIEMBRE</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - ABENDUA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/123d93f0-95c1-4a8a-aa8e-8428cb6f63d8</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7dea36c3-39d2-4dd9-89a9-60d3c80d5e20/encomiendas-gestion-ifas-2018-diciembre?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f93bfc2d-ca68-4cee-a758-195de623ef45">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - ABENDUA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - DICIEMBRE</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/79929ba5-f413-4554-b6dd-7d33e88a06fc</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7dea36c3-39d2-4dd9-89a9-60d3c80d5e20/encomiendas-gestion-ifas-2018-diciembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7aa5ef76-7e03-419f-a1d7-0954da830b09">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2020  - MARTXOA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2020  - MARZO</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/c70449d7-dadd-40ca-a98c-d1cb8e75e6ba</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/dataset/f9f0d574-b639-4f4a-8294-8d346a50afb6/resource/7d036eb5-9544-4dd5-a617-a38255bd5d5d/download/upload"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/080aa371-1a2a-4e90-aefc-8ade52eb8371">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2016  - DICIEMBRE</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/36fcafae-f453-4524-ad5d-24f3d0237758/encomiendas-gestion-ifas-2016-diciembre?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/b815d80c-5ecc-44e0-8aa1-bb026b8dc8fe</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2016  - ABENDUA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Information om de förvaltningsuppgifter som beviljats av Instituto Foral de Asistencia Social. Detta är budgetuppgifter som avser övergångsperioder, och därför inte definitiva.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aae8a8a1-bc11-4654-9e75-16ed89d122de">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - JUNIO</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - EKAINA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/39faf99a-ddd4-46fe-a9c4-eea1b169d9ed</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a8888ed-324f-48e6-9508-4ef9d43c1a1e/encomiendas-gestion-ifas-2018-junio?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/149ea2e5-df34-4bd0-a3d7-7e3243eb1ec3">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - DICIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/43bd1823-69c3-425a-9a2c-1b0058f46f68/encomiendas-gestion-ifas-2021-diciembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/a0fcbee1-3cc7-4b54-a99f-c9666429732b</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Encomiendas Bainistíochta IFAS</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Encomiendas ta’ Ġestjoni tal-IFAS</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0079cdce-b96d-433a-9b7c-824bd2a0a145">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - JUNIO</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - EKAINA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/e533edd3-6195-4b56-af11-f80fc90161c1</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/dataset/f9f0d574-b639-4f4a-8294-8d346a50afb6/resource/d93eb849-2266-422b-9ba9-0c8641eb4039/download/upload"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/67d651cb-8f61-4cd8-bed5-804421234534">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/3595d4e0-3df4-4a3b-bebe-7e1173221ee0/encomiendas-gestion-ifas-2014-diciembre?format=tsv"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2014  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2014  - ABENDUA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/584b6119-a940-4715-a222-fcee5e51a5e5</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ab3cef8c-4c84-4f4d-bd22-18a30700c6e3">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/dataset/f9f0d574-b639-4f4a-8294-8d346a50afb6/resource/27ec2a57-86e3-4b42-a483-dc1445fe7ee6/download/upload"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/8afe19bf-2a38-4065-9bb5-e825b96da063</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - MARTXOA</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - MARZO</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="de-t-es-t0-mtec">Informationen über die vom Instituto Foral de Asistencia Social übertragenen Verwaltungsaufgaben. Dies sind Haushaltsinformationen, die sich auf Zwischenzeiträume beziehen, daher nicht endgültig.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2019-07-03T00:00:00+02:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/024b6f5f-3fd6-4cb1-a085-c3e9a89bb7bf">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/2140bb50-9e7f-4e8f-8a6c-12239ef1b18c</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/91d5d38b-4a80-4767-9001-cd803ff179df/encomiendas-gestion-ifas-2022-septiembre?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2022  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2022  - IRAILA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cc5e23dc-bfc0-4d56-9d92-cd692f154621">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/dataset/f9f0d574-b639-4f4a-8294-8d346a50afb6/resource/cfaf8f3d-4d2d-4804-ade8-369ee5c3088b/download/upload"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2021  - JUNIO</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2021  - EKAINA</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/cc6b44d3-1c0c-4530-a207-788b36482ee0</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/catalogo/encomiendas-gestion-ifas"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/615b6a63-6a2a-447f-a585-2423319a7ec9">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - MARTXOA</dct:title>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - MARZO</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/fc2b32b8-ddb2-4b48-925e-e8b8c0b703bb</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/dataset/f9f0d574-b639-4f4a-8294-8d346a50afb6/resource/9aec5503-eb59-4e23-bf09-22d6d5ccad4c/download/upload"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3921dbc8-d2f9-499f-8c9c-ba5744436f91">
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2018  - SEPTIEMBRE</dct:title>
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2018  - IRAILA</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/3e3994a8-02e5-49d3-8cd8-ddec946a8161</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b4daa7f8-6a1f-4170-b1d1-fe3a9fd81478/encomiendas-gestion-ifas-2018-septiembre?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/51fe0b8e-a7d1-4afc-af1d-b0949bfa1c0a">
+            <dct:title xml:lang="eu">Kudeaketa-aginduak - Gizarte Urgazpenerako Foru Erakundea 2019  - ABENDUA</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5d7ea7-8e6d-4c35-99e3-7b63832d6790/encomiendas-gestion-ifas-2019-diciembre?format=xlsx"/>
+            <dct:title xml:lang="es">Encomiendas de gestión - Instituto Foral de Asistencia Social de Bizkaia 2019  - DICIEMBRE</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-encomiendas-de-gestion-del-ifas/resource/68a99058-0da8-42a6-8bf5-f25fb2611c27</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-www-opendatabizkaia-eus-es-catalogo-encomiendas-gestion-ifas"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:20:17Z</edp:transIssued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/encomiendas-gestion-ifas</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:20:17Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>46b5e9a3dbc844a7a978ffbd7649a179</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

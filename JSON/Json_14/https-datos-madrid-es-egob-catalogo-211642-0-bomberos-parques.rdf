@@ -1,0 +1,274 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-madrid-es-egob-catalogo-211642-0-bomberos-parques">
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-05-17T23:23:45Z</edp:transIssued>
+    <dct:identifier>https://datos.madrid.es/egob/catalogo/211642-0-bomberos-parques</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-05-18T08:55:50Z</edp:transReceived>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-madrid-es-egob-catalogo-211642-0-bomberos-parques"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:20:07Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>fb2ce2523edc5e23b90eb3e0c76df209</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-madrid-es-egob-catalogo-211642-0-bomberos-parques">
+        <dct:title xml:lang="ro-t-es-t0-mtec">Pompierilor. Parcuri de incendii Pompierilor.
+Parcuri de incendii</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4141152b-113a-4a5f-8b2b-90a786388e66">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+            <dcat:accessURL rdf:resource="https://datos.madrid.es/egob/catalogo/211642-0-bomberos-parques.rdf"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01280796-bomberos-parques-de-bomberos/resource/cf7058f0-87d5-4dcd-ba9a-056502c70405</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">El  Cuerpo de Bomberos del Ayuntamiento de Madrid  es el responsable de prestar a los ciudadanos el servicio de  prevención y extinción de incendios y salvamentos .   En este conjunto de datos, puede encontrar la relación de los trece parques de bomberos existentes en la ciudad de Madrid.   La división de los parques es la siguiente:   Zona centro: con los Parques 2, 3 y 6. Zona este: con los Parques 8, 7, 11 y 13. Zona sur: con los Parques 5, 10 y 12. Zona norte: con los Parques 9, 4 y 1.   También puede  consultar la relación existente  en la web municipal  www.madrid.es  para ver la ficha asociada a cada instalación.      Fuente:  www.madrid.es</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Vatrogasci. Vatrogasni parkovi Vatrogasci.
+Vatrogasni parkovi</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Departamentul de pompieri al orașului Madrid este responsabil pentru a oferi cetățenilor serviciul de prevenire și stingere a incendiilor și a salvărilor. În acest set de date, puteți găsi relația dintre cele douăsprezece parcuri de incendiu existente în orașul Madrid. Împărțirea parcurilor este următoarea: Zona centrală: cu parcurile 2, 3 și 6. Zona de Est: cu parcurile 8, 7, 11 și 13. Zona de Sud: cu parcurile 5, 10 și 12. Zona nordică: cu parcurile 9, 4 și 1. De asemenea, puteți consulta relația existentă pe site-ul municipal www.madrid.es pentru a vedea fișierul asociat fiecărei instalații. Sursă: www.madrid.es</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A madridi tűzoltóság felelős azért, hogy a polgároknak segítséget nyújtson a tüzek és a mentések megelőzéséhez és kioltásához. Ebben az adatkészletben megtalálható a madridi 12 meglévő tűzvédelmi park kapcsolata. A parkok felosztása a következő: A központ területe: a 2., 3. és 6. parkokkal. Keleti zóna: a 8-as, 7-es, 11-es és 13-as parkokkal. Déli zóna: az 5-ös, 10-es és 12-es parkokkal.
+Északi zóna:
+a 9-es, 4-es és 1-es parkokkal.
+A meglévő kapcsolatot a www.madrid.es önkormányzati honlapon is megtekintheti az egyes telepítésekhez kapcsolódó fájl megtekintéséhez.
+Forrás:
+www.madrid.es</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Hasiči. Požiarne parky Hasiči.
+Požiarne parky</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">The Fire Department of the City of Madrid is responsible for providing citizens with the service of prevention and extinction of fires and rescues. In this dataset, you can find the relationship of the twelve existing fire parks in the city of Madrid. The division of the parks is as follows: Center area: with Parks 2, 3 and 6. East Zone: with Parks 8, 7, 11 and 13. South Zone: with Parks 5, 10 and 12. Northern zone: with Parks 9, 4 and 1. You can also consult the existing relationship on the municipal website www.madrid.es to see the file associated with each installation. Source: www.madrid.es</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Bombeiros. Parques de bombeiros Bombeiros.
+Parques de bombeiros</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">На пожарникарите. Пожарни паркове На пожарникарите.
+Пожарни паркове</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-17T23:12:47+02:00</dct:modified>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Madridin kaupungin palokunta vastaa tulipalojen ja pelastustoimien ehkäisemisestä ja sammuttamisesta kansalaisille.
+Tästä aineistosta löydät kahdentoista Madridin kaupungin palopuiston suhteen.
+Puistojen jako on seuraava:
+Keskusta-alue:
+puistot 2, 3 ja 6.
+Itäinen alue:
+puistot 8, 7, 11 ja 13.
+Eteläinen alue:
+puistot 5, 10 ja 12.
+Pohjoinen alue:
+puistot 9, 4 ja 1.
+Voit myös tutustua olemassa olevaan suhteeseen kunnallisella verkkosivustolla www.madrid.es nähdäksesi kuhunkin asennukseen liittyvän tiedoston.
+Lähde:
+www.madrid.es</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Brandweerlieden. Brandweerparken</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Brandvæsenet i Madrid er ansvarlig for at forsyne borgerne med at forebygge og udrydde brande og redninger. I dette datasæt kan du finde forholdet mellem de tolv eksisterende brandparker i byen Madrid. Opdelingen af parkerne er som følger: Område i centrum: med parker 2, 3 og 6. Østzone: med parkerne 8, 7, 11 og 13. Den sydlige zone: med parker 5, 10 og 12. Den nordlige zone: med parkerne 9, 4 og 1. Du kan også se det eksisterende forhold på den kommunale hjemmeside www.madrid.es for at se den fil, der er knyttet til hver installation. Kilde: www.madrid.es</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/32d1b7bd-3143-4c71-aee4-149bd73719b2">
+            <dct:identifier>https://datos.gob.es/catalogo/l01280796-bomberos-parques-de-bomberos/resource/ba4e6920-48b0-4d49-939b-b270dc849156</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+            <dcat:accessURL rdf:resource="https://datos.madrid.es/egob/catalogo/211642-0-bomberos-parques.xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2015-05-11T00:00:00+02:00</dct:issued>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Пожежники. Пожежні парки Пожежники.
+Пожежні парки</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Madridi linna tuletõrjeamet vastutab kodanikele tulekahjude ja päästetööde ennetamise ja väljasuremise teenuse osutamise eest. Selles andmekogumis leiate Madridi linna kaheteistkümne olemasoleva tuletõrjepargi suhted. Parkide jaotus on järgmine: Kesklinna piirkond: pargid 2, 3 ja 6. Ida-tsoon: pargid 8, 7, 11 ja 13.
+Lõuna-Tsoon:
+pargid 5, 10 ja 12.
+Põhjavöönd:
+pargid 9, 4 ja 1.
+Samuti saate tutvuda olemasoleva seosega kohaliku omavalitsuse veebisaidil www.madrid.es, et näha iga käitisega seotud faili.
+Allikas:
+www.madrid.es</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Brandkåren i Madrid är ansvarig för att förse medborgarna med hjälp av förebyggande och utrotning av bränder och räddningar. I denna dataset kan du hitta förhållandet mellan de tolv befintliga brandparkerna i staden Madrid. Uppdelningen av parkerna är följande: Centrumområde: med parkerna 2, 3 och 6. Östra zonen: med parkerna 8, 7, 11 och 13. Södra zonen: med parkerna 5, 10 och 12. Norra zonen: med parkerna 9, 4 och 1. Du kan också konsultera den befintliga relationen på kommunens webbplats www.madrid.es för att se filen som är kopplad till varje installation. Källa: www.madrid.es</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Ugniagesiai. Ugniagesių parkai Ugniagesiai.
+Ugniagesių parkai</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Hasičské oddelenie mesta Madrid je zodpovedné za poskytovanie služieb občanom v oblasti prevencie a vyhynutia požiarov a záchranných opatrení. V tomto súbore údajov nájdete vzťah dvanástich existujúcich požiarnych parkov v meste Madrid. Rozdelenie parkov je nasledovné: Stredná oblasť: Parky 2, 3 a 6. Východná zóna: s parkami 8, 7, 11 a 13.
+Južná zóna:
+Parky 5, 10 a 12.
+Severná zóna:
+Parky 9, 4 a 1.
+Môžete si tiež pozrieť existujúci vzťah na obecnej webovej stránke www.madrid.es a zobraziť súbor priradený ku každej inštalácii.
+Zdroj:
+www.madrid.es</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Pompiers. Parcs d’incendie Pompiers.
+Parcs d’incendie</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Hasiči. Požární parky Hasiči.
+Požární parky</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">I pompieri. Parchi dei Vigili del Fuoco I pompieri.
+Parchi dei Vigili del Fuoco</dct:title>
+        <dcat:keyword xml:lang="es">Bomberos</dcat:keyword>
+        <dct:identifier>https://datos.madrid.es/egob/catalogo/211642-0-bomberos-parques</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/df8a0b4a-5ab2-4360-8ab2-46c96fdd6f2e">
+            <dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://datos.madrid.es/egob/catalogo/211642-0-bomberos-parques.csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01280796-bomberos-parques-de-bomberos/resource/95c1a7f1-a5e3-4281-8e19-a40586eaf095</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Пожежний департамент міста Мадрид відповідає за надання громадянам служби запобігання та вимирання пожеж і рятувальників. У цьому наборі даних ви можете знайти взаємозв'язок дванадцяти існуючих пожежних парків в місті Мадрид. Поділ парків виглядає наступним чином: Площа центру:
+парки 2, 3 і 6.
+Східна зона:
+парки 8, 7, 11 і 13.
+Південна зона:
+парки 5, 10 і 12.
+Північна зона:
+парки 9, 4 і 1.
+Ви також можете проконсультуватися з існуючими відносинами на муніципальному сайті www.madrid.es, щоб побачити файл, пов'язаний з кожною установкою.
+Джерело:
+www.madrid.es</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Tá Roinn Dóiteáin Chathair Mhaidrid freagrach as seirbhís a sholáthar do shaoránaigh chun dóiteáin agus tarrtháil a chosc agus a dhíothú. Sa tacar sonraí seo, is féidir leat teacht ar an gcaidreamh idir an dá pháirc dóiteáin déag atá ann cheana i gcathair Mhaidrid. Seo a leanas roinnt na bpáirceanna: Limistéar an Ionaid: le Páirceanna 2, 3 agus 6. Crios Thoir: le Páirceanna 8, 7, 11 agus 13.
+An Limistéar Theas:
+le Páirceanna 5, 10 agus 12.
+Limistéar an Tuaiscirt:
+le Páirceanna 9, 4 agus 1.
+Is féidir leat breathnú freisin ar an gcaidreamh atá ann cheana ar an suíomh gréasáin bardasach www.madrid.es chun an comhad a bhaineann le gach suiteáil a fheiceáil.
+Minicíocht uisce: flúirseach
+www.madrid.es</dct:description>
+        <dcat:keyword xml:lang="es">www.madrid.es</dcat:keyword>
+        <dct:title xml:lang="et-t-es-t0-mtec">Tuletõrjujad. Tulepargid Tuletõrjujad.
+Tulepargid</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Madrido miesto priešgaisrinės apsaugos departamentas yra atsakingas už tai, kad piliečiams būtų teikiamos gaisrų ir gelbėjimo prevencijos ir išnykimo paslaugos. Šiame duomenų rinkinyje galite rasti dvylikos esamų ugniagesių parkų ryšį Madrido mieste. Parkų padalijimas yra toks: Centro plotas: 2, 3 ir 6 parkai. Rytų zona: parkai 8, 7, 11 ir 13. Pietų zona: parkai 5, 10 ir 12.
+Šiaurinė zona:
+parkai 9, 4 ir 1.
+Taip pat galite susipažinti su esamais santykiais savivaldybės interneto svetainėje www.madrid.es, kad pamatytumėte su kiekvienu įrenginiu susijusią rinkmeną.
+Šaltinis:
+www.madrid.es</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b17cb157-f259-4e68-9d41-f837dd324676">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RSS"/>
+            <dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01280796-bomberos-parques-de-bomberos/resource/d6c31e12-d2c3-4cec-a881-521f08f77874</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.madrid.es/egob/catalogo/211642-0-bomberos-parques.geo"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Strażacy. Parki pożarowe Strażacy.
+Parki pożarowe</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Пожарната служба на град Мадрид е отговорна за предоставянето на гражданите на услугата за предотвратяване и изчезване на пожари и спасителни операции. В този набор от данни можете да намерите връзката между дванадесетте съществуващи пожарни парка в град Мадрид. Разделянето на парковете е както следва: Зона на центъра: с паркове 2, 3 и 6. Източна зона: с паркове 8, 7, 11 и 13.
+Южна зона:
+с паркове 5, 10 и 12.
+Северна зона:
+с паркове 9, 4 и 1.
+Можете също така да се консултирате със съществуващите взаимоотношения на общинския уебсайт www.madrid.es, за да видите файла, свързан с всяка инсталация.
+Източник:
+www.madrid.es</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7c3a8619-189a-4825-b308-fc9ce36f296d">
+            <dct:license rdf:resource="https://datos.madrid.es/egob/catalogo/aviso-legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01280796-bomberos-parques-de-bomberos/resource/3e1e9c50-0ba0-4f73-8938-431220a0a2b9</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.madrid.es/egob/catalogo/211642-0-bomberos-parques.json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Le service d’incendie de la ville de Madrid est chargé de fournir aux citoyens le service de prévention et d’extinction des incendies et des sauvetages. Dans cet ensemble de données, vous pouvez trouver la relation des douze parcs d’incendie existants dans la ville de Madrid. La division des parcs est la suivante: Zone centrale: avec les parcs 2, 3 et 6. Zone Est: avec les parcs 8, 7, 11 et 13. Zone Sud: avec les parcs 5, 10 et 12.
+Zone Nord:
+avec les parcs 9, 4 et 1.
+Vous pouvez également consulter la relation existante sur le site web municipal www.madrid.es pour voir le fichier associé à chaque installation.
+Source:
+www.madrid.es</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Gasilski oddelek mesta Madrid je odgovoren za zagotavljanje storitev preprečevanja in izumiranja požarov in reševanja. V tem naboru podatkov lahko najdete razmerje dvanajstih obstoječih požarnih parkov v mestu Madrid. Delitev parkov je naslednja: Središče območja: parki 2, 3 in 6. Vzhodno območje: parki 8, 7, 11 in 13.
+Južno območje:
+parki 5, 10 in 12.
+Severno območje:
+parki 9, 4 in 1.
+Obstoječe razmerje si lahko ogledate tudi na občinski spletni strani www.madrid.es in si ogledate datoteko, povezano z vsako namestitvijo.
+Vir:
+www.madrid.es</dct:description>
+        <dcat:keyword xml:lang="es">emergencias</dcat:keyword>
+        <dct:description xml:lang="el-t-es-t0-mtec">Η πυροσβεστική υπηρεσία της πόλης της Μαδρίτης είναι υπεύθυνη για την παροχή στους πολίτες της υπηρεσίας πρόληψης και εξάλειψης των πυρκαγιών και των διασώσεων. Σε αυτό το σύνολο δεδομένων, μπορείτε να βρείτε τη σχέση των δώδεκα υφιστάμενων πυροσβεστικών πάρκων στην πόλη της Μαδρίτης. Η διαίρεση των πάρκων έχει ως εξής: Κεντρική περιοχή: με τα πάρκα 2, 3 και 6. Η ανατολική ζώνη: με τα Πάρκα 8, 7, 11 και 13. Νότια Ζώνη: με τα πάρκα 5, 10 και 12. Βόρεια ζώνη: με τα πάρκα 9, 4 και 1. Μπορείτε επίσης να συμβουλευτείτε την υπάρχουσα σχέση στην ιστοσελίδα του δήμου www.madrid.es για να δείτε το αρχείο που σχετίζεται με κάθε εγκατάσταση. Πηγή: www.madrid.es</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Ħaddiema tat-tifi tan-nar. Parks tan-nar Ħaddiema tat-tifi tan-nar.
+Parks tan-nar</dct:title>
+        <dct:title xml:lang="es">Bomberos. Parques de bomberos</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">De brandweer van de stad Madrid is verantwoordelijk voor het verstrekken van de burgers met de dienst voor het voorkomen en uitsterven van branden en reddingen. In deze dataset vindt u de relatie van de twaalf bestaande brandweerparken in de stad Madrid. De indeling van de parken is als volgt: Centrum gebied: met parken 2, 3 en 6. Oostzone: met parken 8, 7, 11 en 13. Zuidelijke Zone: met parken 5, 10 en 12. Noordelijke zone: met parken 9, 4 en 1. U kunt de bestaande relatie ook raadplegen op de gemeentelijke website www.madrid.es om het bestand te zien dat bij elke installatie hoort. Bron: www.madrid.es</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Οι πυροσβέστες. Πυροσβεστικά πάρκα Οι πυροσβέστες.
+Πυροσβεστικά πάρκα</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Palomiehiä. Palopuistot Palomiehiä.
+Palopuistot</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Brandmænd. Brandparker</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Comhraiceoirí dóiteáin. Páirceanna Dóiteáin Comhraiceoirí dóiteáin.
+Páirceanna Dóiteáin</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Id-Dipartiment tan-Nar tal-Belt ta’ Madrid huwa responsabbli biex jipprovdi liċ-ċittadini bis-servizz ta’ prevenzjoni u estinzjoni ta’ nirien u salvataġġi. F’dan is-sett ta’ data, tista’ ssib ir-relazzjoni tat-tnax-il park tan-nar eżistenti fil-belt ta’ Madrid. Id-diviżjoni tal-parks hija kif ġej: Żona taċ-ċentru: bil Parks 2, 3 u 6. Żona tal-Lvant: bil Parks 8, 7, 11 u 13. Iż-Żona ta’ Nofsinhar: bil Parks 5, 10 u 12.
+Żona tat-Tramuntana:
+bil Parks 9, 4 u 1.
+Tista’ tikkonsulta wkoll ir-relazzjoni eżistenti fuq is-sit web muniċipali www.madrid.es biex tara l-fajl assoċjat ma’ kull installazzjoni.
+Sors:
+www.madrid.es</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Straż pożarna miasta Madryt jest odpowiedzialna za zapewnienie obywatelom służby zapobiegania i gaszenia pożarów i ratownictwa. W tym zbiorze danych można znaleźć relację dwunastu istniejących parków przeciwpożarowych w mieście Madryt. Podział parków jest następujący: Obszar środkowy: z parkami 2, 3 i 6. Strefa wschodnia: z parkami 8, 7, 11 i 13.
+Strefa południowa:
+z parkami 5, 10 i 12.
+Strefa północna:
+z parkami 9, 4 i 1.
+Możesz również zapoznać się z istniejącą relacją na stronie miejskiej www.madrid.es, aby zobaczyć plik skojarzony z każdą instalacją.
+Źródło:
+www.madrid.es</dct:description>
+        <dcat:keyword xml:lang="es">instalaciones de bomberos</dcat:keyword>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Hasičský sbor města Madrid je odpovědný za to, že poskytuje občanům službu prevence a vymírání požárů a záchranných akcí. V tomto datovém souboru najdete vztah dvanácti stávajících hasičských parků ve městě Madrid. Rozdělení parků je následující: Centrum města: Parks 2, 3 a 6. Východní zóna: Parks 8, 7, 11 a 13. Jižní zóna: Parks 5, 10 a 12. Severní zóna: Parks 9, 4 a 1. Existující vztah si můžete také prohlédnout na webových stránkách obce www.madrid.es a zobrazit soubor přiřazený ke každé instalaci. Zdroj: www.madrid.es</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280796">
+            <foaf:name>Ayuntamiento de Madrid</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Ugunsdzēsēji. Ugunsdzēsēju parki Ugunsdzēsēji.
+Ugunsdzēsēju parki</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A tűzoltók. Tűzvédelmi parkok A tűzoltók.
+Tűzvédelmi parkok</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Firefighters. Fire parks</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Gasilci. Požarni parki Gasilci.
+Požarni parki</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">O Corpo de Bombeiros da Cidade de Madrid é responsável por fornecer aos cidadãos o serviço de prevenção e extinção de fogos e resgates. Neste conjunto de dados, você pode encontrar a relação dos doze parques de bombeiros existentes na cidade de Madrid. A divisão dos parques é a seguinte: Área central: com Parques 2, 3 e 6. Zona Leste: com Parques 8, 7, 11 e 13.
+Zona Sul:
+com Parques 5, 10 e 12.
+Zona Norte:
+com Parques 9, 4 e 1.
+Você também pode consultar a relação existente no site municipal www.madrid.es para ver o arquivo associado a cada instalação.
+Fonte:
+www.madrid.es</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Madrides pilsētas Ugunsdzēsības departaments ir atbildīgs par to, lai iedzīvotājiem nodrošinātu ugunsgrēku un glābšanas darbu novēršanu un izzušanu. Šajā datu kopā jūs varat atrast attiecības starp divpadsmit esošajiem ugunsdzēsības parkiem Madrides pilsētā. Parku sadalījums ir šāds: Atrašanās vieta: ar 2., 3. un 6. parku. Austrumu zona: ar 8., 7., 11. un 13. parku. Dienvidu zona: ar 5., 10. un 12. parku. Ziemeļu zona: ar 9., 4. un 1. parku. Jūs varat arī apskatīt esošās attiecības pašvaldības tīmekļa vietnē www.madrid.es, lai redzētu failu, kas saistīts ar katru instalāciju. Avots: www.madrid.es</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Il Dipartimento dei Vigili del Fuoco della città di Madrid è responsabile di fornire ai cittadini il servizio di prevenzione ed estinzione di incendi e soccorsi. In questo set di dati, è possibile trovare il rapporto dei dodici parchi antincendio esistenti nella città di Madrid. La divisione dei parchi è la seguente: Zona centrale: con Parchi 2, 3 e 6. Zona est: con Parchi 8, 7, 11 e 13.
+Zona sud:
+con Parchi 5, 10 e 12.
+Zona nord:
+con Parchi 9, 4 e 1.
+È inoltre possibile consultare il rapporto esistente sul sito web comunale www.madrid.es per vedere il file associato ad ogni installazione.
+Fonte:
+www.madrid.es</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Vatrogasna služba grada Madrida odgovorna je za pružanje građanima usluga sprečavanja i gašenja požara i spašavanja. U ovom skupu podataka možete pronaći odnos dvanaest postojećih vatrogasnih parkova u gradu Madridu. Podjela parkova je kako slijedi: Središnje područje: parkovi 2, 3 i 6. Istočna zona: parkovi 8, 7, 11 i 13.
+Južna zona:
+parkovi 5, 10 i 12.
+Sjeverna zona:
+parkovi 9, 4 i 1.
+Također možete pregledati postojeći odnos na općinskoj internetskoj stranici www.madrid.es kako biste vidjeli datoteku povezanu sa svakom instalacijom.
+Izvor:
+www.madrid.es</dct:description>
+        <dcat:keyword xml:lang="es">parques de bomberos</dcat:keyword>
+        <dct:description xml:lang="de-t-es-t0-mtec">Die Feuerwehr der Stadt Madrid ist dafür verantwortlich, den Bürgern den Dienst der Verhütung und des Aussterbens von Bränden und Rettungen zu bieten. In diesem Datensatz finden Sie die Beziehung der zwölf bestehenden Feuerwehren in der Stadt Madrid. Die Aufteilung der Parks ist wie folgt: Zentrumsbereich: mit den Parks 2, 3 und 6. Ostzone: mit Parks 8, 7, 11 und 13. Südzone: mit Parks 5, 10 und 12.
+Nördliche Zone:
+mit Parks 9, 4 und 1.
+Sie können auch die bestehende Beziehung auf der kommunalen Website www.madrid.es konsultieren, um die mit jeder Installation verbundene Datei zu sehen.
+Quelle:
+www.madrid.es</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Feuerwehrleute. Feuerparks Feuerwehrleute.
+Feuerparks</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Brandmän. Brandparker Brandmän.
+Brandparker</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:05:56Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

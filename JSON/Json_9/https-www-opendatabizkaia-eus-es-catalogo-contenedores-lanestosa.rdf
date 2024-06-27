@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-www-opendatabizkaia-eus-es-catalogo-contenedores-lanestosa">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:20:39Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:30:07Z</dct:modified>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-www-opendatabizkaia-eus-es-catalogo-contenedores-lanestosa">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/afc6387d-691f-48da-b3ab-3cf0bcddcfd7">
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/8d4af2ac-b9be-4546-aaed-1471349b0617</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5e0b73b-4d04-4308-a500-59346bc550c0/contenedores-envases-ligeros-lanestosa-2023?format=csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Konttien sijainti tässä kunnassa on esitetty.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Taispeántar suíomh na gcoimeádán sa bhardas seo.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Containerens placering i denne kommune er angivet.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Containrar – Lanestosa</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2020-03-03T00:00:00+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aa6ac5a2-9bae-49a7-84a4-b10a2b27a82f">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Lanestosa 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/d10d4248-ddaf-4bfe-9bcb-25fbfb8ed6c1</dct:identifier>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Lanestosa 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d7e9ace8-5ea0-48ea-b2fb-484b1d300fa2/contenedores-reutilizacion-lanestosa-2023?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Kontejnery – Lanestosa</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dcat:keyword xml:lang="eu">Olioa</dcat:keyword>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Conteneurs — Lanestosa</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c4475e9a-b860-4725-aff8-a423d89e4625">
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/2aef4fa5-9130-4fab-9db6-27ff4b43b7d8</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5e0b73b-4d04-4308-a500-59346bc550c0/contenedores-envases-ligeros-lanestosa-2023?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Показано розташування контейнерів у цьому муніципалітеті.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Amplasarea containerelor în această municipalitate este indicată.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/catalogo/contenedores-lanestosa"/>
+        <dcat:keyword xml:lang="es">Papel</dcat:keyword>
+        <dct:description xml:lang="eu">Bizkaiko edukiontzien kokapena erakusten da.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Εμπορευματοκιβώτια — Lanestosa</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-22T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="de-t-es-t0-mtec">Der Standort der Container in dieser Gemeinde wird angezeigt.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Kontejnerji – Lanestosa</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Konteinerid – Lanestosa</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Pojemniki – Lanestosa</dct:title>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/DurationDescription">
+                <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:years>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d27074f3-af3e-4514-ac17-61e884195c4a">
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/7c41c6ba-4caa-4554-985c-47a3e2c5ecc2</dct:identifier>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5e0b73b-4d04-4308-a500-59346bc550c0/contenedores-envases-ligeros-lanestosa-2023?format=xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Контейнери — Lanestosa</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Containers — Lanestosa</dct:title>
+        <dcat:keyword xml:lang="es">Aceite</dcat:keyword>
+        <dct:description xml:lang="nl-t-es-t0-mtec">De locatie van de containers in deze gemeente wordt getoond.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Uvádza sa umiestnenie kontajnerov v tejto obci.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b8800c87-9b11-44b7-b5e6-5eafce530390">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/3f41f2fb-b441-4dc6-9c0d-3a738d91ec45</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Lanestosa 2023</dct:title>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Lanestosa 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d7e9ace8-5ea0-48ea-b2fb-484b1d300fa2/contenedores-reutilizacion-lanestosa-2023?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Przedstawiono lokalizację kontenerów w tej gminie.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e01edc72-5d5b-4e30-83ca-8c29f3d5ad57">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/62ee248a-9be4-4317-b5ab-ac76a90f1bbc</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5e0b73b-4d04-4308-a500-59346bc550c0/contenedores-envases-ligeros-lanestosa-2023?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fr-t-es-t0-mtec">L’emplacement des conteneurs dans cette municipalité est indiqué.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Konteineri — Lanestosa</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Konténerek – Lanestosa</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Container – Lanestosa</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Prikazana je lokacija zabojnikov v tej občini.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Containers – Lanestosa</dct:title>
+        <dcat:keyword xml:lang="eu">Organikoak</dcat:keyword>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Coimeádáin — Lanestosa</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A konténerek elhelyezkedése ebben a településen látható.</dct:description>
+        <dcat:keyword xml:lang="eu">Kartoia</dcat:keyword>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Kontajnery – Lanestosa</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">The location of the containers in this municipality is shown.</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Kontit – Lanestosa</dct:title>
+        <dct:title xml:lang="es">Contenedores - Lanestosa</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/01cf576b-9456-42eb-b40d-b1fea3549ea8">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/37390596-6340-492b-b7c1-ea40812ffec0</dct:identifier>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5e0b73b-4d04-4308-a500-59346bc550c0/contenedores-envases-ligeros-lanestosa-2023?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="eu">Edukiontziak - Lanestosa</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:keyword xml:lang="es">Contenedor</dcat:keyword>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Konteineriai – Lanestosa</dct:title>
+        <dcat:keyword xml:lang="es">Envases</dcat:keyword>
+        <dct:description xml:lang="es">Se muestra la ubicación de los contenedores en este municipio.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c493030b-43fd-4745-9822-c78473e73dd1">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/1ff85219-86d5-4b05-b63d-eebcfd1d3357</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Lanestosa 2023</dct:title>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Lanestosa 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d7e9ace8-5ea0-48ea-b2fb-484b1d300fa2/contenedores-reutilizacion-lanestosa-2023?format=json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Показано е местоположението на контейнерите в тази община.</dct:description>
+        <dcat:keyword xml:lang="eu">Edukiontzia</dcat:keyword>
+        <dcat:keyword xml:lang="es">Cartón</dcat:keyword>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Parodyta konteinerių vieta šioje savivaldybėje.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Prikazana je lokacija kontejnera u ovoj općini.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Ukazuje se umístění kontejnerů v této obci.</dct:description>
+        <dcat:keyword xml:lang="eu">Bio-hondakinak</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Ontziak</dcat:keyword>
+        <dcat:keyword xml:lang="es">Residuos</dcat:keyword>
+        <dct:title xml:lang="it-t-es-t0-mtec">Contenitori — Lanestosa</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Placeringen av containrarna i denna kommun visas.</dct:description>
+        <dcat:keyword xml:lang="es">Vidrio</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6291a0b2-e360-4302-8930-cf88c00ced00">
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/07e09a9f-083e-49ae-adce-5a08d110ebad</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8e3f1fd0-d7e1-410c-8853-8da0b894e929/contenedores-envases-ligeros-lanestosa-2020?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2020</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Contentores — Lanestosa</dct:title>
+        <dcat:keyword xml:lang="eu">Plastikoa</dcat:keyword>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048">
+            <foaf:name>Diputación Foral de Bizkaia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Kontenituri — Lanestosa</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Containere — Lanestosa</dct:title>
+        <dcat:keyword xml:lang="es">Plástico</dcat:keyword>
+        <dcat:keyword xml:lang="es">Bioresiduos</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Hondakinak</dcat:keyword>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Il-post tal-kontejners f’din il-muniċipalità huwa muri.</dct:description>
+        <dcat:keyword xml:lang="es">Reutilización</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Handiak</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Beira</dcat:keyword>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/"/>
+        <dcat:keyword xml:lang="eu">Papera</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7a38551f-719c-4ac8-bc8d-2e9131535e71">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d7e9ace8-5ea0-48ea-b2fb-484b1d300fa2/contenedores-reutilizacion-lanestosa-2023?format=xlsx"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Lanestosa 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/b81c71a7-a956-479e-ab45-65ae59b657c0</dct:identifier>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Lanestosa 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6db645bc-c7f9-464b-84c6-ba9855d4b194">
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8e3f1fd0-d7e1-410c-8853-8da0b894e929/contenedores-envases-ligeros-lanestosa-2020?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/f28dd384-d4f2-487e-b58d-f27904d8b469</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Containere – Lanestosa</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Spremnici – Lanestosa</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Mostra-se a localização dos contentores neste município.</dct:description>
+        <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/contenedores-lanestosa</dct:identifier>
+        <dct:description xml:lang="it-t-es-t0-mtec">È indicata l'ubicazione dei contenitori in questo comune.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Αναγράφεται η θέση των εμπορευματοκιβωτίων σε αυτόν τον δήμο.</dct:description>
+        <dcat:keyword xml:lang="es">Reciclaje</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7fda9b66-9c9e-4f9c-9090-61f9172ecbc3">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/435d3b1c-c916-4d2c-b2f5-7fa612990d51</dct:identifier>
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2020</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8e3f1fd0-d7e1-410c-8853-8da0b894e929/contenedores-envases-ligeros-lanestosa-2020?format=xlsx"/>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2020</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Orgánicos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7840a433-f320-4a82-934d-5961495cbf0d">
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8e3f1fd0-d7e1-410c-8853-8da0b894e929/contenedores-envases-ligeros-lanestosa-2020?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/1d655b84-1406-4219-8e9f-fa21697548e9</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2020</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5c920f9b-491d-4841-aa6c-29bc2e3a8783">
+            <dct:title xml:lang="es">Contenedores de envases ligeros - Lanestosa 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8e3f1fd0-d7e1-410c-8853-8da0b894e929/contenedores-envases-ligeros-lanestosa-2020?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/fb5c9533-b724-4121-852b-751bad8fb443</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Ontzi arinen edukiontziak - Lanestosa 2020</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="et-t-es-t0-mtec">Näidatud on konteinerite asukoht selles omavalitsusüksuses.</dct:description>
+        <dcat:keyword xml:lang="eu">Berrerabilpena</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Birziklatzea</dcat:keyword>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Контейнери - Lanestosa</dct:title>
+        <dcat:keyword xml:lang="es">Voluminosos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4627b2c0-643c-4b08-af18-69a9888882b7">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/d7e9ace8-5ea0-48ea-b2fb-484b1d300fa2/contenedores-reutilizacion-lanestosa-2023?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Contenedores de reutilización - Lanestosa 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Berrerabiltzeko edukiontziak - Lanestosa 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-contenedores-lanestosa1/resource/97c50c54-8a6a-45bc-b4b1-19debdcdd731</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Ir norādīta konteineru atrašanās vieta šajā pašvaldībā.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-www-opendatabizkaia-eus-es-catalogo-contenedores-lanestosa"/>
+    <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/contenedores-lanestosa</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:30:07Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>6251414d7aa2c2ff56b898f10617f9cc</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

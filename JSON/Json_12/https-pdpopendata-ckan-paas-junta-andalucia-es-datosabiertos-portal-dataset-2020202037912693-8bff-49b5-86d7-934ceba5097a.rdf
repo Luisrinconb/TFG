@@ -1,0 +1,304 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-pdpopendata-ckan-paas-junta-andalucia-es-datosabiertos-portal-dataset-2020202037912693-8bff-49b5-86d7-934ceba5097a">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-pdpopendata-ckan-paas-junta-andalucia-es-datosabiertos-portal-dataset-2020202037912693-8bff-49b5-86d7-934ceba5097a"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-pdpopendata-ckan-paas-junta-andalucia-es-datosabiertos-portal-dataset-2020202037912693-8bff-49b5-86d7-934ceba5097a">
+        <dct:title xml:lang="en-t-es-t0-mtec">Transparency Units</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Списък на звената за прозрачност на Junta de Andalucía. За всяка единица се посочва: име на собственика, имейл и телефонен контакт, както и на органите, на които действа.    Източник на данни:[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).име на собственика, имейл и телефонен контакт, както и на органите, на които действа.
+
+ 
+Източник на данни:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Oddělení pro transparentnost</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a56c42ce-d14f-4a24-a0e9-d092e8b20c10">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.es_ES"/>
+            <dct:title xml:lang="es">CSV - Unidades de Transparencia</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a01002820-unidades-de-transparencia/resource/b9a9e49f-b540-4046-8c6d-5bfd6b67904c</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.juntadeandalucia.es/api/v0/transparency-units/all?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="et-t-es-t0-mtec">Läbipaistvusüksused</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Öppenhetsenheter</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Luettelo Junta de Andalucían avoimuusyksiköistä. Kullekin yksikölle on määritelty: omistajan nimi, sähköposti ja puhelinyhteyshenkilö sekä elimet, joissa se toimii. 
+
+Tietolähde: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Lista ta’ Unitajiet ta’ Trasparenza tal-Junta de Andalucía. Għal kull Unità huwa speċifikat: l-isem tas-sid, l-email u l-kuntatt telefoniku, u l-korpi li fuqhom jaġixxi.    Sors ta’ dejta: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Lista ta’ Unitajiet ta’ Trasparenza tal-Junta de Andalucía. Għal kull Unità huwa speċifikat:l-isem tas-sid, l-email u l-kuntatt telefoniku, u l-korpi li fuqhom jaġixxi.
+
+
+Sors ta’ dejta:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Lista ta’ Unitajiet ta’ Trasparenza tal-Junta de Andalucía. Għal kull Unità huwa speċifikat: l-isem tas-sid, l-email u l-kuntatt telefoniku, u l-korpi li fuqhom jaġixxi.    Sors ta’ dejta: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Lista ta’ Unitajiet ta’ Trasparenza tal-Junta de Andalucía. Għal kull Unità huwa speċifikat:l-isem tas-sid, l-email u l-kuntatt telefoniku, u l-korpi li fuqhom jaġixxi.
+
+
+Sors ta’ dejta:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).Lista ta’ Unitajiet ta’ Trasparenza tal-Junta de Andalucía.
+Għal kull Unità huwa speċifikat:
+l-isem tas-sid, l-email u l-kuntatt telefoniku, u l-korpi li fuqhom jaġixxi.
+
+ Sors ta’ dejta:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Liste des unités de transparence de la Junta de Andalucía. Pour chaque unité, il est spécifié: nom du propriétaire, contact par courriel et téléphone, et organismes sur lesquels il agit.
+
+
+
+Source de données:
+[Portal de la Junta de Andalucía]( https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Transparantie-eenheden</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Seznam enot za preglednost Junta de Andalucía. Za vsako enoto je navedeno: ime lastnika, elektronski naslov in telefonski stik ter organi, na katerih deluje.    Vir podatkov:[Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).ime lastnika, elektronski naslov in telefonski stik ter organi, na katerih deluje.
+
+ 
+Vir podatkov:
+[Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Enote za preglednost</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Pārredzamības nodaļas</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κατάλογος των Μονάδων Διαφάνειας της Junta de Andalucía. Για κάθε μονάδα προσδιορίζεται: ονοματεπώνυμο του ιδιοκτήτη, ηλεκτρονικό ταχυδρομείο και τηλεφωνική επικοινωνία, καθώς και φορείς στους οποίους ενεργεί. 
+
+Πηγή δεδομένων: [Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="et-t-es-t0-mtec">Junta de Andalucía läbipaistvusüksuste loetelu. Iga ühiku kohta on täpsustatud: omaniku nimi, e-posti ja telefonikontakt ning asutused, kus ta tegutseb.    Andmeallikas: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Junta de Andalucía läbipaistvusüksuste loetelu. Iga ühiku kohta on täpsustatud:omaniku nimi, e-posti ja telefonikontakt ning asutused, kus ta tegutseb.
+
+
+Andmeallikas:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Junta de Andalucía läbipaistvusüksuste loetelu. Iga ühiku kohta on täpsustatud: omaniku nimi, e-posti ja telefonikontakt ning asutused, kus ta tegutseb.    Andmeallikas: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Junta de Andalucía läbipaistvusüksuste loetelu. Iga ühiku kohta on täpsustatud:omaniku nimi, e-posti ja telefonikontakt ning asutused, kus ta tegutseb.
+
+
+Andmeallikas:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).Junta de Andalucía läbipaistvusüksuste loetelu.
+Iga ühiku kohta on täpsustatud:
+omaniku nimi, e-posti ja telefonikontakt ning asutused, kus ta tegutseb.
+
+ Andmeallikas:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Одиниці прозорості</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/77a00680-5822-4d55-a06f-7cd0328b9c04">
+            <dct:identifier>https://datos.gob.es/catalogo/a01002820-unidades-de-transparencia/resource/9c5d6cc0-321f-46d7-943f-44d140c4aaa1</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/OCTET"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.es_ES"/>
+            <dct:title xml:lang="es">XML/Atom - Unidades de Transparencia</dct:title>
+            <dcat:accessURL rdf:resource="https://www.juntadeandalucia.es/ssdigitales/datasets/contentapi/1.0.0/search/unidad_transparencia.atom?_source=data&amp;size=50&amp;sort=date%3Aasc"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Átláthatósági egységek</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Unità di trasparenza</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Liosta d’Aonaid Trédhearcachta an Junta de Andalucía. Sonraítear an méid seo a leanas le haghaidh gach Aonaid: ainm an úinéara, seoladh ríomhphoist agus teagmháil teileafóin, agus na comhlachtaí ar a ngníomhaíonn sé. 
+
+Foinse na sonraí: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:title xml:lang="de-t-es-t0-mtec">Referate für Transparenz</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Liste der Transparenzeinheiten der Junta de Andalucía. Für jede Einheit wird Folgendes angegeben: Name des Eigentümers, E-Mail- und Telefonkontakt sowie Körper, auf denen er handelt.    Datenquelle: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Liste der Transparenzeinheiten der Junta de Andalucía. Für jede Einheit wird Folgendes angegeben:Name des Eigentümers, E-Mail- und Telefonkontakt sowie Körper, auf denen er handelt.
+
+
+Datenquelle:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Liste der Transparenzeinheiten der Junta de Andalucía. Für jede Einheit wird Folgendes angegeben: Name des Eigentümers, E-Mail- und Telefonkontakt sowie Körper, auf denen er handelt.    Datenquelle: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Liste der Transparenzeinheiten der Junta de Andalucía. Für jede Einheit wird Folgendes angegeben:Name des Eigentümers, E-Mail- und Telefonkontakt sowie Körper, auf denen er handelt.
+
+
+Datenquelle:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Liste der Transparenzeinheiten der Junta de Andalucía.
+Für jede Einheit wird Folgendes angegeben:
+Name des Eigentümers, E-Mail- und Telefonkontakt sowie Körper, auf denen er handelt.
+
+
+
+Datenquelle:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:identifier>https://pdpopendata-ckan.paas.junta-andalucia.es/datosabiertos/portal/dataset/%20%20%20%2037912693-8bff-49b5-86d7-934ceba5097a</dct:identifier>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Unitajiet ta’ Trasparenza</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9bc5236b-0614-4e02-ae36-427af3db5263">
+            <dct:title xml:lang="es">JSON - Unidades de Transparencia</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.es_ES"/>
+            <dcat:accessURL rdf:resource="https://datos.juntadeandalucia.es/api/v0/transparency-units/all?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a01002820-unidades-de-transparencia/resource/cc1eef6c-8489-4a8e-89ab-11cf562de58d</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Andalūzijos Junta de Andalūzijos Skaidrumo skyrių sąrašas. Kiekvienam vienetui nurodoma: savininko vardas, pavardė, el. pašto adresas ir telefono kontaktas, taip pat įstaigos, kuriose jis veikia.    Duomenų šaltinis:[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).savininko vardas, pavardė, el. pašto adresas ir telefono kontaktas, taip pat įstaigos, kuriose jis veikia.
+
+ 
+Duomenų šaltinis:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Skaidrumo skyriai</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Zoznam oddelení pre transparentnosť Junta de Andalucía. Pre každú jednotku sa špecifikuje: meno vlastníka, e-mailový a telefonický kontakt a orgány, na ktoré pôsobí.    Zdroj údajov: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Zoznam oddelení pre transparentnosť Junta de Andalucía. Pre každú jednotku sa špecifikuje:meno vlastníka, e-mailový a telefonický kontakt a orgány, na ktoré pôsobí.
+
+
+Zdroj údajov:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Zoznam oddelení pre transparentnosť Junta de Andalucía. Pre každú jednotku sa špecifikuje: meno vlastníka, e-mailový a telefonický kontakt a orgány, na ktoré pôsobí.    Zdroj údajov: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Zoznam oddelení pre transparentnosť Junta de Andalucía. Pre každú jednotku sa špecifikuje:meno vlastníka, e-mailový a telefonický kontakt a orgány, na ktoré pôsobí.
+
+
+Zdroj údajov:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).Zoznam oddelení pre transparentnosť Junta de Andalucía.
+Pre každú jednotku sa špecifikuje:
+meno vlastníka, e-mailový a telefonický kontakt a orgány, na ktoré pôsobí.
+
+ Zdroj údajov:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9582d92d-158d-490a-8e28-eb3f99668aef">
+            <dct:identifier>https://datos.gob.es/catalogo/a01002820-unidades-de-transparencia/resource/a4e7d9f6-7d6c-43b4-9297-82877e549e49</dct:identifier>
+            <dct:title xml:lang="es">RDF - Unidades de Transparencia</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.es_ES"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dcat:accessURL rdf:resource="https://www.juntadeandalucia.es/ssdigitales/datasets/contentapi/1.0.0/search/unidad_transparencia.rdf?_source=data&amp;size=50&amp;sort=date%3Aasc"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="it-t-es-t0-mtec">Elenco delle Unità di Trasparenza della Giunta de Andalucía. Per ogni unità è specificato: nome del proprietario, e-mail e contatto telefonico, e gli organismi su cui agisce.    Fonte dei dati: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Elenco delle Unità di Trasparenza della Giunta de Andalucía. Per ogni unità è specificato:nome del proprietario, e-mail e contatto telefonico, e gli organismi su cui agisce.
+
+
+Fonte dei dati:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Elenco delle Unità di Trasparenza della Giunta de Andalucía. Per ogni unità è specificato: nome del proprietario, e-mail e contatto telefonico, e gli organismi su cui agisce.    Fonte dei dati: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Elenco delle Unità di Trasparenza della Giunta de Andalucía. Per ogni unità è specificato:nome del proprietario, e-mail e contatto telefonico, e gli organismi su cui agisce.
+
+
+Fonte dei dati:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).Elenco delle Unità di Trasparenza della Giunta de Andalucía.
+Per ogni unità è specificato:
+nome del proprietario, e-mail e contatto telefonico, e gli organismi su cui agisce.
+
+ Fonte dei dati:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Aonaid Trédhearcachta</dct:title>
+        <dct:title xml:lang="es">Unidades de Transparencia</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A01002820">
+            <foaf:name>Junta de Andalucía</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="el-t-es-t0-mtec">Μονάδες διαφάνειας</dct:title>
+        <dct:description xml:lang="es">Listado de Unidades de Transparencia de la Junta de Andalucía. Para cada Unidad se especifica: nombre de la persona titular, correo electrónico y teléfono de contacto, y organismos sobre los que actúa. 
+
+Fuente de datos: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Liste over gennemsigtighedsenheder i Junta de Andalucía. For hver enhed er det angivet: navn på ejeren, e-mail og telefonkontakt og organer, som den handler på.    Datakilde: [Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Liste over gennemsigtighedsenheder i Junta de Andalucía. For hver enhed er det angivet:navn på ejeren, e-mail og telefonkontakt og organer, som den handler på.
+
+
+Datakilde:
+[Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Liste over gennemsigtighedsenheder i Junta de Andalucía. For hver enhed er det angivet: navn på ejeren, e-mail og telefonkontakt og organer, som den handler på.    Datakilde: [Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Liste over gennemsigtighedsenheder i Junta de Andalucía. For hver enhed er det angivet:navn på ejeren, e-mail og telefonkontakt og organer, som den handler på.
+
+
+Datakilde:
+[Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).Liste over gennemsigtighedsenheder i Junta de Andalucía.
+For hver enhed er det angivet:
+navn på ejeren, e-mail og telefonkontakt og organer, som den handler på.
+
+ Datakilde:
+[Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Förteckning över öppenhetsenheter i Junta de Andalusien. För varje enhet anges följande: namn på ägaren, e-post och telefonkontakt och organ som den agerar på. 
+
+Datakälla: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-03-02T09:29:22+01:00</dct:issued>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-20T14:54:33+02:00</dct:modified>
+        <dct:title xml:lang="da-t-es-t0-mtec">Gennemsigtighedsenheder</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Unitățile de transparență</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Jednostki ds. przejrzystości</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Avoimuusyksiköt</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Lista das Unidades de Transparência da Junta de Andaluzia. Para cada unidade, é especificado: nome do proprietário, correio eletrónico e contacto telefónico e organismos em que atua.    Fonte dos dados:[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).nome do proprietário, correio eletrónico e contacto telefónico e organismos em que atua.
+
+ 
+Fonte dos dados:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Oddelenia transparentnosti</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Звена за прозрачност</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/387d350d-8032-4e8e-84cd-01a52b91d3a7">
+            <dcat:accessURL rdf:resource="https://datos.juntadeandalucia.es/api/v0/transparency-units/openapi.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a01002820-unidades-de-transparencia/resource/1509292b-9777-45d6-86e7-a4e8277d836a</dct:identifier>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/4.0/deed.es_ES"/>
+            <dct:title xml:lang="es">OpenAPI - Unidades de Transparencia</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Unités de transparence</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Lijst van Transparantie-eenheden van de Junta de Andalusië. Voor elke eenheid wordt gespecificeerd: naam van de eigenaar, e-mail- en telefooncontact en instanties waarop hij optreedt.    Gegevensbron: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Lijst van Transparantie-eenheden van de Junta de Andalusië. Voor elke eenheid wordt gespecificeerd:naam van de eigenaar, e-mail- en telefooncontact en instanties waarop hij optreedt.
+
+
+Gegevensbron:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Lijst van Transparantie-eenheden van de Junta de Andalusië. Voor elke eenheid wordt gespecificeerd: naam van de eigenaar, e-mail- en telefooncontact en instanties waarop hij optreedt.    Gegevensbron: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Lijst van Transparantie-eenheden van de Junta de Andalusië. Voor elke eenheid wordt gespecificeerd:naam van de eigenaar, e-mail- en telefooncontact en instanties waarop hij optreedt.
+
+
+Gegevensbron:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).Lijst van Transparantie-eenheden van de Junta de Andalusië.
+Voor elke eenheid wordt gespecificeerd:
+naam van de eigenaar, e-mail- en telefooncontact en instanties waarop hij optreedt.
+
+ Gegevensbron:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Popis Jedinica za transparentnost Junta de Andaluzije. Za svaku jedinicu navodi se: ime vlasnika, e-mail i telefonski kontakt, te tijela na kojima djeluje.    Izvor podataka: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Popis Jedinica za transparentnost Junta de Andaluzije. Za svaku jedinicu navodi se:ime vlasnika, e-mail i telefonski kontakt, te tijela na kojima djeluje.
+
+
+Izvor podataka:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Popis Jedinica za transparentnost Junta de Andaluzije. Za svaku jedinicu navodi se: ime vlasnika, e-mail i telefonski kontakt, te tijela na kojima djeluje.    Izvor podataka: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Popis Jedinica za transparentnost Junta de Andaluzije. Za svaku jedinicu navodi se:ime vlasnika, e-mail i telefonski kontakt, te tijela na kojima djeluje.
+
+
+Izvor podataka:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).Popis Jedinica za transparentnost Junta de Andaluzije.
+Za svaku jedinicu navodi se:
+ime vlasnika, e-mail i telefonski kontakt, te tijela na kojima djeluje.
+
+ Izvor podataka:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Створення Junta de Andalucía (Junta de Andalucía). Для кожної одиниці вказано: Ім'я власника, електронна пошта і телефонний контакт, а також органи, на які він діє.    Джерело даних: [Портал де ла Хунта де Андалусія](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Створення Junta de Andalucía (Junta de Andalucía). Для кожної одиниці вказано:Ім'я власника, електронна пошта і телефонний контакт, а також органи, на які він діє.
+
+
+Джерело даних:
+[Портал де ла Хунта де Андалусія](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Створення Junta de Andalucía (Junta de Andalucía). Для кожної одиниці вказано: Ім'я власника, електронна пошта і телефонний контакт, а також органи, на які він діє.    Джерело даних: [Портал де ла Хунта де Андалусія](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html). Створення Junta de Andalucía (Junta de Andalucía). Для кожної одиниці вказано:Ім'я власника, електронна пошта і телефонний контакт, а також органи, на які він діє.
+
+
+Джерело даних:
+[Портал де ла Хунта де Андалусія](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).Створення Junta de Andalucía (Junta de Andalucía).
+Для кожної одиниці вказано:
+Ім'я власника, електронна пошта і телефонний контакт, а також органи, на які він діє.
+
+ Джерело даних:
+[Портал де ла Хунта де Андалусія](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Seznam oddělení pro transparentnost Junta de Andalucía. Pro každou jednotku je uvedeno: jméno vlastníka, e-mailový a telefonní kontakt a orgány, na nichž působí. 
+
+Zdroj údajů: [Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Wykaz Jednostek Przejrzystości Junta de Andalucía. Dla każdej jednostki określa się: imię i nazwisko właściciela, adres e-mail i kontakt telefoniczny oraz organy, na których działa. 
+
+Źródło danych: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Junta de Andalucía Pārredzamības nodaļu saraksts. Katrai vienībai ir norādīts: īpašnieka vārds, uzvārds, e-pasta un tālruņa kontakts un struktūras, kurās tas darbojas.    Datu avots:[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).īpašnieka vārds, uzvārds, e-pasta un tālruņa kontakts un struktūras, kurās tas darbojas.
+
+ 
+Datu avots:
+[Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">List of Transparency Units of the Junta de Andalucía. For each Unit it is specified: name of the owner, email and telephone contact, and bodies on which it acts. 
+
+Data source: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Lista unităților de transparență din Junta de Andalucía. Pentru fiecare unitate se specifică: numele proprietarului, e-mailul și contactul telefonic, precum și organismele asupra cărora acționează. 
+
+Sursa datelor: [Portal de la Junta de Andalucía] (https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Unidades de Transparência</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Odjeli za transparentnost</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A Junta de Andalucía átláthatósági egységeinek listája. Minden egyes egységre meg van határozva: a tulajdonos neve, e-mail-címe és telefonos kapcsolattartója, valamint azok a szervek, amelyeken tevékenykedik. 
+
+Adatforrás: [Portal de la Junta de Andalucía](https://www.juntadeandalucia.es/organismos/transparencia/conoce-transparencia/organizacion/unidades.html).</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>b4cff9343e74520d8032d8fda7ac9ba</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-28T23:21:26Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:identifier>https://pdpopendata-ckan.paas.junta-andalucia.es/datosabiertos/portal/dataset/%20%20%20%2037912693-8bff-49b5-86d7-934ceba5097a</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:07:50Z</dct:issued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-28T23:21:26Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

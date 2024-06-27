@@ -1,0 +1,1472 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-www-opendatabizkaia-eus-es-catalogo-visitas-descargas">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/visitas-descargas</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-www-opendatabizkaia-eus-es-catalogo-visitas-descargas">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/dac79a42-42cb-4c76-9fc2-38899cc7e62e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2019</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/50bf628b-a901-41ba-9ffe-17b5c9a616fb</dct:identifier>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2019</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/10a489ab-d69c-4a0b-aa63-acc12021e3e0/datasets-mas-visitados-2019?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0fdb33b2-9070-4744-9f9f-2ff4b6c312fe">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/7282c8d3-71a0-4473-8498-58a9d7beeb0f</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ec471166-621e-4029-a63e-1e1cd0079bd0/descargas-semanales-2022?format=json"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2022</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-13T00:00:00+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2a52a40f-68ec-4cc1-bd77-ed34b9470e05">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/8a2510c6-ec8d-44bb-80c1-26ca0ff8fb75</dct:identifier>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2022</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b0423b40-5d1a-4cfd-b619-62d88b3e8fd6/datasets-mas-descargados-2022?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Descargas</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ab9e4955-2218-4d7b-8ffa-58cf580bd32f">
+            <dct:title xml:lang="eu">Asteko bisitas 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Visitas semanales 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/d492569f-b896-4d9c-8708-bf4618b8306f</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/313ade43-5dff-4d01-a56b-52f9c60c6218/visitas-semanales-2024?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/54f6ec66-7e09-4745-aaae-1b948cd3a1c9">
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2018</dct:title>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2018</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ba10381e-b018-443d-a4ef-2f4c6f2c521c/datasets-mas-visitados-2018?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/a3c4a817-f064-4323-98e8-62adddfc0807</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/57a8195b-5bdb-4eac-b9c9-8aa265985062">
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2020</dct:title>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/3fb8d95f-30b7-485b-aa98-b43ac2b720c4</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/92ad707a-dda2-4463-aae1-253958b267d8/datasets-mas-visitados-2020?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c071a756-4170-492d-a619-0c1a6dd56e4d">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/de3c2191-e21f-4043-a1f3-cb8bd2a4f0d0</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/85c80939-4782-4dde-ab5a-b00519848e82/visitas-semanales-2020?format=tsv"/>
+            <dct:title xml:lang="es">Visitas semanales 2020</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c47e4662-067e-4776-af0e-f19a34888e0f">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/5911a6ee-fecb-4991-8957-4699328942a2</dct:identifier>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2019</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15050d2c-32a0-484b-b559-51f83f20f772/datasets-mas-descargados-2019?format=csv"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2019</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="eu">Bisitak eta deskargak</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/60ab825d-d886-472d-b001-b14fa1ab6760">
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/92ad707a-dda2-4463-aae1-253958b267d8/datasets-mas-visitados-2020?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/dc88273d-a33d-46ba-97fd-67c20f7dfb27</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2020</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c48e7474-57a2-42f2-9a92-77b979896e43">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/2a0f4597-e540-451f-884f-5cb768ce9b97</dct:identifier>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2019</dct:title>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2019</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/10a489ab-d69c-4a0b-aa63-acc12021e3e0/datasets-mas-visitados-2019?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f2cf734d-8763-4e5c-b40e-1ec64d41b7b4">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b0423b40-5d1a-4cfd-b619-62d88b3e8fd6/datasets-mas-descargados-2022?format=xlsx"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2022</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/18e104a9-65db-4aaa-93ed-4b482aab7d1e</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9e887925-cb69-474d-a5e4-23411d58954e">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/46bebd10-3f9c-43e5-92ad-a2f39fb852a7</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2024</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/570328c6-03de-4357-803d-e543fc6046db/descargas-semanales-2024?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Visitas y descargas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7f7eecb4-70db-4838-924e-8ee853a54a77">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Visitas semanales 2019</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/b0911e85-cdd5-46e8-a629-4876363c99a8</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/16df24fb-bd1a-4ffe-8cf4-84850c35dfed/visitas-semanales-2019?format=json"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2019</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8dac0252-a90e-442f-8453-0683c7e25546">
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/951b8a57-41bb-4a83-ab5a-f11a556d3237</dct:identifier>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9c935bdb-0c81-4656-810e-c4a3a3ee3fac/datasets-mas-descargados-2023?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7c4c13ae-dbe9-4bcd-97ac-69185539d1d7">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2018</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2018</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/436dfe58-fb4a-4ffb-b9d9-0daba6406a14</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ba10381e-b018-443d-a4ef-2f4c6f2c521c/datasets-mas-visitados-2018?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2d8bf34d-00b6-4241-9aaf-dec74951a560">
+            <dct:title xml:lang="eu">Asteko bisitas 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd6b8db5-edff-403d-8dd0-fdd35cb00946/visitas-semanales-2022?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/4ad910bc-310d-4ccd-9a64-8a1d51aeff57</dct:identifier>
+            <dct:title xml:lang="es">Visitas semanales 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/86932e4d-2f1c-480d-ad56-818c8c1cffbe">
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9c935bdb-0c81-4656-810e-c4a3a3ee3fac/datasets-mas-descargados-2023?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/ffa42a52-6e7d-4ea1-9fb7-62a54384c1e1</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/17e6e2d5-5dbf-4fa6-80fd-af76dfeeae82">
+            <dct:title xml:lang="es">Descargas semanales 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aef428ff-c46e-49b2-a588-3b6f622157ec/descargas-semanales-2021?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/ac8ce911-4662-4369-9c3d-31f8fc6f9a9d</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7526282e-50a4-4ef2-be60-8c112eee2bcf">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f4bd36da-5209-42c2-be91-9634cbf5bb01/datasets-mas-visitados-2024?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/d120c2af-b81c-4168-a35f-65d7c2ec8fea</dct:identifier>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/71b2bd8b-bac7-4751-a533-1322dd933ab8">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/16df24fb-bd1a-4ffe-8cf4-84850c35dfed/visitas-semanales-2019?format=csv"/>
+            <dct:title xml:lang="es">Visitas semanales 2019</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/8555d79c-4046-4936-908c-f2b20aa816d5</dct:identifier>
+            <dct:title xml:lang="eu">Asteko bisitak 2019</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ccc4330f-a284-44d9-be47-5f7b5c6b0cd9">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2020</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/928e7588-37f4-4521-8cb5-3170d024ddac</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/85c80939-4782-4dde-ab5a-b00519848e82/visitas-semanales-2020?format=xml"/>
+            <dct:title xml:lang="es">Visitas semanales 2020</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/727bd3b2-da42-4632-9659-bf4798241f1d">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f4bd36da-5209-42c2-be91-9634cbf5bb01/datasets-mas-visitados-2024?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/bf395d0c-9d6c-4b9f-9b5c-7432dafb8562</dct:identifier>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5398a0dd-9354-4770-8a1c-93ac1f221cef">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/16df24fb-bd1a-4ffe-8cf4-84850c35dfed/visitas-semanales-2019?format=xml"/>
+            <dct:title xml:lang="es">Visitas semanales 2019</dct:title>
+            <dct:title xml:lang="eu">Asteko bisitak 2019</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/876e0258-0ca3-4e35-a3d5-e42c8f481df1</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a99ef9e5-6f57-4996-aeb5-c6b91655081f">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2020</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/40688f8a-a2ed-4511-a0af-f8c2d1a727bb</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7b80e99e-191a-48b7-8fb9-bb23896fcdec/datasets-mas-descargados-2020?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/36c86d3a-5ded-4e4c-baff-67bfa90bbdfe">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7b80e99e-191a-48b7-8fb9-bb23896fcdec/datasets-mas-descargados-2020?format=json"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/fc315e97-b87e-467e-89ff-57c2becd107c</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/61a36ed9-813f-432b-b2f3-f219cd93190a">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e324cac-8b27-4c45-ba16-82952ac089b2/descargas-semanales-2023?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/1480020c-203b-4b41-99a9-dcf3973d51ad</dct:identifier>
+            <dct:title xml:lang="eu">Asteko deskargak 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Descargas semanales 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4cc2df4f-9263-4120-8126-2d5045fdc131">
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7b80e99e-191a-48b7-8fb9-bb23896fcdec/datasets-mas-descargados-2020?format=xlsx"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2020</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/89bf01dd-3731-4e62-a6ff-627f1a1eda12</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bbc327b3-852f-452b-9f16-c12bd0cb8cae">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/a896c937-fb37-4146-a393-244da4f35f0a</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2020</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/85c80939-4782-4dde-ab5a-b00519848e82/visitas-semanales-2020?format=json"/>
+            <dct:title xml:lang="es">Visitas semanales 2020</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8cda613a-a1e6-4d98-9e96-7d073e5944ea">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2022</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b0423b40-5d1a-4cfd-b619-62d88b3e8fd6/datasets-mas-descargados-2022?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/017d4489-f0af-414b-b8cb-9bcbc3011b6e</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2472542c-a2ab-467d-8b99-2c2689ba9e2e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/570328c6-03de-4357-803d-e543fc6046db/descargas-semanales-2024?format=json"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2024</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/bcfa4291-d3ba-47b7-9fb7-9518c2f470ac</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e6d0df98-b81f-4310-9e03-28f32ea3f854">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2019</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2019</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/c2cc3a98-8797-44fb-8a6c-a3e5910bf475</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15050d2c-32a0-484b-b559-51f83f20f772/datasets-mas-descargados-2019?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0d1d58ae-8f27-4b23-9e72-47c9ce02c0c9">
+            <dct:title xml:lang="eu">Asteko bisitas 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/313ade43-5dff-4d01-a56b-52f9c60c6218/visitas-semanales-2024?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/077582e8-f060-4417-9e5f-ebec89825e68</dct:identifier>
+            <dct:title xml:lang="es">Visitas semanales 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/761884fd-7e80-4fce-8260-be5005feeff6">
+            <dct:title xml:lang="eu">Asteko bisitas 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/0e0a7693-f019-46ad-bb80-2ed980af2f4f</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd6b8db5-edff-403d-8dd0-fdd35cb00946/visitas-semanales-2022?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Visitas semanales 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b4e43028-714a-4ebe-9576-38a087bb1ae8">
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/cf82dd6f-b304-4ca7-b1ef-c6390811d447</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b0423b40-5d1a-4cfd-b619-62d88b3e8fd6/datasets-mas-descargados-2022?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/efcb7f83-c511-4735-b63d-9e338c899ba7">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2023</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/da4bca71-82a9-4aff-a54c-c47ed8ac8b49</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e324cac-8b27-4c45-ba16-82952ac089b2/descargas-semanales-2023?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ade23876-3929-45dc-9dd4-c06532ba7ba4">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Visitas semanales 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/abd718d8-9ff7-4ffa-92c6-526b02a64dac</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8f3849d5-7061-4c97-b6e2-1650774dc105/visitas-semanales-2021?format=csv"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/723a54b8-32d6-4efe-9d40-3e8cd89f4b99">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e324cac-8b27-4c45-ba16-82952ac089b2/descargas-semanales-2023?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/057889e6-510c-4587-a11d-c5a8fb0bcced</dct:identifier>
+            <dct:title xml:lang="eu">Asteko deskargak 2023</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ac10c316-16fa-4ea8-a15d-3a5512545d57">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/ce0fd18b-0a93-4f18-aa10-df3d051dff69</dct:identifier>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9c935bdb-0c81-4656-810e-c4a3a3ee3fac/datasets-mas-descargados-2023?format=xml"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/01f87cb5-897f-4e35-981d-aab2c7b0ef80">
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/dd10b8cd-6839-42fe-a014-93425d944680</dct:identifier>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b0423b40-5d1a-4cfd-b619-62d88b3e8fd6/datasets-mas-descargados-2022?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0e874055-8f95-4271-af4b-8a983a5c5484">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/535c4124-2cf7-4b0f-bc35-3cef5e6d2b43</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/4615f067-b540-42ea-b40e-e09b1726b80f/datasets-mas-descargados-2021?format=json"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0a55a734-4e80-48fb-a6ec-858d94d66aac">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ec471166-621e-4029-a63e-1e1cd0079bd0/descargas-semanales-2022?format=csv"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2022</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/ca802652-1f03-4041-8fef-001da312c21d</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/07b72ea9-849b-42db-a6fe-25dbea9d37e9">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca174dfb-3967-4658-9454-5b489c32bf6d/descargas-semanales-2018?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/a7d11db0-e6d0-405d-bfe9-efb777e7f50e</dct:identifier>
+            <dct:title xml:lang="eu">Asteko deskargak 2018</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2018</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7a454e2e-81a1-441a-b10d-47c917c1b26c">
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd7ddbd5-654b-45ee-9600-19e2c8a6b302/datasets-mas-descargados-2024?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/1607427a-5df3-4304-a42b-6e2539588e3a</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/351f293a-c613-40dc-b882-2263ef1e43a9">
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5028c1-de53-4b35-8913-61d3d9890fb8/datasets-mas-visitados-2022?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/2429f217-0d8a-406a-aa07-5343d8b13376</dct:identifier>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4856a628-bde3-4c1f-bc03-b5480d1444a2">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/4f2d3ad1-24d2-456d-aa96-6ac53ea96fba</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ec471166-621e-4029-a63e-1e1cd0079bd0/descargas-semanales-2022?format=xlsx"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2022</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c4366055-c2f6-4486-8c40-e036e7c81808">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/9646c8b7-b879-40d7-94c3-19930ac13310</dct:identifier>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/206af3c5-4766-44f6-bae9-888458d918b5/datasets-mas-visitados-2023?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/baf749de-e03a-4689-8484-d4cbe52d06d5">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2020</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2bc527be-51eb-4f57-a49e-9ccdd83575b4/descargas-semanales-2020?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/71c02ae1-cfc8-4d21-9931-28f3b3ed9bfc</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9f2f5721-c8b7-4835-a613-61985c64c8fb">
+            <dct:title xml:lang="eu">Asteko deskargak 2019</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2019</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/9711b505-7519-4965-906f-dc575c7d9301</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6236e9b1-d275-4c8d-822c-4555b2581e03/descargas-semanales-2019?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1e5871c0-b179-4b9e-b1c4-b732ed32ed73">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/206af3c5-4766-44f6-bae9-888458d918b5/datasets-mas-visitados-2023?format=json"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/b390d89b-ed34-4cf0-b4ec-ef850cac6ec0</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f64b49c5-b0c6-426b-8432-31b686788d8d">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aef428ff-c46e-49b2-a588-3b6f622157ec/descargas-semanales-2021?format=tsv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/a7df8388-89bd-4065-a281-d12c986f416f</dct:identifier>
+            <dct:title xml:lang="eu">Asteko deskargak 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Descargas semanales 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1e61223d-6e52-4b2b-9755-6e8c793ca9cf">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/206af3c5-4766-44f6-bae9-888458d918b5/datasets-mas-visitados-2023?format=tsv"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/71ff9f57-8ca8-48fd-96d6-eed00c7d555f</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aafe3b53-e535-4440-a0e4-deee81a43192">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2018</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/096da346-d3be-4278-827b-9a1ec91d3bd1</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/98a47c60-bffd-46ac-8578-3fcdbcbd9e1b/visitas-semanales-2018?format=json"/>
+            <dct:title xml:lang="es">Visitas semanales 2018</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ab8b5edb-70bd-4fad-9d6e-8c3370a6351c">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Visitas semanales 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/67b2f70f-78fd-454a-95cc-a5ddddc35b82/visitas-semanales-2023?format=xml"/>
+            <dct:title xml:lang="eu">Asteko bisitas 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/bc7a87bc-ae68-4ac6-811a-fbccfcc4b9f0</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/30990a68-8573-4949-9afa-c683bebeaff0">
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2020</dct:title>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/92ad707a-dda2-4463-aae1-253958b267d8/datasets-mas-visitados-2020?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/3950658f-756c-4437-9f97-532bdf5c16df</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4b41a134-190c-4c35-a08e-b016bc73cfa5">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/fa9ec890-62a7-4b41-bbbe-ba4e65138c18</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ec471166-621e-4029-a63e-1e1cd0079bd0/descargas-semanales-2022?format=tsv"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2022</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Número de visitas y descargas semanales registradas en el portal Open data Bizkaia.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f02c0275-e638-4511-8aef-189cec327a48">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2021</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/3b0b45f5-387b-4c11-82c7-fdf25ea66f4d</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/4615f067-b540-42ea-b40e-e09b1726b80f/datasets-mas-descargados-2021?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e4f6d1df-2953-4bc3-adb5-cdee87a7186d">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9c935bdb-0c81-4656-810e-c4a3a3ee3fac/datasets-mas-descargados-2023?format=csv"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2023</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/3b1c0ebe-0e89-43ca-a791-e0d09750c1b3</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b2020771-7830-484d-9e64-57c0a7305c85">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/6f0932f1-a236-4f45-afd1-48197a0f7e2e</dct:identifier>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd7ddbd5-654b-45ee-9600-19e2c8a6b302/datasets-mas-descargados-2024?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b5342e96-b3f2-46d8-b2a2-81742a3289ff">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2020</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/b53fc261-0161-4473-917f-ddf6357b6037</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/92ad707a-dda2-4463-aae1-253958b267d8/datasets-mas-visitados-2020?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4daf807d-69dc-448a-83cb-1e95a1c6b55b">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/929014e0-a2bd-4e64-b464-ff37bb14e70a</dct:identifier>
+            <dct:title xml:lang="eu">Asteko bisitak 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/85c80939-4782-4dde-ab5a-b00519848e82/visitas-semanales-2020?format=csv"/>
+            <dct:title xml:lang="es">Visitas semanales 2020</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7f8c3124-d228-4955-a1da-c80fe7b7ea81">
+            <dct:title xml:lang="eu">Asteko bisitas 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/f4df146a-2de9-456c-a57e-c21f8e1b5af5</dct:identifier>
+            <dct:title xml:lang="es">Visitas semanales 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/313ade43-5dff-4d01-a56b-52f9c60c6218/visitas-semanales-2024?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7b69a734-4b15-48ac-b773-e7f38f822b46">
+            <dct:title xml:lang="eu">Asteko deskargak 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Descargas semanales 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/792a6617-8c48-4d8a-bc6b-ef121393eb2e</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aef428ff-c46e-49b2-a588-3b6f622157ec/descargas-semanales-2021?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c85d8921-d20c-4cf7-9fe5-885441771956">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/1e405b16-c1b5-4d86-8d0a-eaedfd3bb0a5</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Visitas semanales 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8f3849d5-7061-4c97-b6e2-1650774dc105/visitas-semanales-2021?format=json"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a83eab33-aa1e-4c78-9b80-e2ebc3cf100c">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/cb0d60b8-89c1-4dc2-8007-59219d037c86</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Visitas semanales 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/67b2f70f-78fd-454a-95cc-a5ddddc35b82/visitas-semanales-2023?format=xlsx"/>
+            <dct:title xml:lang="eu">Asteko bisitas 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2b44eb99-1aba-462f-bf0e-18a84e3fa923">
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/85f7d73b-86c4-408d-bd55-b4c6f85fee3c</dct:identifier>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f4bd36da-5209-42c2-be91-9634cbf5bb01/datasets-mas-visitados-2024?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8eb9636f-f980-4559-99ad-aa7b47018a8f">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2018</dct:title>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2018</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ba10381e-b018-443d-a4ef-2f4c6f2c521c/datasets-mas-visitados-2018?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/d8d17e79-548e-406d-a886-031b40badf5b</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7eb2f914-a2f4-4923-b0b1-f4bb11dc7e06">
+            <dct:title xml:lang="eu">Asteko deskargak 2023</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/667ef03e-0cab-49cd-a35f-b043f99014f0</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e324cac-8b27-4c45-ba16-82952ac089b2/descargas-semanales-2023?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/15933dd2-7765-4397-ad62-2c3972d95659">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Asteko bisitas 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/313ade43-5dff-4d01-a56b-52f9c60c6218/visitas-semanales-2024?format=csv"/>
+            <dct:title xml:lang="es">Visitas semanales 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/2eba11da-ea24-48d7-b201-308ff55b88ca</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b7b22d04-2d81-43d6-9f8c-cd69187e4c3e">
+            <dct:title xml:lang="es">Descargas semanales 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e324cac-8b27-4c45-ba16-82952ac089b2/descargas-semanales-2023?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/91f80eea-8cd0-4b10-a227-d776bc1504ba</dct:identifier>
+            <dct:title xml:lang="eu">Asteko deskargak 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/450e35f0-2231-4e35-8c29-fbccaa4f0620">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/16df24fb-bd1a-4ffe-8cf4-84850c35dfed/visitas-semanales-2019?format=xlsx"/>
+            <dct:title xml:lang="es">Visitas semanales 2019</dct:title>
+            <dct:title xml:lang="eu">Asteko bisitak 2019</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/9b04a850-5602-4374-8e99-a954e5d2f59b</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0273148d-136b-4a65-94db-1ea3e86abcd4">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5028c1-de53-4b35-8913-61d3d9890fb8/datasets-mas-visitados-2022?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/38201b61-fc7e-4609-b4be-02395d4988ec</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5b3a980b-553f-42a0-82b3-b171d4cd26ef">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6236e9b1-d275-4c8d-822c-4555b2581e03/descargas-semanales-2019?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/31228918-5bea-48b2-a398-50a89e398fba</dct:identifier>
+            <dct:title xml:lang="eu">Asteko deskargak 2019</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Descargas semanales 2019</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/66a37d8f-822d-4505-bb50-50bedd240b03">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/4615f067-b540-42ea-b40e-e09b1726b80f/datasets-mas-descargados-2021?format=xlsx"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/cd74e448-7113-4e22-9c8b-4aabdd5b980e</dct:identifier>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cd05b466-f53a-49ea-8cac-2f88edd3af49">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2018</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/07789bb5-9630-4459-8629-cd7d0dc0c6ed</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/98a47c60-bffd-46ac-8578-3fcdbcbd9e1b/visitas-semanales-2018?format=csv"/>
+            <dct:title xml:lang="es">Visitas semanales 2018</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048">
+            <foaf:name>Diputación Foral de Bizkaia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f15cd96a-62d8-4f1b-ba31-2d3b1072c547">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/92ad707a-dda2-4463-aae1-253958b267d8/datasets-mas-visitados-2020?format=csv"/>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/a6fc0d06-1dbc-4dce-b254-df03137d21a2</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8bfa3d7d-1823-433f-9d33-7a6b7ad83a8f">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/4266182b-8c70-4e27-a6cb-2e1a0937e242</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2024</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/570328c6-03de-4357-803d-e543fc6046db/descargas-semanales-2024?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9e037618-89d6-4494-8c9d-1cdd148a142b">
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2019</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2019</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15050d2c-32a0-484b-b559-51f83f20f772/datasets-mas-descargados-2019?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/5c48a4aa-9e1b-4e2a-90fe-ee48530e6e20</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a7701ee2-a33e-4a57-bcb7-26760bd3be35">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2018</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2018</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/586a4cec-7a62-44d5-ad12-a20ddd6cf58f</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0d541597-5bb0-431a-a26c-9bf9ab12b612/datasets-mas-descargados-2018?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/DurationDescription">
+                <time:weeks rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:weeks>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/68a5b2a3-4019-478d-99a4-93e4bbfa2f2f">
+            <dct:title xml:lang="eu">Asteko bisitak 2018</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/98a47c60-bffd-46ac-8578-3fcdbcbd9e1b/visitas-semanales-2018?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/6de3a737-168c-4413-b6cf-7dfc1962f5e5</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Visitas semanales 2018</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/da5a5082-5e07-4ecf-9901-3c9424de15c3">
+            <dct:title xml:lang="eu">Asteko bisitas 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd6b8db5-edff-403d-8dd0-fdd35cb00946/visitas-semanales-2022?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/86fe3605-5894-40fb-b7c2-b3d4dd526407</dct:identifier>
+            <dct:title xml:lang="es">Visitas semanales 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/72d75d69-bb88-4cb7-b71a-133cabc0bbe5">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/e1bd1ebe-54ee-4e2a-af9c-37ca5b7a3743</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9c935bdb-0c81-4656-810e-c4a3a3ee3fac/datasets-mas-descargados-2023?format=xlsx"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2023</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9812c602-3b2c-48d6-8e4b-b03c9eb7df46">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/2500427a-a454-4404-8f27-43a2d8b35fec</dct:identifier>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2019</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/10a489ab-d69c-4a0b-aa63-acc12021e3e0/datasets-mas-visitados-2019?format=json"/>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2019</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/17384d23-314d-4b5c-affa-ac4ba2f4fb59">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Visitas semanales 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/67b2f70f-78fd-454a-95cc-a5ddddc35b82/visitas-semanales-2023?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/c9a3f3c8-96ae-46bd-9026-09f7c0a490be</dct:identifier>
+            <dct:title xml:lang="eu">Asteko bisitas 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/598f2613-79e2-4ea5-bf9b-b9b714eac6b2">
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7b80e99e-191a-48b7-8fb9-bb23896fcdec/datasets-mas-descargados-2020?format=xml"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/e06f405d-a0aa-4c50-9ad7-5357a2f081a6</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c843f322-2985-447b-928d-99aebcbe26d1">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/27191eba-c910-4bac-8210-ec7c43a8e3cf</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2019</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15050d2c-32a0-484b-b559-51f83f20f772/datasets-mas-descargados-2019?format=xlsx"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2019</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/441d4308-24fb-49dc-81c3-5913b4ec0146">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/8a2cfba5-8bfa-4fde-b6ff-6a72758d2029</dct:identifier>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2024</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd7ddbd5-654b-45ee-9600-19e2c8a6b302/datasets-mas-descargados-2024?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2dcc3650-07f0-4dcc-b6ca-715d00a798fc">
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5028c1-de53-4b35-8913-61d3d9890fb8/datasets-mas-visitados-2022?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/c6d516aa-7d8b-4bed-8380-745429780262</dct:identifier>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b67c7b62-71e2-4e4b-b144-9faa35324d9a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2018</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/f7986118-b34d-4df1-ab3f-d4f183d1a1a6</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/98a47c60-bffd-46ac-8578-3fcdbcbd9e1b/visitas-semanales-2018?format=tsv"/>
+            <dct:title xml:lang="es">Visitas semanales 2018</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/be9485d0-d3df-4d97-b113-ec3f5110db5f">
+            <dct:title xml:lang="eu">Asteko deskargak 2019</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2019</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/62001d64-cfa0-4a36-8952-9d3f253410a9</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6236e9b1-d275-4c8d-822c-4555b2581e03/descargas-semanales-2019?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d48c1ec3-3865-4866-ba3a-923a7dfa1985">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2021</dct:title>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/1ca85a1a-e612-4676-8063-eac79214bebb</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/efddf67f-c9ae-49b8-827d-5feca24ce01c/datasets-mas-visitados-2021?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d798bdc8-103b-44ee-bab9-a5af5904f6cd">
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2020</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/3a6f7721-0bb6-4f5a-9236-b216ecb94522</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/7b80e99e-191a-48b7-8fb9-bb23896fcdec/datasets-mas-descargados-2020?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9196a6e9-8675-47a8-b186-a5fdf7ed871a">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/c60194c3-23a9-4999-9ca0-9a35abb63ab5</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2018</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2018</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0d541597-5bb0-431a-a26c-9bf9ab12b612/datasets-mas-descargados-2018?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a560f20a-50fa-425b-97ed-45d87687458c">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Asteko bisitas 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/90f3f45b-2f08-4e51-a53f-d05dbc8b1303</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd6b8db5-edff-403d-8dd0-fdd35cb00946/visitas-semanales-2022?format=xml"/>
+            <dct:title xml:lang="es">Visitas semanales 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7878faf8-fe80-4a9a-a1d6-5528ae544e93">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/67b2f70f-78fd-454a-95cc-a5ddddc35b82/visitas-semanales-2023?format=csv"/>
+            <dct:title xml:lang="es">Visitas semanales 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/9200bd73-a3f4-46b8-8478-31aca99c877a</dct:identifier>
+            <dct:title xml:lang="eu">Asteko bisitas 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Bisita</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e81615ab-9038-494d-8de4-b22446763f25">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2018</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2018</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/895c9c93-d9a9-4aa7-804f-ded218975de2</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca174dfb-3967-4658-9454-5b489c32bf6d/descargas-semanales-2018?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2018-01-01T00:00:00+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/dea53e8b-03d1-4091-806a-fde530c9229d">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2019</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/e295b970-e837-48f3-b79d-e020b5f9bba2</dct:identifier>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2019</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/15050d2c-32a0-484b-b559-51f83f20f772/datasets-mas-descargados-2019?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Visitas</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8dfad23f-3212-4356-9f66-cd6bdaade322">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/f20a574a-6f32-4e28-9f51-fe17e8f6995c</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Descargas semanales 2024</dct:title>
+            <dct:title xml:lang="eu">Asteko deskargak 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/570328c6-03de-4357-803d-e543fc6046db/descargas-semanales-2024?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cfd66db7-7651-4f83-8174-81106dbcbf8c">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2020</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2020</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/2df4a372-65ad-464c-b2e7-fa517fa50e7c</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2bc527be-51eb-4f57-a49e-9ccdd83575b4/descargas-semanales-2020?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bbcf9272-8884-4d04-9c45-c917993f6642">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/d7efaa2a-b9c4-49e4-b054-a1398094556c</dct:identifier>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2018</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2018</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ba10381e-b018-443d-a4ef-2f4c6f2c521c/datasets-mas-visitados-2018?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/25f02b98-c3fd-4165-8952-4b1e79c80e25">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd7ddbd5-654b-45ee-9600-19e2c8a6b302/datasets-mas-descargados-2024?format=csv"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/aa40880b-c92c-44b0-aa7a-97cf2a4f1056</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/61976c9b-d839-4d13-b21b-6f9753f1aed0">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f4bd36da-5209-42c2-be91-9634cbf5bb01/datasets-mas-visitados-2024?format=csv"/>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/edbfefa3-86ec-411a-b950-ecb034322cf3</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4496b850-1109-4028-aec5-98b071f7285a">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/8d1bb6d4-6245-405a-850f-679e3e78df15</dct:identifier>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/206af3c5-4766-44f6-bae9-888458d918b5/datasets-mas-visitados-2023?format=xlsx"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b9c9e8ee-bb88-4678-a528-7a1a03c12d41">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Visitas semanales 2019</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/16df24fb-bd1a-4ffe-8cf4-84850c35dfed/visitas-semanales-2019?format=tsv"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2019</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/7e3a1ab5-e4f4-485c-ba01-e9e5df4e2bb9</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f117cdb1-28ba-4e0d-af95-28f8a05c5ce4">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/3586e4f1-44ed-4b51-8b00-5fedee2b66aa</dct:identifier>
+            <dct:title xml:lang="eu">Asteko deskargak 2022</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ec471166-621e-4029-a63e-1e1cd0079bd0/descargas-semanales-2022?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/38fe4cbb-ed92-48ca-90b5-f8f24cc6eb36">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/e30c4b6f-5f51-4762-902d-566c9427adb5</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca174dfb-3967-4658-9454-5b489c32bf6d/descargas-semanales-2018?format=xml"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2018</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2018</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5740a15e-f28e-4f6a-a843-d1ab4ba93797">
+            <dct:title xml:lang="eu">Asteko bisitak 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/85c80939-4782-4dde-ab5a-b00519848e82/visitas-semanales-2020?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/4b9385ce-4f99-45e3-a1d7-73a60ec64d23</dct:identifier>
+            <dct:title xml:lang="es">Visitas semanales 2020</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Descargak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8f4593d1-84f9-4b56-bde1-860ba5321307">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/2a51cc8a-9b89-4e07-90da-6ade0e5442a3</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2019</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/10a489ab-d69c-4a0b-aa63-acc12021e3e0/datasets-mas-visitados-2019?format=xlsx"/>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2019</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/32071ed8-b10f-47be-8456-d28b7b6d891a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/30e42fcd-1fb4-44f9-b4f0-613f08d5e9c6</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca174dfb-3967-4658-9454-5b489c32bf6d/descargas-semanales-2018?format=json"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2018</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2018</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/df154985-8093-407b-915f-95cb2c3e75f1">
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd7ddbd5-654b-45ee-9600-19e2c8a6b302/datasets-mas-descargados-2024?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/720f2cdf-8022-4739-807a-16799a6eb657</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c087dfc5-500e-40d9-b136-1b4417774454">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Visitas semanales 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/d61c3466-3578-4518-926c-7d71d57db8bc</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8f3849d5-7061-4c97-b6e2-1650774dc105/visitas-semanales-2021?format=xlsx"/>
+            <dct:title xml:lang="eu">Asteko bisitak 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/58b7ed4e-15eb-4586-b557-601b6f2d7d7d">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/23b31de8-0b2a-4cd1-945e-6c39e2d4bc3b</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6236e9b1-d275-4c8d-822c-4555b2581e03/descargas-semanales-2019?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2019</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Descargas semanales 2019</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b1ce8051-4367-4b28-94e6-d664a06f0da9">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/4b74a49a-4491-4fc8-9880-a95c5c42c86d</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2018</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2018</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ca174dfb-3967-4658-9454-5b489c32bf6d/descargas-semanales-2018?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7b118401-ce75-40c2-9958-124d46a96418">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2019</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/10a489ab-d69c-4a0b-aa63-acc12021e3e0/datasets-mas-visitados-2019?format=xml"/>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2019</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/109587a8-e102-4546-a257-185bf2766e9e</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="eu">Open data Bizkaia atarian erregistratutako asteko bisita eta deskarga kopurua.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0c5ff302-106f-4abb-8947-de55ec2537d9">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2019</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2019</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/6236e9b1-d275-4c8d-822c-4555b2581e03/descargas-semanales-2019?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/3e39b7de-a68c-4302-bc42-a9db120553b2</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/visitas-descargas</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b36c2edd-1a6b-4146-989b-7035b016ea2b">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2018</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2018</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0d541597-5bb0-431a-a26c-9bf9ab12b612/datasets-mas-descargados-2018?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/82ad9fb0-80cd-48fa-9342-afbb5fbf57af</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/631a6d9e-4d05-4637-87d8-ceca94084be5">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/7f3de2c8-13e3-4c12-8d0b-8f71039aa5cc</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2bc527be-51eb-4f57-a49e-9ccdd83575b4/descargas-semanales-2020?format=tsv"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2020</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2020</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f332e95a-eb9a-41a3-81b4-2ffc6ec77e4c">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/ba10381e-b018-443d-a4ef-2f4c6f2c521c/datasets-mas-visitados-2018?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/4e3fa2a6-f203-4326-8824-95dfac2f84e4</dct:identifier>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2018</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2018</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/catalogo/visitas-descargas"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4c1295b3-3e58-4e48-83a3-7f6343d53119">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/4615f067-b540-42ea-b40e-e09b1726b80f/datasets-mas-descargados-2021?format=xml"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2021</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/4f97c76e-5d39-4e30-9df1-c7f91b9d1406</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e1612b4e-9068-4f08-a977-af995f741dac">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2018</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2018</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0d541597-5bb0-431a-a26c-9bf9ab12b612/datasets-mas-descargados-2018?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/2f95cfa2-8436-4c4d-97c9-fd31b9da8e08</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/feee163c-917c-4bf7-82a9-336a9d1902f6">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Visitas semanales 2021</dct:title>
+            <dct:title xml:lang="eu">Asteko bisitak 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/1ef53754-23de-4f5c-a094-b194c2127db1</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8f3849d5-7061-4c97-b6e2-1650774dc105/visitas-semanales-2021?format=tsv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d7efd567-82e4-4863-924a-50fe04797882">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/16432d71-466d-4222-b03c-553e7c747232</dct:identifier>
+            <dct:title xml:lang="eu">Asteko deskargak 2020</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2bc527be-51eb-4f57-a49e-9ccdd83575b4/descargas-semanales-2020?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/01de40de-9efe-49a7-888e-f9fb3d924e78">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/efddf67f-c9ae-49b8-827d-5feca24ce01c/datasets-mas-visitados-2021?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/c0ae7dab-1321-4963-87b9-82ae1867c2a6</dct:identifier>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Web</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Web</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a9759719-d07e-4f8a-a38c-cc53bc55e2ef">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2023</dct:title>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/206af3c5-4766-44f6-bae9-888458d918b5/datasets-mas-visitados-2023?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/4aefc136-2f1b-4953-9af4-cbd386bc5c73</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f0ce55a0-251d-4148-b7a6-8b3a5e5492c7">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5028c1-de53-4b35-8913-61d3d9890fb8/datasets-mas-visitados-2022?format=xlsx"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/0d5dfd1b-1758-4816-909d-a4177abd669f</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0f3b0d77-6764-4e98-837b-68c8e134da00">
+            <dct:title xml:lang="eu">Asteko bisitak 2018</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/98a47c60-bffd-46ac-8578-3fcdbcbd9e1b/visitas-semanales-2018?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Visitas semanales 2018</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/59b4f590-2044-46b8-8300-becb3bf66dca</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c3fdc397-9144-400b-b597-b15513f3c786">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2021</dct:title>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/efddf67f-c9ae-49b8-827d-5feca24ce01c/datasets-mas-visitados-2021?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/9543d9bb-3ec9-463f-a72e-594af12ea783</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6782ce05-899a-424d-9f5d-614b9d871a65">
+            <dct:title xml:lang="eu">Asteko bisitas 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/093a8161-e516-4742-b188-2fa2f722fb3a</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/bd6b8db5-edff-403d-8dd0-fdd35cb00946/visitas-semanales-2022?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Visitas semanales 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7f835daa-0192-46d0-b9e5-e8049e5fcbde">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/7439041c-6ff1-4e55-af1d-d9044727b8df</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9b5028c1-de53-4b35-8913-61d3d9890fb8/datasets-mas-visitados-2022?format=xml"/>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b7c2c97e-951d-43f5-92d7-3febe4259b24">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/8bddefd6-2622-46da-9eb6-85adf18c17ce</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2021</dct:title>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/efddf67f-c9ae-49b8-827d-5feca24ce01c/datasets-mas-visitados-2021?format=xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d96414b9-4e35-4984-a963-aa4bca75a5fa">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/27edb99e-e96e-4443-b4eb-94abdbe9b207</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/313ade43-5dff-4d01-a56b-52f9c60c6218/visitas-semanales-2024?format=json"/>
+            <dct:title xml:lang="es">Visitas semanales 2024</dct:title>
+            <dct:title xml:lang="eu">Asteko bisitas 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e6bc592d-e703-4ec3-a449-55be6c616fa7">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/8f3849d5-7061-4c97-b6e2-1650774dc105/visitas-semanales-2021?format=xml"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/c0b2206c-ff9e-44d7-b9fc-95ef301ea068</dct:identifier>
+            <dct:title xml:lang="es">Visitas semanales 2021</dct:title>
+            <dct:title xml:lang="eu">Asteko bisitak 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d875db09-d8bf-4ba1-902d-64d2c54960e6">
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2018</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2018</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0d541597-5bb0-431a-a26c-9bf9ab12b612/datasets-mas-descargados-2018?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/d9c65893-b820-4292-88a5-aa20f3f286f9</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2a288769-c170-460c-a102-ac6cd12cce5a">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/4615f067-b540-42ea-b40e-e09b1726b80f/datasets-mas-descargados-2021?format=tsv"/>
+            <dct:title xml:lang="eu">Gehien deskargatutako datu multzoak 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/36a9f79b-b77f-4eb3-a116-660e8cc98731</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Conjuntos de datos más descargados 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2b54f21a-daab-4eba-bfbc-f167457087d9">
+            <dct:title xml:lang="es">Visitas semanales 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/67b2f70f-78fd-454a-95cc-a5ddddc35b82/visitas-semanales-2023?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/e85f422a-7b8a-40ba-8f69-ed5dd303935b</dct:identifier>
+            <dct:title xml:lang="eu">Asteko bisitas 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/530de079-c8f4-4ca6-8d12-dd0fd77102ef">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aef428ff-c46e-49b2-a588-3b6f622157ec/descargas-semanales-2021?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/0d3b9dc6-b194-4d4d-b136-b449820eebf1</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Descargas semanales 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c7808513-9622-413b-8477-8cd5354684fb">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2020</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2020</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/2bc527be-51eb-4f57-a49e-9ccdd83575b4/descargas-semanales-2020?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/b69b2017-ebc5-49cd-b16c-e8c199c3b01c</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/abe9b9be-7984-48e5-a729-0e116d345f21">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/3dfda9ba-84c7-4ac0-b41a-fe1b93be9670</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2024</dct:title>
+            <dct:title xml:lang="es">Descargas semanales 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/570328c6-03de-4357-803d-e543fc6046db/descargas-semanales-2024?format=xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a7d617b5-2d20-4953-ab3f-bee285c3f692">
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/efddf67f-c9ae-49b8-827d-5feca24ce01c/datasets-mas-visitados-2021?format=json"/>
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2021</dct:title>
+            <dct:title xml:lang="eu">Gehien bisitatutako datu multzoak 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/cf8412cc-387a-4030-a13a-d2e1d7f26bd3</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d0f0e9a7-8986-4d08-8d37-e3538dbea6af">
+            <dct:title xml:lang="es">Conjuntos de datos más visitados 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f4bd36da-5209-42c2-be91-9634cbf5bb01/datasets-mas-visitados-2024?format=tsv"/>
+            <dct:title xml:lang="eu">Gehien bisita datu multzoak 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/f752ecad-b2ec-4148-8f9e-7d6185d45fbe</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b318ae2f-e7e1-41f4-805d-fb97c3361180">
+            <dct:title xml:lang="es">Descargas semanales 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-visitas-y-descargas/resource/78bc9c48-f722-4ece-be70-efe8c9349806</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aef428ff-c46e-49b2-a588-3b6f622157ec/descargas-semanales-2021?format=xml"/>
+            <dct:title xml:lang="eu">Asteko deskargak 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">API</dcat:keyword>
+        <dcat:keyword xml:lang="es">API</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-03-12T23:18:44Z</dct:issued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:18:36Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>d902c0cb2474549eddd14e9dc8e2afa6</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:18:36Z</edp:transIssued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-www-opendatabizkaia-eus-es-catalogo-visitas-descargas"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>
