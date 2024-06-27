@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_grupos_biologicos_pesca">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_grupos_biologicos_pesca">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cd9a44dd-56fc-44d1-b63f-a5ac23882eeb">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-grupos-biologicos-de-pesca-istac-cl_grupos_biologicos_pesca/resource/fac97b48-290d-47d3-8b18-0b49755d1465</dct:identifier>
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_GRUPOS_BIOLOGICOS_PESCA (XLSX)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_GRUPOS_BIOLOGICOS_PESCA/01.000/codes.xlsx?fields=%2Bdescription"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_grupos_biologicos_pesca</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d5e5b55c-465c-47d7-b677-c6b1dfe68f6d">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-grupos-biologicos-de-pesca-istac-cl_grupos_biologicos_pesca/resource/fb6f9e14-7a92-4bbc-946d-e47463a0fd00</dct:identifier>
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_GRUPOS_BIOLOGICOS_PESCA (XML)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_GRUPOS_BIOLOGICOS_PESCA/01.000/codes.xml?fields=%2Bdescription"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-20T14:33:22+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/239405cc-47d3-44dc-81ec-9fe3baed5196">
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_GRUPOS_BIOLOGICOS_PESCA (JSON)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_GRUPOS_BIOLOGICOS_PESCA/01.000/codes.json?fields=%2Bdescription"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-grupos-biologicos-de-pesca-istac-cl_grupos_biologicos_pesca/resource/31deee17-baac-4553-b088-d19c8dab131d</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Clasificación de grupos biológicos de pesca (ISTAC: CL_GRUPOS_BIOLOGICOS_PESCA)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3ed22d03-821e-44f2-8dab-35913d459431">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-grupos-biologicos-de-pesca-istac-cl_grupos_biologicos_pesca/resource/d1d1ca3e-b02c-42b0-8026-fd608bb8079e</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_GRUPOS_BIOLOGICOS_PESCA/01.000/codes.tsv?fields=%2Bdescription"/>
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_GRUPOS_BIOLOGICOS_PESCA (TSV)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-20T14:33:22+01:00</dct:modified>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423">
+            <foaf:name>Instituto Canario de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="es">Clasificación del producto pesquero en tipos biológicos atendiendo a su hábitat y crustáceos o moluscos. Esta clasificación se ha creado partiendo de las tablas de la Dirección General de Pesca elaboradas por el Servicio de Coordinación Estadística de la Consejería de Agricultura, Ganadería y Pesca.</dct:description>
+        <dcat:keyword xml:lang="es">Clasificación</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/91276a8a-7c5d-4b95-be0d-199e131f8752">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-grupos-biologicos-de-pesca-istac-cl_grupos_biologicos_pesca/resource/41e244a9-3b90-4d22-86a1-a8547192f095</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_GRUPOS_BIOLOGICOS_PESCA (CSV)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_GRUPOS_BIOLOGICOS_PESCA/01.000/codes.csv?fields=%2Bdescription"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_grupos_biologicos_pesca"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:30:38Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_grupos_biologicos_pesca</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:30:28Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:30:38Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>dd4a9762552fa6dbcfdb6a059dbb89a1</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

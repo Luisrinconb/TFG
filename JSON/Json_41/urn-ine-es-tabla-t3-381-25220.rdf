@@ -1,0 +1,299 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/urn-ine-es-tabla-t3-381-25220">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/urn-ine-es-tabla-t3-381-25220"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:37:13Z</dct:issued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>urn:ine:es:TABLA:T3:381:25220</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:41:35Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:41:35Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>92e1adcabe84696098584fcf89b61aed</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/urn-ine-es-tabla-t3-381-25220">
+        <dct:description xml:lang="uk-t-es-t0-mtec">Таблиця INEBASE
+Коефіцієнт зміни за розміром муніципалітету проживання. Щорічне. Нацiонально. Сімейний бюджет (EPF)</dct:description>
+        <dcat:keyword xml:lang="es">EPF</dcat:keyword>
+        <dct:description xml:lang="lt-t-es-t0-mtec">INEBASE lentelė
+Variacijos koeficientas pagal gyvenamosios vietos savivaldybės dydį. Kasmet. Nacionalinis. Šeimos biudžeto tyrimas (EPF)</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A lakóhely szerinti település nagysága szerinti relatív szórási együttható. EPF (API-AZONOSÍTÓ: 25220)</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Koeficijent varijacije prema veličini općine boravišta. EPF (IDENTIFIKACIJSKA OZNAKA API-JA: 25220)</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">INEBASE tabel
+Variatsioonikordaja elukohajärgse omavalitsuse suuruse järgi. Igal aastal. Riiklik. Perekonna eelarve uuring (EPF)</dct:description>
+        <dcat:keyword xml:lang="es">De 20.000 a menos de 50.000 habitantes</dcat:keyword>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Tabelul INEBASE 
+Coeficientul de variație în funcție de mărimea comunei de reședință.
+Anuală.
+Națională.
+Sondajul privind bugetul familiei (EPF)</dct:description>
+        <dcat:keyword xml:lang="en">From 20000 to 50000 inhabitants</dcat:keyword>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Coefficient de variation selon la taille de la commune de résidence. EPF (API ID: 25220)</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Tablica INEBASE
+Koeficijent varijacije prema veličini općine boravišta. Godišnje. Nacionalni. Istraživanje o obiteljskom proračunu (EPF)</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Коефициент на вариация по размер на общината на пребиваване. EPF (API ID: 25220)</dct:title>
+        <dcat:keyword xml:lang="es">De 100.000 o más habitantes</dcat:keyword>
+        <dct:title xml:lang="de-t-es-t0-mtec">Variationskoeffizient nach Größe der Wohngemeinde. EPF (API-ID: 25220)</dct:title>
+        <dct:title xml:lang="es">Coeficiente de variación por tamaño del municipio de residencia. EPF (Identificador API: 25220)</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">INEBASE-tabel
+Variatiecoëfficiënt naar grootte van de gemeente van woonplaats. Jaarlijks. Nationaal. Gezinsbegrotingsenquête (EPF)</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">INEBASE-bord
+Variationskoefficient efter bopælskommunens størrelse. Årligt. Nationalt. Familiebudgetundersøgelse (EPF)</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Tabulka INEBASE
+Variační koeficient podle velikosti obce bydliště.Ročně.
+Národní. Průzkum rodinného rozpočtu (EPF)</dct:description>
+        <dcat:keyword xml:lang="es">Consumo y distribución de la renta</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dct:description xml:lang="de-t-es-t0-mtec">INEBASE Tabelle
+Variationskoeffizient nach Größe der Wohngemeinde. Jährlich. Auf nationaler Ebene. Erhebung über den Familienhaushalt (EPF)</dct:description>
+        <dcat:keyword xml:lang="es">Encuesta de Presupuestos Familiares (EPF)</dcat:keyword>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/PeriodOfTime-1">
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T01:00:00+01:00</schema:endDate>
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2006-01-01T01:00:00+01:00</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:description xml:lang="fi-t-es-t0-mtec">INEBASE-pöytä
+Variaatiokerroin kotikunnan koon mukaan.Vuosittain.
+Kansallinen. Perhebudjettitutkimus (EPF) INEBASE-pöytä 
+Variaatiokerroin kotikunnan koon mukaan.
+Vuosittain.
+Kansallinen.
+Perhebudjettitutkimus (EPF)</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">INEBASE-tabellen
+Variationskoefficient efter bostadskommunens storlek. Årligt.
+Nationellt.
+Undersökning om familjebudgeten</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">INEBASE tabula
+Variācijas koeficients pēc dzīvesvietas pašvaldības lieluma. Reizi gadā. Valsts. Ģimenes budžeta apsekojums (EPF)</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Coefficiente di variazione per dimensione del comune di residenza. EPF (ID API: 25220)</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-18T12:20:00+01:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/49b483d7-59fe-4307-8fb6-02cba56407fb">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/8afe9a14-5086-4819-827d-8c91925b044a</dct:identifier>
+            <dct:title xml:lang="en">Json</dct:title>
+            <dct:title xml:lang="es">Json</dct:title>
+            <dcat:accessURL rdf:resource="https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/25220?tip=AM"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3fcf31f2-40d7-488a-8d2b-f08e892c1be7">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_bdsc/25220.csv"/>
+            <dct:title xml:lang="es">CSV: separado por ;</dct:title>
+            <dct:title xml:lang="en">CSV: Separated by ;</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/188ed353-5205-4a7a-b60c-27f8588d31c1</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Współczynnik zmienności według wielkości gminy miejsca zamieszkania. EPF (API ID: 25220)</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Tabella INEBASE
+Coefficiente di variazione per dimensione del comune di residenza. Annuale. Nazionale. Indagine sul bilancio familiare (EPF)</dct:description>
+        <dcat:keyword xml:lang="en">Statistics</dcat:keyword>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Variační koeficient podle velikosti obce bydliště.
+EPF (ID API:
+25220)</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Comhéifeacht athrúcháin de réir mhéid an bhardais chónaithe. EPF (AITHEANTAS API:
+25220)</dct:title>
+        <dcat:keyword xml:lang="es">Tamaño del municipio</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0c02054c-5fa8-4692-87ff-b0c87bb974a5">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/fb73caa4-7b9b-4700-b56c-2f6ee1e5c1a2</dct:identifier>
+            <dct:title xml:lang="en">Excel: XLSx extension</dct:title>
+            <dct:title xml:lang="es">Excel: Extension XLSx</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/xlsx/25220.xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Estadísticas</dcat:keyword>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Coeficiente de variação por dimensão do município de residência. EPF (ID DO API: 25220)</dct:title>
+        <dcat:keyword xml:lang="en">Household Budget Survey (HBS)</dcat:keyword>
+        <dct:description xml:lang="es">Tabla de INEbase
+Coeficiente de variación por tamaño del municipio de residencia. Anual. Nacional. Encuesta de Presupuestos Familiares (EPF)</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Variaatiokerroin kotikunnan koon mukaan. EPF (API-TUNNISTE: 25220)</dct:title>
+        <dcat:keyword xml:lang="es">De 50.000 a menos de 100.000 habitantes</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/117055a9-bd74-479a-956c-c922b3b4c220">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Texto plano: separado por ,</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_c/25220.csv_c"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/81fba957-78a3-4d0e-82b1-43a904f45a0c</dct:identifier>
+            <dct:title xml:lang="en">Plain Text: separated by comma</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πίνακας INEBASE
+Συντελεστής διακύμανσης ανάλογα με το μέγεθος του δήμου κατοικίας. Ετήσια. Εθνικό. Έρευνα Οικογενειακού Προϋπολογισμού (EPF)</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Tabuľka INEBASE
+Variačný koeficient podľa veľkosti obce bydliska. Ročne. Národný. Prieskum rodinného rozpočtu (EPF)</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Variācijas koeficients pēc dzīvesvietas pašvaldības lieluma.
+EPF (API ID:
+25220)</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Συντελεστής διακύμανσης ανάλογα με το μέγεθος του δήμου κατοικίας. EPF (ΤΑΥΤΌΤΗΤΑ API:
+25220)</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Tabella ta’ INEBASE
+Koeffiċjent ta’ varjazzjoni skont id-daqs tal-muniċipalità ta’ residenza.Kull sena.
+Nazzjonali. Stħarriġ dwar il-Baġit tal-Familja (EPF)</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Таблица INEBASE
+Коефициент на вариация по размер на общината на пребиваване. Годишно. Национално. Проучване на семейния бюджет (EPF)</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">INEBASE táblázat
+A lakóhely szerinti település nagysága szerinti relatív szórási együttható. Éves szinten. Nemzeti. Családi költségvetési felmérés (EPF)</dct:description>
+        <dcat:keyword xml:lang="en">Municipality size</dcat:keyword>
+        <dct:title xml:lang="da-t-es-t0-mtec">Variationskoefficient efter bopælskommunens størrelse. EPF (API ID: 25220)</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Tábla INEBASE
+Comhéifeacht athrúcháin de réir mhéid an bhardais chónaithe. Go bliantúil. Náisiúnta. Suirbhé ar Bhuiséad Teaghlaigh (EPF)</dct:description>
+        <dcat:keyword xml:lang="en">Consumption and distribution of income</dcat:keyword>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Variatiecoëfficiënt naar grootte van de gemeente van woonplaats. EPF (API ID:
+25220)</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Coeficientul de variație în funcție de mărimea comunei de reședință. EPF (ID API: 25220)</dct:title>
+        <dct:title xml:lang="en">Variation coefficient by size of municipality of residence. EPF (API identifier: 25220)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8f80e267-ebe2-45c9-8c09-27fcfa1bab5c">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_bd/25220.csv"/>
+            <dct:title xml:lang="es">CSV: separado por tabuladores</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/fdc71989-0835-4576-a1e6-4e35a3d7e28d</dct:identifier>
+            <dct:title xml:lang="en">CSV: Tab Separated</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0697c6c1-e1e5-4d53-a29e-8cca164fdfb1">
+            <dct:title xml:lang="es">Texto plano: separado por ;</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv_sc/25220.csv_sc"/>
+            <dct:title xml:lang="en">Plain Text: separated by semicolons</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/8883020a-6dc7-4155-86af-8ff2fc869534</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587">
+            <foaf:name>Instituto Nacional de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6754f2ef-9289-4dfc-9e21-ab4bb1f9eced">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/csv/25220.csv"/>
+            <dct:title xml:lang="en">Plain Text: separated by tab</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/2bec7125-c4e9-4081-8bcc-2f5688f2af87</dct:identifier>
+            <dct:title xml:lang="es">Texto plano: separado por tabuladores</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/DurationDescription">
+                <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:years>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Tabela INEBASE
+Koeficient variacije glede na velikost občine prebivališča.Letno.
+Nacionalno. Raziskava o družinskem proračunu (EPF)</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:isReferencedBy rdf:resource="https://www.ine.es/dyngs/IOE/es/operacion.htm?numinv=30458"/>
+        <dcat:keyword xml:lang="en">Less than 10000 inhabitants</dcat:keyword>
+        <dct:title xml:lang="et-t-es-t0-mtec">Variatsioonikordaja elukohajärgse omavalitsuse suuruse järgi. EUROOPA RAHUTAGAMISRAHASTU (API ID:
+25220)</dct:title>
+        <dct:identifier>urn:ine:es:TABLA:T3:381:25220</dct:identifier>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Tabela INEBASE
+Współczynnik zmienności według wielkości gminy miejsca zamieszkania.Roczne.
+Krajowa. Badanie budżetu rodziny (EPF) Tabela INEBASE 
+Współczynnik zmienności według wielkości gminy miejsca zamieszkania.
+Roczne.
+Krajowa.
+Badanie budżetu rodziny (EPF)</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9f8394bb-09e0-4ef2-befb-cd81e35b50f4">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:title xml:lang="en">Excel: XLS extension</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/31e87cc0-6476-4361-9363-fb98a83fe807</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/xls/25220.xls"/>
+            <dct:title xml:lang="es">Excel: Extensión XLS</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Variacijos koeficientas pagal gyvenamosios vietos savivaldybės dydį.
+EPF (API ID:
+25220)</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Коефіцієнт зміни за розміром муніципалітету проживання. EPF (API ID: 25220)</dct:title>
+        <dct:description xml:lang="en">Table of INEBase
+Variation coefficient by size of municipality of residence. Annual. National. Household Budget Survey (HBS)</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Koeffiċjent ta’ varjazzjoni skont id-daqs tal-muniċipalità ta’ residenza. EPF (ID TAL-API: 25220)</dct:title>
+        <dcat:keyword xml:lang="en">From 10000 to 20000 inhabitants</dcat:keyword>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Tableau INEBASE
+Coefficient de variation selon la taille de la commune de résidence. Annuel. National. Enquête sur le budget familial (EPF)</dct:description>
+        <dcat:keyword xml:lang="es">Nivel calidad y condiciones de vida</dcat:keyword>
+        <dcat:keyword xml:lang="en">Quality of life and living conditions</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/27624656-545f-4ebb-8975-483ba277aa23">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">Html</dct:title>
+            <dct:title xml:lang="en">Html</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/5f9b71a8-29d4-4a53-a38c-331e8a81da0d</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/Tabla.htm?t=25220"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1eff0ca4-5a76-4a9c-a5e5-3a67be87a655">
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-coeficiente-de-variacion-por-tamano-del-municipio-de-residencia-epf-identificador-api-25220/resource/f563cda9-3f22-4a30-a19d-ff3541829435</dct:identifier>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+            <dct:title xml:lang="en">Pc-Axis</dct:title>
+            <dct:title xml:lang="es">Pc-Axis</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxiT3/files/t/px/25220.px"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:conformsTo rdf:resource="https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=30458"/>
+        <dcat:keyword xml:lang="en">100000 or more inhabitants</dcat:keyword>
+        <dcat:keyword xml:lang="es">Total</dcat:keyword>
+        <dcat:keyword xml:lang="es">Menos de 10.000 habitantes</dcat:keyword>
+        <dcat:keyword xml:lang="en">From 50000 to 100000 inhabitants</dcat:keyword>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Variačný koeficient podľa veľkosti obce bydliska. EPF (IDENTIFIKAČNÉ ČÍSLO API: 25220)</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Quadro INEBASE
+Coeficiente de variação por dimensão do município de residência.Anual.
+Nacional. Inquérito ao Orçamento Familiar (EPF) Quadro INEBASE 
+Coeficiente de variação por dimensão do município de residência.
+Anual.
+Nacional.
+Inquérito ao Orçamento Familiar (EPF)</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Koeficient variacije glede na velikost občine prebivališča. EPF (IDENTIFIKACIJSKA OZNAKA API: 25220)</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Variationskoefficient efter bostadskommunens storlek. EPF (API ID: 25220)</dct:title>
+        <dcat:keyword xml:lang="es">De 10.000 a menos de 20.000 habitantes</dcat:keyword>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >1900-01-01T08:45:00-00:15</dct:issued>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

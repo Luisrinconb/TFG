@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-tenerife-es-datos-conjuntos-de-datos-vias-competencia-del-cabildo-insular-de-tenerife">
+    <dct:identifier>https://datos.tenerife.es/datos/conjuntos-de-datos/vias-competencia-del-cabildo-insular-de-tenerife</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:18:35Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-tenerife-es-datos-conjuntos-de-datos-vias-competencia-del-cabildo-insular-de-tenerife">
+        <dct:title xml:lang="el-t-es-t0-mtec">Δρομολόγια ανταγωνισμού στο Cabildo Insular de Tenerife</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Rutele concurențiale ale Cabildo Insular de Tenerife</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Tekmovalne poti Cabildo Insular de Tenerife</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Teave Cabildo de Tenerife maanteede pädevuse kohta (nõukogu konkurentsimarsruut, kohaliku omavalitsuse konkurentsiliinid võrgu järjepidevuse säilitamiseks, kilomeetripunktid)
+Andmete kuupäev: Juuli 2021</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Competition routes of the Cabildo Insular de Tenerife</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Tenerifės „Cabildo Insular de Tenerife“ varžybų maršrutai</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πληροφορίες σχετικά με την οδική αρμοδιότητα του Cabildo de Tenerife (διαδρομές ανταγωνισμού του συμβουλίου, δημοτικές διαδρομές ανταγωνισμού για τη διατήρηση της συνέχειας του δικτύου, σημεία χιλιομέτρων)
+ΗΜΕΡΟΜΗΝΙΑ ΔΕΔΟΜΕΝΩΝ: Ιούλιος 2021</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Information om Cabildo de Tenerifes vägbehörighet (rådets konkurrensvägar, kommunala konkurrensvägar för att upprätthålla nätets kontinuitet, kilometerpunkter)
+Datum för uppgifterna: Juli 2021</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Routes de compétition du Cabildo Insular de Tenerife</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Informace o silniční působnosti Cabildo de Tenerife (konkurenční trasy rady, obecní soutěžní trasy pro zachování kontinuity sítě, kilometrové body)
+Datum poskytnutí údajů: Červenec 2021</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações sobre a competência rodoviária do Cabildo de Tenerife (vias de concorrência do conselho, rotas de concorrência municipais para manter a continuidade da rede, pontos de quilómetro)
+Data dos dados: julho de 2021</dct:description>
+        <dcat:keyword xml:lang="es">carreteras</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0cd4ad5a-75e2-4aad-a10e-3f5af39e73aa">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >4280320</dcat:byteSize>
+            <dct:title xml:lang="es">Viario y puntos kilométricos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:mediaType>application/geopackage+sqlite3</dcat:mediaType>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-vias-competencia-del-cabildo-insular-de-tenerife/resource/43813f49-b439-416b-b0e4-5f8e6475ed1b</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/ec366064-32ce-4800-99d0-9e396910a669/resource/394c93a6-d02e-4bd4-9d66-8f03c10b321c/download/viario_epsg32628.gpkg"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="da-t-es-t0-mtec">Hoteller i nærheden af Cabildo Insular de Tenerife</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Natjecateljske linije Cabildo Insular de Tenerife</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Informationen über die Straßenkompetenz des Cabildo de Tenerife (Wettbewerbsrouten des Rates, kommunale Wettbewerbswege zur Aufrechterhaltung der Kontinuität des Netzes, Kilometerpunkte)
+Datum der Daten: Juli 2021</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Informacje o kompetencjach drogowych Cabildo de Tenerife (trasy konkuracyjne rady, miejskie trasy konkurencji w celu utrzymania ciągłości sieci, punkty kilometrowe)
+Data danych: Lipiec 2021 r.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:description xml:lang="es">Información relativa al viario competencia del Cabildo de Tenerife. 
+
+Fecha de los datos:  marzo 2024</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Cabildo Insular de Tenerife konkurentsiliinid</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Informacije o cestovnoj nadležnosti Cabildo de Tenerife (tržišne rute vijeća, općinske linije tržišnog natjecanja za održavanje kontinuiteta mreže, kilometarske točke)
+Datum podataka: Srpanj 2021.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Tájékoztatás a Cabildo de Tenerife közúti kompetenciájáról (a tanács versenyútvonalai, önkormányzati versenyútvonalak a hálózat folytonosságának fenntartása érdekében, kilométerpontok)
+Az adatok dátuma: 2021. július</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Bealaí iomaíochta an Oileánach Cabildo de Tenerife</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tietoa Cabildo de Tenerifen tieosaamisesta (valtuuston kilpailureitit, kunnalliset kilpailureitit verkon jatkuvuuden ylläpitämiseksi, kilometripisteet)
+Tietojen päivämäärä: Heinäkuu 2021</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Súťažné trasy Cabildo Insular de Tenerife</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Cabildo Insular de Tenerife konkurences maršruti</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Rotas de competição do Cabildo Insular de Tenerife</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/58684115-333e-4a8e-9365-d480a748cd0a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Diccionario de datos de Vías competencia del Cabildo de Tenerife</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/ec366064-32ce-4800-99d0-9e396910a669/resource/1df003c2-654e-428d-9611-4b0ddf052359/download/diccionario-de-datos-de-vias-competencia-del-cabildo-insular-de-tenerife.json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-vias-competencia-del-cabildo-insular-de-tenerife/resource/1b585caf-50b8-4f5d-8ce9-36ec08d268b1</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >2120</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni sulla competenza stradale del Cabildo de Tenerife (percorsi di concorrenza del consiglio, percorsi di concorrenza comunali per mantenere la continuità della rete, punti chilometri)
+Data dei dati: Luglio 2021</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-03-13T15:54:29+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7ec08017-718c-4b5a-9844-bee4a526acb7">
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-vias-competencia-del-cabildo-insular-de-tenerife/resource/e0f9a68a-f160-4399-8053-5cdf671fbeb4</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/ec366064-32ce-4800-99d0-9e396910a669/resource/f7e4f6dd-fb1b-4d6c-84b5-9f200fc35beb/download/pk.csv"/>
+            <dct:title xml:lang="es">Puntos kilométricos</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >29603</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="it-t-es-t0-mtec">Percorsi di gara del Cabildo Insular de Tenerife</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/804d67f0-3e69-4ae1-866d-fead0342207f">
+            <dct:title xml:lang="es">Vías competencia del Cabildo de Tenerife</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/ec366064-32ce-4800-99d0-9e396910a669/resource/2efb34f4-4d04-4e63-942e-fceb995b7947/download/viascab.csv"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >129867</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-vias-competencia-del-cabildo-insular-de-tenerife/resource/d0a91c64-1626-4696-b68b-a4bf43bb2327</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Soutěžní trasy Cabildo Insular de Tenerife</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Wettkampfrouten des Cabildo Insular de Tenerife</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Faisnéis a bhaineann le hinniúlacht bóithre Cabildo de Tenerife (bealaí iomaíochta na comhairle, bealaí iomaíochta bardasacha chun leanúnachas an ghréasáin a choinneáil, pointí ciliméadair)
+Dáta na sonraí: Iúil 2021</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Informácie o cestnej kompetencii Cabildo de Tenerife (súťažné trasy rady, mestské súťažné trasy na zachovanie kontinuity siete, kilometrové body)
+Dátum údajov: Júl 2021</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Tävlingsrutter på Cabildo Insular de Tenerife</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/385904fe-7223-4d70-a173-c136b173269d">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Puntos kilométricos</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/ec366064-32ce-4800-99d0-9e396910a669/resource/b0eba812-6df7-4398-a427-00155c8567a9/download/pk.geojson"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >193778</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-vias-competencia-del-cabildo-insular-de-tenerife/resource/055b0819-fc1b-4b13-8ff6-4b65b5c9698a</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-18T15:04:16+02:00</dct:modified>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Конкурсні маршрути острова Тенеріфе Cabildo Insular</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L03380011">
+            <foaf:name>Cabildo Insular de Tenerife</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni dwar il-kompetenza tat-triq tal-Cabildo de Tenerife (rotot ta’ kompetizzjoni tal-kunsill, rotot ta’ kompetizzjoni muniċipali biex tinżamm il-kontinwità tan-netwerk, punti kilometri)
+Data tad-data: Lulju 2021</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations relatives à la compétence routière du Cabildo de Tenerife (lignes de concurrence du conseil, routes de concurrence municipales pour maintenir la continuité du réseau, points kilométriques)
+Date des données: Juillet 2021</dct:description>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l03380011-vias-competencia-del-cabildo-insular-de-tenerife/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l03380011-vias-competencia-del-cabildo-insular-de-tenerife/DurationDescription">
+                <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:years>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Informacija apie Cabildo de Tenerife kelių kompetenciją (Tarybos konkurencijos maršrutai, savivaldybių konkurencijos maršrutai tinklo tęstinumui palaikyti, kilometrai)
+Duomenų pateikimo data: 2021 m. liepos mėn.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Informacije o cestnih kompetencah Cabildo de Tenerife (konkurenčne poti sveta, občinske konkurenčne poti za ohranjanje kontinuitete omrežja, kilometrske točke)
+Datum podatkov: Julij 2021</dct:description>
+        <dct:title xml:lang="es">Vías competencia del Cabildo Insular de Tenerife</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Informācija par Cabildo de Tenerife kompetenci uz ceļiem (padomes konkurences maršruti, pašvaldību konkurences ceļi tīkla nepārtrauktības uzturēšanai, kilometri)
+Datu datums: 2021. gada jūlijs</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Информация относно пътната компетентност на Cabildo de Tenerife (конкурентни маршрути на съвета, общински състезателни маршрути за поддържане на непрекъснатостта на мрежата, километрични точки)
+Дата на данните: Юли 2021 г.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A Cabildo Insular de Tenerife versenyútvonalai</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Rotot ta’ kompetizzjoni tal-Cabildo Insular de Tenerife</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Cabildo Insular de Tenerifen kilpailureitit</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații privind competența rutieră a Cabildo de Tenerife (căi de concurență ale consiliului, rute de concurență municipale pentru menținerea continuității rețelei, puncte de kilometru)
+Data datelor: Iulie 2021</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Інформація про дорожню компетенцію Cabildo de Тенеріфе (маршрути змагань ради, муніципальні конкурсні маршрути для підтримки безперервності мережі, кілометрові точки)
+Дата отримання даних: Липень 2021 року</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Information concerning the road competence of the Cabildo de Tenerife (competition routes of the council, municipal competition routes to maintain the continuity of the network, kilometre points)
+Date of data: July 2021</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Oplysninger om Cabildo de Tenerifes vejkompetence (Rådets konkurrenceveje, kommunale konkurrenceruter for at opretholde nettets kontinuitet, kilometerpoint)
+Dato for data: Juli 2021</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d729f926-9653-4d2e-9174-0863932221a0">
+            <dct:title xml:lang="es">Vías competencia del Cabildo de Tenerife</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >20766668</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/l03380011-vias-competencia-del-cabildo-insular-de-tenerife/resource/a8ca6e7a-361f-4ad5-a9fa-a0c44ae47a2c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/ec366064-32ce-4800-99d0-9e396910a669/resource/e6fdfd1e-4942-4d17-abb1-d256ce7fef97/download/vias-competencia-del-cabildo-insular-de-tenerife.geojson"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Informatie over de bevoegdheid over de weg van de Cabildo de Tenerife (concurrentieroutes van de raad, gemeentelijke mededingingsroutes om de continuïteit van het net te handhaven, kilometerpunten)
+Datum van de gegevens: Juli 2021</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Trasy konkursowe Cabildo Insular de Tenerife</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Състезателни маршрути на остров Тенерифе</dct:title>
+        <dct:identifier>https://datos.tenerife.es/datos/conjuntos-de-datos/vias-competencia-del-cabildo-insular-de-tenerife</dct:identifier>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Competitieroutes van de Cabildo Insular de Tenerife</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-05-17T23:21:00Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-tenerife-es-datos-conjuntos-de-datos-vias-competencia-del-cabildo-insular-de-tenerife"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>e4aea8d126ff52447aa6fd58708851e</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:18:35Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

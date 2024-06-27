@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-portalv2-enlaza-eprinsa-es-api-catalog-dataset-e205caa9-9d43-47c3-94a9-3feae58737a8">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-02-17T23:21:15Z</dct:issued>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-portalv2-enlaza-eprinsa-es-api-catalog-dataset-e205caa9-9d43-47c3-94a9-3feae58737a8">
+        <dct:identifier>https://portalv2.enlaza.eprinsa.es/api/catalog/dataset/e205caa9-9d43-47c3-94a9-3feae58737a8</dct:identifier>
+        <dct:title xml:lang="da-t-es-t0-mtec">Kommunalt personale</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Az önkormányzati alkalmazottak listája, amelyeknek magukban kell foglalniuk a hivatásos köztisztviselőket, a munkajog alapján felvett alkalmazottakat és a személyzetet.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Kommunales Personal</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Personel gminy</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Zoznam zamestnancov obcí, ktorý musí zahŕňať stálych štátnych zamestnancov, zamestnancov prijatých podľa pracovného práva a všetkých zamestnancov.</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Personalul municipal</dct:title>
+        <dct:title xml:lang="es">Personal municipal</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Seznam zaměstnanců obcí, který musí zahrnovat kariérní úředníky, zaměstnance přijaté podle pracovního práva a všechny zaměstnance.</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Pessoal municipal</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Муніципальний персонал</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Savivaldybės darbuotojų, į kuriuos turi būti įtraukti karjeros valstybės tarnautojai, pagal darbo teisę įdarbinti darbuotojai ir visi darbuotojai, sąrašas.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Lista personalului municipal care trebuie să includă funcționari de carieră, personal recrutat în temeiul dreptului muncii și orice personal.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aae19ebc-9124-484b-af31-20193ad1d192">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000014-personal-municipal/resource/9570e81c-b90b-4cec-85e3-a9741ce54ca8</dct:identifier>
+            <dct:title xml:lang="es">Personal municipal</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/cc-by-sa-4.0"/>
+            <dcat:accessURL rdf:resource="https://portalv2.enlaza.eprinsa.es/file/datahub/e205caa9-9d43-47c3-94a9-3feae58737a8.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/l02000014-personal-municipal/PeriodOfTime-1">
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00+01:00</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:title xml:lang="et-t-es-t0-mtec">Munitsipaaltöötajad</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Förteckning över kommunal personal som måste omfatta ordinarie tjänstemän, personal som rekryteras enligt arbetsrätten och eventuell personal.</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Personale comunale</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Liosta d’fhoireann bhardasach nach mór státseirbhísigh ghairme, baill foirne a earcaítear faoi dhlí an tsaothair, agus aon fhoireann a bheith san áireamh iontu.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000014">
+            <foaf:name>Diputación Provincial de Córdoba</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:title xml:lang="en-t-es-t0-mtec">Municipal staff</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Pašvaldības darbinieku saraksts, kurā jāiekļauj pastāvīgie ierēdņi, darbinieki, kas pieņemti darbā saskaņā ar darba tiesībām, un visi darbinieki.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Lista do pessoal municipal que deve incluir funcionários públicos de carreira, pessoal recrutado ao abrigo do direito do trabalho e qualquer outro pessoal.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Gemeentelijk personeel</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Zaměstnanci obce</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Kunnan henkilöstö</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Loetelu munitsipaaltöötajatest, kelle hulka peavad kuuluma alalised riigiteenistujad, tööõiguse alusel tööle võetud töötajad ja kõik töötajad.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">List of municipal staff that must include career civil servants, staff recruited under labour law, and any staff.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Δημοτικό προσωπικό</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Wykaz personelu miejskiego, który musi obejmować urzędników służby cywilnej, pracowników zatrudnionych na podstawie prawa pracy oraz wszystkich pracowników.</dct:description>
+        <dct:description xml:lang="es">Listado del personal municipal que debe incluir a los funcionarios de carrera, al personal contratado en régimen de Derecho laboral, y al personal eventual.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Občinsko osebje</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Liste der kommunalen Bediensteten, die Berufsbeamte, nach Arbeitsrecht eingestelltes Personal und alle Bediensteten umfassen müssen.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8401cf17-3185-40a2-981b-7678e3ee2aad">
+            <dcat:accessURL rdf:resource="https://portalv2.enlaza.eprinsa.es/file/datahub/e205caa9-9d43-47c3-94a9-3feae58737a8.xml"/>
+            <dct:title xml:lang="es">Personal municipal</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000014-personal-municipal/resource/3a344960-a632-4ca9-b3ba-caabbb8fedcc</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/cc-by-sa-4.0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="it-t-es-t0-mtec">Elenco del personale municipale che deve includere funzionari pubblici di carriera, personale assunto a norma del diritto del lavoro e qualsiasi altro personale.</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Список муніципальних кадрів, які повинні включати кар'єру державних службовців, персонал, набраний відповідно до трудового законодавства, і будь-який персонал.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-08T00:01:20+01:00</dct:issued>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Općinsko osoblje</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Lista ta’ persunal muniċipali li jrid jinkludi impjegati taċ-ċivil b’karriera, persunal reklutat skont il-liġi tax-xogħol, u kwalunkwe persunal.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Mestský personál</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Popis općinskog osoblja koje mora uključivati karijerne javne službenike, osoblje zaposleno na temelju radnog prava i sve osoblje.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Personnel municipal</dct:title>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l02000014-personal-municipal/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l02000014-personal-municipal/DurationDescription">
+                <time:days rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:days>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-08T00:01:20+01:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/70d79989-c316-47c4-bd8c-ee5fee31f4e2">
+            <dcat:accessURL rdf:resource="https://portalv2.enlaza.eprinsa.es/file/datahub/e205caa9-9d43-47c3-94a9-3feae58737a8.csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Personal municipal</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000014-personal-municipal/resource/d5d3fc19-e3c9-4e91-a466-a18fe7af4607</dct:identifier>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/cc-by-sa-4.0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Kommunal personal</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Municipālais personāls</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5ae4e762-b01b-4ff8-9a0f-2f5b91a7cf49">
+            <dcat:accessURL rdf:resource="https://portalv2.enlaza.eprinsa.es/file/datahub/e205caa9-9d43-47c3-94a9-3feae58737a8.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Personal municipal</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000014-personal-municipal/resource/9489a3e0-16c1-44a2-8e4f-110b87c0ad50</dct:identifier>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/cc-by-sa-4.0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Luettelo kunnan henkilöstöstä, johon on sisällyttävä vakinaiset virkamiehet, työlainsäädännön mukaisesti palvelukseen otettu henkilöstö ja mahdollinen henkilöstö.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Önkormányzati személyzet</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Liste over kommunalt personale, der skal omfatte fastansatte tjenestemænd, personale, der ansættes i henhold til arbejdsretten, og eventuelt personale.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Общински персонал</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Liste du personnel municipal qui doit inclure les fonctionnaires de carrière, le personnel recruté en vertu du droit du travail et tout personnel.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Savivaldybės personalas</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Persunal muniċipali</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κατάλογος του δημοτικού προσωπικού που πρέπει να περιλαμβάνει τακτικούς δημόσιους υπαλλήλους, προσωπικό που προσλαμβάνεται βάσει του εργατικού δικαίου και κάθε προσωπικό.</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Lijst van gemeentepersoneel dat beroepsambtenaren moet omvatten, personeel dat arbeidsrechtelijk is aangeworven, en eventueel personeel.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Seznam občinskih uslužbencev, ki morajo vključevati karierne javne uslužbence, osebje, zaposleno v skladu z delovnim pravom, in osebje.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Foireann bhardasach</dct:title>
+        <dcat:keyword xml:lang="es">Información básica de la entidad local</dcat:keyword>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Списък на общинския персонал, който трябва да включва държавни служители за неопределено време, служители, наети съгласно трудовото право, и всички служители.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:22:06Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-portalv2-enlaza-eprinsa-es-api-catalog-dataset-e205caa9-9d43-47c3-94a9-3feae58737a8"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:22:06Z</edp:transIssued>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:identifier>https://portalv2.enlaza.eprinsa.es/api/catalog/dataset/e205caa9-9d43-47c3-94a9-3feae58737a8</dct:identifier>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>4d73841a7bb4f07462e02c0bb41ed4a2</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

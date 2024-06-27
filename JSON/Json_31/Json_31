@@ -1,0 +1,244 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age"
+    },
+    {
+      "rel": "datasets",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets"
+    },
+    {
+      "rel": "records",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age/records"
+    },
+    {
+      "rel": "exports",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age/exports"
+    },
+    {
+      "rel": "facets",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age/facets"
+    }
+  ],
+  "dataset": {
+    "visibility": "domain",
+    "dataset_id": "listado-de-informacion-basica-de-unidades-organicas-de-la-age",
+    "dataset_uid": "da_m7hphx",
+    "has_records": true,
+    "features": [
+      "analyze"
+    ],
+    "attachments": [
+      
+    ],
+    "alternative_exports": [
+      
+    ],
+    "data_visible": true,
+    "fields": [
+      {
+        "name": "c_id_ud_organica",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_ID_UD_ORGANICA",
+        "type": "text"
+      },
+      {
+        "name": "c_dnm_ud_organica",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_DNM_UD_ORGANICA",
+        "type": "text"
+      },
+      {
+        "name": "c_id_nivel_admon",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_ID_NIVEL_ADMON",
+        "type": "double"
+      },
+      {
+        "name": "c_id_tipo_ent_publica",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_ID_TIPO_ENT_PUBLICA",
+        "type": "text"
+      },
+      {
+        "name": "n_nivel_jerarquico",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "N_NIVEL_JERARQUICO",
+        "type": "double"
+      },
+      {
+        "name": "c_id_dep_ud_superior",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_ID_DEP_UD_SUPERIOR",
+        "type": "text"
+      },
+      {
+        "name": "c_dnm_ud_organica_superior",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_DNM_UD_ORGANICA_SUPERIOR",
+        "type": "text"
+      },
+      {
+        "name": "c_id_dep_ud_principal",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_ID_DEP_UD_PRINCIPAL",
+        "type": "text"
+      },
+      {
+        "name": "c_dnm_ud_organica_principal",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_DNM_UD_ORGANICA_PRINCIPAL",
+        "type": "text"
+      },
+      {
+        "name": "b_sw_dep_edp_principal",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "B_SW_DEP_EDP_PRINCIPAL",
+        "type": "text"
+      },
+      {
+        "name": "c_id_dep_edp_principal",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_ID_DEP_EDP_PRINCIPAL",
+        "type": "text"
+      },
+      {
+        "name": "c_dnm_ud_organica_edp_principal",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_DNM_UD_ORGANICA_EDP_PRINCIPAL",
+        "type": "text"
+      },
+      {
+        "name": "c_id_estado",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "C_ID_ESTADO",
+        "type": "text"
+      },
+      {
+        "name": "d_vig_alta_oficial",
+        "description": null,
+        "annotations": {
+          "facetsort": "-count"
+        },
+        "label": "D_VIG_ALTA_OFICIAL",
+        "type": "text"
+      },
+      {
+        "name": "nif_cif",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "NIF_CIF",
+        "type": "text"
+      }
+    ],
+    "metas": {
+      "dcat": {
+        "created": null,
+        "issued": null,
+        "creator": null,
+        "contributor": null,
+        "contact_name": null,
+        "contact_email": null,
+        "accrualperiodicity": "Semanal",
+        "spatial": null,
+        "temporal": null,
+        "granularity": null,
+        "dataquality": null,
+        "publisher_type": null,
+        "conforms_to": null,
+        "temporal_coverage_start": null,
+        "temporal_coverage_end": null,
+        "accessRights": null
+      },
+      "default": {
+        "title": "Listado de información básica de unidades orgánicas de la AGE",
+        "description": "<p style='font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; color: rgb(51, 51, 51);'><span style=\"color: rgb(43, 43, 43); font-family: WorkSans-Regular; font-size: 16px; letter-spacing: -0.368px;\">El Directorio Común proporciona un Inventario unificado y común a toda la Administración de las unidades orgánicas / organismos públicos, sus oficinas asociadas y unidades de gestión económica - presupuestaria, facilitando el mantenimiento distribuido y corresponsable de la información.</span></p><p style='font-family: -apple-system, BlinkMacSystemFont, \"Segoe UI\", Roboto, Helvetica, Arial, sans-serif; color: rgb(51, 51, 51);'><span style=\"color: rgb(43, 43, 43); font-family: WorkSans-Regular; font-size: 16px; letter-spacing: -0.368px;\">Este conjunto de datos recoge las unidades orgánicas de la Administración General del Estado.</span></p>",
+        "theme": [
+          "Public sector"
+        ],
+        "keyword": [
+          "organismos públicos",
+          "directorio",
+          "sepam"
+        ],
+        "license": "http://www.opendefinition.org/licenses/cc-by",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "language": "es",
+        "metadata_languages": [
+          "es"
+        ],
+        "timezone": [
+          "Europe/Madrid"
+        ],
+        "modified": "2024-06-09T22:12:39+00:00",
+        "modified_updates_on_metadata_change": false,
+        "modified_updates_on_data_change": true,
+        "data_processed": "2024-06-09T22:12:39+00:00",
+        "metadata_processed": "2024-06-09T22:12:39.828000+00:00",
+        "geographic_reference": [
+          "world_es"
+        ],
+        "geographic_reference_auto": false,
+        "territory": [
+          "Spain"
+        ],
+        "geometry_types": null,
+        "bbox": null,
+        "publisher": "Ministerio de Asuntos Económicos y Transformación Digital",
+        "references": "https://administracionelectronica.gob.es/ctt/dir3/descargas#.YkxTsMhByUk",
+        "records_count": 20206,
+        "attributions": null,
+        "source_domain": null,
+        "source_domain_title": null,
+        "source_domain_address": null,
+        "source_dataset": null,
+        "shared_catalog": null,
+        "federated": false,
+        "oauth_scope": null,
+        "parent_domain": null
+      }
+    }
+  }
+}

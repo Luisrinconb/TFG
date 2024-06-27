@@ -1,0 +1,148 @@
+{
+  "@context": "http://www.w3.org/ns/csvw",
+  "@type": "Table",
+  "dc:description": "Diccionario de datos",
+  "dc:creator": "Consejo Insular de Aguas de Tenerife (CIATF)",
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "obra_codigo",
+        "datatype": "numeric",
+        "title": "obra_codigo",
+        "dc:description": "Código CIATF de la obra"
+      },
+      {
+        "name": "obra_nombre",
+        "datatype": "text",
+        "title": "obra_nombre",
+        "dc:description": "Nombre de obra"
+      },
+      {
+        "name": "obra_tipo",
+        "datatype": "text",
+        "title": "obra_tipo",
+        "dc:description": "Tipo de obra"
+      },
+      {
+        "name": "obra_subtipo",
+        "datatype": "text",
+        "title": "obra_subtipo",
+        "dc:description": "Subtipo de obra"
+      },
+      {
+        "name": "obra_titular",
+        "datatype": "text",
+        "title": "obra_titular",
+        "dc:description": "Titular de la obra de captación"
+      },
+      {
+        "name": "elemento_id",
+        "datatype": "numeric",
+        "title": "elemento_id",
+        "dc:description": "Identificador de elemento según Catálogo de Infraestructuras Hidráulicas (Anejo 2.8 de la Normativa del PHT3) "
+      },
+      {
+        "name": "brocal_x",
+        "datatype": "numeric",
+        "title": "brocal_x",
+        "dc:description": "Coordenada X en proyección universal transversa de Mercator (UTM, Universal Transverse Mercator) huso 28"
+      },
+      {
+        "name": "brocal_y",
+        "datatype": "numeric",
+        "title": "brocal_y",
+        "dc:description": "Coordenada Y en proyección universal transversa de Mercator (UTM, Universal Transverse Mercator) huso 28"
+      },
+      {
+        "name": "brocal_latitud",
+        "datatype": "numeric",
+        "title": "brocal_latitud",
+        "dc:description": "Coordenada geográfica del brocal. Latitud"
+      },
+      {
+        "name": "brocal_longitud",
+        "datatype": "numeric",
+        "title": "brocal_longitud",
+        "dc:description": "Coordenada geográfica del brocal. Longitud"
+      },
+      {
+        "name": "brocal_altura",
+        "datatype": "numeric",
+        "title": "brocal_altura",
+        "dc:description": "Altura de emboquillamiento del brocal del pozo respecto del nivel medio del mar (metros)"
+      },
+      {
+        "name": "obra_profundidad",
+        "datatype": "numeric",
+        "title": "obra_profundidad",
+        "dc:description": "Profundidad del pozo (metros). Año 2019"
+      },
+      {
+        "name": "galerias_fondo_longitud",
+        "datatype": "numeric",
+        "title": "galerias_fondo_longitud",
+        "dc:description": "Longitud de la suma total de las galerías de fondo (metros). Año 2019"
+      },
+      {
+        "name": "municipio_id",
+        "datatype": "numeric",
+        "title": "municipio_id",
+        "dc:description": "Identificador de municipio (código insular geográfico). Valor numérico, que va del 1 al 31 (uno por municipio). Se parte del municipio de Santa Cruz con el código 1, y desde Santa Cruz, siguiendo el sentido horario, se asigna el resto de los códigos, hasta llegar a La Laguna (código 31)"
+      },
+      {
+        "name": "municipio_nombre",
+        "datatype": "text",
+        "title": "municipio_nombre",
+        "dc:description": "Denominación del municipio"
+      },
+      {
+        "name": "caudal_explotacion_medio_1985",
+        "datatype": "text",
+        "title": "caudal_explotacion_medio_1985",
+        "dc:description": "Caudal de explotación medio continuo, año 1985, supuesto que el pozo eleve 24 h/d todos los días del año (litros/segundo) "
+      },
+      {
+        "name": "caudal_explotacion_medio_1991",
+        "datatype": "text",
+        "title": "caudal_explotacion_medio_1991",
+        "dc:description": "Caudal de explotación medio continuo, año 1991, supuesto que el pozo eleve 24 h/d todos los días del año (litros/segundo) "
+      },
+      {
+        "name": "caudal_explotacion_medio_1995",
+        "datatype": "text",
+        "title": "caudal_explotacion_medio_1995",
+        "dc:description": "Caudal de explotación medio continuo, año 1995, supuesto que el pozo eleve 24 h/d todos los días del año (litros/segundo) "
+      },
+      {
+        "name": "caudal_explotacion_medio_2000",
+        "datatype": "text",
+        "title": "caudal_explotacion_medio_2000",
+        "dc:description": "Caudal de explotación medio continuo, año 2000, supuesto que el pozo eleve 24 h/d todos los días del año (litros/segundo) "
+      },
+      {
+        "name": "caudal_explotacion_medio_2005",
+        "datatype": "text",
+        "title": "caudal_explotacion_medio_2005",
+        "dc:description": "Caudal de explotación medio continuo, año 2005, supuesto que el pozo eleve 24 h/d todos los días del año (litros/segundo) "
+      },
+      {
+        "name": "caudal_explotacion_medio_2010",
+        "datatype": "text",
+        "title": "caudal_explotacion_medio_2010",
+        "dc:description": "Caudal de explotación medio continuo, año 2010, supuesto que el pozo eleve 24 h/d todos los días del año (litros/segundo) "
+      },
+      {
+        "name": "caudal_explotacion_medio_2015",
+        "datatype": "text",
+        "title": "caudal_explotacion_medio_2015",
+        "dc:description": "Caudal de explotación medio continuo, año 2015, supuesto que el pozo eleve 24 h/d todos los días del año (litros/segundo) "
+      },
+      {
+        "name": "caudal_explotacion_medio_2019",
+        "datatype": "text",
+        "title": "caudal_explotacion_medio_2019",
+        "dc:description": "Caudal de explotación medio continuo, año 2019, supuesto que el pozo eleve 24 h/d todos los días del año (litros/segundo) "
+      }
+    ]
+  }
+}

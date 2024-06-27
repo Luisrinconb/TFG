@@ -1,0 +1,242 @@
+[
+  {
+    "Nombre": "Total, Total",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "Total",
+        "Codigo": "total"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "Total",
+        "Codigo": "total"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 100.0
+      }
+    ]
+  },
+  {
+    "Nombre": "Total, En el hogar de la persona que cuida",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "Total",
+        "Codigo": "total"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "En el hogar de la persona que cuida",
+        "Codigo": "enelhogardelapersonaquecuida"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 68.2
+      }
+    ]
+  },
+  {
+    "Nombre": "Total, En otro lugar",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "Total",
+        "Codigo": "total"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "En otro lugar",
+        "Codigo": "enotrolugar"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 31.8
+      }
+    ]
+  },
+  {
+    "Nombre": "Hombre, Total",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "Hombre",
+        "Codigo": "hombre"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "Total",
+        "Codigo": "total"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 100.0
+      }
+    ]
+  },
+  {
+    "Nombre": "Hombre, En el hogar de la persona que cuida",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "Hombre",
+        "Codigo": "hombre"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "En el hogar de la persona que cuida",
+        "Codigo": "enelhogardelapersonaquecuida"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 84.28
+      }
+    ]
+  },
+  {
+    "Nombre": "Hombre, En otro lugar",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "Hombre",
+        "Codigo": "hombre"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "En otro lugar",
+        "Codigo": "enotrolugar"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 15.72
+      }
+    ]
+  },
+  {
+    "Nombre": "Mujer, Total",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "Mujer",
+        "Codigo": "mujer"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "Total",
+        "Codigo": "total"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 100.0
+      }
+    ]
+  },
+  {
+    "Nombre": "Mujer, En el hogar de la persona que cuida",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "Mujer",
+        "Codigo": "mujer"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "En el hogar de la persona que cuida",
+        "Codigo": "enelhogardelapersonaquecuida"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 68.25
+      }
+    ]
+  },
+  {
+    "Nombre": "Mujer, En otro lugar",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "Mujer",
+        "Codigo": "mujer"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "En otro lugar",
+        "Codigo": "enotrolugar"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 31.75
+      }
+    ]
+  },
+  {
+    "Nombre": "No consta, Total",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "No consta",
+        "Codigo": "noconsta"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "Total",
+        "Codigo": "total"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 100.0
+      }
+    ]
+  },
+  {
+    "Nombre": "No consta, En el hogar de la persona que cuida",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "No consta",
+        "Codigo": "noconsta"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "En el hogar de la persona que cuida",
+        "Codigo": "enelhogardelapersonaquecuida"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 0.0
+      }
+    ]
+  },
+  {
+    "Nombre": "No consta, En otro lugar",
+    "MetaData": [
+      {
+        "T3_Variable": "Sexo del cuidador",
+        "Nombre": "No consta",
+        "Codigo": "noconsta"
+      },
+      {
+        "T3_Variable": "Lugar de residencia",
+        "Nombre": "En otro lugar",
+        "Codigo": "enotrolugar"
+      }
+    ],
+    "Data": [
+      {
+        "Valor": 100.0
+      }
+    ]
+  }
+]

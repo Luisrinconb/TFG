@@ -1,0 +1,780 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-navarra-es-dataset-titulaciones-upna">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-12-16T23:36:33Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:40:35Z</edp:transIssued>
+    <dct:identifier>https://datosabiertos.navarra.es/dataset/titulaciones-upna</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-navarra-es-dataset-titulaciones-upna"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-navarra-es-dataset-titulaciones-upna">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/dcf74149-8e60-4421-b377-1f5a3d258f95">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2020-2021 Titulaciones - CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/32e0bda6-c460-411c-b243-17bd8d2318b3?format=csv&amp;bom=True"/>
+            <dct:title xml:lang="eu">2020-2021 ikasturteko titulazioak - CSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/32e0bda6-c460-411c-b243-17bd8d2318b3?format=csv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Graus UPNA</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Diplômes UPNA</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ed514965-7f26-4584-a818-86a56e7f9de0">
+            <dct:title xml:lang="sv-t-es-t0-mtec">2017–2018 Examensarbete</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2017—2018 степени</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2017-2018 Graden</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2017–2018 stopnje</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2017–2018 Laipsniai</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Stopnie 2017-2018</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2017–2018-as fokozatok</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2017–2018 Tutkinnot</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2017-2018 Degrees</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Graus 2017-2018</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Diplome 2017-2018</dct:title>
+            <dct:title xml:lang="eu">2017-2018 ikasturteko titulazioak</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Diplômes 2017-2018</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2017-2018 Grader</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Stupnjevi 2017. – 2018.</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2017–2018 Stupně</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2017-2018 Abschlüsse</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2017-2018 Ступінь</dct:title>
+            <dcat:accessURL rdf:resource="https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2017-18.csv"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">2017-2018 Πτυχία</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Stupne 2017 – 2018</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Gradi 2017–2018</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2017–2018 kraadid</dct:title>
+            <dct:identifier>https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2017-18.csv</dct:identifier>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2017–2018 grādi</dct:title>
+            <dct:title xml:lang="es">2017-2018 Titulaciones</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2017-2018 Gradi</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2017-2018 Céimeanna</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f17560ff-4535-4f1a-928c-14b6108b733c">
+            <dct:title xml:lang="eu">2021-2022 ikasturteko titulazioak - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/c316bd08-1acd-4056-a05c-6120ece26e3a?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2021-2022 Titulaciones - JSON - API</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/c316bd08-1acd-4056-a05c-6120ece26e3a?format=json&amp;bom=True"/>
+            <dct:title xml:lang="eu">2021-2022 ikasturteko titulazioak - JSON - API</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">2021-2022 Titulaciones - JSON</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Vsebuje vse diplome, ki jih ponuja Univerza. Vključeni so vsi uradni diplomi, magisterij, doktorat. Lastne diplome, kratki tečaji itd. Če se diploma poučuje v več kot enem centru/kampusu/občini, se za vsak center/kampus/občino zabeleži zapis.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://www.unavarra.es/portal-transparencia/docencia?languageId=100000"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f2123a76-46a6-406f-ac5d-a74c5a897b23">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/32e0bda6-c460-411c-b243-17bd8d2318b3?format=xml&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2020-2021 ikasturteko titulazioak - XML</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/32e0bda6-c460-411c-b243-17bd8d2318b3?format=xml&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">2020-2021 Titulaciones - XML</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="eu">NUPeko titulazioak</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3a34ef1c-9745-413d-9d59-b6b9854e4fbf">
+            <dct:title xml:lang="eu">2023-2024 ikasturteko titulazioak - JSON - API</dct:title>
+            <dct:title xml:lang="es">2023-2024 Titulaciones - JSON - API</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/4a997ac5-387d-4a0b-acf6-d0b0afe89983?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2023-2024 ikasturteko titulazioak - JSON</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/4a997ac5-387d-4a0b-acf6-d0b0afe89983?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">2023-2024 Titulaciones - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Céimeanna UPNA</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Tá na céimeanna go léir a chuireann an Ollscoil ar fáil ann. Tá gach céim oifigiúil céime, céim mháistreachta, dochtúireacht san áireamh.
+Céimeanna féin, gearrchúrsaí, etc. Má mhúintear céim i níos mó ná ionad/campas/bardas amháin, déanfar taifead de gach ionad/campas/bardas.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1370e70c-2a87-40cb-8b76-da19df8e35aa">
+            <dct:identifier>https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2023-24.csv</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2023-24.csv"/>
+            <dct:title xml:lang="es">2023-2024 Titulaciones</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2023-2024 ikasturteko titulazioak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9c2383fe-717e-4168-8d42-0d56ee1c7a28">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/ddd82ab3-e906-45c2-b973-330644deb471.xlsx"/>
+            <dct:title xml:lang="eu">2017-2018 ikasturteko titulazioak - XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/ddd82ab3-e906-45c2-b973-330644deb471.xlsx</dct:identifier>
+            <dct:title xml:lang="es">2017-2018 Titulaciones - XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="de-t-es-t0-mtec">UPNA Grad</dct:title>
+        <dct:description xml:lang="es">Contiene todas las titulaciones ofertadas por la Universidad. Se incluyen todas las titulaciones oficiales de grado, máster, doctorado. No se incluyen los títulos propios, cursos cortos, etc. Si una titulación se imparte en más de un centro/campus/municipio se consignará un registro por cada centro/campus/municipio.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/35fa46a7-173d-4857-8506-bf63f2c5ce1d">
+            <dct:title xml:lang="eu">2019-2020 ikasturteko titulazioak - JSON - API</dct:title>
+            <dct:title xml:lang="eu">2019-2020 ikasturteko titulazioak - JSON</dct:title>
+            <dct:title xml:lang="es">2019-2020 Titulaciones - JSON</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ecd6ac31-fed2-4f56-934c-d0707a1324fb?format=json&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2019-2020 Titulaciones - JSON - API</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ecd6ac31-fed2-4f56-934c-d0707a1324fb?format=json&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3b727dd7-d924-4ede-8072-12baf5112413">
+            <dct:title xml:lang="es">2022-2023 Titulaciones - ODS</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/0ce83659-fcc1-470a-888f-c37d1c3d8710.ods"/>
+            <dct:title xml:lang="eu">2022-2023 ikasturteko titulazioak - ODS</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/0ce83659-fcc1-470a-888f-c37d1c3d8710.ods</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Universidad Pública</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/21d6b650-cccd-4818-b61b-847991eaa666">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0ce83659-fcc1-470a-888f-c37d1c3d8710?format=xml&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2022-2023 Titulaciones - XML</dct:title>
+            <dct:title xml:lang="eu">2022-2023 ikasturteko titulazioak - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0ce83659-fcc1-470a-888f-c37d1c3d8710?format=xml&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ff2cf623-f0c8-4531-a52e-72b1bc7192db">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2019-2020 ikasturteko titulazioak - XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/ecd6ac31-fed2-4f56-934c-d0707a1324fb.xlsx"/>
+            <dct:title xml:lang="es">2019-2020 Titulaciones - XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/ecd6ac31-fed2-4f56-934c-d0707a1324fb.xlsx</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7ea7072d-9530-4692-9411-db3ca12421ec">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/ddd82ab3-e906-45c2-b973-330644deb471.ods"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="es">2017-2018 Titulaciones - ODS</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/ddd82ab3-e906-45c2-b973-330644deb471.ods</dct:identifier>
+            <dct:title xml:lang="eu">2017-2018 ikasturteko titulazioak - ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/04ce985a-a91e-417c-8a40-98ce16f339b7">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/4a997ac5-387d-4a0b-acf6-d0b0afe89983.ods"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/4a997ac5-387d-4a0b-acf6-d0b0afe89983.ods</dct:identifier>
+            <dct:title xml:lang="eu">2023-2024 ikasturteko titulazioak - ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="es">2023-2024 Titulaciones - ODS</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2023-10-23T00:00:00+02:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/dbbf18e1-d613-4c36-ae23-9c770468fdb8">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2019-2020 Titulaciones - CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ecd6ac31-fed2-4f56-934c-d0707a1324fb?format=csv&amp;bom=True"/>
+            <dct:title xml:lang="eu">2019-2020 ikasturteko titulazioak - CSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ecd6ac31-fed2-4f56-934c-d0707a1324fb?format=csv&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Stupně UPNA</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:title xml:lang="sv-t-es-t0-mtec">UPNA-grader</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d00d7445-1b4d-4726-bb4d-f6bff926f911">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/c316bd08-1acd-4056-a05c-6120ece26e3a?format=xml&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2021-2022 Titulaciones - XML</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/c316bd08-1acd-4056-a05c-6120ece26e3a?format=xml&amp;bom=True"/>
+            <dct:title xml:lang="eu">2021-2022 ikasturteko titulazioak - XML</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:conformsTo rdf:resource="https://www.boe.es/buscar/act.php?id=BOE-A-2023-7500"/>
+        <dct:description xml:lang="da-t-es-t0-mtec">Det indeholder alle de grader, der tilbydes af universitetet. Alle officielle grader af grad, kandidatgrad, doktorgrad er inkluderet. Egne grader, korte kurser osv. Hvis en grad undervises i mere end ét center/campus/kommune, registreres en rekord for hvert center/campus/kommune.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">UPNA градусів</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/78a421e3-78ab-4d01-8a8b-e30ed670f831">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ddd82ab3-e906-45c2-b973-330644deb471?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2017-2018 Titulaciones - JSON - API</dct:title>
+            <dct:title xml:lang="eu">2017-2018 ikasturteko titulazioak - JSON - API</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ddd82ab3-e906-45c2-b973-330644deb471?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">2017-2018 Titulaciones - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2017-2018 ikasturteko titulazioak - JSON</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/643190c5-f5de-46a3-aff7-4f004be16409">
+            <dct:title xml:lang="eu">2022-2023 ikasturteko titulazioak - TSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0ce83659-fcc1-470a-888f-c37d1c3d8710?format=tsv&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0ce83659-fcc1-470a-888f-c37d1c3d8710?format=tsv&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2022-2023 Titulaciones - TSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1d8dcadb-881d-4f4c-ba26-040aee332bdb">
+            <dct:title xml:lang="eu">2023-2024 ikasturteko titulazioak - TSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/4a997ac5-387d-4a0b-acf6-d0b0afe89983?format=tsv&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/4a997ac5-387d-4a0b-acf6-d0b0afe89983?format=tsv&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2023-2024 Titulaciones - TSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/35cbf4da-d9ab-4b9f-8c7b-b0a36c69cb4f">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/32e0bda6-c460-411c-b243-17bd8d2318b3.ods"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2020-2021 Titulaciones - ODS</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/32e0bda6-c460-411c-b243-17bd8d2318b3.ods</dct:identifier>
+            <dct:title xml:lang="eu">2020-2021 ikasturteko titulazioak - ODS</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Степени на UPNA</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">UPNA stupňov</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Stopnie UPNA</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">UPNA degrees</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e3128255-ab87-4416-a8ad-b44865ec8d34">
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/eac9b708-0bef-4c7c-8f72-23736540ce21.ods</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="es">2018-2019 Titulaciones - ODS</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/eac9b708-0bef-4c7c-8f72-23736540ce21.ods"/>
+            <dct:title xml:lang="eu">2018-2019 ikasturteko titulazioak - ODS</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra"/>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Het bevat alle graden aangeboden door de universiteit. Alle officiële diploma’s, master’s degree, doctoraat zijn inbegrepen.
+Eigen graden, korte cursussen, etc. Als een diploma wordt gegeven in meer dan één centrum/campus/gemeente, wordt een record geregistreerd voor elk centrum/campus/gemeente.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Contém todos os diplomas oferecidos pela Universidade. Todos os graus oficiais de grau, mestrado, doutorado estão incluídos.
+Cursos próprios, cursos de curta duração, etc. Se um diploma for ministrado em mais de um centro/campo/município, será registado um registo para cada centro/campo/município.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">UPNA stopinje</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f6445679-cfac-487d-9420-c1eb0be08c13">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2021-2022 Titulaciones - TSV</dct:title>
+            <dct:title xml:lang="eu">2021-2022 ikasturteko titulazioak - TSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/c316bd08-1acd-4056-a05c-6120ece26e3a?format=tsv&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/c316bd08-1acd-4056-a05c-6120ece26e3a?format=tsv&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lv-t-es-t0-mtec">UPNA grādi</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/60db45f4-0e90-45b1-8849-549ee566ab91">
+            <dct:title xml:lang="en-t-es-t0-mtec">2018-2019 Degrees</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2018-2019 Ступінь</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2018-19.csv</dct:identifier>
+            <dct:title xml:lang="es">2018-2019 Titulaciones</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Diplomas 2018-2019</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2018—2019 степени</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2018–2019 Laipsniai</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Diploma’s 2018-2019</dct:title>
+            <dct:title xml:lang="eu">2018-2019 ikasturteko titulazioak</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2018–2019 fokozatok</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Diplome 2018-2019</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2018-2019 Πτυχία</dct:title>
+            <dcat:accessURL rdf:resource="https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2018-19.csv"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2018–2019 grādi</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Gradi 2018–2019</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2018–2019 stopnje</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2018-2019 Abschlüsse</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Stopnie 2018–2019</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Diplômes 2018-2019</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2018–2019 kraadid</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Céimeanna 2018-2019</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2018-2019 Gradi</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Tituly 2018–2019</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Stupne 2018 – 2019</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2018-2019 Grader</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2018–2019 Examensarbete</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Stupnjevi 2018. – 2019.</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2018–2019 Tutkinnot</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_UPNA_especificaciones.pdf"/>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Tartalmazza az egyetem által kínált összes diplomát. Minden hivatalos diplomát, mesterfokozatot, doktori fokozatot tartalmaz. Saját fokozatok, rövid kurzusok stb. Ha egy diplomát egynél több központban/kampuszban/településben tanítanak, minden központra/kampuszra/településre vonatkozóan rekordot rögzítenek.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9b92f046-ab57-49a0-b436-e88fae69ad81">
+            <dct:title xml:lang="eu">2020-2021 ikasturteko titulazioak - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/32e0bda6-c460-411c-b243-17bd8d2318b3?format=tsv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">2020-2021 Titulaciones - TSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/32e0bda6-c460-411c-b243-17bd8d2318b3?format=tsv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="da-t-es-t0-mtec">UPNA grader</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7240dbb0-6afe-4935-ae17-9b325933046c">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ecd6ac31-fed2-4f56-934c-d0707a1324fb?format=tsv&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ecd6ac31-fed2-4f56-934c-d0707a1324fb?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2019-2020 Titulaciones - TSV</dct:title>
+            <dct:title xml:lang="eu">2019-2020 ikasturteko titulazioak - TSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c85fd82b-50a1-428f-8a83-c2f3290bf627">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2018-2019 Titulaciones - XLSX</dct:title>
+            <dct:title xml:lang="eu">2018-2019 ikasturteko titulazioak - XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/eac9b708-0bef-4c7c-8f72-23736540ce21.xlsx"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/eac9b708-0bef-4c7c-8f72-23736540ce21.xlsx</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Sadrži sve stupnjeve koje nudi Sveučilište. Uključeni su svi službeni stupnjevi, magisterij, doktorat.
+Vlastiti stupnjevi, kratki tečajevi itd. Ako se diploma podučava u više od jednog centra/kampusa/općine, zapis će se zabilježiti za svaki centar/kampus/općinu.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">UPNA graden</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4312bfad-ff2e-4de1-aa2c-778e70006205">
+            <dct:title xml:lang="eu">2023-2024 ikasturteko titulazioak - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/4a997ac5-387d-4a0b-acf6-d0b0afe89983?format=xml&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/4a997ac5-387d-4a0b-acf6-d0b0afe89983?format=xml&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">2023-2024 Titulaciones - XML</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Il contient tous les diplômes offerts par l’Université. Tous les diplômes officiels, master, doctorat sont inclus.
+Diplômes propres, cours de courte durée, etc. Si un diplôme est enseigné dans plus d’un centre/campus/municipalité, un dossier sera enregistré pour chaque centre/campus/municipalité.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A15002917">
+            <foaf:name>Comunidad Foral de Navarra</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Acesta conține toate gradele oferite de universitate. Toate gradele oficiale de diplomă, masterat, doctorat sunt incluse.
+Grade proprii, cursuri scurte, etc. Dacă o diplomă este predată în mai mult de un centru/campus/municipalitate, se va înregistra un record pentru fiecare centru/campus/municipalitate.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d292a49b-223b-4ebf-822e-1b03453a56b7">
+            <dct:title xml:lang="bg-t-es-t0-mtec">Степени за 2021—2022 г.</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Gradele 2021-2022</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2021–2022 Stupně</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Gradi 2021–2022</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2021-2022 Ступінь</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Stopnie 2021–2022</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2021–2022 stopinje</dct:title>
+            <dcat:accessURL rdf:resource="https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2021-22.csv"/>
+            <dct:title xml:lang="de-t-es-t0-mtec">2021-2022 Abschlüsse</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2021-22.csv</dct:identifier>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Stupne 2021 – 2022</dct:title>
+            <dct:title xml:lang="es">2021-2022 Titulaciones</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2021.–2022. aasta kraadid</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2021-2022 Gradi</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Céimeanna 2021-2022</dct:title>
+            <dct:title xml:lang="eu">2021-2022 ikasturteko titulazioak</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2021-2022 graden</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2021–2022 m. laipsniai</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Stupnjevi 2021. – 2022.</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Βαθμοί 2021-2022</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2021-2022 Degrés</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Licenciaturas 2021-2022</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2021.–2022. g. grādi</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2021–2022 Examensprogram</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2021–2022 Tutkinnot</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Grader 2021-2022</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2021-2022 Degrees</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2021–2022 fokozatok</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/03b061c1-bf1c-435b-b6cc-27dc33b69235">
+            <dct:title xml:lang="eu">2022-2023 ikasturteko titulazioak - XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/0ce83659-fcc1-470a-888f-c37d1c3d8710.xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">2022-2023 Titulaciones - XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/0ce83659-fcc1-470a-888f-c37d1c3d8710.xlsx</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/58ef2a78-802b-4ae5-9875-04009d3391fe">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/eac9b708-0bef-4c7c-8f72-23736540ce21?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">2018-2019 Titulaciones - JSON</dct:title>
+            <dct:title xml:lang="eu">2018-2019 ikasturteko titulazioak - JSON</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/eac9b708-0bef-4c7c-8f72-23736540ce21?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2018-2019 Titulaciones - JSON - API</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2018-2019 ikasturteko titulazioak - JSON - API</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Tai apima visus universiteto siūlomus laipsnius. Visi oficialūs laipsniai, magistro laipsnis, daktaro laipsnis yra įtraukti. Savo laipsnius, trumpus kursus ir tt Jei laipsnis dėstomas daugiau nei viename centre/universitete/savivaldybėje, bus įrašytas įrašas apie kiekvieną centrą, universitetą/savivaldybę.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">UPNA stupnjeva</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ae85ba13-8f60-46c0-9e76-e331b46f2e6f">
+            <dcat:accessURL rdf:resource="https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2019-20.csv"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Степени за 2019—2020 г.</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Stopnje 2019–2020</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Diplome 2019-2020</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">2019-2020 ikasturteko titulazioak</dct:title>
+            <dct:identifier>https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2019-20.csv</dct:identifier>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2019–2020 Examensprogram</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2019–2020 grādi</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2019–2020 Tutkinnot</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2019-2020 grader</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Tituly 2019–2020</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Gradi 2019–2020</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Diplômes 2019-2020</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2019-2020 Abschlüsse</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2019-2020 Ступінь</dct:title>
+            <dct:title xml:lang="es">2019-2020 Titulaciones</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Graus 2019-2020</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2019-2020 gradi</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Stupne 2019 – 2020</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Graad 2019-2020</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Céimeanna 2019-2020</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Stupnjevi 2019. – 2020.</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Βαθμοί 2019-2020</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2019–2020-as fokozatok</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2019.–2020. aasta kraadid</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2019-2020 Degrees</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Stopnie 2019–2020</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2019–2020 Laipsniai</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/624c3fb5-7b63-4924-8257-522a1c8c8c67">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ecd6ac31-fed2-4f56-934c-d0707a1324fb?format=xml&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ecd6ac31-fed2-4f56-934c-d0707a1324fb?format=xml&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2019-2020 Titulaciones - XML</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">2019-2020 ikasturteko titulazioak - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Fiha l-gradi kollha offruti mill-Università. Il-lawrji uffiċjali kollha tal-lawrja, il-grad ta’ master’s, id-dottorat huma inklużi.
+Lawrji proprji, korsijiet qosra, eċċ. Jekk lawrja tiġi mgħallma f’aktar minn ċentru/kampus/muniċipalità waħda, jiġi rreġistrat rekord għal kull ċentru/kampus/muniċipalità.</dct:description>
+        <dcat:keyword xml:lang="es">Titulazioak</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a15002917-titulaciones-upna/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a15002917-titulaciones-upna/DurationDescription">
+                <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:years>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Grade UPNA</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Den innehåller alla grader som erbjuds av universitetet. Alla officiella examina, magisterexamen, doktorsexamen ingår.
+Egna examina, korta kurser etc. Om en examen ges i mer än ett centrum/campus/kommun, kommer en post att registreras för varje centrum/campus/kommun.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Zawiera wszystkie stopnie oferowane przez Uniwersytet. Wszystkie oficjalne stopnie stopnia, stopień magistra, doktorat są włączone.
+Własne stopnie, krótkie kursy itp Jeśli stopień jest nauczany w więcej niż jednym ośrodku/kampusie/gminie, rekord zostanie zarejestrowany dla każdego ośrodka/kampusu/gminy.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Gradi UPNA</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Gradi UPNA</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8dc8a252-b5f1-42fe-afef-a5557b779637">
+            <dct:title xml:lang="lv-t-es-t0-mtec">2020.–2021. g. grādi</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2020–2021 Examensprogram</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2020-2021 Degrees</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2020-2021 grader</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Gradi 2020–2021</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Grade 2020-2021</dct:title>
+            <dct:title xml:lang="eu">2020-2021 ikasturteko titulazioak</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Stupnjevi 2020. – 2021.</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2020–2021 Tutkinnot</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2020–2021 Stupně</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2020–2021-es fokozatok</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Graus 2020-2021</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Stopnie 2020–2021</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2020-2021 gradi</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Stopnje 2020–2021</dct:title>
+            <dct:title xml:lang="es">2020-2021 Titulaciones</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2020-2021 Ступінь</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Diplômes 2020-2021</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2020-2021 Céimeanna</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2020–2021 m. laipsniai</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2020–2021. aasta kraadid</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Степени за периода 2020—2021 г.</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Βαθμοί 2020-2021</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2020-2021 Abschlüsse</dct:title>
+            <dct:identifier>https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2020-21.csv</dct:identifier>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Stupne 2020 – 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2020-21.csv"/>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Diploma’s 2020-2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9395d7cd-9feb-4da6-ba91-6f6a696be8ae">
+            <dct:title xml:lang="es">2020-2021 Titulaciones - XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/32e0bda6-c460-411c-b243-17bd8d2318b3.xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/32e0bda6-c460-411c-b243-17bd8d2318b3.xlsx</dct:identifier>
+            <dct:title xml:lang="eu">2020-2021 ikasturteko titulazioak - XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Він містить всі ступені, пропоновані університетом. Всі офіційні ступені ступеня, ступінь магістра, докторантура включені.
+Власні ступені, короткі курси і т.д. Якщо ступінь викладається в більш ніж одному центрі/кампусі/муніципальності, запис буде записаний для кожного центру/кампу/муніципальності.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/02f14164-4165-4824-971c-c0e61c3aabf9">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/4a997ac5-387d-4a0b-acf6-d0b0afe89983.xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/4a997ac5-387d-4a0b-acf6-d0b0afe89983.xlsx</dct:identifier>
+            <dct:title xml:lang="es">2023-2024 Titulaciones - XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2023-2024 ikasturteko titulazioak - XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1f7710c9-c006-498e-a3e1-e11712667308">
+            <dct:title xml:lang="es">2018-2019 Titulaciones - TSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/eac9b708-0bef-4c7c-8f72-23736540ce21?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2018-2019 ikasturteko titulazioak - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/eac9b708-0bef-4c7c-8f72-23736540ce21?format=tsv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ed172801-2a49-428b-b163-87cc85a22779">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ddd82ab3-e906-45c2-b973-330644deb471?format=xml&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">2017-2018 Titulaciones - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ddd82ab3-e906-45c2-b973-330644deb471?format=xml&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2017-2018 ikasturteko titulazioak - XML</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aae60b0b-38f0-4e8d-9bb9-ea8de0c7b783">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/eac9b708-0bef-4c7c-8f72-23736540ce21?format=csv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/eac9b708-0bef-4c7c-8f72-23736540ce21?format=csv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2018-2019 Titulaciones - CSV</dct:title>
+            <dct:title xml:lang="eu">2018-2019 ikasturteko titulazioak - CSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/eef2e7f4-2859-4563-8e25-55f082eaefb3">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2021-2022 ikasturteko titulazioak - XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/c316bd08-1acd-4056-a05c-6120ece26e3a.xlsx</dct:identifier>
+            <dct:title xml:lang="es">2021-2022 Titulaciones - XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/c316bd08-1acd-4056-a05c-6120ece26e3a.xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3faf64af-99b6-441c-a6d9-7c365e1a6cf0">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/c316bd08-1acd-4056-a05c-6120ece26e3a.ods"/>
+            <dct:title xml:lang="es">2021-2022 Titulaciones - ODS</dct:title>
+            <dct:title xml:lang="eu">2021-2022 ikasturteko titulazioak - ODS</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/c316bd08-1acd-4056-a05c-6120ece26e3a.ods</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bc64dee2-3992-4178-a6c8-c8653936d672">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0ce83659-fcc1-470a-888f-c37d1c3d8710?format=csv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2022-2023 Titulaciones - CSV</dct:title>
+            <dct:title xml:lang="eu">2022-2023 ikasturteko titulazioak - CSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0ce83659-fcc1-470a-888f-c37d1c3d8710?format=csv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="et-t-es-t0-mtec">UPNA kraadid</dct:title>
+        <dcat:keyword xml:lang="es">Unibertsitate Publikoa</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/dbd8e180-86df-4a3b-8f61-d71cf81eba64">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2017-2018 Titulaciones - CSV</dct:title>
+            <dct:title xml:lang="eu">2017-2018 ikasturteko titulazioak - CSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ddd82ab3-e906-45c2-b973-330644deb471?format=csv&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ddd82ab3-e906-45c2-b973-330644deb471?format=csv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Titulaciones</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/76d6f40e-ac32-4da1-a241-2b6bc8d624cb">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">2022-2023 Titulaciones - JSON - API</dct:title>
+            <dct:title xml:lang="eu">2022-2023 ikasturteko titulazioak - JSON - API</dct:title>
+            <dct:title xml:lang="es">2022-2023 Titulaciones - JSON</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0ce83659-fcc1-470a-888f-c37d1c3d8710?format=json&amp;bom=True"/>
+            <dct:title xml:lang="eu">2022-2023 ikasturteko titulazioak - JSON</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0ce83659-fcc1-470a-888f-c37d1c3d8710?format=json&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Obsahuje všechny tituly nabízené univerzitou. Všechny oficiální tituly, magisterský titul, doktorát jsou zahrnuty. Vlastní tituly, krátké kurzy atd. Pokud je titul vyučován ve více než jednom centru/kampusu/obecu, bude zaznamenán záznam pro každé centrum/kampus/obec.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1ce1a68d-2475-435b-8322-2d4adda973c6">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ddd82ab3-e906-45c2-b973-330644deb471?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2017-2018 Titulaciones - TSV</dct:title>
+            <dct:title xml:lang="eu">2017-2018 ikasturteko titulazioak - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ddd82ab3-e906-45c2-b973-330644deb471?format=tsv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="et-t-es-t0-mtec">See sisaldab kõiki ülikooli pakutavaid kraade. Kõik ametlikud kraadid, magistrikraad, doktorikraad on lisatud. Oma kraadi, lühikesed kursused jne Kui kraadi õpetatakse rohkem kui ühes keskuses/campus/valdkonnas, registreeritakse iga keskuse/campuse/valdkonna kohta kirje.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Es enthält alle von der Universität angebotenen Abschlüsse. Alle offiziellen Abschlüsse, Master-Abschluss, Promotion sind enthalten. Eigene Abschlüsse, Kurzkurse usw. Wenn ein Abschluss in mehr als einem Zentrum/Campus/Gemeinde gelehrt wird, wird für jedes Zentrum/Campus/Gemeinde ein Rekord aufgezeichnet.</dct:description>
+        <dct:description xml:lang="eu">Unibertsitateak eskaintzen dituen titulazio guztiak biltzen ditu. Graduko, masterreko eta doktoretzako titulazio ofizial guztiak sartzen dira. Ez dira sartzen titulu berekiak, ikastaro laburrak, etab. Titulazio bat ikastegi/campus/udalerri batean baino gehiagotan ematen bada, erregistro bat esleituko da ikastegi/campus/udalerri bakoitzeko.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Тя съдържа всички степени, предлагани от университета.
+Включени са всички официални степени на степен, магистърска степен, докторска степен.
+Собствени степени, кратки курсове и т.н. Ако дадена степен се преподава в повече от един център/кампус/община, ще бъде записан запис за всеки център/кампус/община.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Obsahuje všetky tituly, ktoré ponúka univerzita. Zahrnuté sú všetky oficiálne tituly, magisterský titul, doktorát. Vlastné tituly, krátke kurzy atď. Ak sa titul vyučuje vo viac ako jednom centre/kampus/obec, za každé centrum/kampus/obec sa zaznamená záznam.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Contiene tutti i gradi offerti dall'Università. Tutti i gradi ufficiali di laurea, master, dottorato sono inclusi.
+Se una laurea viene insegnata in più di un centro/campus/comune, verrà registrato un record per ogni centro/campo/comune.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">UPNA laipsniai</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/38b625a2-69e6-4a4a-bf6c-57a7ae40a3b4">
+            <dct:title xml:lang="bg-t-es-t0-mtec">Степени за 2022—2023 г.</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2022-2023 βαθμοί</dct:title>
+            <dcat:accessURL rdf:resource="https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2022-23.csv"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Gradi 2022–2023</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2022-2023 Degrés</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2022.–2023. g. grādi</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Diploma’s 2022-2023</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2022-2023 grader</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2022-2023 Diplome</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2022–2023 fokozatok</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2022-2023 Graus</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2022–2023 Stopnie</dct:title>
+            <dct:title xml:lang="es">2022-2023 Titulaciones</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2022–2023 m. laipsniai</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2022-2023 Céimeanna</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2022-2023 градусів</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Stupne 2022 – 2023</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2022–2023 Stupně</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2022–2023 Examensprogram</dct:title>
+            <dct:title xml:lang="eu">2022-2023 ikasturteko titulazioak</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2022-2023 Degrees</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2022-2023 Abschlüsse</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Stupnjevi 2022. – 2023.</dct:title>
+            <dct:identifier>https://www2.unavarra.es/gesadj/VPortalTransparencia/Datos%20Abiertos/3_Titulaciones/Titulaciones_2022-23.csv</dct:identifier>
+            <dct:title xml:lang="et-t-es-t0-mtec">2022.–2023. aasta kraadid</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2022-2023 Gradi</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2022–2023 stopinj</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2022–2023 Tutkinnot</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datosabiertos.navarra.es/dataset/titulaciones-upna</dct:identifier>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-06T00:00:00+01:00</dct:modified>
+        <dct:description xml:lang="en-t-es-t0-mtec">It contains all the degrees offered by the University. All official degrees of degree, master’s degree, doctorate are included. Own degrees, short courses, etc. If a degree is taught in more than one centre/campus/municipality, a record will be recorded for each centre/campus/municipality.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Περιέχει όλα τα πτυχία που προσφέρονται από το Πανεπιστήμιο. Περιλαμβάνονται όλα τα επίσημα πτυχία πτυχίου, μεταπτυχιακό δίπλωμα, διδακτορικό.
+Δικά τους πτυχία, σύντομα μαθήματα κ.λπ. Εάν ένα πτυχίο διδάσκεται σε περισσότερα από ένα κέντρα/πανεπιστημιούπολη/δήμο, θα καταγράφεται αρχείο για κάθε κέντρο/πανεπιστημιούπολη/δήμο.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/51006071-a70f-4e67-a430-d1825c4f6ee2">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/4a997ac5-387d-4a0b-acf6-d0b0afe89983?format=csv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2023-2024 Titulaciones - CSV</dct:title>
+            <dct:title xml:lang="eu">2023-2024 ikasturteko titulazioak - CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/4a997ac5-387d-4a0b-acf6-d0b0afe89983?format=csv&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fi-t-es-t0-mtec">UPNA-asteet</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Se sisältää kaikki yliopiston tarjoamat tutkinnot. Kaikki viralliset tutkinnot, maisterin tutkinto, tohtori ovat mukana. Omat tutkinnot, lyhyet kurssit jne. Jos tutkintoa opetetaan useammassa kuin yhdessä keskuksessa/kampuksessa/kunnassa, kirjataan tietue kustakin keskuksesta/kampuksesta/kunnasta.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b3fdf9bd-714f-4786-9485-b4d6fcae1280">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/eac9b708-0bef-4c7c-8f72-23736540ce21?format=xml&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2018-2019 Titulaciones - XML</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/eac9b708-0bef-4c7c-8f72-23736540ce21?format=xml&amp;bom=True"/>
+            <dct:title xml:lang="eu">2018-2019 ikasturteko titulazioak - XML</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Tas satur visus grādus, ko piedāvā universitāte. Ir iekļauti visi oficiālie grādi, maģistra grāds, doktora grāds. Ja grādu pasniedz vairāk nekā vienā centrā/kamerā/pašvaldībā, ieraksta ierakstu par katru centru/kameru/pašvaldību.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/03f8457d-711a-4602-9d67-0516102a1d6a">
+            <dct:title xml:lang="es">2020-2021 Titulaciones - JSON - API</dct:title>
+            <dct:title xml:lang="eu">2020-2021 ikasturteko titulazioak - JSON - API</dct:title>
+            <dct:title xml:lang="es">2020-2021 Titulaciones - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/32e0bda6-c460-411c-b243-17bd8d2318b3?format=json&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/32e0bda6-c460-411c-b243-17bd8d2318b3?format=json&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">2020-2021 ikasturteko titulazioak - JSON</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="hu-t-es-t0-mtec">UPNA fok</dct:title>
+        <dct:title xml:lang="es">Titulaciones UPNA</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/94f34d84-7cd1-48af-aab8-9899addb861c">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/ecd6ac31-fed2-4f56-934c-d0707a1324fb.ods"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/ecd6ac31-fed2-4f56-934c-d0707a1324fb.ods</dct:identifier>
+            <dct:title xml:lang="es">2019-2020 Titulaciones - ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2019-2020 ikasturteko titulazioak - ODS</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="el-t-es-t0-mtec">Βαθμοί UPNA</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/886a7554-3973-4b67-9e67-402931691ecb">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">2021-2022 ikasturteko titulazioak - CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/c316bd08-1acd-4056-a05c-6120ece26e3a?format=csv&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/c316bd08-1acd-4056-a05c-6120ece26e3a?format=csv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2021-2022 Titulaciones - CSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:40:35Z</dct:modified>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>6dd08fae94eda9952c3bd9298ef339c</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

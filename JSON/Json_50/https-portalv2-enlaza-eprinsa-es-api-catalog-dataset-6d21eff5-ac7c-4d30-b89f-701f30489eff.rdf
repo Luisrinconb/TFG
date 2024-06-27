@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-portalv2-enlaza-eprinsa-es-api-catalog-dataset-6d21eff5-ac7c-4d30-b89f-701f30489eff">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-portalv2-enlaza-eprinsa-es-api-catalog-dataset-6d21eff5-ac7c-4d30-b89f-701f30489eff"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:identifier>https://portalv2.enlaza.eprinsa.es/api/catalog/dataset/6d21eff5-ac7c-4d30-b89f-701f30489eff</dct:identifier>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:33:37Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:33:37Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-portalv2-enlaza-eprinsa-es-api-catalog-dataset-6d21eff5-ac7c-4d30-b89f-701f30489eff">
+        <dct:title xml:lang="sk-t-es-t0-mtec">Dodávatelia prác</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Aannemers voor werken</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Изпълнители на строителни работи</dct:title>
+        <dct:title xml:lang="da-t-es-t0-mtec">Entreprenører til bygge- og anlægsarbejder</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Seznam úspěšných nabídek na stavební práce</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Luettelo valituista urakoista</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Liste der erfolgreichen Ausschreibungen für Arbeiten</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Seznam uspešnih razpisov za gradnje</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1fb6b72b-a835-4f01-be69-374b479f5f4e">
+            <dct:identifier>https://datos.gob.es/catalogo/l01140403-adjudicatarios-de-obras/resource/11eb7132-d0be-47c2-a866-d5e0f7679321</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Adjudicatarios de obras</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/eu-pl-1.2"/>
+            <dcat:accessURL rdf:resource="https://portalv2.enlaza.eprinsa.es/file/datahub/6d21eff5-ac7c-4d30-b89f-701f30489eff.csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5e3d3fd5-4e08-4aa4-bd4f-1b133b77b73a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01140403-adjudicatarios-de-obras/resource/66609a29-4ef7-4214-a2c3-3fc19a6a9c54</dct:identifier>
+            <dct:title xml:lang="es">Adjudicatarios de obras</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/eu-pl-1.2"/>
+            <dcat:accessURL rdf:resource="https://portalv2.enlaza.eprinsa.es/file/datahub/6d21eff5-ac7c-4d30-b89f-701f30489eff.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Wykonawcy robót budowlanych</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Κατάλογος επιτυχόντων προσφορών για έργα</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Konkursą laimėjusių darbų pasiūlymų sąrašas</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Wykaz zwycięskich przetargów na roboty budowlane</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Liosta na dtairiscintí ar éirigh leo le haghaidh oibreacha</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01140403">
+            <foaf:name>Ayuntamiento de Montalbán de Córdoba</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="it-t-es-t0-mtec">Appaltatori per lavori</dct:title>
+        <dct:description xml:lang="es">Listado de adjudicatarios de licitaciones correspondientes a obras</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-02-02T04:10:37+01:00</dct:modified>
+        <dct:description xml:lang="en-t-es-t0-mtec">List of successful tenders for works</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Εργολάβοι έργων</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Zoznam úspešných ponúk na práce</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Izvajalci del</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Izvođači radova</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-02-02T04:10:37+01:00</dct:issued>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Lista das propostas selecionadas para a realização de obras</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Förteckning över godkända anbud för bygg- och anläggningsarbeten</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Lijst van geslaagde aanbestedingen voor werken</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Urakoitsijat</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Ehitustööde edukate pakkumuste loetelu</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Popis uspješnih natječaja za radove</dct:description>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l01140403-adjudicatarios-de-obras/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l01140403-adjudicatarios-de-obras/DurationDescription">
+                <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:months>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="it-t-es-t0-mtec">Elenco delle offerte aggiudicate per lavori</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Liste over udvalgte tilbud på bygge- og anlægsarbejder</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Zhotovitelé prací</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Contractanți pentru lucrări</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Darbuzņēmēji</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Contractants pour travaux</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Rangovai darbams</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Auftragnehmer für Arbeiten</dct:title>
+        <dcat:keyword xml:lang="es">Actividad económica</dcat:keyword>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Списък на успешните търгове за строителни работи</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Conraitheoirí le haghaidh oibreacha</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Contractors for works</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Підрядники для робіт</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Lista ta’ offerti magħżula għal xogħlijiet</dct:description>
+        <dct:title xml:lang="es">Adjudicatarios de obras</dct:title>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/l01140403-adjudicatarios-de-obras/PeriodOfTime-1">
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2022-01-01T00:00:00+01:00</schema:startDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dct:identifier>https://portalv2.enlaza.eprinsa.es/api/catalog/dataset/6d21eff5-ac7c-4d30-b89f-701f30489eff</dct:identifier>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Az építési beruházásokra vonatkozó sikeres pályázatok listája</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0672e85a-d93d-4b0b-ab06-5aa3eff66f73">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Adjudicatarios de obras</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l01140403-adjudicatarios-de-obras/resource/549bdf29-0667-45d6-b42b-090fe5ceca48</dct:identifier>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/eu-pl-1.2"/>
+            <dcat:accessURL rdf:resource="https://portalv2.enlaza.eprinsa.es/file/datahub/6d21eff5-ac7c-4d30-b89f-701f30489eff.xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="et-t-es-t0-mtec">Tööde töövõtjad</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Entreprenörer för bygg- och anläggningsarbeten</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Liste des offres retenues pour les travaux</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Lista ofertelor câștigătoare pentru lucrări</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Veiksmīgo darbu piedāvājumu saraksts</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d7cdc9c1-fc44-48e2-91b1-d80d89eb7c91">
+            <dcat:accessURL rdf:resource="https://portalv2.enlaza.eprinsa.es/file/datahub/6d21eff5-ac7c-4d30-b89f-701f30489eff.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Adjudicatarios de obras</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l01140403-adjudicatarios-de-obras/resource/55121f90-a817-434d-8125-4b8c9888dc01</dct:identifier>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by-nc/2.0/eu-pl-1.2"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Empreiteiros de obras</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Kuntratturi għax-xogħlijiet</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Építési munkákat végző vállalkozók</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Перелік успішних тендерів на роботи</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>b1c54c04ad2a1c67db798a636d201c71</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-05-17T23:44:16Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

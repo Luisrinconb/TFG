@@ -1,0 +1,772 @@
+// 20240610204454
+// https://datos.comunidad.madrid/catalogo/dataset/82d724b8-dafc-4177-be65-15ad80f9cee6/resource/339ff201-42cc-40a7-9362-d1a40e616078/download/concesiones_etiqueta_ecologica.json
+
+{
+  "data": [
+    {
+      "eco_producto_categoria": "Colchones",
+      "eco_licencia_fecha_concesion": "25/07/2002",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "Flex Equipos de Descanso, S.A.",
+      "eco_licencia_fecha_fin": "28/12/2004",
+      "eco_licencia_numero": "ES-MD-14-01/04-2003",
+      "eco_producto_denominacion": "Natural Aloe"
+    },
+    {
+      "eco_producto_categoria": "Pinturas y barnices de interior y exterior",
+      "eco_licencia_fecha_concesion": "15/02/2002",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Landecolor, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2025",
+      "eco_licencia_numero": "ES-MD/044/00001",
+      "eco_producto_denominacion": "Politex Mate Blanco P-200"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "16/03/2004",
+      "eco_licencia_estado": "Traslado a Castilla y León en 2010",
+      "eco_empresa_denominacion": "Laboratorios Eurochem, S.A.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/020/00001",
+      "eco_producto_denominacion": "Biochem N-T-Filtrolux ECO/77"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "16/03/2004",
+      "eco_licencia_estado": "Traslado a Castilla y León en 2010",
+      "eco_empresa_denominacion": "Laboratorios Eurochem, S.A.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/020/00001",
+      "eco_producto_denominacion": "Biochem EU/140-Filtrolux ECO/112"
+    },
+    {
+      "eco_producto_categoria": "Colchones",
+      "eco_licencia_fecha_concesion": "26/02/2007",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "Somma Confort, S.A.",
+      "eco_licencia_fecha_fin": "13/05/2011",
+      "eco_licencia_numero": "ES-MD/014/00002",
+      "eco_producto_denominacion": "Naturlatto"
+    },
+    {
+      "eco_producto_categoria": "Productos textiles",
+      "eco_licencia_fecha_concesion": "26/02/2007",
+      "eco_licencia_estado": "Traslado a Navarra en 2014",
+      "eco_empresa_denominacion": "Textiles Inducam, S.L.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/016/00001",
+      "eco_producto_denominacion": "Iris"
+    },
+    {
+      "eco_producto_categoria": "Productos textiles",
+      "eco_licencia_fecha_concesion": "30/04/2008",
+      "eco_licencia_estado": "Traslado a Navarra en 2014",
+      "eco_empresa_denominacion": "Textiles Inducam, S.L.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/016/00001",
+      "eco_producto_denominacion": "Abril"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "10/12/2009",
+      "eco_licencia_estado": "Traslado a Castilla y León en 2010",
+      "eco_empresa_denominacion": "Laboratorios Eurochem, S.A.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/020/00001",
+      "eco_producto_denominacion": "Biochem detergente neutrofregadoras"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "10/12/2009",
+      "eco_licencia_estado": "Traslado a Castilla y León en 2010",
+      "eco_empresa_denominacion": "Laboratorios Eurochem, S.A.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/020/00001",
+      "eco_producto_denominacion": "Biochem desengrasante clean force"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "10/12/2009",
+      "eco_licencia_estado": "Traslado a Castilla y León en 2010",
+      "eco_empresa_denominacion": "Laboratorios Eurochem, S.A.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/020/00001",
+      "eco_producto_denominacion": "Biochem limpiador para baños"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "10/12/2009",
+      "eco_licencia_estado": "Traslado a Castilla y León en 2010",
+      "eco_empresa_denominacion": "Laboratorios Eurochem, S.A.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/020/00001",
+      "eco_producto_denominacion": "Biochem limpiador suelos perfumado"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "10/12/2009",
+      "eco_licencia_estado": "Traslado a Castilla y León en 2010",
+      "eco_empresa_denominacion": "Laboratorios Eurochem, S.A.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/020/00001",
+      "eco_producto_denominacion": "Biochem detergente/multiusos"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "10/12/2009",
+      "eco_licencia_estado": "Traslado a Castilla y León en 2010",
+      "eco_empresa_denominacion": "Laboratorios Eurochem, S.A.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/020/00001",
+      "eco_producto_denominacion": "Biochem limpiacristales/multiusos"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "29/03/2010",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "Distribuidora Española de Maquinaria y Productos Químicos, S.A.U. (DEMASA)",
+      "eco_licencia_fecha_fin": "19/10/2011",
+      "eco_licencia_numero": "ES-MD/020/00002",
+      "eco_producto_denominacion": "DEMALIMP ECO DESENGRASANTE"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "29/03/2010",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "Distribuidora Española de Maquinaria y Productos Químicos, S.A.U. (DEMASA)",
+      "eco_licencia_fecha_fin": "19/10/2011",
+      "eco_licencia_numero": "ES-MD/020/00002",
+      "eco_producto_denominacion": "DEMALIMP ECO LIMPIACRISTALES"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "29/03/2010",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "Distribuidora Española de Maquinaria y Productos Químicos, S.A.U. (DEMASA)",
+      "eco_licencia_fecha_fin": "19/10/2011",
+      "eco_licencia_numero": "ES-MD/020/00002",
+      "eco_producto_denominacion": "DEMALIMP ECO DESINCRUSTANTE BAÑOS"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "29/03/2010",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "Distribuidora Española de Maquinaria y Productos Químicos, S.A.U. (DEMASA)",
+      "eco_licencia_fecha_fin": "19/10/2011",
+      "eco_licencia_numero": "ES-MD/020/00002",
+      "eco_producto_denominacion": "DEMALIMP ECO DM-284"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "29/03/2010",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "Distribuidora Española de Maquinaria y Productos Químicos, S.A.U. (DEMASA)",
+      "eco_licencia_fecha_fin": "19/10/2011",
+      "eco_licencia_numero": "ES-MD/020/00002",
+      "eco_producto_denominacion": "DEMALIMP ECO LIMPIADOR GENERAL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "29/03/2010",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "Distribuidora Española de Maquinaria y Productos Químicos, S.A.U. (DEMASA)",
+      "eco_licencia_fecha_fin": "19/10/2011",
+      "eco_licencia_numero": "ES-MD/020/00002",
+      "eco_producto_denominacion": "DEMALIMP ECO NA-826"
+    },
+    {
+      "eco_producto_categoria": "Aceites lubricantes",
+      "eco_licencia_fecha_concesion": "22/03/2011",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Repsol Lubricantes y Especialidades, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2024",
+      "eco_licencia_numero": "ES-MD/027/00001",
+      "eco_producto_denominacion": "MARKER BIO TELEX 46"
+    },
+    {
+      "eco_producto_categoria": "Productos detergentes lavavajillas a mano (HDD)",
+      "eco_licencia_fecha_concesion": "14/06/2011",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "FILER, S.L.",
+      "eco_licencia_fecha_fin": "22/12/2018",
+      "eco_licencia_numero": "ES-MD/019/00001",
+      "eco_producto_denominacion": "Viper Eco-Natur"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "14/06/2011",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "FILER, S.L.",
+      "eco_licencia_fecha_fin": "26/12/2018",
+      "eco_licencia_numero": "ES-MD/020/00003",
+      "eco_producto_denominacion": "Spread Eco-Natur"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "14/06/2011",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "FILER, S.L.",
+      "eco_licencia_fecha_fin": "26/12/2018",
+      "eco_licencia_numero": "ES-MD/020/00003",
+      "eco_producto_denominacion": "Vorex Eco-Natur"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "14/06/2011",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "FILER, S.L.",
+      "eco_licencia_fecha_fin": "26/12/2018",
+      "eco_licencia_numero": "ES-MD/020/00003",
+      "eco_producto_denominacion": "Firglass Eco-Natur"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "14/06/2011",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "FILER, S.L.",
+      "eco_licencia_fecha_fin": "26/12/2018",
+      "eco_licencia_numero": "ES-MD/020/00003",
+      "eco_producto_denominacion": "Hannin Eco-Natur"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de uso general y de cocinas y baños",
+      "eco_licencia_fecha_concesion": "14/06/2011",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "FILER, S.L.",
+      "eco_licencia_fecha_fin": "26/12/2018",
+      "eco_licencia_numero": "ES-MD/020/00003",
+      "eco_producto_denominacion": "Bain Eco-Natur"
+    },
+    {
+      "eco_producto_categoria": "Productos detergentes lavavajillas a mano (HDD)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "THOMIL, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/019/00003",
+      "eco_producto_denominacion": "NATURELLE by Thomil KONY"
+    },
+    {
+      "eco_producto_categoria": "Productos detergentes lavavajillas a mano (HDD)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Proyectos Químicos, S.A., PROQUISA",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/019/00002",
+      "eco_producto_denominacion": "ECO-PQ- Lavavajillas"
+    },
+    {
+      "eco_producto_categoria": "Productos detergentes lavavajillas a mano (HDD)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/019/00004",
+      "eco_producto_denominacion": "ECOSOL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Proyectos Químicos, S.A., PROQUISA",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00004",
+      "eco_producto_denominacion": "ECO-PQ-Limpiacristales"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Proyectos Químicos, S.A., PROQUISA",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00004",
+      "eco_producto_denominacion": "ECO-PQ-Fregasuelos"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Proyectos Químicos, S.A., PROQUISA",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00004",
+      "eco_producto_denominacion": "ECO-PQ-Multiusos"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Proyectos Químicos, S.A., PROQUISA",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00004",
+      "eco_producto_denominacion": "ECO-PQ-Desincrustante"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Proyectos Químicos, S.A., PROQUISA",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00004",
+      "eco_producto_denominacion": "ECO-PQ-Desengrasante"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "THOMIL, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00005",
+      "eco_producto_denominacion": "NATURELLE by Thomil CRYSTAL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "THOMIL, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00005",
+      "eco_producto_denominacion": "NATURELLE by Thomil NEUTRAL SANI"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "THOMIL, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00005",
+      "eco_producto_denominacion": "NATURELLE by Thomil BIO NEUTRAL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "THOMIL, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00005",
+      "eco_producto_denominacion": "NATURELLE by Thomil SANYOS"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "THOMIL, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00005",
+      "eco_producto_denominacion": "NATURELLE by Thomil DEGRASS-MULTI"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00006",
+      "eco_producto_denominacion": "ECOSHINE"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00006",
+      "eco_producto_denominacion": "ECOFRESH"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00006",
+      "eco_producto_denominacion": "ECOVERSAL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00006",
+      "eco_producto_denominacion": "ECOSANIT"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "20/07/2012",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00006",
+      "eco_producto_denominacion": "ECOSTAR"
+    },
+    {
+      "eco_producto_categoria": "Papel prensa",
+      "eco_licencia_fecha_concesion": "09/09/2013",
+      "eco_licencia_estado": "No vigente",
+      "eco_empresa_denominacion": "INTERNATIONAL PAPER MILL S.L.U.",
+      "eco_licencia_fecha_fin": "27/06/2018",
+      "eco_licencia_numero": "ES-MD/037/00001",
+      "eco_producto_denominacion": "INTERNATIONAL PAPER NEWS 100% RECICLADO"
+    },
+    {
+      "eco_producto_categoria": "Aceites lubricantes",
+      "eco_licencia_fecha_concesion": "10/01/2013",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Repsol Lubricantes y Especialidades, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2024",
+      "eco_licencia_numero": "ES-MD/027/00001",
+      "eco_producto_denominacion": "MARKER BIO TELEX 68"
+    },
+    {
+      "eco_producto_categoria": "Aceites lubricantes",
+      "eco_licencia_fecha_concesion": "01/12/2017",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Repsol Lubricantes y Especialidades, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2024",
+      "eco_licencia_numero": "ES-MD/027/00001",
+      "eco_producto_denominacion": "PROTECTOR BIO CALCIUM EP R2"
+    },
+    {
+      "eco_producto_categoria": "Aceites lubricantes",
+      "eco_licencia_fecha_concesion": "18/07/2017",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "CEPSA COMERCIAL PETRÓLEO, S.A.U.",
+      "eco_licencia_fecha_fin": "31/12/2024",
+      "eco_licencia_numero": "ES-MD/027/00002",
+      "eco_producto_denominacion": "CEPSA BIO OIL HM-S 32"
+    },
+    {
+      "eco_producto_categoria": "Aceites lubricantes",
+      "eco_licencia_fecha_concesion": "18/07/2017",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "CEPSA COMERCIAL PETRÓLEO, S.A.U.",
+      "eco_licencia_fecha_fin": "31/12/2024",
+      "eco_licencia_numero": "ES-MD/027/00002",
+      "eco_producto_denominacion": "CEPSA BIO OIL HM-S 46"
+    },
+    {
+      "eco_producto_categoria": "Aceites lubricantes",
+      "eco_licencia_fecha_concesion": "18/07/2017",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "CEPSA COMERCIAL PETRÓLEO, S.A.U.",
+      "eco_licencia_fecha_fin": "31/12/2024",
+      "eco_licencia_numero": "ES-MD/027/00002",
+      "eco_producto_denominacion": "CEPSA BIO OIL HM-S 68"
+    },
+    {
+      "eco_producto_categoria": "Aceites lubricantes",
+      "eco_licencia_fecha_concesion": "18/07/2017",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "CEPSA COMERCIAL PETRÓLEO, S.A.U.",
+      "eco_licencia_fecha_fin": "31/12/2024",
+      "eco_licencia_numero": "ES-MD/027/00002",
+      "eco_producto_denominacion": "CEPSA STERNA BIO"
+    },
+    {
+      "eco_producto_categoria": "Pinturas y barnices de interior y exterior",
+      "eco_licencia_fecha_concesion": "09/04/2019",
+      "eco_licencia_estado": "Traslado a Castilla La Mancha 03/2022",
+      "eco_empresa_denominacion": "CHEMISCHE LÓSUNGEN, S.L.",
+      "eco_licencia_fecha_fin": "No aplica",
+      "eco_licencia_numero": "ES-MD/044/00002",
+      "eco_producto_denominacion": "ECOLÖSUNG 180 NNP"
+    },
+    {
+      "eco_producto_categoria": "Productos detergentes lavavajillas a mano (HDD)",
+      "eco_licencia_fecha_concesion": "14/02/2021",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Makro Autoservicio Mayorista, S.A. ",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/019/00005",
+      "eco_producto_denominacion": "LAVAVAJILLAS MANUAL ECOLÓGICO MAKRO PROFESSIONAL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "14/02/2021",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Makro Autoservicio Mayorista, S.A. ",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00007",
+      "eco_producto_denominacion": "FREGASUELOS ECOLÓGICO MAKRO PROFESSIONAL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "14/02/2021",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Makro Autoservicio Mayorista, S.A. ",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00007",
+      "eco_producto_denominacion": "LIMPIACRISTALES ECOLÓGICO MAKRO PROFESSIONAL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "14/02/2021",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Makro Autoservicio Mayorista, S.A. ",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00007",
+      "eco_producto_denominacion": "LIMPIADOR MULTIUSOS ECOLÓGICO MAKRO PROFESSIONAL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "14/02/2021",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Makro Autoservicio Mayorista, S.A. ",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00007",
+      "eco_producto_denominacion": "LIMPIADOR DE BAÑOS ECOLÓGICO MAKRO PROFESSIONAL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "14/02/2021",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "Makro Autoservicio Mayorista, S.A. ",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00007",
+      "eco_producto_denominacion": "DESENGRASANTE ECOLÓGICO MAKRO PROFESSIONAL"
+    },
+    {
+      "eco_producto_categoria": "Detergentes para ropa uso industrial e institucional (IILD)",
+      "eco_licencia_fecha_concesion": "18/02/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/039/00001",
+      "eco_producto_denominacion": "ECOSERVICE (detergente)"
+    },
+    {
+      "eco_producto_categoria": "Detergentes para ropa uso industrial e institucional (IILD)",
+      "eco_licencia_fecha_concesion": "18/02/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/039/00001",
+      "eco_producto_denominacion": "ECOSERVICE SOFT (suavizante)"
+    },
+    {
+      "eco_producto_categoria": "Servicio de limpieza de interiores",
+      "eco_licencia_fecha_concesion": "18/02/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "EULEN, S.L. ",
+      "eco_licencia_fecha_fin": "31/12/2027",
+      "eco_licencia_numero": "ES-MD/052/00001",
+      "eco_producto_denominacion": "EULEN LIMPIEZA CIRCULAR"
+    },
+    {
+      "eco_producto_categoria": "Productos detergentes lavavajillas a mano (HDD)",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "DIS DINO, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/019/00006",
+      "eco_producto_denominacion": "DIPOL ECO y DHYS DW-31"
+    },
+    {
+      "eco_producto_categoria": "Detergentes para lavavajillas de uso industrial e institucional (IIDD)",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/038/00001",
+      "eco_producto_denominacion": "ECOMAT AB"
+    },
+    {
+      "eco_producto_categoria": "Detergentes para lavavajillas de uso industrial e institucional (IIDD)",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/038/00001",
+      "eco_producto_denominacion": "ECOMAT AD"
+    },
+    {
+      "eco_producto_categoria": "Detergentes para lavavajillas de uso industrial e institucional (IIDD)",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "INDUQUIM, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/038/00001",
+      "eco_producto_denominacion": "ECOBRILL"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "DIS DINO, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00008",
+      "eco_producto_denominacion": "ACTIVAL ECO y DHYS/TC-71"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "DIS DINO, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00008",
+      "eco_producto_denominacion": "DH21 ECO y DHYS/KT-21"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "DIS DINO, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00008",
+      "eco_producto_denominacion": "DINO CID ECO y DHYS/DC-11"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "DIS DINO, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00008",
+      "eco_producto_denominacion": "FREGOLOR ECO y DHYS/FL-51"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "DIS DINO, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00008",
+      "eco_producto_denominacion": "VITRAL ECO y DHYS/GC-61"
+    },
+    {
+      "eco_producto_categoria": "Servicio de limpieza de interiores",
+      "eco_licencia_fecha_concesion": "23/12/2022",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "CLECE, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2027",
+      "eco_licencia_numero": "ES-MD/052/00002",
+      "eco_producto_denominacion": "ÁREA DE SERVICIOS DE LIMPIEZA ECO"
+    },
+    {
+      "eco_producto_categoria": "Servicio de limpieza de interiores",
+      "eco_licencia_fecha_concesion": "17/05/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "SERVEO, S.A.U.",
+      "eco_licencia_fecha_fin": "31/12/2027",
+      "eco_licencia_numero": "ES-MD/052/00003",
+      "eco_producto_denominacion": "SERVEO LIMPIEZA SOSTENIBLE"
+    },
+    {
+      "eco_producto_categoria": "Aceites lubricantes",
+      "eco_licencia_fecha_concesion": "18/12/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "ELECTROFILM, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2024",
+      "eco_licencia_numero": "ES-MD/027/00003",
+      "eco_producto_denominacion": "ELESA BIO HIDRAULIC HFDU 46"
+    },
+    {
+      "eco_producto_categoria": "Detergentes para lavavajillas de uso industrial e institucional (IIDD)",
+      "eco_licencia_fecha_concesion": "19/12/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "THOMIL, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/038/00002",
+      "eco_producto_denominacion": "MASTERBOX D-100 NATURELLE"
+    },
+    {
+      "eco_producto_categoria": "Detergentes para lavavajillas de uso industrial e institucional (IIDD)",
+      "eco_licencia_fecha_concesion": "19/12/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "THOMIL, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/038/00002",
+      "eco_producto_denominacion": "MASTERBOX D-150 NATURELLE"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "24/01/2024",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "POOL CHEMICAL, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00009",
+      "eco_producto_denominacion": "APOLO ECO"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "24/01/2024",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "POOL CHEMICAL, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00009",
+      "eco_producto_denominacion": "CLISAN ECO"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "24/01/2024",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "POOL CHEMICAL, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00009",
+      "eco_producto_denominacion": "DESKIL ECO"
+    },
+    {
+      "eco_producto_categoria": "Productos de limpieza de superficies duras (HSC)",
+      "eco_licencia_fecha_concesion": "24/01/2024",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "POOL CHEMICAL, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2026",
+      "eco_licencia_numero": "ES-MD/020/00009",
+      "eco_producto_denominacion": "MARKY ECO"
+    },
+    {
+      "eco_producto_categoria": "Gel de manos",
+      "eco_licencia_fecha_concesion": "18/12/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "DIS DINO, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2027",
+      "eco_licencia_numero": "ES/MD/030/00001",
+      "eco_producto_denominacion": "DIGEL ECO"
+    },
+    {
+      "eco_producto_categoria": "Gel de manos",
+      "eco_licencia_fecha_concesion": "18/12/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "DIS DINO, S.L.",
+      "eco_licencia_fecha_fin": "31/12/2027",
+      "eco_licencia_numero": "ES/MD/030/00001",
+      "eco_producto_denominacion": "DHYS SP41"
+    },
+    {
+      "eco_producto_categoria": "Champú",
+      "eco_licencia_fecha_concesion": "19/12/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "SUSTAINABLE COSMETICS S.L.",
+      "eco_licencia_fecha_fin": "31/12/2027",
+      "eco_licencia_numero": "ES/MD/030/00002",
+      "eco_producto_denominacion": "CHAMPÚ Nº5"
+    },
+    {
+      "eco_producto_categoria": "Champú",
+      "eco_licencia_fecha_concesion": "19/12/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "SUSTAINABLE COSMETICS S.L.",
+      "eco_licencia_fecha_fin": "31/12/2027",
+      "eco_licencia_numero": "ES/MD/030/00002",
+      "eco_producto_denominacion": "CHAMPÚ Nº20"
+    },
+    {
+      "eco_producto_categoria": "Acondicionador",
+      "eco_licencia_fecha_concesion": "19/12/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "SUSTAINABLE COSMETICS S.L.",
+      "eco_licencia_fecha_fin": "31/12/2027",
+      "eco_licencia_numero": "ES/MD/030/00002",
+      "eco_producto_denominacion": "ACONDICIONADOR THÄIS CAMILA"
+    },
+    {
+      "eco_producto_categoria": "Gel de manos",
+      "eco_licencia_fecha_concesion": "19/12/2023",
+      "eco_licencia_estado": "Vigente",
+      "eco_empresa_denominacion": "PROYECTOS QUÍMICOS, S.A.",
+      "eco_licencia_fecha_fin": "31/12/2027",
+      "eco_licencia_numero": "ES-MD/030/00003",
+      "eco_producto_denominacion": "ECO-PQ-LAVAMANOS"
+    }
+  ]
+}

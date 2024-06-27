@@ -1,0 +1,458 @@
+{
+  "openapi": "3.0.2",
+  "info": {
+    "title": "pt-exp-dataset-delivery-dataset-communications",
+    "description": "Listado de cartas de servicio.",
+    "version": "0.0.1"
+  },
+  "paths": {
+    "/api/v0/communications/all": {
+      "get": {
+        "tags": [
+          "communications"
+        ],
+        "summary": "Descarga completa del dataset offline",
+        "operationId": "get_dowload_communications_all_get",
+        "parameters": [
+          {
+            "required": false,
+            "schema": {
+              "allOf": [
+                {
+                  "$ref": "#/components/schemas/DownloadFormats"
+                }
+              ],
+              "default": "json"
+            },
+            "name": "format",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v0/communications/option-values/organisms": {
+      "get": {
+        "tags": [
+          "option-values"
+        ],
+        "summary": "Listado de los tipos de organismos.",
+        "operationId": "get_organisms_organisms_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v0/communications/count": {
+      "get": {
+        "tags": [
+          "communications"
+        ],
+        "summary": "Número de registros conjunto de datos",
+        "operationId": "count_communications_count_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Count Communications Count Get",
+                  "type": "object"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v0/communications/generate_files": {
+      "get": {
+        "tags": [
+          "communications"
+        ],
+        "summary": "Generación de ficheros",
+        "operationId": "generate_files_communications_generate_files_get",
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  
+                }
+              }
+            }
+          }
+        },
+        "security": [
+          {
+            "HTTPBasic": [
+              
+            ]
+          }
+        ]
+      }
+    },
+    "/api/v0/communications/search": {
+      "get": {
+        "tags": [
+          "communications"
+        ],
+        "summary": "Búsqueda de cartas seleccionando los filtros deseados",
+        "operationId": "get_search_any_json_communications_search_get",
+        "parameters": [
+          {
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/_Enum_Organisms"
+            },
+            "name": "organism_name",
+            "in": "query"
+          },
+          {
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/_Enum_fields"
+            },
+            "name": "order_by",
+            "in": "query"
+          },
+          {
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/_Enum_Mode"
+            },
+            "name": "mode",
+            "in": "query"
+          },
+          {
+            "required": false,
+            "schema": {
+              "allOf": [
+                {
+                  "$ref": "#/components/schemas/OutputFormats"
+                }
+              ],
+              "default": "json"
+            },
+            "name": "format",
+            "in": "query"
+          },
+          {
+            "required": false,
+            "schema": {
+              "title": "Size",
+              "type": "integer",
+              "default": 0
+            },
+            "name": "size",
+            "in": "query"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "tags": [
+          "communications"
+        ],
+        "summary": "Búsqueda de cartas a través de consulta en formato JSON",
+        "operationId": "post_search_body_json_communications_search_post",
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/PositionQuery"
+              }
+            }
+          },
+          "required": true
+        },
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Post Search Body Json Communications Search Post",
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v0/communications/{bid}": {
+      "get": {
+        "tags": [
+          "communications"
+        ],
+        "summary": "Localiza una carta concreta por su identificador (NID)",
+        "operationId": "get_id_communications__bid__get",
+        "parameters": [
+          {
+            "required": true,
+            "schema": {
+              "title": "Bid",
+              "type": "string"
+            },
+            "name": "bid",
+            "in": "path"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Successful Response",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "title": "Response Get Id Communications  Bid  Get",
+                  "type": "object"
+                }
+              }
+            }
+          },
+          "422": {
+            "description": "Validation Error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/HTTPValidationError"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "DownloadFormats": {
+        "title": "DownloadFormats",
+        "enum": [
+          "json",
+          "csv",
+          "txt",
+          "yaml"
+        ],
+        "type": "string",
+        "description": "An enumeration."
+      },
+      "HTTPValidationError": {
+        "title": "HTTPValidationError",
+        "type": "object",
+        "properties": {
+          "detail": {
+            "title": "Detail",
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ValidationError"
+            }
+          }
+        }
+      },
+      "OutputFormats": {
+        "title": "OutputFormats",
+        "enum": [
+          "json",
+          "csv",
+          "txt",
+          "yaml"
+        ],
+        "type": "string",
+        "description": "An enumeration."
+      },
+      "PositionQuery": {
+        "title": "PositionQuery",
+        "type": "object",
+        "properties": {
+          "organism_name": {
+            "title": "Organism Name",
+            "type": "string"
+          },
+          "order_by": {
+            "title": "Order By",
+            "type": "string"
+          },
+          "mode": {
+            "title": "Mode",
+            "type": "string"
+          },
+          "format": {
+            "title": "Format",
+            "type": "string"
+          },
+          "size": {
+            "title": "Size",
+            "type": "integer"
+          }
+        },
+        "example": {
+          "organism_name": "Salud y Familias",
+          "order_by": "id",
+          "mode": "ASC",
+          "format": "json",
+          "size": 10
+        }
+      },
+      "ValidationError": {
+        "title": "ValidationError",
+        "required": [
+          "loc",
+          "msg",
+          "type"
+        ],
+        "type": "object",
+        "properties": {
+          "loc": {
+            "title": "Location",
+            "type": "array",
+            "items": {
+              "anyOf": [
+                {
+                  "type": "string"
+                },
+                {
+                  "type": "integer"
+                }
+              ]
+            }
+          },
+          "msg": {
+            "title": "Message",
+            "type": "string"
+          },
+          "type": {
+            "title": "Error Type",
+            "type": "string"
+          }
+        }
+      },
+      "_Enum_Mode": {
+        "title": "_Enum_Mode",
+        "enum": [
+          "ASC",
+          "DESC"
+        ],
+        "description": "An enumeration."
+      },
+      "_Enum_Organisms": {
+        "title": "_Enum_Organisms",
+        "enum": [
+          "-",
+          "Agencia Pública de Puertos de Andalucía",
+          "Agencia de Servicios Sociales y Dependencia de Andalucía",
+          "Agricultura, Ganadería, Pesca y Desarrollo Sostenible",
+          "Andalucía Emprende, Fundación Pública Andaluza",
+          "Centro Andaluz de Arte Contemporáneo",
+          "Cultura y Patrimonio Histórico",
+          "Educación y Deporte",
+          "Empleo, Formación y Trabajo Autónomo",
+          "Empresa Pública de Emergencias Sanitarias",
+          "Fomento, Infraestructuras y Ordenación del Territorio",
+          "Hacienda y Financiación Europea",
+          "Igualdad, Políticas Sociales y Conciliación",
+          "Presidencia, Administración Pública e Interior",
+          "Salud y Familias",
+          "Servicio Andaluz de Salud",
+          "Transformación Económica, Industria, Conocimiento y Universidades",
+          "Turismo, Regeneración, Justicia y Administración Local"
+        ],
+        "description": "An enumeration."
+      },
+      "_Enum_fields": {
+        "title": "_Enum_fields",
+        "enum": [
+          "id",
+          "title",
+          "organism_name",
+          "url",
+          "date",
+          "letter",
+          "boja_number",
+          "document_name",
+          "document_url"
+        ],
+        "description": "An enumeration."
+      }
+    },
+    "securitySchemes": {
+      "HTTPBasic": {
+        "type": "http",
+        "scheme": "basic"
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "communications",
+      "description": "Listado de cartas de servicio."
+    },
+    {
+      "name": "option-values",
+      "description": "Opciones relacionadas con las cartas de servicio."
+    }
+  ]
+}

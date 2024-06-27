@@ -1,0 +1,147 @@
+// 20240610205734
+// https://opendata.gijon.es/descargar.php?id=966&tipo=JSON
+
+{
+  "numtarjetaciudadanas": {
+    "numtarjetaciudadana": [
+      {
+        "aÑo": 2023,
+        "mes": "01",
+        "tipo": "F",
+        "cuantos": 383924
+      },
+      {
+        "aÑo": 2023,
+        "mes": "01",
+        "tipo": "J",
+        "cuantos": 1414
+      },
+      {
+        "aÑo": 2023,
+        "mes": "02",
+        "tipo": "F",
+        "cuantos": 384879
+      },
+      {
+        "aÑo": 2023,
+        "mes": "02",
+        "tipo": "J",
+        "cuantos": 1415
+      },
+      {
+        "aÑo": 2023,
+        "mes": "03",
+        "tipo": "F",
+        "cuantos": 385992
+      },
+      {
+        "aÑo": 2023,
+        "mes": "03",
+        "tipo": "J",
+        "cuantos": 1418
+      },
+      {
+        "aÑo": 2023,
+        "mes": "04",
+        "tipo": "J",
+        "cuantos": 1423
+      },
+      {
+        "aÑo": 2023,
+        "mes": "04",
+        "tipo": "F",
+        "cuantos": 387111
+      },
+      {
+        "aÑo": 2023,
+        "mes": "05",
+        "tipo": "F",
+        "cuantos": 388221
+      },
+      {
+        "aÑo": 2023,
+        "mes": "05",
+        "tipo": "J",
+        "cuantos": 1426
+      },
+      {
+        "aÑo": 2023,
+        "mes": "06",
+        "tipo": "F",
+        "cuantos": 389203
+      },
+      {
+        "aÑo": 2023,
+        "mes": "06",
+        "tipo": "J",
+        "cuantos": 1427
+      },
+      {
+        "aÑo": 2023,
+        "mes": "07",
+        "tipo": "F",
+        "cuantos": 390697
+      },
+      {
+        "aÑo": 2023,
+        "mes": "07",
+        "tipo": "J",
+        "cuantos": 1428
+      },
+      {
+        "aÑo": 2023,
+        "mes": "08",
+        "tipo": "J",
+        "cuantos": 1430
+      },
+      {
+        "aÑo": 2023,
+        "mes": "08",
+        "tipo": "F",
+        "cuantos": 392340
+      },
+      {
+        "aÑo": 2023,
+        "mes": "09",
+        "tipo": "F",
+        "cuantos": 394217
+      },
+      {
+        "aÑo": 2023,
+        "mes": "09",
+        "tipo": "J",
+        "cuantos": 1433
+      },
+      {
+        "aÑo": 2023,
+        "mes": 10,
+        "tipo": "F",
+        "cuantos": 395432
+      },
+      {
+        "aÑo": 2023,
+        "mes": 11,
+        "tipo": "F",
+        "cuantos": 396613
+      },
+      {
+        "aÑo": 2023,
+        "mes": 11,
+        "tipo": "J",
+        "cuantos": 1436
+      },
+      {
+        "aÑo": 2023,
+        "mes": 12,
+        "tipo": "F",
+        "cuantos": 397484
+      },
+      {
+        "aÑo": 2023,
+        "mes": 12,
+        "tipo": "J",
+        "cuantos": 1437
+      }
+    ]
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "@context": "https://www.w3.org/ns/csvw",
+  "@type": "Table",
+  "dc:description": "Diccionario de datos",
+  "dc:creator": "Cabildo de Tenerife",
+  "tableSchema": {
+    "columns": [
+      {
+        "name": "tramo_nombre",
+        "datatype": "text",
+        "title": "tramo_nombre",
+        "dc:description": "Nombre del tramo de la vía"
+      },
+      {
+        "name": "vía_nombre",
+        "datatype": "text",
+        "title": "vía_nombre",
+        "dc:description": "Nombre de la vía a la que pertenece el tramo"
+      },
+      {
+        "name": "via_nombre_anterior",
+        "datatype": "text",
+        "title": "via_nombre_anterior",
+        "dc:description": "Antigua denominación de la vía"
+      },
+      {
+        "name": "via_tipo",
+        "datatype": "text",
+        "title": "via_tipo",
+        "dc:description": "Clasificación del tipo de vía al que pertenece el tramo. Valores: autopista, autovía, carretera, carril bus, carril de frenado, enlace, vía de servicio"
+      },
+      {
+        "name": "tramo_uso",
+        "datatype": "text",
+        "title": "tramo_uso",
+        "dc:description": "Uso del tramo que compone la vía. Valores: carril aceleración, carril bus, glorieta, puente, túnel…"
+      },
+      {
+        "name": "tramo_sentido",
+        "datatype": "numeric",
+        "title": "tramo_sentido",
+        "dc:description": "Indica el sentido de digitalización del eje del tramo de vía. Valores: 0, digitalizado en el sentido del avance de los puntos kilométricos (PK); 1, sentido contrario al avance de PK."
+      },
+      {
+        "name": "tramo_inicio",
+        "datatype": "text",
+        "title": "tramo_inicio",
+        "dc:description": "Lugar donde comienza el tramo de la vía"
+      },
+      {
+        "name": "tramo_final",
+        "datatype": "text",
+        "title": "tramo_final",
+        "dc:description": "Lugar donde finaliza el tramo de la vía"
+      },
+      {
+        "name": "tramo_longitud",
+        "datatype": "numeric",
+        "title": "tramo_longitud",
+        "dc:description": "Longitud del tramo de la vía (metros)"
+      }
+    ]
+  }
+}

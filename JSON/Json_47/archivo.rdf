@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="http://data.europa.eu/r5r/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1">
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-10 20:40:10.525621</dct:modified>
+    <dcat:downloadURL rdf:resource="https://parcan.es/"/>
+    <dct:title>Viajes Parlamento Canario</dct:title>
+    <dct:description>Información sobre concesiones de etiqueta ecológica en Madrid, incluyendo empresas y productos asociados.</dct:description>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+    <dcat:Distribution rdf:resource="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1"/>
+    <dcat:accessURL rdf:resource="https://data.europa.eu"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dct:issued>
+    <dcat:downloadURL rdf:resource="https://data.europa.eu"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-10 20:51:14.854752</dct:modified>
+    <dct:title>Concesiones Etiqueta Ecológica</dct:title>
+    <dct:description>Viajes marítimos de diputados del Parlamento de Canarias durante el año 2024, con información detallada sobre el coste y nombres de los diputados.</dct:description>
+    <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-10 20:45:30.722144</dct:modified>
+    <dct:title>Galerías de Arte</dct:title>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">15708</dcat:byteSize>
+    <ns1:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">35510</dcat:byteSize>
+    <dcat:downloadURL rdf:resource="https://datos.comunidad.madrid/"/>
+    <dct:description>Información sobre galerías de arte contemporáneo en la Región de Murcia.</dct:description>
+    <dcat:accessURL rdf:resource="https://parcan.es/"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">7374</dcat:byteSize>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/">
+    <dcat:contactPoint rdf:resource="https://datos.comunidad.madrid/"/>
+    <dcat:contactPoint rdf:resource="http://www.galeriaclave.com"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-10 20:51:14.854752</dct:modified>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+    <dct:description>Viajes marítimos de diputados del Parlamento de Canarias durante el año 2024, con información detallada sobre el coste y nombres de los diputados.</dct:description>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-10 20:45:30.722144</dct:modified>
+    <dct:title>Concesiones Etiqueta Ecológica</dct:title>
+    <dct:title>Galerías de Arte</dct:title>
+    <dct:spatial rdf:resource="https://publications.europa.eu/resource/authority/country/ESP"/>
+    <owl:versionInfo>1.0</owl:versionInfo>
+    <dcat:contactPoint rdf:resource="https://parcan.es/"/>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+    <dcat:keyword>viajes</dcat:keyword>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-18T20:08:31.590236</dct:issued>
+    <dct:description>Información sobre galerías de arte contemporáneo en la Región de Murcia.</dct:description>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/"/>
+    <dct:identifier></dct:identifier>
+    <dct:identifier>json_03146854</dct:identifier>
+    <dct:identifier>json_59102435</dct:identifier>
+    <dct:publisher rdf:resource="https://datos.comunidad.madrid/"/>
+    <dct:description>Información sobre concesiones de etiqueta ecológica en Madrid, incluyendo empresas y productos asociados.</dct:description>
+    <dcat:keyword>arte</dcat:keyword>
+    <dct:publisher rdf:resource="http://www.galeriaclave.com"/>
+    <dct:publisher rdf:resource="https://parcan.es/"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-10 20:40:10.525621</dct:modified>
+    <dcat:keyword>Etiqueta ecológica</dcat:keyword>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:title>Viajes Parlamento Canario</dct:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://datos.comunidad.madrid/">
+    <dct:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+    <foaf:name>http://data.europa.eu/88u/dataset/</foaf:name>
+    <vcard:fn>DIS DINO</vcard:fn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.galeriaclave.com">
+    <foaf:name>http://data.europa.eu/88u/dataset/</foaf:name>
+    <dct:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+    <vcard:fn>Portal de datos europeo</vcard:fn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.iana.org/assignments/media-types/application/ld+json">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://parcan.es/">
+    <dct:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+    <foaf:name>http://data.europa.eu/88u/dataset/</foaf:name>
+    <vcard:fn>Parlamento de Canarias</vcard:fn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+  </rdf:Description>
+</rdf:RDF>

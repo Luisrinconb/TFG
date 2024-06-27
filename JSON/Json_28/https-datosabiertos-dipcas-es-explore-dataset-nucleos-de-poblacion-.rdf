@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-dipcas-es-explore-dataset-nucleos-de-poblacion-">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:34:22Z</dct:modified>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:27:08Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>5f3a47bdbadb2ec45ad2a0fd05195152</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-dipcas-es-explore-dataset-nucleos-de-poblacion-">
+        <dct:title xml:lang="it-t-es-t0-mtec">Centri di popolazione</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">I denna lista visas alla kommuner och andra mindre lokala enheter som utgör befolkningscentra i provinsen Castellón.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Selles loetelus on esitatud kõik Castellóni provintsi rahvastikukeskusteks olevad kommuunid ja muud väikesed kohalikud üksused.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Iedzīvotāju centri</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Σε αυτόν τον κατάλογο εμφανίζονται όλοι οι δήμοι και άλλες μικρές τοπικές οντότητες που αποτελούν πληθυσμιακά κέντρα της επαρχίας Castellón.</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">In deze lijst verschijnen alle gemeenten en andere kleine lokale entiteiten die bevolkingscentra van de provincie Castellón vormen.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Sa liosta seo tá na bardais agus na mioneintitis áitiúla eile atá ina n-ionaid daonra i gCúige Castellón le feiceáil.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Na tej liście pojawiają się wszystkie gminy i inne mniejsze jednostki lokalne, które stanowią ośrodki ludności prowincji Castellón.</dct:description>
+        <dct:isReferencedBy rdf:resource="https://datosabiertos.dipcas.es/dataset/5f6f3aa1-2b7a-45bf-95f1-8728ee1708d9/resource/2bd44821-4475-4850-a51f-997a79d15aea/download/2015nucleos.csv"/>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Castellon"/>
+        <dct:description xml:lang="de-t-es-t0-mtec">In dieser Liste erscheinen alle Gemeinden und andere kleinere lokale Einrichtungen, die Bevölkerungszentren der Provinz Castellón bilden.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5f5cb51c-6b95-497f-a325-567a703c0abc">
+            <dct:title xml:lang="nl-t-es-t0-mtec">toepassing/json</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">aplicație/json</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">sovellus/json</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">iarratas/json</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">alkalmazás/Json</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">приложение/Json</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">ansökan/json</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">додаток/json</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">ansøgning/json</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">aplikacja/json</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">primjena/json</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">aplikace/json</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">pieteikums/json</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">aplikácia/json</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">applikazzjoni/json</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="en-t-es-t0-mtec">application/json</dct:title>
+            <dct:title xml:lang="es">application/json</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">applicazione/json</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">aplicação/json</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">taotlus/json</dct:title>
+            <dct:identifier>https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/exports/json</dct:identifier>
+            <dct:title xml:lang="el-t-es-t0-mtec">εφαρμογή/json</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">demande/json</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">uporaba/json</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">paraiška/Json</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Anwendung/Json</dct:title>
+            <dcat:accessURL rdf:resource="https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/exports/json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Populacijski centri</dct:title>
+        <dct:description xml:lang="es">En este listado aparecen todos los municipios y otras entidades locales menores que constituyen núcleos de población de la provincia de Castellón.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">In this list all the municipalities and other minor local entities that constitute population centers of the province of Castellón appear.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Šajā sarakstā ir iekļautas visas pašvaldības un citas maznozīmīgas vietējās vienības, kas veido Kastelonas provinces iedzīvotāju centrus.</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Centre de populație</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e44dc1b0-010b-412d-b328-e3ff813a118d">
+            <dct:title xml:lang="sv-t-es-t0-mtec">ansökan/zip</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">applikazzjoni/zip</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">feidhmchlár/zip</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">aplikace/zip</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">taotlus/zip</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">primjena/zip</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">приложение/Цип</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">aplicação/zip</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">додаток/zip</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">alkalmazás/cip</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">εφαρμογή/zip</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">zastosowanie/zip</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/exports/shp</dct:identifier>
+            <dct:title xml:lang="fi-t-es-t0-mtec">sovellus/zip</dct:title>
+            <dcat:accessURL rdf:resource="https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/exports/shp"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">ansøgning/zip</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">uporaba/zip</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Anwendung/ZIP</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">applicazione/zip</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">aplikácia/zip</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">toepassing/zip</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">aplicație/zip</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">application/zip</dct:title>
+            <dct:title xml:lang="es">application/zip</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">application/zip</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">pieteikums/zip</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">taikymas/zip</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="ro-t-es-t0-mtec">În această listă apar toate municipalitățile și alte entități locale minore care constituie centre de populație din provincia Castellón.</dct:description>
+        <dcat:keyword xml:lang="es">municipios</dcat:keyword>
+        <dct:identifier>https://datosabiertos.dipcas.es/explore/dataset/nucleos-de-poblacion/</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e1e77fc8-027f-4f0e-aa3e-273a09640820">
+            <dct:title xml:lang="uk-t-es-t0-mtec">Населені пункти</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Populacijska središča</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Populačné centrá</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Населени места</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Centri di popolazione</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Népesedési központok</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Befolkningscentra</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Population centres</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Centres de population</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Rahvastikukeskused</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Ionaid daonra</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Populační centra</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Gyventojų centrai</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">Πληθυσμιακά κέντρα</dct:title>
+            <dct:identifier>https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion</dct:identifier>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Centre de populație</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Bevolkingscentra</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Ośrodki ludności</dct:title>
+            <dct:title xml:lang="es">Núcleos de población</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Populacijski centri</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Iedzīvotāju centri</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Väestökeskukset</dct:title>
+            <dcat:accessURL rdf:resource="https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ċentri ta’ popolazzjoni</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Befolkningscentre</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Centros populacionais</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Bevölkerungszentren</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Ċentri ta’ popolazzjoni</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">V tomto seznamu se objevují všechny obce a další menší místní subjekty, které tvoří populační centra provincie Castellón.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Bevölkerungszentren</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">F’din il-lista jidhru l-muniċipalitajiet kollha u entitajiet lokali minuri oħra li jikkostitwixxu ċentri ta’ popolazzjoni tal-provinċja ta’ Castellón.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Ionaid daonra</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Населені пункти</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-30T22:05:17+02:00</dct:issued>
+        <dcat:keyword xml:lang="es">geolocalizado</dcat:keyword>
+        <dct:description xml:lang="it-t-es-t0-mtec">In questo elenco compaiono tutti i comuni e gli altri enti locali minori che costituiscono centri abitati della provincia di Castellón.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Populacijska središča</dct:title>
+        <dct:title xml:lang="es">Núcleos de población</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Rahvastikukeskused</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Ośrodki ludności</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">V tomto zozname sa nachádzajú všetky obce a iné menšie miestne subjekty, ktoré tvoria populačné centrá provincie Castellón.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Befolkningscentre</dct:title>
+        <dcat:keyword xml:lang="es">provincia de Castellón</dcat:keyword>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Bevolkingscentra</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Väestökeskukset</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Населени места</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Na ovom popisu pojavljuju se sve općine i druge manje lokalne jedinice koje čine populacijska središta pokrajine Castellón.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Population centres</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Populačné centrá</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Dans cette liste figurent toutes les municipalités et autres entités locales mineures qui constituent des centres de population de la province de Castellón.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Na tem seznamu se pojavljajo vse občine in druge manjše lokalne entitete, ki sestavljajo populacijska središča province Castellón.</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000012">
+            <foaf:name>Diputación Provincial de Castelló/Castellón</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Ebben a listában megjelenik az összes település és más kisebb helyi egység, amely Castellón tartomány népességközpontjait alkotja.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-30T22:05:17+02:00</dct:modified>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Centros populacionais</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/96a38365-b40b-4e1a-bfc1-98acbf1bd706">
+            <dct:title xml:lang="nl-t-es-t0-mtec">tekst/csv</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">testi/csv</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">szöveg/csv</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">tekst/csv</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">tekst/csv</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">tekst/csv</dct:title>
+            <dcat:accessURL rdf:resource="https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/exports/csv"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">tekst/csv</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">text/csv</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">teksts/csv</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">texte/csv</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">text/csv</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">text/csv</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">текст / csv</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">text/csv</dct:title>
+            <dct:title xml:lang="es">text/csv</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">texto/csv</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">téacs/csv</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">text/csv</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">κείμενο/csv</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">tekstas/csv</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="it-t-es-t0-mtec">testo/csv</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">текст/csv</dct:title>
+            <dct:identifier>https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/exports/csv</dct:identifier>
+            <dct:title xml:lang="de-t-es-t0-mtec">Text/csv</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">besedilo/csv</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">teksti/csv</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="el-t-es-t0-mtec">Πληθυσμιακά κέντρα</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Gyventojų centrai</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">В този списък са посочени всички общини и други малки местни единици, които представляват населени места в провинция Castellón.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Populační centra</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Centres de population</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">I denne liste vises alle kommuner og andre mindre lokale enheder, der udgør befolkningscentre i provinsen Castellón.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tässä luettelossa näkyvät kaikki kunnat ja muut pienemmät paikalliset yksiköt, jotka muodostavat Castellónin maakunnan väestökeskuksia.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Befolkningscentra</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">У цьому списку з'являються всі муніципалітети та інші незначні місцеві утворення, які складають центри населення провінції Кастельон.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Népesedési központok</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/af05bd67-6af1-45b6-ba63-fceb88381a96">
+            <dct:title xml:lang="nl-t-es-t0-mtec">toepassing/json</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">paraiška/Json</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">aplicație/json</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">ansøgning/json</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">aplikácia/json</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">iarratas/json</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">pieteikums/json</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">taotlus/json</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">aplicação/json</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">приложение/Json</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Anwendung/Json</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">ansökan/json</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="it-t-es-t0-mtec">applicazione/json</dct:title>
+            <dcat:accessURL rdf:resource="https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/exports/geojson"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">primjena/json</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">applikazzjoni/json</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">demande/json</dct:title>
+            <dct:identifier>https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/exports/geojson</dct:identifier>
+            <dct:title xml:lang="pl-t-es-t0-mtec">aplikacja/json</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">uporaba/json</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">εφαρμογή/json</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">додаток/json</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">sovellus/json</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">aplikace/json</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">alkalmazás/Json</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">application/json</dct:title>
+            <dct:title xml:lang="es">application/json</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Nesta lista todos os concelhos e outras entidades locais menores que constituem centros populacionais da província de Castellón aparecem.</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Šiame sąraše yra visos savivaldybės ir kiti smulkūs vietiniai subjektai, sudarantys Kasteljono provincijos gyventojų centrus.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-dipcas-es-explore-dataset-nucleos-de-poblacion-"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-05T04:35:04Z</edp:transReceived>
+    <dct:identifier>https://datosabiertos.dipcas.es/explore/dataset/nucleos-de-poblacion/</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:27:08Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

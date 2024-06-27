@@ -1,0 +1,283 @@
+{
+  "links": [
+    {
+      "rel": "self",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion"
+    },
+    {
+      "rel": "datasets",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets"
+    },
+    {
+      "rel": "records",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/records"
+    },
+    {
+      "rel": "exports",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/exports"
+    },
+    {
+      "rel": "facets",
+      "href": "https://dipcas.opendatasoft.com/api/v2/catalog/datasets/nucleos-de-poblacion/facets"
+    }
+  ],
+  "dataset": {
+    "visibility": "domain",
+    "dataset_id": "nucleos-de-poblacion",
+    "dataset_uid": "da_dd0gjj",
+    "has_records": true,
+    "features": [
+      "analyze",
+      "geo"
+    ],
+    "attachments": [
+      
+    ],
+    "alternative_exports": [
+      
+    ],
+    "data_visible": true,
+    "fields": [
+      {
+        "name": "objectid",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "OBJECTID",
+        "type": "int"
+      },
+      {
+        "name": "fase",
+        "description": null,
+        "annotations": {
+          "facet": true
+        },
+        "label": "FASE",
+        "type": "text"
+      },
+      {
+        "name": "cod_mun",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "COD_MUN",
+        "type": "text"
+      },
+      {
+        "name": "cod_ent",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "COD_ENT",
+        "type": "text"
+      },
+      {
+        "name": "cod_supram",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "COD_SUPRAM",
+        "type": "text"
+      },
+      {
+        "name": "cod_pobl",
+        "description": null,
+        "annotations": {
+          "facet": true
+        },
+        "label": "COD_POBL",
+        "type": "text"
+      },
+      {
+        "name": "denominaci",
+        "description": null,
+        "annotations": {
+          "sortable": true
+        },
+        "label": "DENOMINACI",
+        "type": "text"
+      },
+      {
+        "name": "codigo",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "CODIGO",
+        "type": "text"
+      },
+      {
+        "name": "zzzcod",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "ZZZCOD",
+        "type": "text"
+      },
+      {
+        "name": "globalid",
+        "description": null,
+        "annotations": {
+          "facetsort": "-count"
+        },
+        "label": "GLOBALID",
+        "type": "text"
+      },
+      {
+        "name": "padron",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "PADRON",
+        "type": "int"
+      },
+      {
+        "name": "pob_estacional",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "POB_ESTACIONAL",
+        "type": "int"
+      },
+      {
+        "name": "altitud",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "ALTITUD",
+        "type": "int"
+      },
+      {
+        "name": "viviendas",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "VIVIENDAS",
+        "type": "int"
+      },
+      {
+        "name": "hoteles",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "HOTELES",
+        "type": "int"
+      },
+      {
+        "name": "casas_rurales",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "CASAS_RURALES",
+        "type": "int"
+      },
+      {
+        "name": "municipio",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "MUNICIPIO",
+        "type": "text"
+      },
+      {
+        "name": "geo_shape",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "geo_shape",
+        "type": "geo_shape"
+      },
+      {
+        "name": "geo_point_2d",
+        "description": null,
+        "annotations": {
+          
+        },
+        "label": "geo_point_2d",
+        "type": "geo_point_2d"
+      }
+    ],
+    "metas": {
+      "dcat": {
+        "created": "2019-06-13",
+        "issued": null,
+        "creator": null,
+        "contributor": null,
+        "contact_name": null,
+        "contact_email": null,
+        "accrualperiodicity": "Anual",
+        "spatial": "http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Castellon",
+        "temporal": null,
+        "granularity": null,
+        "dataquality": null,
+        "publisher_type": null,
+        "conforms_to": null,
+        "temporal_coverage_start": null,
+        "temporal_coverage_end": null,
+        "accessRights": null
+      },
+      "default": {
+        "title": "Núcleos de población",
+        "description": "En este listado aparecen todos los municipios y otras entidades locales menores que constituyen núcleos de población de la provincia de Castellón.",
+        "theme": [
+          "Law and justice"
+        ],
+        "keyword": [
+          "municipios",
+          "geolocalizado",
+          "provincia de Castellón"
+        ],
+        "license": "http://www.opendefinition.org/licenses/cc-by",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "language": "es",
+        "metadata_languages": [
+          "es"
+        ],
+        "timezone": [
+          "Europe/Madrid"
+        ],
+        "modified": "2024-05-31T22:09:55+00:00",
+        "modified_updates_on_metadata_change": true,
+        "modified_updates_on_data_change": true,
+        "data_processed": "2024-05-31T22:09:55+00:00",
+        "metadata_processed": "2024-05-31T22:09:55.106000+00:00",
+        "geographic_reference": [
+          "es_60_12"
+        ],
+        "geographic_reference_auto": true,
+        "territory": [
+          "Castelló"
+        ],
+        "geometry_types": [
+          "Point"
+        ],
+        "bbox": null,
+        "publisher": "Diputación Provincial de Castelló/Castellón",
+        "references": "https://datosabiertos.dipcas.es/dataset/5f6f3aa1-2b7a-45bf-95f1-8728ee1708d9/resource/2bd44821-4475-4850-a51f-997a79d15aea/download/2015nucleos.csv",
+        "records_count": 425,
+        "attributions": null,
+        "source_domain": null,
+        "source_domain_title": null,
+        "source_domain_address": null,
+        "source_dataset": null,
+        "shared_catalog": null,
+        "federated": false,
+        "oauth_scope": null,
+        "parent_domain": null
+      }
+    }
+  }
+}

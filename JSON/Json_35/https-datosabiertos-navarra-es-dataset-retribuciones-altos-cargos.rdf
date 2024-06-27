@@ -1,0 +1,2022 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-navarra-es-dataset-retribuciones-altos-cargos">
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:09:12Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-navarra-es-dataset-retribuciones-altos-cargos"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>5fef4f9650ecd57ed475f772298beca5</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-navarra-es-dataset-retribuciones-altos-cargos">
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2021-06-23T00:00:00+02:00</dct:issued>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Bezoldiging van hoge ambtenaren voor elk jaar, overeenkomstig de Foral Law of General Budgets van Navarra.</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Винагорода вищих посадових осіб за кожен рік, із застосуванням закону про загальні бюджети Наварри.</dct:description>
+        <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos</dct:identifier>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:description xml:lang="es">Retribuciones de los altos cargos para cada año, en aplicación de la Ley Foral de Presupuestos Generales de Navarra.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Didelis atlyginimas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b0a14a93-e9ea-402b-9b8b-a7d63fab5c22">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">2020 - Retribuciones altos cargos - XML</dct:title>
+            <dct:title xml:lang="eu">2020 - Goi-kargudunen ordainsariak - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/622abbfa-7aab-49eb-8a74-88d97e8c12f5?format=xml&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/622abbfa-7aab-49eb-8a74-88d97e8c12f5?format=xml&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f7b36573-30bd-4460-81d1-efb548a819c3">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2016 - Retribuciones altos cargos - CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/da7398fc-59f4-4920-96c0-76695029456e?format=csv&amp;bom=True"/>
+            <dct:title xml:lang="eu">2016 - Goi-kargudunen ordainsariak - CSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/da7398fc-59f4-4920-96c0-76695029456e?format=csv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a936d575-a91a-4759-8d56-478616e57be2">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">2012 - Retribuciones altos cargos - CSV</dct:title>
+            <dct:title xml:lang="eu">2012 - Goi-kargudunen ordainsariak - CSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/8528ee31-5856-4fe5-996c-dd52a86be857?format=csv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/8528ee31-5856-4fe5-996c-dd52a86be857?format=csv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0a2b8dc1-1c5a-463c-9978-1d82de285318">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2021 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/3dd66525-4333-4e19-aed4-4d60725e8b58?view_id=ba4957bb-11b8-4b0a-9350-eab405a2a75e"/>
+            <dct:title xml:lang="eu">2021 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/3dd66525-4333-4e19-aed4-4d60725e8b58?view_id=ba4957bb-11b8-4b0a-9350-eab405a2a75e</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9ecc85ec-794c-417b-91c9-9d5721077ea3">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/8528ee31-5856-4fe5-996c-dd52a86be857?format=xml&amp;bom=True"/>
+            <dct:title xml:lang="es">2012 - Retribuciones altos cargos - XML</dct:title>
+            <dct:title xml:lang="eu">2012 - Goi-kargudunen ordainsariak - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/8528ee31-5856-4fe5-996c-dd52a86be857?format=xml&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/41baaebc-1bb7-4af3-895d-f23b8964675b">
+            <dct:title xml:lang="eu">2017 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/94d888f9-5f90-4d4d-a73e-391153bf304c?format=tsv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/94d888f9-5f90-4d4d-a73e-391153bf304c?format=tsv&amp;bom=True"/>
+            <dct:title xml:lang="es">2017 - Retribuciones altos cargos - TSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="et-t-es-t0-mtec">Kõrgemate ametnike töötasud igal aastal Navarra üldise eelarveseaduse alusel.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a9bca686-65b1-420f-923d-ae152b7169cc">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="eu">2023 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/5c90297f-a544-4c8e-9108-facd47d896a4?view_id=92696510-a650-4a69-b5c6-854f93ac2a86</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/5c90297f-a544-4c8e-9108-facd47d896a4?view_id=92696510-a650-4a69-b5c6-854f93ac2a86"/>
+            <dct:title xml:lang="es">2023 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Rémunération des hauts fonctionnaires pour chaque année, en application de la loi forale des budgets généraux de Navarre.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/57916bfe-1ad0-4360-b89e-29582c4981f3">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">2021 - Retribuciones altos cargos - XML</dct:title>
+            <dct:title xml:lang="eu">2021 - Goi-kargudunen ordainsariak - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/3dd66525-4333-4e19-aed4-4d60725e8b58?format=xml&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/3dd66525-4333-4e19-aed4-4d60725e8b58?format=xml&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Osebni prejemki visokih uradnikov za vsako leto v skladu s Foral Law of General Budgets of Navarre.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9cde073f-a91c-4542-9168-0a6705e5c832">
+            <dct:title xml:lang="uk-t-es-t0-mtec">2014 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2014 – Seniorersättning – XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2014 – Wynagrodzenie Seniora – XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2014 – Seniorenvergütung – XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/95a033f2-9241-46e0-8508-f8ac6c9b9e38.xlsx</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">2014 — Remunerazione Senior — XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2014 — Απολαβές Ηλικίας — XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/95a033f2-9241-46e0-8508-f8ac6c9b9e38.xlsx"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2014 – Odmena seniorov – XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">2014 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2014 – Remunerația seniorilor – XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2014 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2014 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2014 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2014 — Vecākais atalgojums — XLSX</dct:title>
+            <dct:title xml:lang="eu">2014 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2014 — Luach Saothair Sinsearach — XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">2014 — Seniorløn — XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2014 m. – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2014 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2014 — Възнаграждение за възрастни — XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2014 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2014 — Remuneração Sênior — XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2014 – senioripalkka – XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2014 – Vanemtöötasu – XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2014 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2014. – Više plaće – XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2014 — Senior Remuneration — XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1e43fe7c-aada-4504-935c-0d1114f3c376">
+            <dct:title xml:lang="en-t-es-t0-mtec">2021 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2021 – vanempalk – XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2021 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2021. gads — vecāku atalgojums — XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2021 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/3dd66525-4333-4e19-aed4-4d60725e8b58.xlsx</dct:identifier>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2021 – Palkka- ja palkkiot – XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2021. viša plaća – XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2021 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2021 – Remunerația persoanelor în vârstă – XLSX</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2021 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2021 – Odmeňovanie seniorov – XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2021 — Remuneração de Sénior — XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/3dd66525-4333-4e19-aed4-4d60725e8b58.xlsx"/>
+            <dct:title xml:lang="de-t-es-t0-mtec">2021 – Seniorenvergütung – XLSX</dct:title>
+            <dct:title xml:lang="eu">2021 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2021 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2021 – Vezetői javadalmazás – XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2021 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2021 – Wynagrodzenie dla seniorów – XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2021 — Luach saothair Sinsearach — XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2021 m. – Vyresniojo amžiaus darbo užmokestis – XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2021 – Seniorersättning – XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2021 г. — Възнаграждение за висши служители — XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2021 — Remunerazione senior — XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2021 — Απολαβές ανώτερων υπαλλήλων — XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2021 — Seniorvederlag — XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2021 — Senior Bezoldiging — XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b154faad-24eb-4d4c-95e8-697b3fd76d42">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2013 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?format=tsv&amp;bom=True"/>
+            <dct:title xml:lang="es">2013 - Retribuciones altos cargos - TSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f6cb2646-cd59-4300-936c-249a199f3caf">
+            <dct:title xml:lang="de-t-es-t0-mtec">2021 – Seniorenvergütungen – SDG</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2021 – Vanemate töötasud – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2021 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2021. gads — vecāku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2021 – Odměny seniorů – cíl udržitelného rozvoje</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2021 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2021 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2021 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2021. viši primici – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2021 — Rémunérations des seniors — ODD</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2021 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2021 – Seniorersättning – SDG</dct:title>
+            <dct:title xml:lang="eu">2021 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/3dd66525-4333-4e19-aed4-4d60725e8b58.ods</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/3dd66525-4333-4e19-aed4-4d60725e8b58.ods"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2021 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2021 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2021 — Bezoldiging van senioren — SDG</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2021 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="es">2021 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2021 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2021 m. Vyresniojo amžiaus darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2021 — Remunerações de Sénior — ODS</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2021 – Vanhempien palkat – kestävän kehityksen tavoite</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2021 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2021 – Wynagrodzenia dla seniorów – cele zrównoważonego rozwoju</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2021 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2021 г. — Възнаграждения на висшите служители — ЦУР</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Vysoká odmena</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8840841f-86f4-4f56-b76b-f52a37e81638">
+            <dct:title xml:lang="es">2021 - Retribuciones altos cargos - TSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/3dd66525-4333-4e19-aed4-4d60725e8b58?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2021 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/3dd66525-4333-4e19-aed4-4d60725e8b58?format=tsv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Presupuestos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7b4555ad-df16-446a-a6a5-3e758aab818e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">2015 - Goi-kargudunen ordainsariak - XML</dct:title>
+            <dct:title xml:lang="es">2015 - Retribuciones altos cargos - XML</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/f2d349a9-f843-4351-a17f-dd54024dc7f1?format=xml&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/f2d349a9-f843-4351-a17f-dd54024dc7f1?format=xml&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fdf37ab8-0dcc-47e9-ac0d-c3a1f9fa9d1e">
+            <dct:title xml:lang="pt-t-es-t0-mtec">2017 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2017 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2017 — High Remuneration</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2017 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2017 – Hohe Vergütung</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/94d888f9-5f90-4d4d-a73e-391153bf304c/download/altoscargos2017.csv"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2017 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="es">2017 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2017 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2017. – visoka plaća</dct:title>
+            <dct:title xml:lang="eu">2017 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2017 – Korkea palkka</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2017 – Hög lön</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2017 – visoki prejemki</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2017 — Hoge Bezoldiging</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2017 – vysoká odměna</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2017 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2017 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2017 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2017 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2017 – kõrge palk</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2017 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2017 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2017 г. — Високо възнаграждение</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/94d888f9-5f90-4d4d-a73e-391153bf304c/download/altoscargos2017.csv</dct:identifier>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2017 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2017 — Høj løn</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2017 — augsta atlīdzība</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Възнаграждение на висшите служители за всяка година в изпълнение на Закона за общите бюджети на Навара.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7ceb0d3b-4794-441e-b077-a244fd6ee9f2">
+            <dct:title xml:lang="cs-t-es-t0-mtec">2019 – vysoká odměna</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2019 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2019 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2019 — High Remuneration</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2019 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="eu">2019 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2019 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2019 – kõrge palk</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2019 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2019 – Korkea palkka</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2019 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2019 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2019 - Висока заробітна плата</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2019. gads — augsta atlīdzība</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/4367497c-daf3-4df5-810f-e7f8a3da97bb/download/altoscargos2019xlsx.zip"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2019. visoka plaća</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2019 – visoki prejemki</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/4367497c-daf3-4df5-810f-e7f8a3da97bb/download/altoscargos2019xlsx.zip</dct:identifier>
+            <dct:title xml:lang="de-t-es-t0-mtec">2019 – Hohe Vergütung</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2019 – Hög lön</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2019 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2019 — Hoge Bezoldiging</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2019 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2019 — Høj løn</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2019 г. — Високо възнаграждение</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2019 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="es">2019 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2019 — Υψηλή αμοιβή</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/56b9a06d-0398-4ff9-90cf-0b5afd005401">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">2023 - Goi-kargudunen ordainsariak - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/5c90297f-a544-4c8e-9108-facd47d896a4?format=xml&amp;bom=True"/>
+            <dct:title xml:lang="es">2023 - Retribuciones altos cargos - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/5c90297f-a544-4c8e-9108-facd47d896a4?format=xml&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b8280c8c-232b-4e29-986b-6d1c243c82c5">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="eu">2013 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?view_id=6f2c2e1e-b2af-47dd-8dec-ec0e5ef1e15f</dct:identifier>
+            <dct:title xml:lang="es">2013 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?view_id=6f2c2e1e-b2af-47dd-8dec-ec0e5ef1e15f"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Retribuciones altos cargos</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5c235bc0-0c25-40d4-b44b-49039e036ba5">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/8f26f797-3e36-46f2-b312-ee00f6df1159?format=csv&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">2022 - Goi-kargudunen ordainsariak - CSV</dct:title>
+            <dct:title xml:lang="es">2022 - Retribuciones altos cargos - CSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/8f26f797-3e36-46f2-b312-ee00f6df1159?format=csv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3da2e5dd-483e-43c0-a79c-39679975861c">
+            <dct:title xml:lang="mt-t-es-t0-mtec">2023 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2023 — Seniorvederlag — XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2023 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2023 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2023 — Remuneração Sênior — XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2023 — Απολαβές ηλικιωμένων — XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2023 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2023 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2023 – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2023 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2023 г. — Възнаграждение за висши служители — XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2023 — Remunerazione senior — XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2023 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="eu">2023 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2023. gads — Vecākais atalgojums — XLSX</dct:title>
+            <dct:title xml:lang="es">2023 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2023 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2023 – Vanemtöötasu – XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2023 – Seniorersättning – XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2023 – Seniorenvergütung – XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/5c90297f-a544-4c8e-9108-facd47d896a4.xlsx</dct:identifier>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2023 – Wynagrodzenie starsze – XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2023 – senioripalkka – XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/5c90297f-a544-4c8e-9108-facd47d896a4.xlsx"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2023. – Naknada za starije osobe – XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2023 — Luach saothair Sinsearach — XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2023 – Odmeňovanie seniorov – XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2023 – Remunerația persoanelor în vârstă – XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/34ab669f-f029-4d94-a59c-33c6a43932d1">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">2011 - Retribuciones altos cargos - JSON</dct:title>
+            <dct:title xml:lang="eu">2011 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dct:title xml:lang="es">2011 - Retribuciones altos cargos - JSON - API</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?format=json&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?format=json&amp;bom=True"/>
+            <dct:title xml:lang="eu">2011 - Goi-kargudunen ordainsariak - JSON</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7b83cc55-b732-4552-abf4-8c269990501b">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">2023 - Retribuciones altos cargos - TSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/5c90297f-a544-4c8e-9108-facd47d896a4?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2023 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/5c90297f-a544-4c8e-9108-facd47d896a4?format=tsv&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Remunerazzjoni Għolja</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/03d792dd-d431-4d2b-9afb-7c83938b82b0">
+            <dct:title xml:lang="it-t-es-t0-mtec">2022 — Remunerazioni senior — SDG</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">2022 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2022 – Seniorenvergütung – SDG</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2022 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2022 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2022 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2022. viši primici – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2022 – Odměny seniorů – cíl udržitelného rozvoje</dct:title>
+            <dct:title xml:lang="eu">2022 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2022 – Wynagrodzenia dla seniorów – cele zrównoważonego rozwoju</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2022 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2022 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2022 m. Vyresniojo amžiaus darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2022 – Vanemtöötasud – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2022 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2022 — Remunerações de Sénior — ODS</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2022 – Seniorersättning – SDG</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2022 — Bezoldiging van senioren — SDG</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2022 г. — Възнаграждения на висшите служители — ЦУР</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/8f26f797-3e36-46f2-b312-ee00f6df1159.ods"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2022 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2022 – Vanhempien palkkiot – kestävän kehityksen tavoite</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2022 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2022 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2022 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/8f26f797-3e36-46f2-b312-ee00f6df1159.ods</dct:identifier>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2022. gads — vecāku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2022 — Rémunérations seniors — ODD</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c4751ce5-4fc6-4b62-b222-25368c9cb375">
+            <dct:title xml:lang="es">2016 - Retribuciones altos cargos - JSON</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">2016 - Goi-kargudunen ordainsariak - JSON</dct:title>
+            <dct:title xml:lang="es">2016 - Retribuciones altos cargos - JSON - API</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/da7398fc-59f4-4920-96c0-76695029456e?format=json&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/da7398fc-59f4-4920-96c0-76695029456e?format=json&amp;bom=True"/>
+            <dct:title xml:lang="eu">2016 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="en-t-es-t0-mtec">Remuneration of senior officials for each year, in application of the Foral Law of General Budgets of Navarre.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5715a63f-f32a-4f02-ad30-6f7ac5828d6f">
+            <dct:title xml:lang="es">2012 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2012 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2012 m. – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2012 – Seniorenvergütung – XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2012 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2012 — Seniorløn — XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2012 — Възнаграждение за възрастни — XLSX</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2012 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2012 – Vanemtöötasu – XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2012 — Remuneração Sênior — XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/8528ee31-5856-4fe5-996c-dd52a86be857.xlsx"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2012 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2012 — Luach Saothair Sinsearach — XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2012 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2012 – senioripalkka – XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2012 — Vecākais atalgojums — XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/8528ee31-5856-4fe5-996c-dd52a86be857.xlsx</dct:identifier>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2012 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:title xml:lang="eu">2012 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2012 – Seniorersättning – XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2012 — Απολαβές Ηλικίας — XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2012 — Remunerazione Senior — XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2012 – Remunerația seniorilor – XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2012 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2012 – Wynagrodzenie Seniora – XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2012 – Odmena seniorov – XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2012 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2012. – Naknada za starije osobe – XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/269a65af-3aa8-4cb9-9350-24b648e2d42c">
+            <dct:title xml:lang="fr-t-es-t0-mtec">2014 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2014 – hohe Vergütung</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/95a033f2-9241-46e0-8508-f8ac6c9b9e38/download/altoscargos2014.csv</dct:identifier>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2014 - Висока заробітна плата</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/95a033f2-9241-46e0-8508-f8ac6c9b9e38/download/altoscargos2014.csv"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2014 – Korkea palkka</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">2014 — Høj løn</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2014 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2014 – vysoká odměna</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2014 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2014 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2014. gads — augsta atlīdzība</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2014 – Visoko plačilo</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2014 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2014 – Remunerație ridicată</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">2014 – kõrge palk</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2014 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2014 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2014 — High Remuneration</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2014 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="eu">2014 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2014 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="es">2014 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2014 — Hoge beloning</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2014 г. — Високо възнаграждение</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2014 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2014. – visoka plaća</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2014 – Hög lön</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Augsta atlīdzība</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/458c0da4-bd47-4a35-bc33-ca7fc1186682">
+            <dct:title xml:lang="fi-t-es-t0-mtec">2020 – Vanhempien palkat – kestävän kehityksen tavoitteet</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2020 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2020 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2020 – Seniorenvergütungen – SDG</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/622abbfa-7aab-49eb-8a74-88d97e8c12f5.ods</dct:identifier>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2020 — Senior remuneraties — SDG</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/622abbfa-7aab-49eb-8a74-88d97e8c12f5.ods"/>
+            <dct:title xml:lang="it-t-es-t0-mtec">2020 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="es">2020 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">2020 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2020 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2020 – Wynagrodzenia dla seniorów – cele zrównoważonego rozwoju</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2020 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2020 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2020 г. — Възнаграждения на висшите служители — ЦУР</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2020 – Odměny seniorů – cíl udržitelného rozvoje</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2020 – Vanemate töötasud – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2020 — Rémunérations des seniors — ODD</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2020 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2020 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2020. viši primici – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2020 m. Vyresniojo amžiaus darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2020. gads — vecāku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2020 — Remunerações de Sénior — ODS</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2020 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:title xml:lang="eu">2020 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2020 – Seniorersättning – SDG</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2020 - Старша заробітна плата - SDG</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Kontuak ematea</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7de36a68-96e1-4bff-bac9-742ff42f7a15">
+            <dct:title xml:lang="en-t-es-t0-mtec">2017 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2017 – Seniorenvergütung – XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2017 — Seniorløn — XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/94d888f9-5f90-4d4d-a73e-391153bf304c.xlsx"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2017 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2017 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2017 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2017 – senioripalkka – XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2017. – Više plaće – XLSX</dct:title>
+            <dct:title xml:lang="es">2017 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/94d888f9-5f90-4d4d-a73e-391153bf304c.xlsx</dct:identifier>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2017 m. – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2017 – Remunerația seniorilor – XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2017 – Seniorersättning – XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2017 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2017 — Luach Saothair Sinsearach — XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2017 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">2017 — Απολαβές Ηλικίας — XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2017 — Възнаграждение за възрастни — XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2017 – Odmeňovanie seniorov – XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2017 — Remuneração Sênior — XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2017 – Wynagrodzenie Seniora – XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2017 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2017 — Remunerazione Senior — XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">2017 – Vanemtöötasu – XLSX</dct:title>
+            <dct:title xml:lang="eu">2017 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2017 — Vecākais atalgojums — XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2017 — Rémunération senior — XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/459cd44d-a3a8-4e61-a484-4dbe4f6244d0">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/5c90297f-a544-4c8e-9108-facd47d896a4?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2023 - Goi-kargudunen ordainsariak - JSON</dct:title>
+            <dct:title xml:lang="es">2023 - Retribuciones altos cargos - JSON</dct:title>
+            <dct:title xml:lang="eu">2023 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/5c90297f-a544-4c8e-9108-facd47d896a4?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">2023 - Retribuciones altos cargos - JSON - API</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Hög lön</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/854784f8-8de6-4f52-bf87-b26f4c959af7">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">2013 - Goi-kargudunen ordainsariak - JSON</dct:title>
+            <dct:title xml:lang="es">2013 - Retribuciones altos cargos - JSON - API</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2013 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">2013 - Retribuciones altos cargos - JSON</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d55eb645-7c3c-43e0-8524-08139d11e919">
+            <dct:title xml:lang="fi-t-es-t0-mtec">2019 – Korkea palkka</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2019 – visoki prejemki</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2019. gads — augsta atlīdzība</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="de-t-es-t0-mtec">2019 – Hohe Vergütung</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2019 – vysoká odměna</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2019 – Hög lön</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2019 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2019 — High Remuneration</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2019 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="es">2019 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2019 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2019 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2019. visoka plaća</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2019 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2019 – kõrge palk</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2019 — Høj løn</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2019 г. — Високо възнаграждение</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/f9733d57-c7e9-48ae-bcfa-aa00d3580caf/download/altoscagos2019ods.zip</dct:identifier>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2019 – Magas javadalmazás</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/f9733d57-c7e9-48ae-bcfa-aa00d3580caf/download/altoscagos2019ods.zip"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2019 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2019 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2019 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="eu">2019 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2019 — Hoge Bezoldiging</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2019 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2019 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2019 – Vysoká odmena</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Korkea korvaus</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Υψηλή αμοιβή</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/47829b79-2851-4822-96ec-341fa29ed129">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2021 - Retribuciones altos cargos - CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/3dd66525-4333-4e19-aed4-4d60725e8b58?format=csv&amp;bom=True"/>
+            <dct:title xml:lang="eu">2021 - Goi-kargudunen ordainsariak - CSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/3dd66525-4333-4e19-aed4-4d60725e8b58?format=csv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/45229cbb-c894-4fe2-94ea-b8d8a8eb01eb">
+            <dct:title xml:lang="es">2022 - Retribuciones altos cargos - XML</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/8f26f797-3e36-46f2-b312-ee00f6df1159?format=xml&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/8f26f797-3e36-46f2-b312-ee00f6df1159?format=xml&amp;bom=True"/>
+            <dct:title xml:lang="eu">2022 - Goi-kargudunen ordainsariak - XML</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Hoge remuneratie</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a7e4d671-1560-4a97-bf2f-eb60940d660d">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/8f26f797-3e36-46f2-b312-ee00f6df1159.xlsx</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/8f26f797-3e36-46f2-b312-ee00f6df1159.xlsx"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2022 – Odmeňovanie seniorov – XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2022 – senioripalkka – XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2022 — Seniorløn — XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2022 – Remunerația persoanelor în vârstă – XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2022 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2022 – Wynagrodzenie dla seniorów – XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2022 — Remunerazione senior — XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2022 — Luach saothair Sinsearach — XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2022 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2022 – Seniorersättning – XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2022 — Възнаграждение за възрастни — XLSX</dct:title>
+            <dct:title xml:lang="es">2022 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2022 – Vanemtöötasu – XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2022 — Remuneração Sênior — XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2022 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="eu">2022 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2022 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2022 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2022 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2022. viša plaća – XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2022 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2022 — Απολαβές Ανώτερων — XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2022 – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2022 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2022 — Vecākais atalgojums — XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2022 – Seniorenvergütung – XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fc0b804e-c08e-4e95-8b6f-ec33e5202071">
+            <dct:title xml:lang="bg-t-es-t0-mtec">2011 — Възнаграждение за възрастни — XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2011 m. – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2011 – Seniorenvergütung – XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2011 — Remuneração Sênior — XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2011 – Vanemtöötasu – XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/1b94df04-9bea-4c5f-b74a-3b7c15ddece9.xlsx</dct:identifier>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2011 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2011 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2011 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2011 — Seniorløn — XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2011 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2011 – Remunerația seniorilor – XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2011 – senioripalkka – XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2011 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2011 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2011 – Odmena seniorov – XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2011 — Απολαβές Ηλικίας — XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/1b94df04-9bea-4c5f-b74a-3b7c15ddece9.xlsx"/>
+            <dct:title xml:lang="eu">2011 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2011 — Luach Saothair Sinsearach — XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2011 — Remunerazione Senior — XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2011 – Seniorersättning – XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2011 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="es">2011 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2011 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2011 — Vecākais atalgojums — XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2011. – Naknada za starije osobe – XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2011 – Wynagrodzenie Seniora – XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cee3c8a2-9e0a-48c9-a1e7-6987e7f459ac">
+            <dct:title xml:lang="sk-t-es-t0-mtec">2023 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2023 — Alta remunerazione</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2023. – Visoka naknada</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2023 — High Remuneration</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2023 г. — Високо възнаграждение</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2023 – visoki prejemki</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/5c90297f-a544-4c8e-9108-facd47d896a4/download/retribucionesaltos-cargos-2023.csv</dct:identifier>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2023 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2023 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2023 — Høj løn</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2023 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2023 – kõrge palk</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2023 – Korkea palkka</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2023 – Hög lön</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2023. gads — Augsta atlīdzība</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2023 – vysoká odměna</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/5c90297f-a544-4c8e-9108-facd47d896a4/download/retribucionesaltos-cargos-2023.csv"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2023 m. Didelis darbo užmokestis</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2023 – hohe Vergütung</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2023 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2023 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2023 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2023 — Hoge beloning</dct:title>
+            <dct:title xml:lang="eu">2023 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2023 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2023 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="es">2023 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2023 — Ardluach saothair</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="it-t-es-t0-mtec">Retribuzione degli alti funzionari per ogni anno, in applicazione del diritto forale dei bilanci generali della Navarra.</dct:description>
+        <dcat:keyword xml:lang="es">Rendición de cuentas</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f2a4e238-0cef-4ce7-816d-206f145939ba">
+            <dct:title xml:lang="hr-t-es-t0-mtec">2012. – visoka plaća</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2012 – Wysokie wynagrodzenie</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2012 – Visoko plačilo</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2012 — Høj løn</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2012 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2012 г. — Високо възнаграждение</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/8528ee31-5856-4fe5-996c-dd52a86be857/download/altoscargos2012.csv"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2012 – vysoká odměna</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2012 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="es">2012 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2012 – Korkea palkka</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2012 — Remunerazzjoni Għolja</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/8528ee31-5856-4fe5-996c-dd52a86be857/download/altoscargos2012.csv</dct:identifier>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2012 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2012 — High Remuneration</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2012 – Hög lön</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2012 — Augsta atlīdzība</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2012 – kõrge palk</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2012 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2012 — Hoge Bezoldiging</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2012 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="eu">2012 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2012 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2012 – hohe Vergütung</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2012 m. Didelis darbo užmokestis</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2012 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2012 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2012 — Ardluach saothair</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="eu">Goi-kargudunen ordainsariak</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4eba11ae-a550-4e6c-9336-7834db9cc144">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="es">2015 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/f2d349a9-f843-4351-a17f-dd54024dc7f1?view_id=d66658bf-f5f0-4ac1-9e40-75ad860e0c6d"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/f2d349a9-f843-4351-a17f-dd54024dc7f1?view_id=d66658bf-f5f0-4ac1-9e40-75ad860e0c6d</dct:identifier>
+            <dct:title xml:lang="eu">2015 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Visoka plaća</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-12T00:00:00+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/104e4040-bdbf-4bef-8926-cd98808eb2c4">
+            <dct:title xml:lang="eu">2017 - Goi-kargudunen ordainsariak - JSON</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/94d888f9-5f90-4d4d-a73e-391153bf304c?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2017 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dct:title xml:lang="es">2017 - Retribuciones altos cargos - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/94d888f9-5f90-4d4d-a73e-391153bf304c?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">2017 - Retribuciones altos cargos - JSON - API</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0737d391-67ac-41e6-995c-c47c6ef9a20e">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/8d5c5428-5279-4098-86b6-2c6c4b7569c7/download/altoscargos2019csv.zip"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2019 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2019 — Høj løn</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2019 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2019 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2019. gads — augsta atlīdzība</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2019 – visoki prejemki</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2019 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2019 – Korkea palkka</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2019 — High Remuneration</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2019 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2019 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2019 – Hög lön</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2019 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2019 – Hohe Vergütung</dct:title>
+            <dct:title xml:lang="es">2019 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2019. visoka plaća</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2019 — Hoge Bezoldiging</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2019 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2019 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2019 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2019 – kõrge palk</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/8d5c5428-5279-4098-86b6-2c6c4b7569c7/download/altoscargos2019csv.zip</dct:identifier>
+            <dct:title xml:lang="eu">2019 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2019 – vysoká odměna</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2019 – Magas javadalmazás</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2019 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2019 г. — Високо възнаграждение</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8f3f1bf9-05f7-47f4-9535-18b745737929">
+            <dct:title xml:lang="es">2020 - Retribuciones altos cargos - CSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/622abbfa-7aab-49eb-8a74-88d97e8c12f5?format=csv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2020 - Goi-kargudunen ordainsariak - CSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/622abbfa-7aab-49eb-8a74-88d97e8c12f5?format=csv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="da-t-es-t0-mtec">Vederlag til højtstående tjenestemænd for hvert år i henhold til Navarras grundlov om almindelige budgetter.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Wysokie wynagrodzenie</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/057e1070-1b8b-4a92-9875-e8583e493e4f">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/f2d349a9-f843-4351-a17f-dd54024dc7f1?format=tsv&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">2015 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/f2d349a9-f843-4351-a17f-dd54024dc7f1?format=tsv&amp;bom=True"/>
+            <dct:title xml:lang="es">2015 - Retribuciones altos cargos - TSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Vyresniųjų pareigūnų darbo užmokestis už kiekvienus metus, taikant Navaros bendrųjų biudžetų įstatymą.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Augstāko amatpersonu atalgojums par katru gadu, piemērojot Navarras vispārējā budžeta Foral likumu.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f8cee457-f4c6-4c62-b140-4b35bbd8d049">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="es">2020 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/622abbfa-7aab-49eb-8a74-88d97e8c12f5?view_id=6a55d5fb-797f-4d2a-b6dd-f5ef4c681ee0</dct:identifier>
+            <dct:title xml:lang="eu">2020 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/622abbfa-7aab-49eb-8a74-88d97e8c12f5?view_id=6a55d5fb-797f-4d2a-b6dd-f5ef4c681ee0"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d97adc62-f797-4ef8-9cb3-134327fb5bc1">
+            <dct:title xml:lang="sk-t-es-t0-mtec">2012 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2012 – Wynagrodzenia dla seniorów – SDG</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2012 – Seniorersättning – SDG</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2012 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2012 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2012 – Nadomestila za starejše – SDG</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2012. – Više plaće – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2012 — Vecāko cilvēku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2012 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2012 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2012 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2012 г. — Възнаграждения на висши служители — ЦУР</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2012 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2012 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2012 — Remunerações Sénior — ODS</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2012 — Senior remuneraties — SDG</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2012 — Rémunérations seniors — ODD</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2012 m. Vyresniojo amžiaus darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2012 – Vanhempien palkkiot – kestävän kehityksen tavoite</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/8528ee31-5856-4fe5-996c-dd52a86be857.ods"/>
+            <dct:title xml:lang="es">2012 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2012 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:title xml:lang="eu">2012 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2012 – Seniorenvergütungen – SDG</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2012 – Odměny seniorů – cíl udržitelného rozvoje</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2012 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2012 – Vanemate töötasud – kestliku arengu eesmärk</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/8528ee31-5856-4fe5-996c-dd52a86be857.ods</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/36f112a3-d77f-41de-858d-8d7bb9e396f7">
+            <dct:title xml:lang="es">2017 - Retribuciones altos cargos - CSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/94d888f9-5f90-4d4d-a73e-391153bf304c?format=csv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2017 - Goi-kargudunen ordainsariak - CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/94d888f9-5f90-4d4d-a73e-391153bf304c?format=csv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bbe86f17-f3b2-42e9-8756-21c6d5dcd38e">
+            <dct:title xml:lang="eu">2018 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2018 – Korkea palkka</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2018 г. — Високо възнаграждение</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2018 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2018 – Hög lön</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2018 – vysoká odměna</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2018 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2018 – kõrge palk</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2018 — Hoge beloning</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2018 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2018 — Augsta atlīdzība</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2018 – Visoki prejemki</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2018 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2018 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2018 — High Remuneration</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/5e6c2a5d-4fd8-4c3c-b3b9-80bae1d13923/download/altoscargos2018.xlsx</dct:identifier>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2018 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="es">2018 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2018 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2018 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2018 – hohe Vergütung</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2018 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2018 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2018 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2018 – Magas javadalmazás</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/5e6c2a5d-4fd8-4c3c-b3b9-80bae1d13923/download/altoscargos2018.xlsx"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2018. – visoka plaća</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2018 — Høj løn</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d7bf2488-5748-40b9-9f46-305780220435">
+            <dct:title xml:lang="el-t-es-t0-mtec">2020 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2020. gads — augsta atlīdzība</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">2020 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2020 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2020 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2020 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2020 — Høj løn</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2020 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="eu">2020 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2020 – Magas javadalmazás</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/622abbfa-7aab-49eb-8a74-88d97e8c12f5/download/retribucionesaltoscargos-2020.csv</dct:identifier>
+            <dct:title xml:lang="en-t-es-t0-mtec">2020 — High Remuneration</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2020 – Korkea palkka</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2020 – kõrge palk</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2020 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2020 — Ardluach saothair</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2020 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2020 г. — високо възнаграждение</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2020 m. Didelis darbo užmokestis</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2020 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2020 — Hoge beloning</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2020 – Hög lön</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2020 — Rémunération élevée</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/622abbfa-7aab-49eb-8a74-88d97e8c12f5/download/retribucionesaltoscargos-2020.csv"/>
+            <dct:title xml:lang="de-t-es-t0-mtec">2020 – hohe Vergütung</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2020. visoka plaća</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2020 – visoki prejemki</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2020 – vysoká odměna</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en-t-es-t0-mtec">High Remuneration</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c6393f8e-ef2a-4426-bcde-8fdcb4188fa5">
+            <dct:title xml:lang="es">2011 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?view_id=55335611-ba03-4ebe-9d6a-ce49bb9e112a</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?view_id=55335611-ba03-4ebe-9d6a-ce49bb9e112a"/>
+            <dct:title xml:lang="eu">2011 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/03fb3091-6603-4fa9-8b39-2271c720bd9b">
+            <dct:title xml:lang="sk-t-es-t0-mtec">2021 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2021 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2021 – kõrge palk</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2021 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2021 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="eu">2021 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2021 – hohe Vergütung</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/3dd66525-4333-4e19-aed4-4d60725e8b58/download/retribucionesaltoscargos-2021.csv"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2021. gads — augsta atlīdzība</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2021 m. Didelis darbo užmokestis</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2021 — High Remuneration</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2021 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2021 – vysoká odměna</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2021 – Visoki prejemki</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2021 — Høj løn</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2021 — Alta remuneração</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2021 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="es">2021 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2021 – Korkea palkka</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2021 — Remunerazzjoni Għolja</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2021 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2021 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2021 – Hög lön</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2021 г. — Високо възнаграждение</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2021. visoka plaća</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/3dd66525-4333-4e19-aed4-4d60725e8b58/download/retribucionesaltoscargos-2021.csv</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">2021 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2021 — Hoge beloning</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8ac859c5-dfe2-4892-acb0-b11a3ecfac6e">
+            <dct:title xml:lang="es">2014 - Retribuciones altos cargos - XML</dct:title>
+            <dct:title xml:lang="eu">2014 - Goi-kargudunen ordainsariak - XML</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/95a033f2-9241-46e0-8508-f8ac6c9b9e38?format=xml&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/95a033f2-9241-46e0-8508-f8ac6c9b9e38?format=xml&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Odmeňovanie vyšších úradníkov za každý rok pri uplatňovaní Zákona o všeobecnom rozpočte Navarra.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/58fabc9e-ca16-4458-b0bc-48319e7e69b9">
+            <dct:title xml:lang="sv-t-es-t0-mtec">2016 – Seniorersättning – SDG</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/da7398fc-59f4-4920-96c0-76695029456e.ods"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2016 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2016 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2016 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2016 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2016 – Vanemate töötasud – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2016 – Wynagrodzenia dla seniorów – SDG</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2016. gads — vecāku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2016 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/da7398fc-59f4-4920-96c0-76695029456e.ods</dct:identifier>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2016 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2016 – Vanhempien palkkiot – kestävän kehityksen tavoite</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2016 — Senior remuneraties — SDG</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2016 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2016 m. – vyresniųjų pareigūnų darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2016 – Seniorenvergütungen – SDG</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2016 г. — Възнаграждения на висшите служители — ЦУР</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2016 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2016 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2016 — Remunerações de Sénior — ODS</dct:title>
+            <dct:title xml:lang="eu">2016 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2016 — Rémunérations seniors — ODD</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2016 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2016. – Više plaće – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2016 – Odměny seniorů – cíl udržitelného rozvoje</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">2016 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2016 — Remunerazzjoni Għolja — SDG</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c3f941e4-82f7-41c9-b267-b251d1d00f87">
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/f2d349a9-f843-4351-a17f-dd54024dc7f1.xlsx</dct:identifier>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2015 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2015 — Remunerazione Senior — XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2015 – Vanemtöötasu – XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/f2d349a9-f843-4351-a17f-dd54024dc7f1.xlsx"/>
+            <dct:title xml:lang="de-t-es-t0-mtec">2015 – Seniorenvergütung – XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2015 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2015 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:title xml:lang="es">2015 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2015 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2015 – senioripalkka – XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2015 – Seniorersättning – XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2015 — Vecākais atalgojums — XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2015 — Възнаграждение за възрастни — XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2015 — Remuneração Sênior — XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2015 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2015 – Remunerația seniorilor – XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2015 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2015 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2015 m. – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dct:title xml:lang="eu">2015 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2015 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2015 – Wynagrodzenie Seniora – XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2015. – Više plaće – XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2015 — Seniorløn — XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">2015 — Απολαβές Ανώτερων — XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2015 — Luach Saothair Sinsearach — XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2015 – Odmeňovanie seniorov – XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Remunerare ridicată</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Elevata remunerazione</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9b519513-e332-4bc8-baf3-c61214f80a8b">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/94d888f9-5f90-4d4d-a73e-391153bf304c?format=xml&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2017 - Retribuciones altos cargos - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/94d888f9-5f90-4d4d-a73e-391153bf304c?format=xml&amp;bom=True"/>
+            <dct:title xml:lang="eu">2017 - Goi-kargudunen ordainsariak - XML</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/870c289b-4f95-432b-a205-4a502f93e7b9">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/f2d349a9-f843-4351-a17f-dd54024dc7f1?format=csv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2015 - Goi-kargudunen ordainsariak - CSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">2015 - Retribuciones altos cargos - CSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/f2d349a9-f843-4351-a17f-dd54024dc7f1?format=csv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Висока заробітна плата</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e91a9e1c-8c8e-4b54-8c91-f095eb07d285">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">2014 - Goi-kargudunen ordainsariak - JSON</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/95a033f2-9241-46e0-8508-f8ac6c9b9e38?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2014 - Retribuciones altos cargos - JSON</dct:title>
+            <dct:title xml:lang="es">2014 - Retribuciones altos cargos - JSON - API</dct:title>
+            <dct:title xml:lang="eu">2014 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/95a033f2-9241-46e0-8508-f8ac6c9b9e38?format=json&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3719a19b-ebec-4421-9e1b-55c74a63af04">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="es">2012 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/8528ee31-5856-4fe5-996c-dd52a86be857?view_id=75f26642-b1a0-42ea-b21a-e04d800fd925</dct:identifier>
+            <dct:title xml:lang="eu">2012 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/8528ee31-5856-4fe5-996c-dd52a86be857?view_id=75f26642-b1a0-42ea-b21a-e04d800fd925"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a15002917-retribuciones-altos-cargos/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a15002917-retribuciones-altos-cargos/DurationDescription">
+                <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:years>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Remunerazzjoni ta’ uffiċjali għolja għal kull sena, b’applikazzjoni tal-Liġi Foral tal-Baġits Ġenerali ta’ Navarra.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8b653cd8-f22b-448a-be19-70f739fdb300">
+            <dct:title xml:lang="lt-t-es-t0-mtec">2011 m. Vyresniojo darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2011 – Odměny seniorů – SDG</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2011 — Rémunérations seniors — ODD</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2011 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2011 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2011 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2011 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2011 — Senior remuneraties — SDG</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2011 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/1b94df04-9bea-4c5f-b74a-3b7c15ddece9.ods</dct:identifier>
+            <dct:title xml:lang="de-t-es-t0-mtec">2011 – Seniorenvergütungen – SDG</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/1b94df04-9bea-4c5f-b74a-3b7c15ddece9.ods"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2011. gads — vecāku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2011 — Remunerações de Sénior — ODS</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2011. – Više plaće – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2011 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2011 – Vanhempien palkat – kestävän kehityksen tavoite</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2011 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dct:title xml:lang="es">2011 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:title xml:lang="eu">2011 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2011 г. — Възнаграждения на висши служители — ЦУР</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2011 – Wynagrodzenia dla seniorów – SDG</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2011 – Vanemate töötasud – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2011 – Seniorersättning – SDG</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2011 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2011 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2011 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2011 — Senior Remunerations — SDG</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Wynagrodzenia urzędników wyższego szczebla za każdy rok, zgodnie z ustawą przedterminową budżetów ogólnych Nawarry.</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Αποδοχές των ανώτερων υπαλλήλων για κάθε έτος, κατ’ εφαρμογή του νόμου για τους γενικούς προϋπολογισμούς της Ναβάρρας.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4cc12a90-9833-43e1-8250-8874e68ca4b6">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">2011 - Retribuciones altos cargos - TSV</dct:title>
+            <dct:title xml:lang="eu">2011 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?format=tsv&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?format=tsv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9d4a9906-b5bd-4631-a70d-e06d4680a93f">
+            <dct:title xml:lang="sl-t-es-t0-mtec">2015 – visoki prejemki</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2015 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2015 — High Remuneration</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2015. – visoka plaća</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2015 — Augsta atlīdzība</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2015 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2015 – Korkea palkka</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2015 – Hög lön</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2015 — Hoge beloning</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/f2d349a9-f843-4351-a17f-dd54024dc7f1/download/altoscargos2015.csv"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2015 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2015 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2015 – hohe Vergütung</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2015 – kõrge palk</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2015 г. — високо възнаграждение</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2015 — Rémunération élevée</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2015 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="es">2015 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2015 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2015 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="eu">2015 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/f2d349a9-f843-4351-a17f-dd54024dc7f1/download/altoscargos2015.csv</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">2015 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2015 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2015 — Høj løn</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2015 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2015 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2015 – vysoká odměna</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b31464b7-5bd2-47ce-bdf5-0e83d1b5c740">
+            <dct:title xml:lang="es">2011 - Retribuciones altos cargos - XML</dct:title>
+            <dct:title xml:lang="eu">2011 - Goi-kargudunen ordainsariak - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?format=xml&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?format=xml&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/39b674c4-642a-4cc4-9337-36ac6f869bb8">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">2022 - Retribuciones altos cargos - JSON - API</dct:title>
+            <dct:title xml:lang="eu">2022 - Goi-kargudunen ordainsariak - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2022 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/8f26f797-3e36-46f2-b312-ee00f6df1159?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">2022 - Retribuciones altos cargos - JSON</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/8f26f797-3e36-46f2-b312-ee00f6df1159?format=json&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/433bdf19-16b6-4ccd-8644-30541fb89129">
+            <dct:title xml:lang="sl-t-es-t0-mtec">2016 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2016 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2016 – Wynagrodzenie Seniora – XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2016 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2016 – Seniorenvergütung – XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2016 – senioripalkka – XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2016 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2016 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2016 – Remunerația seniorilor – XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2016 — Luach Saothair Sinsearach — XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2016 – Odmena seniorov – XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2016 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2016 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2016 — Απολαβές Ηλικίας — XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2016 — Remunerazione Senior — XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2016 – Seniorersättning – XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2016 — Възнаграждение за възрастни — XLSX</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2016 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2016 — Seniorløn — XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2016 — Vecākais atalgojums — XLSX</dct:title>
+            <dct:title xml:lang="es">2016 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2016 — Remuneração Sênior — XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/da7398fc-59f4-4920-96c0-76695029456e.xlsx</dct:identifier>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2016 m. – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/da7398fc-59f4-4920-96c0-76695029456e.xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">2016 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2016 – Vanemtöötasu – XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2016. – Više plaće – XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/240a80d7-55bb-413b-acac-2ab48c7d9560">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">2013 - Goi-kargudunen ordainsariak - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?format=xml&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2013 - Retribuciones altos cargos - XML</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?format=xml&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Magas javadalmazás</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9925c243-a850-40fb-825e-b025406a6ebf">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2023 – Wynagrodzenia dla seniorów – SDG</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2023 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2023 — Rémunérations seniors — ODD</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2023. gads — Vecāko cilvēku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2023 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/5c90297f-a544-4c8e-9108-facd47d896a4.ods</dct:identifier>
+            <dct:title xml:lang="et-t-es-t0-mtec">2023 – Vanempalgad – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2023 – Vanhempien palkkiot – kestävän kehityksen tavoite</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2023 — Senior salarissen — SDG</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2023 — Remunerações de Sénior — ODS</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2023 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2023 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2023 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:title xml:lang="es">2023 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2023 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2023 m. Vyresniojo amžiaus darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2023 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2023 г. — Възнаграждения на висшите служители — ЦУР</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2023 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2023 – Seniorersättning – SDG</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2023. – Naknade za starije osobe – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2023 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2023 – Odměny seniorů – cíl udržitelného rozvoje</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2023 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2023 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="eu">2023 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2023 – Seniorenvergütungen – SDG</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/5c90297f-a544-4c8e-9108-facd47d896a4.ods"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/604abc8e-3a0f-417c-bc03-372eecae37a9">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="es">2016 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/da7398fc-59f4-4920-96c0-76695029456e?view_id=82aafbfa-1caf-443a-be30-b828a42d3543"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/da7398fc-59f4-4920-96c0-76695029456e?view_id=82aafbfa-1caf-443a-be30-b828a42d3543</dct:identifier>
+            <dct:title xml:lang="eu">2016 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A15002917">
+            <foaf:name>Comunidad Foral de Navarra</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9e8ed23f-1e10-4af8-89c0-385dd962ca53">
+            <dct:title xml:lang="eu">2012 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/8528ee31-5856-4fe5-996c-dd52a86be857?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2012 - Retribuciones altos cargos - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/8528ee31-5856-4fe5-996c-dd52a86be857?format=tsv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Primitci od rada viših dužnosnika za svaku godinu, u skladu s Foral Law of General Budgets of Navarre.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/15bd9be5-e36c-4102-8294-ebd73fe55c15">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">2015 - Retribuciones altos cargos - JSON - API</dct:title>
+            <dct:title xml:lang="eu">2015 - Goi-kargudunen ordainsariak - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/f2d349a9-f843-4351-a17f-dd54024dc7f1?format=json&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/f2d349a9-f843-4351-a17f-dd54024dc7f1?format=json&amp;bom=True"/>
+            <dct:title xml:lang="eu">2015 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dct:title xml:lang="es">2015 - Retribuciones altos cargos - JSON</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="eu">2011ko goi kargudunen ordainsariak, 2010eko abenduaren 28ko 2011rako Nafarroako aurrekontu orokorrei buruzko 22/2010 Foru Legeari jarraiki.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1b283907-5b80-4a7a-aeb9-68a026c47281">
+            <dct:title xml:lang="fi-t-es-t0-mtec">2013 – Vanhempien palkat – kestävän kehityksen tavoite</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2013 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/0ff09971-f7b4-4210-8703-6cdcff3c0f7f.ods</dct:identifier>
+            <dct:title xml:lang="en-t-es-t0-mtec">2013 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2013 – Seniorersättning – SDG</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2013 — Senior remuneraties — SDG</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2013 – Seniorenvergütungen – SDG</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2013 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2013 m. Vyresniojo amžiaus darbo užmokestis. DVT</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2013 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2013 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2013 г. — Възнаграждения на висши служители — ЦУР</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2013 — Rémunérations seniors — ODD</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2013 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2013 – Wynagrodzenia dla seniorów – SDG</dct:title>
+            <dct:title xml:lang="es">2013 - Retribuciones altos cargos - ODS</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/0ff09971-f7b4-4210-8703-6cdcff3c0f7f.ods"/>
+            <dct:title xml:lang="eu">2013 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2013. – Više plaće – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2013 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2013 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2013 — Remunerações de Sénior — ODS</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2013 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2013 – Vanemate töötasud – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2013 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2013 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2013 – Odměny seniorů – cíle udržitelného rozvoje</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2013 — Vecāko cilvēku atalgojums — IAM</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ea5286cd-c51e-43c9-87f3-7d7d5f64ada4">
+            <dct:title xml:lang="bg-t-es-t0-mtec">2013 — Възнаграждение за възрастни — XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/0ff09971-f7b4-4210-8703-6cdcff3c0f7f.xlsx</dct:identifier>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2013 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2013 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2013 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2013 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2013 — Remuneração Sênior — XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2013 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2013 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2013 – Seniorersättning – XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/0ff09971-f7b4-4210-8703-6cdcff3c0f7f.xlsx"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">2013 — Απολαβές Ανώτερων — XLSX</dct:title>
+            <dct:title xml:lang="eu">2013 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2013 – Odmena seniorov – XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2013 — Remunerazione Senior — XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2013 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2013 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2013. – Više plaće – XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2013 – Seniorenvergütung – XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2013 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2013 – Remunerația seniorilor – XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2013 — Seniorløn — XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2013 — Luach Saothair Sinsearach — XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2013 – senioripalkka – XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2013 – Vanemtöötasu – XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2013 m. – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2013 – Wynagrodzenie Seniora – XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2013 — Vecākais atalgojums — XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/75e8b433-5a63-4ef4-abc0-4096fa708eb4">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/5e6c2a5d-4fd8-4c3c-b3b9-80bae1d13923?view_id=15391dce-edde-4d07-94e0-20bf45a23bcb</dct:identifier>
+            <dct:title xml:lang="es">2018 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:title xml:lang="eu">2018 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/5e6c2a5d-4fd8-4c3c-b3b9-80bae1d13923?view_id=15391dce-edde-4d07-94e0-20bf45a23bcb"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Ardluach saothair</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/303a4d18-c8b4-44aa-b85f-512c479425ee">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/622abbfa-7aab-49eb-8a74-88d97e8c12f5?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2020 - Retribuciones altos cargos - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/622abbfa-7aab-49eb-8a74-88d97e8c12f5?format=tsv&amp;bom=True"/>
+            <dct:title xml:lang="eu">2020 - Goi-kargudunen ordainsariak - TSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Висока заплата</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Ylempien virkamiesten palkat vuosittain Navarran yleisistä talousarvioista annetun Foral-lain mukaisesti.</dct:description>
+        <dcat:keyword xml:lang="es">Aurrekontuak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a8b8f109-dbb2-44bb-9088-0d2999cccd1c">
+            <dct:title xml:lang="mt-t-es-t0-mtec">2011 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="es">2011 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2011 – vysoká odměna</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2011 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2011 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2011 – Korkea palkka</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2011 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2011 — High Remuneration</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2011 — Høj løn</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2011 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2011 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2011 – kõrge palk</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2011 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2011 — augsta atlīdzība</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2011 г. — Високо възнаграждение</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2011 – Hög lön</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2011 — Rémunération élevée</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2011 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2011 — Hoge Bezoldiging</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/1b94df04-9bea-4c5f-b74a-3b7c15ddece9/download/altoscargos2011.csv"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/1b94df04-9bea-4c5f-b74a-3b7c15ddece9/download/altoscargos2011.csv</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2011 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2011. – visoka plaća</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2011 – Visoko plačilo</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2011 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2011 – Hohe Vergütung</dct:title>
+            <dct:title xml:lang="eu">2011 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2011 — Alta remunerazione</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/36d6ca8b-6194-405b-8250-b902221c23de">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/da7398fc-59f4-4920-96c0-76695029456e?format=xml&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">2016 - Retribuciones altos cargos - XML</dct:title>
+            <dct:title xml:lang="eu">2016 - Goi-kargudunen ordainsariak - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/da7398fc-59f4-4920-96c0-76695029456e?format=xml&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f8d333c7-a929-49de-859e-42a9a004fbfc">
+            <dct:title xml:lang="da-t-es-t0-mtec">2018 — Høj løn</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2018 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2018 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2018 – kõrge palk</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2018 – Hög lön</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/b997db39-95a3-4d79-93fa-7696aed2e1b9/download/altoscargos2018.zip"/>
+            <dct:title xml:lang="eu">2018 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2018 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2018 – vysoká odměna</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2018 – Korkea palkka</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2018 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2018 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2018 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2018 г. — Високо възнаграждение</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2018 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2018 — Hoge beloning</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2018 — Remunerazzjoni Għolja</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2018 – Visoki prejemki</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2018 — Augsta atlīdzība</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2018 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2018 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2018 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2018 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2018 – hohe Vergütung</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2018. – visoka plaća</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2018 — High Remuneration</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/b997db39-95a3-4d79-93fa-7696aed2e1b9/download/altoscargos2018.zip</dct:identifier>
+            <dct:title xml:lang="es">2018 - Retribuciones altos cargos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c953147c-f777-42d9-bbaf-62dd799822e9">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">2020 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dct:title xml:lang="es">2020 - Retribuciones altos cargos - JSON</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/622abbfa-7aab-49eb-8a74-88d97e8c12f5?format=json&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/622abbfa-7aab-49eb-8a74-88d97e8c12f5?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">2020 - Retribuciones altos cargos - JSON - API</dct:title>
+            <dct:title xml:lang="eu">2020 - Goi-kargudunen ordainsariak - JSON</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f62aae93-b5a5-46cd-ac25-b1d4365ca180">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/da7398fc-59f4-4920-96c0-76695029456e?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2016 - Retribuciones altos cargos - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">2016 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/da7398fc-59f4-4920-96c0-76695029456e?format=tsv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/70c0d3cb-c2f1-408e-9052-6ea6b8371898">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2017 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/94d888f9-5f90-4d4d-a73e-391153bf304c.ods</dct:identifier>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2017 m. – vyresniųjų pareigūnų darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2017 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2017 – Wynagrodzenia dla seniorów – SDG</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2017. – viši primici – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2017 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2017 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2017 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2017 — Remunerações de Sénior — ODS</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2017. gads — vecāku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2017 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/94d888f9-5f90-4d4d-a73e-391153bf304c.ods"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2017 – Seniorersättning – SDG</dct:title>
+            <dct:title xml:lang="es">2017 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2017 – Vanemate töötasud – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2017 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2017 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2017 — Senior Bezoldigingen — SDG</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2017 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2017 — Rémunérations seniors — ODD</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2017 г. — Възнаграждения на висшите служители — ЦУР</dct:title>
+            <dct:title xml:lang="eu">2017 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2017 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2017 – Odměny seniorů – cíle udržitelného rozvoje</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2017 – Seniorenvergütungen – SDG</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2017 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2017 – Vanhempien palkkiot – kestävän kehityksen tavoite</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fa1bf2e4-5ab8-4433-8fd1-a1ae06977637">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/8f26f797-3e36-46f2-b312-ee00f6df1159?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2022 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/8f26f797-3e36-46f2-b312-ee00f6df1159?format=tsv&amp;bom=True"/>
+            <dct:title xml:lang="es">2022 - Retribuciones altos cargos - TSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e1e108c1-daec-4aa4-ab87-b358c5acd9b5">
+            <dct:title xml:lang="es">2014 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2014 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2014 — Senior remuneraties — SDG</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/95a033f2-9241-46e0-8508-f8ac6c9b9e38.ods</dct:identifier>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2014 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2014 — Remunerações de Sénior — ODS</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2014 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2014 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2014 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2014 m. – vyresniųjų pareigūnų darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2014 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:title xml:lang="eu">2014 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2014 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2014 – Vanemate töötasud – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2014 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2014 – Seniorenvergütungen – SDG</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2014 – Vanhempien palkkiot – kestävän kehityksen tavoite</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2014 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/95a033f2-9241-46e0-8508-f8ac6c9b9e38.ods"/>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2014 – Seniorersättning – SDG</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2014. gads — vecāku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2014 – Wynagrodzenia dla seniorów – cele zrównoważonego rozwoju</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2014 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2014 – Odměny seniorů – cíl udržitelného rozvoje</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2014 — Rémunérations seniors — ODD</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2014 г. — Възнаграждения на висши служители — ЦУР</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2014 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2014. – Viši primici – ciljevi održivog razvoja</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A vezető tisztviselők díjazása minden évben, a navarrai általános költségvetésről szóló törvény alkalmazásában.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/036c317f-1885-410b-910c-87899dea236f">
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/8f26f797-3e36-46f2-b312-ee00f6df1159?view_id=dcd308c8-e015-410f-ac97-927ffaa2ff62</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="es">2022 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/8f26f797-3e36-46f2-b312-ee00f6df1159?view_id=dcd308c8-e015-410f-ac97-927ffaa2ff62"/>
+            <dct:title xml:lang="eu">2022 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Vysoká odměna</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b5c4b668-a2db-4080-a4fb-ece57330bdf0">
+            <dct:title xml:lang="nl-t-es-t0-mtec">2022 — Hoge beloning</dct:title>
+            <dct:title xml:lang="eu">2022 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2022 — Ardluach saothair</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">2022 — Høj løn</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2022 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2022. visoka plaća</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2022 г. — високо възнаграждение</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2022 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2022 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2022. gads — augsta atlīdzība</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2022 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2022 – Visoki prejemki</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2022 – Korkea palkka</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2022 — Alta remunerazione</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2022 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2022 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2022 — High Remuneration</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2022 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2022 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2022 – vysoká odměna</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2022 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2022 – kõrge palk</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2022 – Hög lön</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/8f26f797-3e36-46f2-b312-ee00f6df1159/download/retribucionesaltoscargos-2022-actualizado.csv</dct:identifier>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2022 m. Didelis darbo užmokestis</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2022 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2022 – hohe Vergütung</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/8f26f797-3e36-46f2-b312-ee00f6df1159/download/retribucionesaltoscargos-2022-actualizado.csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4e5f1d65-46d8-4c49-b6f9-d42f04e87b63">
+            <dct:title xml:lang="eu">2014 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/95a033f2-9241-46e0-8508-f8ac6c9b9e38?view_id=798e75d1-1d91-44be-b35c-19cb0a50c332</dct:identifier>
+            <dct:title xml:lang="es">2014 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/95a033f2-9241-46e0-8508-f8ac6c9b9e38?view_id=798e75d1-1d91-44be-b35c-19cb0a50c332"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/37b64566-69d0-40be-bb15-bcbadb5d5a79">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">2012 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/8528ee31-5856-4fe5-996c-dd52a86be857?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">2012 - Retribuciones altos cargos - JSON</dct:title>
+            <dct:title xml:lang="eu">2012 - Goi-kargudunen ordainsariak - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/8528ee31-5856-4fe5-996c-dd52a86be857?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">2012 - Retribuciones altos cargos - JSON - API</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/06ab5999-2b57-4cc1-a096-04e178f4100e">
+            <dct:title xml:lang="bg-t-es-t0-mtec">2015 г. — Възнаграждения на висшите служители — ЦУР</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2015 – Seniorenvergütungen – SDG</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2015 – Nadomestila za starejše – cilj trajnostnega razvoja</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/f2d349a9-f843-4351-a17f-dd54024dc7f1.ods"/>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2015 — Remunerações Sénior — ODS</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2015. – viši primici – ciljevi održivog razvoja</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2015 — Απολαβές ανώτερων υπαλλήλων — ΣΒΑ</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2015 - Старша заробітна плата - SDG</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2015 – Odměny seniorů – cíl udržitelného rozvoje</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2015. gads — vecāku atalgojums — IAM</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2015 – Vanemate töötasud – kestliku arengu eesmärk</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2015 – Odmeňovanie seniorov – Cieľ trvalo udržateľného rozvoja</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2015 — Senior Remunerations — SDG</dct:title>
+            <dct:title xml:lang="eu">2015 - Goi-kargudunen ordainsariak - ODS</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/f2d349a9-f843-4351-a17f-dd54024dc7f1.ods</dct:identifier>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2015 — Luach saothair Sinsearach — SDG</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2015 – Vanhempien palkat – kestävän kehityksen tavoite</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2015 — Højtstående vederlag — Målet for bæredygtig udvikling</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2015 — Remunerazzjoni Għolja — SDG</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2015 – Remunerații pentru persoanele în vârstă – ODD</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2015 – Seniorersättning – SDG</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2015 — Rémunérations seniors — ODD</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2015 – Wynagrodzenia dla seniorów – SDG</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2015 – Vezetői javadalmazások – fenntartható fejlődési célok</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">2015 - Retribuciones altos cargos - ODS</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2015 m. – vyresniųjų pareigūnų darbo užmokestis. DVT</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2015 — Remunerazioni senior — SDG</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2015 — Senior remuneraties — SDG</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Odměny vyšších úředníků za každý rok v souladu s unijním zákonem o souhrnném rozpočtu Navarry.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Dienstbezüge hoher Beamter für jedes Jahr in Anwendung des Foral Law of General Budgets of Navarra (Foral Law of General Budgets of Navarra).</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Remuneração dos altos funcionários por ano, em aplicação da Lei Foral dos Orçamentos Gerais de Navarra.</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Hohe Vergütung</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1a9f99d4-1cac-46b4-abfd-1b79149b7ae9">
+            <dct:title xml:lang="sv-t-es-t0-mtec">2013 – Hög lön</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2013 m. Didelis darbo užmokestis</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2013 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2013 — Høj løn</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2013 – hohe Vergütung</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2013 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2013 — Υψηλή αμοιβή</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/0ff09971-f7b4-4210-8703-6cdcff3c0f7f/download/altoscargos2013.csv"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2013 – Visoko plačilo</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2013 — High Remuneration</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2013 — Hoge Bezoldiging</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2013 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2013 - Висока заробітна плата</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">2013 – kõrge palk</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2013. – visoka plaća</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2013 – vysoká odměna</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2013 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2013 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2013 – Wysokie wynagrodzenie</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/0ff09971-f7b4-4210-8703-6cdcff3c0f7f/download/altoscargos2013.csv</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">2013 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2013 г. — Високо възнаграждение</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2013 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="es">2013 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2013 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2013 — Augsta atlīdzība</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2013 – Korkea palkka</dct:title>
+            <dct:title xml:lang="eu">2013 - Goi-kargudunen ordainsariak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/094e80a9-a061-44d1-a969-defcaba66d28">
+            <dct:title xml:lang="es">2023 - Retribuciones altos cargos - CSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/5c90297f-a544-4c8e-9108-facd47d896a4?format=csv&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/5c90297f-a544-4c8e-9108-facd47d896a4?format=csv&amp;bom=True"/>
+            <dct:title xml:lang="eu">2023 - Goi-kargudunen ordainsariak - CSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Visoki prejemki</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/551cbc64-3b0a-4a38-a00e-722a31884efb">
+            <dct:title xml:lang="es">2021 - Retribuciones altos cargos - JSON</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">2021 - Goi-kargudunen ordainsariak - JSON</dct:title>
+            <dct:title xml:lang="es">2021 - Retribuciones altos cargos - JSON - API</dct:title>
+            <dct:title xml:lang="eu">2021 - Goi-kargudunen ordainsariak - JSON - API</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/3dd66525-4333-4e19-aed4-4d60725e8b58?format=json&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/3dd66525-4333-4e19-aed4-4d60725e8b58?format=json&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Löner till högre tjänstemän för varje år, i enlighet med lagen om allmänna budgetar i Navarra.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Høj løn</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Kõrge palk</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Remunerarea înalților funcționari pentru fiecare an, în aplicarea Legii forale a bugetelor generale din Navarra.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4c182df8-187c-4c0a-af3a-9260ceb517e5">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/95a033f2-9241-46e0-8508-f8ac6c9b9e38?format=tsv&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">2014 - Goi-kargudunen ordainsariak - TSV</dct:title>
+            <dct:title xml:lang="es">2014 - Retribuciones altos cargos - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/95a033f2-9241-46e0-8508-f8ac6c9b9e38?format=tsv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2d7d8299-a32d-4c73-b7f7-bebd03cb0baf">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">2014 - Retribuciones altos cargos - CSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/95a033f2-9241-46e0-8508-f8ac6c9b9e38?format=csv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/95a033f2-9241-46e0-8508-f8ac6c9b9e38?format=csv&amp;bom=True"/>
+            <dct:title xml:lang="eu">2014 - Goi-kargudunen ordainsariak - CSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2c9b0dd8-5803-432a-9be2-309c2d6614ba">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">2013 - Retribuciones altos cargos - CSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?format=csv&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/0ff09971-f7b4-4210-8703-6cdcff3c0f7f?format=csv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">2013 - Goi-kargudunen ordainsariak - CSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Rémunération élevée</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2832174b-0228-4ab2-8127-9d69c3849954">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="eu">2017 - Goi-kargudunen ordainsariak - Explorador de Datos</dct:title>
+            <dct:title xml:lang="es">2017 - Retribuciones altos cargos - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/94d888f9-5f90-4d4d-a73e-391153bf304c?view_id=cd0f95c9-3f50-438d-ba51-d7431d76be09"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/retribuciones-altos-cargos/resource/94d888f9-5f90-4d4d-a73e-391153bf304c?view_id=cd0f95c9-3f50-438d-ba51-d7431d76be09</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Alta Remuneração</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/71817e41-5969-49e9-be1a-22c8f47c610c">
+            <dct:title xml:lang="et-t-es-t0-mtec">2016 – kõrge palk</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2016 – Visoki prejemki</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/da7398fc-59f4-4920-96c0-76695029456e/download/altoscargos2016.csv</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2016 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2016 – Korkea palkka</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2016 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2016. gads — augsta atlīdzība</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2016 – vysoká odměna</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2016 — Høj løn</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2016 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2016 — Υψηλή αμοιβή</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/da7398fc-59f4-4920-96c0-76695029456e/download/altoscargos2016.csv"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2016 г. — Високо възнаграждение</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2016 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2016 – Hög lön</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2016 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2016 — Hoge Bezoldiging</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2016 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2016 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="es">2016 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2016. – visoka plaća</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2016 — Rémunération élevée</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2016 — Alta remunerazione</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2016 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2016 – Hohe Vergütung</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2016 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="eu">2016 - Goi-kargudunen ordainsariak</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2016 — High Remuneration</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Luach saothair oifigeach sinsearach do gach bliain, i gcur i bhfeidhm Dhlí Foral Buiséid Ginearálta Navarre.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fb236133-771d-4faa-9da7-26d6ef0351f6">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?format=csv&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/1b94df04-9bea-4c5f-b74a-3b7c15ddece9?format=csv&amp;bom=True"/>
+            <dct:title xml:lang="eu">2011 - Goi-kargudunen ordainsariak - CSV</dct:title>
+            <dct:title xml:lang="es">2011 - Retribuciones altos cargos - CSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ee478647-d3c9-42dc-b43e-84da87f6bb85">
+            <dct:title xml:lang="pt-t-es-t0-mtec">2020 — Remuneração Sênior — XLSX</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2020 - старша винагорода - XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2020 — Rémunération senior — XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2020 – Remunerația persoanelor în vârstă – XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2020 — Vecākais atalgojums — XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2020 — Remunerazione Senior — XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2020 — Senior Remuneration — XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2020 – Seniorenvergütung – XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">2020 – Seniorersättning – XLSX</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/622abbfa-7aab-49eb-8a74-88d97e8c12f5.xlsx"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2020 – Odměna seniorů – XLSX</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2020 — Remunerazzjoni Anzjana — XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2020 — Απολαβές Ανώτερων — XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2020 – Odmeňovanie seniorov – XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">2020 — Seniorløn — XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2020 – Senior Díjazás – XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2020 — Senior Bezoldiging — XLSX</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2020 m. – Vyresniojo darbo užmokestis – XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/622abbfa-7aab-49eb-8a74-88d97e8c12f5.xlsx</dct:identifier>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2020 – Nadomestilo za starejše – XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2020 — Luach saothair Sinsearach — XLSX</dct:title>
+            <dct:title xml:lang="eu">2020 - Goi-kargudunen ordainsariak - XLSX</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2020 г. — Възнаграждение за възрастни — XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2020 – Vanemtöötasu – XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2020. viša plaća – XLSX</dct:title>
+            <dct:title xml:lang="es">2020 - Retribuciones altos cargos - XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2020 – senioripalkka – XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2020 – Wynagrodzenie dla seniorów – XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/70de686b-31c9-42e6-9e84-7a41954622b1">
+            <dct:title xml:lang="sv-t-es-t0-mtec">2018 – Hög lön</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">2018 – Visoki prejemki</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/757d222d-39e1-4026-9bea-5ae7878ade96/download/altoscargos2018.ods</dct:identifier>
+            <dct:title xml:lang="es">2018 - Retribuciones altos cargos</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">2018 — High Remuneration</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">2018 — Høj løn</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">2018 – kõrge palk</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">2018 – Remunerație ridicată</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">2018 — Alta Remuneração</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">2018 – Korkea palkka</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">2018 — Alta remunerazione</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">2018 m. – didelis atlyginimas</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">2018 — Remunerazzjoni Għolja</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">2018 - Висока заробітна плата</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">2018 — Ardluach saothair</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">2018. – visoka plaća</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">2018 – hohe Vergütung</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">2018 – Wysokie wynagrodzenie</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">2018 — Hoge beloning</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">2018 — Υψηλή αμοιβή</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">2018 – Vysoká odmena</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">2018 – Magas javadalmazás</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">2018 – vysoká odměna</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">2018 — Rémunération élevée</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/7670842f-a9eb-4eea-9e3a-60802b108339/resource/757d222d-39e1-4026-9bea-5ae7878ade96/download/altoscargos2018.ods"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">2018 г. — Високо възнаграждение</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">2018 — Augsta atlīdzība</dct:title>
+            <dct:title xml:lang="eu">2018 - Goi-kargudunen ordainsariak</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:22:29Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:22:29Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

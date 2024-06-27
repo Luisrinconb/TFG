@@ -1,0 +1,58 @@
+[
+  {
+    "Desde": "2024-05-13T00:00",
+    "Hasta": "2024-05-26T00:00",
+    "Ubicación": "Calle Blas de Otero con Calle Ruperto Chapí. Entorno del Ayuntamiento.",
+    "lat": "40.5478094956908",
+    "lon": "-3.64294369472248"
+  },
+  {
+    "Desde": "2024-05-27T00:00",
+    "Hasta": "2024-06-09T00:00",
+    "Ubicación": "Entorno de la Base de Policía de El Soto de la Moraleja, en Av. de Bruselas, 37",
+    "lat": "40.5280074531503",
+    "lon": "-3.64297481513143"
+  },
+  {
+    "Desde": "2024-06-10T00:00",
+    "Hasta": "2024-06-23T00:00",
+    "Ubicación": "Avenida Pablo Iglesias con Calle Felicidad, junto a la Planta de recogida neumática de Fuentelucha",
+    "lat": "40.5500533032274",
+    "lon": "-3.65690651510734"
+  },
+  {
+    "Desde": "2024-06-24T00:00",
+    "Hasta": "2024-07-07T00:00",
+    "Ubicación": "Calle Marqués de la Valdavia, a la altura de la Plaza de la Artesanía",
+    "lat": "40.550242",
+    "lon": "-3.657341"
+  },
+  {
+    "Desde": "2024-07-08T00:00",
+    "Hasta": "2024-07-21T00:00",
+    "Ubicación": "Aparcamiento Polideportivo José Caballero     ",
+    "lat": "40.529277",
+    "lon": "-3.641028"
+  },
+  {
+    "Desde": "2024-07-22T00:00",
+    "Hasta": "2024-08-04T00:00",
+    "Ubicación": "Entorno de la Base de Policía de El Soto de la Moraleja, en Av. de Bruselas, 37",
+    "lat": "40.5280074531503",
+    "lon": "-3.64297481513143"
+  },
+  {
+    "Desde": "2024-08-05T00:00",
+    "Hasta": "2024-08-18T00:00",
+    "Ubicación": "Aparcamiento Calle Huelva, junto a Recinto Ferial",
+    "lat": "40.540784",
+    "lon": "-3.636636"
+  },
+  {
+    "Desde": "2024-08-19T00:00",
+    "Hasta": "2024-09-01T00:00",
+    "Ubicación": "Ciudad Deportiva Valdelasfuentes",
+    "lat": "40.5514099282403",
+    "lon": "-3.64857981674985"
+  }
+]

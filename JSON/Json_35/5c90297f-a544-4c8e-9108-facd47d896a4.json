@@ -1,0 +1,25 @@
+﻿{
+  "fields": [{"id":"_id","type":"int"},{"id":"Tipo","type":"text"},{"id":"Articulo","type":"text"},{"id":"Descripcion","type":"text"},{"id":"Ano","type":"text"},{"id":"Mes","type":"text"}],
+  "records": [
+    [1,"Miembros del Gobierno ","9.2","Presidenta","81348,12","5810,58"],
+    [2,"Miembros del Gobierno ","9.2","Vicepresidente o Consejero","75704,86","5407,49"],
+    [3,"Miembros de los Gabinetes de la Presidenta y de los Consejeros con la consideración de altos cargos ","9.3","Asesor de la Presidenta","64866,2","4633,3"],
+    [4,"Miembros de los Gabinetes de la Presidenta y de los Consejeros con la consideración de altos cargos ","9.3","Jefe de Gabinete de las Consejerías","60374,72","4312,48"],
+    [5,"Direcciones Generales ","9.4","Dirección General","64866,2","4633,3"],
+    [6,"Personal directivo de los organismos públicos ","9.5.a)","Dirección Gerencia de organismo autónomo, salvo lo dispuesto en las letras b) y c) siguientes","64866,2","4633,3"],
+    [7,"Personal directivo de los organismos públicos ","9.5.b)","Dirección Gerencia del Servicio Navarro de Salud-Osasunbidea y de la Hacienda Foral de Navarra","100221,52","7158,68"],
+    [8,"Personal directivo de los organismos públicos ","9.5.c)","Dirección Gerencia del Instituto Navarro de Administración Pública","62049,4","4432,1"],
+    [9,"Personal directivo de los organismos públicos ","9.5.e)","Subdirección de organismo autónomo","59232,6","4230,9"],
+    [10,"Personal directivo del SNS-O ","9.5.e)","Gerencia de Atención Primaria, Gerencia del Complejo Hospitalario de Navarra, Dirección de Profesionales, Dirección de Gestión Económica y Servicios Generales y Dirección de Asistencia Sanitaria al Paciente","76584,06","5470,29"],
+    [11,"Personal directivo del SNS-O ","9.5.e)","Gerencia del Área de Salud de Tudela, Gerencia del Área de Salud de Estella/Lizarra y Dirección Asistencial del Complejo Hospitalario de Navarra","66938,62","4781,33"],
+    [12,"Personal directivo del SNS-O ","9.5.e)","Gerencia de Salud Mental, Subdirecciones Asistenciales del Complejo Hospitalario de Navarra, Dirección Asistencial del Área de Salud de Tudela y del Área de Salud de Estella/Lizarra y Subdirecciones de Atención Primaria y Continuidad Asistencial","65191,14","4656,51"],
+    [13,"Personal directivo del SNS-O ","9.5.e)","Subdirecciones de los Servicios Centrales","64013,46","4572,39"],
+    [14,"Personal directivo del SNS-O ","9.5.e)","Dirección de Profesionales ","61116,44","4365,46"],
+    [15,"Personal directivo del SNS-O ","9.5.e)","Dirección de Gestión Económica y Servicios Generales ","61116,44","4365,46"],
+    [16,"Personal directivo del SNS-O ","9.5.e)","Dirección de Cuidados Sanitarios del Complejo Hospitalario de Navarra","61116,44","4365,46"],
+    [17,"Personal directivo del SNS-O ","9.5.e)","Coordinadora del Plan de Atención Sociosanitaria de Navarra ","55377","3955,5"],
+    [18,"Personal directivo del SNS-O ","9.5.e)","Subdirecciones de Cuidados Sanitarios del CHN","55377","3955,5"],
+    [19,"Resto del personal eventual de los Gabinetes ","9.6","Secretaría de la Presidenta","40050,22","2860,73"],
+    [20,"Resto del personal eventual de los Gabinetes ","9.6","Secretaría de Consejero","36505,98","2607,57"],
+    [21,"Resto del personal eventual de los Gabinetes ","9.6","Auxiliar de Gabinete","31974,46","2283,89"]
+]}

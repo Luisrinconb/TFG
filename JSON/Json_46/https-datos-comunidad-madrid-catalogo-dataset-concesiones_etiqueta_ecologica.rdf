@@ -1,0 +1,170 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-comunidad-madrid-catalogo-dataset-concesiones_etiqueta_ecologica">
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-06-14T03:33:40Z</edp:transReceived>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-28T23:20:47Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-comunidad-madrid-catalogo-dataset-concesiones_etiqueta_ecologica">
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A13002908">
+            <foaf:name>Comunidad de Madrid</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Licenças com rótulo ecológico concedidas na Comunidade de Madrid</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Ліцензії на еко-маркети, видані в Співтоваристві Мадрида</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Liċenzji ta’ l-eko-tikketta mogħtija fil-Komunità ta’ Madrid</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Koncesije za znak za okoliš</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Ekologinio ženklo koncesijos</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Madrid"/>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Madrides Kopienā piešķirtās ekomarķējuma licences</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Ökomärgise kontsessioonid</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Madridi Ühenduses välja antud ökomärgise litsentsid</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Dovoljenja za znak za okolje, podeljena v Skupnosti Madrid</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Koncesie na environmentálnu značku</dct:title>
+        <dct:description xml:lang="es">Licencias de etiqueta ecológica concedidas en la Comunidad de Madrid</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:title xml:lang="da-t-es-t0-mtec">Miljømærkekoncessioner</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A Madridi Közösségben kiadott ökocímke-engedélyek</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Konzessionen zum Umweltzeichen</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Άδειες απονομής οικολογικού σήματος στην Κοινότητα της Μαδρίτης</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Eco-label licences granted in the Community of Madrid</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Ekomarķējuma koncesijas</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Madridin yhteisössä myönnetyt ympäristömerkkiluvat</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">In de Gemeenschap van Madrid verleende milieukeurcertificaten</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Ceadúnais éicilipéid arna ndeonú i gComhphobal Mhaidrid</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2019-02-19T00:00:00+01:00</dct:issued>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Concessions de label écologique</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Licenze di marchio di qualità ecologica rilasciate nella Comunità di Madrid</dct:description>
+        <dct:title xml:lang="es">Concesiones de etiqueta ecológica</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Madrido Bendrijoje išduotos ekologinio ženklo licencijos</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Koncesje na oznakowanie ekologiczne</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Miljømærkelicenser udstedt i Madrid</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">In der Gemeinschaft von Madrid erteilte Umweltzeichenlizenzen</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Licencie na environmentálnu značku udelené v Madride</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Παραχωρήσεις οικολογικού σήματος</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-02-27T00:00:00+01:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/47288f97-bfd0-4498-b8e5-e0716d38ce07">
+            <dct:title xml:lang="da-t-es-t0-mtec">Miljømærkekoncessioner</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Ökocímke-koncessziók</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Концесии за екомаркировка</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Koncesje na oznakowanie ekologiczne</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Koncese na ekoznačku</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Koncesije za znak za okolje</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Ökomärgise kontsessioonid</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Konzessionen zum Umweltzeichen</dct:title>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/concesiones_etiqueta_ecologica/resource/339ff201-42cc-40a7-9362-d1a40e616078</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Концесії на еко-марки</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Παραχωρήσεις οικολογικού σήματος</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Concessies voor de milieukeur</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Lamháltais éicilipéid</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Koncesije za znak za okoliš</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Concessioni per il marchio di qualità ecologica</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Konċessjonijiet tal-eko-tikketta</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Ekologinio ženklo koncesijos</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Koncesie na environmentálnu značku</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Ympäristömerkkiä koskevat myönnytykset</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Ekomarķējuma koncesijas</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Concessions en matière d’écolabel</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Eco-label concessions</dct:title>
+            <dct:title xml:lang="es">Concesiones de etiqueta ecológica</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Miljömärkeskoncessioner</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Concessões de rótulo ecológico</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Concesiuni pentru acordarea etichetei ecologice</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/82d724b8-dafc-4177-be65-15ad80f9cee6/resource/339ff201-42cc-40a7-9362-d1a40e616078/download/concesiones_etiqueta_ecologica.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >34541</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Concesii pentru eticheta ecologică</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Lamháltais éicilipéid</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Концесии с екомаркировка</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Eco-label concessions</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Concessões do rótulo ecológico</dct:title>
+        <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/concesiones_etiqueta_ecologica</dct:identifier>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Dozvole za znak za okoliš dodijeljene u Zajednici Madrid</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Konċessjonijiet tal-ekotikketta</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Концесії на еко-марки</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Koncesije za znak za okolje</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Ympäristömerkkiä koskevat myönnytykset</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Concessioni per il marchio di qualità ecologica</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Miljömärkeslicenser som beviljats i gemenskapen Madrid</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Concessies voor milieukeuren</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Miljömärkeskoncessioner</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ac313efe-852b-4066-b40c-caaf418eb043">
+            <dct:title xml:lang="uk-t-es-t0-mtec">Концесії на еко-марки</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Koncese na ekoznačku</dct:title>
+            <dct:title xml:lang="es">Concesiones de etiqueta ecológica</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Eco-label concessions</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Konzessionen zum Umweltzeichen</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Concessioni per il marchio di qualità ecologica</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Koncesie na environmentálnu značku</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Concessões de rótulo ecológico</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Koncesije za znak za okolje</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Lamháltais éicilipéid</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Ympäristömerkkiä koskevat myönnytykset</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/legalcode.es"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Ekomarķējuma koncesijas</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Παραχωρήσεις οικολογικού σήματος</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.comunidad.madrid/catalogo/dataset/82d724b8-dafc-4177-be65-15ad80f9cee6/resource/08fd3864-36c4-4f4e-ae84-231249f7c19a/download/concesiones_etiqueta_ecologica.csv"/>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Konċessjonijiet tal-eko-tikketta</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Ökomärgise kontsessioonid</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Concessies voor de milieukeur</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Miljömärkeskoncessioner</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/concesiones_etiqueta_ecologica/resource/08fd3864-36c4-4f4e-ae84-231249f7c19a</dct:identifier>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Koncesje na oznakowanie ekologiczne</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Concessions en matière d’écolabel</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Miljømærkekoncessioner</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >12436</dcat:byteSize>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Концесии за екомаркировка</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Concesiuni pentru acordarea etichetei ecologice</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Ekologinio ženklo koncesijos</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Koncesije za znak za okoliš</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Ökocímke-koncessziók</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Ökocímke-koncessziók</dct:title>
+        <dcat:keyword xml:lang="es">Medio ambiente</dcat:keyword>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Licențe pentru eticheta ecologică acordate în Comunitatea Madridului</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Koncese na ekoznačku</dct:title>
+        <dcat:keyword xml:lang="es">Etiqueta ecológica</dcat:keyword>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Pozwolenia na oznakowanie ekologiczne wydane we Wspólnocie Madrytu</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Лицензии за екомаркировка, издадени в Общността Мадрид</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Licence na ekoznačku udělené ve Společenství v Madridu</dct:description>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Licences de label écologique accordées dans la Communauté de Madrid</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>b9ac5707d6fbba360dab166a40f599f5</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-06-13T23:20:56Z</edp:transIssued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-comunidad-madrid-catalogo-dataset-concesiones_etiqueta_ecologica"/>
+    <dct:identifier>https://datos.comunidad.madrid/catalogo/dataset/concesiones_etiqueta_ecologica</dct:identifier>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:06:48Z</dct:issued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

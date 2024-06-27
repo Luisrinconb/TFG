@@ -1,0 +1,183 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-tenerife-es-datos-conjuntos-de-datos-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-tenerife-es-datos-conjuntos-de-datos-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas">
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/df4920ac-c452-4bd6-80d4-ce5ea847259e">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >2572</dcat:byteSize>
+            <dct:title xml:lang="es">Diccionario de datos de manantiales (Plan Hidrológico de Tenerife)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/5c72a62f-22c4-4115-889d-f614d88c7ea3/download/diccionario-de-datos-de-manantiales-plan-hidrologico-de-tenerife.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/9bd45672-0677-4f0d-9a04-dace81478314</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-02-28T10:25:02+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2f6a5ef6-d4fb-4738-abe7-796ecb146aa4">
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/1bc9a4f8-2911-4753-9cdd-386dcd983054/download/galerias-plan-hidrologico-de-tenerife.gpkg"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:mediaType>application/geopackage+sqlite3</dcat:mediaType>
+            <dct:title xml:lang="es">Galerías (Plan Hidrológico de Tenerife)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/4fe6578b-68ec-493d-80c6-70c1f146e10d</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >360448</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-30T23:14:53+02:00</dct:modified>
+        <dcat:keyword xml:lang="es">cartografía</dcat:keyword>
+        <dct:description xml:lang="es">Información georreferenciada sobre las obras de captación de aguas subterráneas del Plan Hidrológico de Tenerife. Tercer ciclo de planificación. Aprobación definitiva (18 de septiembre de 2023).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ed6f0822-cafd-4f39-aeda-b37827493a2a">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >5091</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/7783066d-7d76-4667-b0cd-a59c3ce058f7/download/diccionario-de-datos-de-galerias-plan-hidrologico-de-tenerife.json"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/61f931f4-1502-4bf5-a4a1-f6c74ec77a98</dct:identifier>
+            <dct:title xml:lang="es">Diccionario de datos de galerías (Plan Hidrológico de Tenerife)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003638">
+            <foaf:name>Comunidad Autónoma de Canarias</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="es">Plan Hidrológico de Tenerife (tercer ciclo de planificación) - Obras de captación de aguas subterráneas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/488e9e2d-3618-4d35-ab7c-05ce35d50152">
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/289c3de1-7b40-4607-83b3-27ca88984c9c/download/pozos-plan-hidrologico-de-tenerife.geojson"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/8e29d022-9df1-41b0-88b0-8b0b73ba5077</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >461888</dcat:byteSize>
+            <dct:title xml:lang="es">Pozos (Plan Hidrológico de Tenerife)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b938cdce-23c5-494b-94d1-468ee34054a6">
+            <dct:title xml:lang="es">Diccionario de datos de pozos (Plan Hidrológico de Tenerife)</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/c137b567-5806-4ab4-b08c-784f53bf5e02/download/diccionario-de-datos-de-pozos-plan-hidrologico-de-tenerife.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >5772</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/19be5b2d-6dea-42ed-a159-00fbcca1574e</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2bd52169-0111-47c1-ada3-4017db381ff6">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/56c6e97c-6a25-4280-a9a3-23dff6c4e0c3/download/manantiales-plan-hidrologico-de-tenerife.geojson"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/a2433daf-fa0f-411e-915b-3ed4b0e8498b</dct:identifier>
+            <dct:title xml:lang="es">Manantiales (Plan Hidrológico de Tenerife)</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >190040</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/42546057-330e-4b47-b10d-9f564858a7d0">
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/6bee79fb-c985-4b32-a344-bc42053f4194/download/manantiales-plan-hidrologico-de-tenerife.csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Manantiales (Plan Hidrológico de Tenerife)</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >38561</dcat:byteSize>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/dfaa2a30-32dd-45d5-ade2-db22b1b64c30</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f81a9f23-43b4-4310-9d0a-d78874662f02">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/61be5ae1-0cb2-401d-9a2e-7a00e1aeffdf</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/c5ee6fba-fa22-4539-b004-ac34228500b6/download/galerias-plan-hidrologico-de-tenerife.csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Galerías (Plan Hidrológico de Tenerife)</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >214126</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:keyword xml:lang="es">obras</dcat:keyword>
+        <dct:identifier>https://datos.tenerife.es/datos/conjuntos-de-datos/plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas</dct:identifier>
+        <dcat:keyword xml:lang="es">plan hidrológico</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4a2f260e-20ce-4181-94fb-4c763a6353e3">
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/76fd933c-720c-4db9-89db-cfd592a8e966/download/pozos-plan-hidrologico-de-tenerife.csv"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/4e69ccee-60e7-4be0-9f7c-1786bb527527</dct:identifier>
+            <dct:title xml:lang="es">Pozos (Plan Hidrológico de Tenerife)</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >76814</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8128c08e-84f3-4fb6-8488-7cde62d3a99c">
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >192512</dcat:byteSize>
+            <dct:title xml:lang="es">Pozos (Plan Hidrológico de Tenerife)</dct:title>
+            <dcat:mediaType>application/geopackage+sqlite3</dcat:mediaType>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/b99a3c97-7c0c-4a6e-8612-85079582cb10</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/023dab62-9773-4a4f-b121-14856760c85a/download/pozos-plan-hidrologico-de-tenerife.gpkg"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">hidrografía</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/53f03288-b454-45f1-a06f-6bc2538287d1">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/GeoJSON"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1250687</dcat:byteSize>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Galerías (Plan Hidrológico de Tenerife)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/79673bfd-13f7-4c1f-b87d-b92bb509d94a</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/3edb4136-d4fa-4691-98f7-2bf972fda27e/download/galerias-plan-hidrologico-de-tenerife.geojson"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2cf2d8af-d96a-4c42-a636-a717cd9912db">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003638-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas/resource/97e0bd15-7c32-47b1-893a-eff211045531</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.tenerife.es/ckan/dataset/73cb4e88-1f24-4997-87fa-d673633db847/resource/cea7ade8-3f45-4924-9bd6-e110eca45405/download/manantiales-plan-hidrologico-de-tenerife.gpkg"/>
+            <dct:title xml:lang="es">Manantiales (Plan Hidrológico de Tenerife)</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:mediaType>application/geopackage+sqlite3</dcat:mediaType>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >151552</dcat:byteSize>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-03-10T23:36:27Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:37:54Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:37:54Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>397bd215440f1bed78635267c5f74fe8</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:identifier>https://datos.tenerife.es/datos/conjuntos-de-datos/plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-tenerife-es-datos-conjuntos-de-datos-plan-hidrologico-de-tenerife-tercer-ciclo-de-planificacion-obras-de-captacion-de-aguas-subterraneas"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

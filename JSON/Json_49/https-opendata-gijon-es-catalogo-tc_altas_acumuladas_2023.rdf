@@ -1,0 +1,132 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-opendata-gijon-es-catalogo-tc_altas_acumuladas_2023">
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-opendata-gijon-es-catalogo-tc_altas_acumuladas_2023">
+        <dct:title xml:lang="es">Tarjeta Ciudadana: Tarjetas Existentes en el 2023</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/263ac659-8379-4fb4-a3f1-05734c071998">
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+            <dcat:accessURL rdf:resource="https://opendata.gijon.es/descargar.php?id=966&amp;tipo=XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01330241-tarjeta-ciudadana-tarjetas-existentes-en-el-2023/resource/5238b106-b116-41ab-8ac4-8819e79a9a47</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">XML</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a3db0a33-2b18-45ef-8ece-ddeac9489f40">
+            <dct:title xml:lang="es">CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.gijon.es/descargar.php?id=966&amp;tipo=CSV"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01330241-tarjeta-ciudadana-tarjetas-existentes-en-el-2023/resource/9e51eac2-78f0-4197-a30b-2a2308292266</dct:identifier>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01330241">
+            <foaf:name>Ayuntamiento de Gijón</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4a0a6606-d482-4dc7-8f9b-92fed0d88073">
+            <dct:identifier>https://datos.gob.es/catalogo/l01330241-tarjeta-ciudadana-tarjetas-existentes-en-el-2023/resource/99805a9d-4ebb-491f-ae0a-49dc7eecf4bd</dct:identifier>
+            <dcat:accessURL rdf:resource="https://opendata.gijon.es/descargar.php?id=966&amp;tipo=JSON"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">JSON</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-02-07T14:36:02+01:00</dct:modified>
+        <dct:identifier>https://opendata.gijon.es/catalogo/tc_altas_acumuladas_2023</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-02-07T14:36:02+01:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7effb1d8-c41a-45a3-a0b1-2052d79947c2">
+            <dct:title xml:lang="es">PDF</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.gijon.es/descargar.php?id=966&amp;tipo=PDF"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01330241-tarjeta-ciudadana-tarjetas-existentes-en-el-2023/resource/8443dc4d-a17e-4e4e-93b5-37e2cd66a67f</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/PDF"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8eb55228-cb22-45cf-b4f5-093f0b6ab84d">
+            <dcat:accessURL rdf:resource="https://opendata.gijon.es/descargar.php?id=966&amp;tipo=TSV"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01330241-tarjeta-ciudadana-tarjetas-existentes-en-el-2023/resource/10211453-1e1b-461f-8ea5-2888c97e2189</dct:identifier>
+            <dct:title xml:lang="es">TSV</dct:title>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/98ebd8d9-51c9-4f76-8af4-749e200cddd6">
+            <dct:title xml:lang="es">Excel</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.gijon.es/descargar.php?id=966&amp;tipo=Excel"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l01330241-tarjeta-ciudadana-tarjetas-existentes-en-el-2023/resource/800c0d8b-9934-469f-b58b-63a2f8dee2aa</dct:identifier>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/606cdb5e-a3db-43b8-8219-d09465f3076a">
+            <dcat:accessURL rdf:resource="https://opendata.gijon.es/descargar.php?id=966&amp;tipo=CHART"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">CHART</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l01330241-tarjeta-ciudadana-tarjetas-existentes-en-el-2023/resource/39bbf1c0-4fb4-4ecc-a1c4-2218e870d942</dct:identifier>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Este conjunto de datos contiene la información sobre el acumulado de Tarjetas Ciudadanas de Gijón dadas de alta durante el año 2023.
+
+La Tarjeta Ciudadana es un documento polivalente  de uso personal y no transferible, que identifica a su titular, permitiéndole hacer uso de determinados servicios e instalaciones municipales. Cualquier persona usuaria de los servicios municipales, puede solicitar la tarjeta ciudadana, independientemente de que resida en Gijón.
+ 
+También están disponibles otros conjuntos de datos, históricos por anualidades y del año en curso, relacionados con la Tarjeta Ciudadana: Tarjetas Existentes desde el Año 2002. Altas desde el Año 2002. Duplicados desde el Año 2003. Usos desde el Año 2003. Junto con los anteriores existen también los conjuntos de datos: Tarjeta Ciudadana: por Barrio. Tarjeta Ciudadana: Por Código Postal. Tarjeta Ciudadana. Por Edad. Tarjeta Ciudadana: Por Edad, Sexo, Barrio. Tarjeta Ciudadana: Por Sexo.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/44bd1fa1-6f8a-4e3c-b85f-09841ce79af8">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+            <dcat:accessURL rdf:resource="https://opendata.gijon.es/descargar.php?id=966&amp;tipo=XHTML"/>
+            <dct:title xml:lang="es">XHTML</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l01330241-tarjeta-ciudadana-tarjetas-existentes-en-el-2023/resource/bb31b968-9af9-40bc-b1ae-9a75a25addd5</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/aac7275c-3b89-4ae6-8bb8-e77b17802eae">
+            <dct:identifier>https://datos.gob.es/catalogo/l01330241-tarjeta-ciudadana-tarjetas-existentes-en-el-2023/resource/cebdd2d5-d4d0-4d7e-bda9-2a4f6ea5136d</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TXT"/>
+            <dct:title xml:lang="es">Texto plano</dct:title>
+            <dcat:accessURL rdf:resource="https://opendata.gijon.es/descargar.php?id=966&amp;tipo=TXT"/>
+            <dct:license rdf:resource="http://creativecommons.org/licenses/by/3.0/es"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>https://opendata.gijon.es/catalogo/tc_altas_acumuladas_2023</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-03-22T23:17:05Z</dct:issued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:17:18Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-opendata-gijon-es-catalogo-tc_altas_acumuladas_2023"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>885adbf52a8a534a8cb6e03acdc88bf3</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:17:18Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

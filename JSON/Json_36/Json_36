@@ -1,0 +1,495 @@
+{
+  "code": [
+    {
+      "id": "_T",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000)._T",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/_T"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Total",
+            "lang": "en"
+          },
+          {
+            "value": "Total",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Used for expressing totals.",
+            "lang": "en"
+          },
+          {
+            "value": "Usado para expresar totales.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "ST_SO_HEAP",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000).ST_SO_HEAP",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/ST_SO_HEAP"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Manure solid storage in heaps",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol sólido en montones",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Almacenamiento de estiércol en montones, en pilas o rimeros no confinados o en una zona abierta, normalmente durante varios meses.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "ST_COMP",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000).ST_COMP",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/ST_COMP"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Manure stored in compost piles",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol sólido en pilas de compost",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Estiércol sólido en pilas de compost confinadas, aireadas o mixtas.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "ST_PIT",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000).ST_PIT",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/ST_PIT"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Manure stored in pits below animal confinement",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol sólido en fosas bajo el alojamiento de los animales",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Estiércol almacenado en fosas bajo el alojamiento de los animales, con poca agua añadida, o sin agua añadida, normalmente debajo de un suelo enrejillado, en una instalación de estabulación cerrada, por lo general por periodos de menos de un año.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "ST_DPLT",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000).ST_DPLT",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/ST_DPLT"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Manure stored in deep litter systems",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol sólido en sistemas con cama gruesa",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Estiércol almacenado en sistemas con cama gruesa que se acumula durante un ciclo de producción, que puede durar de seis a doce meses.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "ST_LQ_SL_NC",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000).ST_LQ_SL_NC",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/ST_LQ_SL_NC"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Liquid manure/slurry storage without cover",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol líquido sin cubierta o en estanques",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Almacenamiento de estiércol líquido sin cubierta o en estanques, por lo general en un periodo de menos de un año.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "ST_LQ_SL_PC",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000).ST_LQ_SL_PC",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/ST_LQ_SL_PC"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Liquid manure/slurry storage with permeable cover",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol líquido en depósitos o estanques con cubierta permeable",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Almacenamiento de estiércol líquido, en depósitos o estanques, por lo general en un periodo de menos de un año, tapado con una cubierta permeable como barro, paja o costra natural.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "ST_LQ_SL_IC",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000).ST_LQ_SL_IC",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/ST_LQ_SL_IC"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Liquid manure/slurry storage with impermeable cover",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol líquido en depósitos o estanques con cubierta impermeable",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Almacenamiento de estiércol líquido, en depósitos o estanques, por lo general en un periodo de menos de un año, tapado con una cubierta impermeable como cubiertas de polietileno de alta densidad o de presión negativa.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "ST_OF",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000).ST_OF",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/ST_OF"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Manure stored in other facilities n.e.c.",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol en otro tipo de almacenamiento",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Estiércol líquido o sólido almacenado en otras instalaciones no clasificadas en otra parte.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "_L1",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000)._L1",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/_L1"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Daily manure spreading",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol esparcido diariamente",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Estiércol esparcido diariamente, que se retira habitualmente de una instalación de estabulación y se aplica a la tierra cultivada o los pastos en las veinticuatro horas siguientes a su excreción.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "_L2",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000)._L2",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/_L2"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Manure no stored",
+            "lang": "en"
+          },
+          {
+            "value": "Estiércol no almacenado",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Estiércol no almacenado.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "_N",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000)._N",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/_N"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Non response",
+            "lang": "en"
+          },
+          {
+            "value": "No sabe/No contesta",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Failure to obtain a measurement on one or more study variables for one or more elements in a survey.",
+            "lang": "en"
+          },
+          {
+            "value": "Fallo al obtener la medida en una o más variables de estudio para uno o más elementos de una encuesta.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "_O",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000)._O",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/_O"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Other",
+            "lang": "en"
+          },
+          {
+            "value": "Otros",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Used to cover residual information not contained in other categories of the code list (in some contexts, e.g. classifications, referred to as n.e.s., not elsewhere specified, n.e.c., not elsewhere classified, etc.)",
+            "lang": "en"
+          },
+          {
+            "value": "Usado para identificar información residual no contenida en otras categorías de la clasificación (en algunos contextos, por ejemplo, en las clasificaciones, se hace referencia a estos datos como no especificados en otra parte, no clasificados en otra parte, etc.)",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "_U",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000)._U",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/_U"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "No data/unknown",
+            "lang": "en"
+          },
+          {
+            "value": "No consta",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Failure to obtain a measurement (e.g. non response, no data available, information not known by the respondent unit, etc.)",
+            "lang": "en"
+          },
+          {
+            "value": "Fallo al obtener un dato (por ejemplo: sin respuesta, dato no disponible, información desconocida por el encuestado, etc.)",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "_X",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000)._X",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/_X"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Not allocated/unspecified",
+            "lang": "en"
+          },
+          {
+            "value": "No clasificable",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Used where the value for a particular variable falls outside the expected range. An example could be the failure to allocate a classification to a particular unit due to insufficient information, and/or if further breakdown over any related items mentioned in code list not available.",
+            "lang": "en"
+          },
+          {
+            "value": "Se usa cuando el valor de una variable cae por debajo del rango esperado. Por ejemplo, se podría usar para un dato del que no se tiene suficiente información y no se le puede asignar una clasificación.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    },
+    {
+      "id": "_Z",
+      "urn": "urn:sdmx:org.sdmx.infomodel.codelist.Code=ISTAC:CL_MANSTO(01.000)._Z",
+      "selfLink": {
+        "kind": "structuralResources#code",
+        "href": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes/_Z"
+      },
+      "name": {
+        "text": [
+          {
+            "value": "Not applicable",
+            "lang": "en"
+          },
+          {
+            "value": "No aplicable",
+            "lang": "es"
+          }
+        ]
+      },
+      "description": {
+        "text": [
+          {
+            "value": "Used in cases where the coding of a concept is technically required (dimension or mandatory attribute), but does not have a statistical meaning for a specific series or observation.",
+            "lang": "en"
+          },
+          {
+            "value": "Se usa en los casos en los que la codificación de un concepto es técnicamente requerida (dimensión o atributo obligatorio), pero no tiene significado estadístico para una serie u observación específica.",
+            "lang": "es"
+          }
+        ]
+      },
+      "kind": "structuralResources#code"
+    }
+  ],
+  "kind": "structuralResources#codes",
+  "total": 16,
+  "selfLink": "https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes"
+}

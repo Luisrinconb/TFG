@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-regiondemurcia-es-instituto-de-turismo-de-la-region-de-murcia-catalogo-cultura-ocio-galerias-de-arte">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:18:58Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>3a05041441ac4e4083ab69e3329c3538</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-regiondemurcia-es-instituto-de-turismo-de-la-region-de-murcia-catalogo-cultura-ocio-galerias-de-arte">
+        <dct:description xml:lang="lv-t-es-t0-mtec">Mākslas galerijas Mursijas reģionā</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Il-Galleriji tal-Arti fir-Reġjun ta’ Murcia</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Konstgallerier i regionen Murcia</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Konstgallerier</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Kunstigaleriid</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-03T00:00:00+01:00</dct:modified>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Mākslas galerijas</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Gallerie d'arte nella regione di Murcia</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Galleriji ta’ l-arti</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Kunstgalerijen in de regio Murcia</dct:description>
+        <dct:description xml:lang="es">Galerías de Arte en la Región de Murcia</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Kunstgalerien</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6bb155dc-c68f-4565-944a-39129e8e945a">
+            <dct:title xml:lang="pt-t-es-t0-mtec">Galerias de arte</dct:title>
+            <dct:license rdf:resource="https://datosabiertos.regiondemurcia.es/avisolegal"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Umjetničke galerije</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Meno galerijos</dct:title>
+            <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/galerias-de-arte/93f17ae3-971f-442c-be75-af7a0c7d7c15</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Taidegalleriat</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Galerie umění</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Mākslas galerijas</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Gailearaí na nEalaíon</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Umetnostne galerije</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Gallerie d'arte</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Art Galleries</dct:title>
+            <dct:title xml:lang="es">Galerías de Arte</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Γκαλερί τέχνης</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Kunstgaleries</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Konstgallerier</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Galerie sztuki</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Umelecké galérie</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Művészeti galériák</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Galeries d’art</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Kunstgallerier</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Арт галерии</dct:title>
+            <dcat:accessURL rdf:resource="http://nexo.carm.es/nexo/archivos/recursos/opendata/json/GalerasdeArte.json"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">Kunstigaleriid</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Galleriji ta’ l-arti</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Kunstgalerien</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Художні галереї</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Galerii de artă</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Арт галерии в района на Мурсия</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Арт-галереї в регіоні Мурсія</dct:description>
+        <dcat:keyword xml:lang="es">Turismo</dcat:keyword>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Umjetničke galerije</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Galerie sztuki</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Umelecké galérie v regióne Murcia</dct:description>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Galerias de arte</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Kunstgallerier i Murcia-regionen</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Meno galerijos Mursijos regione</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2016-03-16T00:00:00+01:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A14002961">
+            <foaf:name>Región de Murcia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Meno galerijos</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Galerias de arte na região de Múrcia</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Umetnostne galerije v regiji Murcia</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Gailearaí na nEalaíon</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Galerii de artă</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Kunstgaleries</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Γκαλερί τέχνης</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a0af2a79-827d-4567-a366-4300ec642b63">
+            <dct:title xml:lang="pl-t-es-t0-mtec">Galerie sztuki</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Kunstgallerier</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Taidegalleriat</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Meno galerijos</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Художні галереї</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Umetnostne galerije</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Galerie umění</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Γκαλερί τέχνης</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Umjetničke galerije</dct:title>
+            <dct:license rdf:resource="https://datosabiertos.regiondemurcia.es/avisolegal"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Mākslas galerijas</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Galerias de arte</dct:title>
+            <dcat:accessURL rdf:resource="http://nexo.carm.es/nexo/archivos/recursos/opendata/csv/GalerasdeArte.csv"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Арт галерии</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Művészeti galériák</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Umelecké galérie</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Galleriji ta’ l-arti</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Gallerie d'arte</dct:title>
+            <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/galerias-de-arte/9dcdaf5d-0e21-4691-b4dc-eb76b35ec2cc</dct:identifier>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Galeries d’art</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Gailearaí na nEalaíon</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Galerii de artă</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Kunstgaleries</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Kunstgalerien</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Konstgallerier</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Kunstigaleriid</dct:title>
+            <dct:title xml:lang="es">Galerías de Arte</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Art Galleries</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Художні галереї</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Umelecké galérie</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Galeries d’art dans la région de Murcie</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Taidegalleriat Murcian alueella</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Umetnostne galerije</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Art Galleries</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Galerie umění v regionu Murcia</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Galerie umění</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Galerie sztuki w regionie Murcji</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Kunstgallerier</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Γκαλερί τέχνης στην περιοχή της Μούρθια</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Gailearaithe Ealaíne i Réigiún Murcia</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Kunstgalerien in der Region Murcia</dct:description>
+        <dct:title xml:lang="es">Galerías de Arte</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Galeries d’art</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Művészeti galériák Murcia régióban</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Art Galleries in the Region of Murcia</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Umjetničke galerije u regiji Murcia</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Művészeti galériák</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Kunstigaleriid Murcia maakonnas</dct:description>
+        <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/galerias-de-arte</dct:identifier>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Galerii de artă în regiunea Murcia</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d9d5af75-cb42-4c97-830a-7e465ff55ed3">
+            <dct:title xml:lang="mt-t-es-t0-mtec">Galleriji ta’ l-arti</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Арт галерии</dct:title>
+            <dct:title xml:lang="es">Galerías de Arte</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Konstgallerier</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Art Galleries</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Umelecké galérie</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Galerie sztuki</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Gallerie d'arte</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Galerias de arte</dct:title>
+            <dcat:accessURL rdf:resource="http://nexo.carm.es/nexo/archivos/recursos/opendata/rdf/GalerasdeArte.rdf"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Galerie umění</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Kunstgalerien</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Galerii de artă</dct:title>
+            <dct:license rdf:resource="https://datosabiertos.regiondemurcia.es/avisolegal"/>
+            <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/galerias-de-arte/07674da8-dcd5-45a1-aac4-8dab833f9439</dct:identifier>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Művészeti galériák</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Kunstgallerier</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Meno galerijos</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Umetnostne galerije</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Gailearaí na nEalaíon</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Mākslas galerijas</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Kunstigaleriid</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Γκαλερί τέχνης</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Kunstgaleries</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Художні галереї</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Galeries d’art</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Taidegalleriat</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Umjetničke galerije</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="it-t-es-t0-mtec">Gallerie d'arte</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Taidegalleriat</dct:title>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Арт галерии</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:18:58Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:28:46Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-04T05:28:52Z</edp:transReceived>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-regiondemurcia-es-instituto-de-turismo-de-la-region-de-murcia-catalogo-cultura-ocio-galerias-de-arte"/>
+    <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/galerias-de-arte</dct:identifier>
+  </dcat:CatalogRecord>
+</rdf:RDF>

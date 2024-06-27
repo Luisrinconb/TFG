@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/http-datos-lorca-es-catalogo-organizaciones-profesionales-">
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:34:02Z</edp:transIssued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/http-datos-lorca-es-catalogo-organizaciones-profesionales-"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>8cdffccc022e6889330dbd9c701772a4</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/http-datos-lorca-es-catalogo-organizaciones-profesionales-">
+        <dct:description xml:lang="it-t-es-t0-mtec">Organizzazioni professionali, esistenti a Lorca</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/68b4236a-7bb2-421d-acd9-40ac02c0f2c3">
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:identifier>http://datos.lorca.es/catalogo/organizaciones-profesionales/Excel</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/organizaciones-profesionales/organizaciones-profesionales.excel"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l01300243-organizaciones-profesionales/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l01300243-organizaciones-profesionales/DurationDescription">
+                <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:months>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:description xml:lang="es">Organizaciones profesionales, existentes en Lorca</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Ammattialajärjestöt, jotka ovat olemassa Lorcassa</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Szakmai szervezetek</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Organizacje zawodowe, istniejące w Lorca</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Професійні організації</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Lorcas tegutsevad kutseorganisatsioonid</dct:description>
+        <dct:identifier>http://datos.lorca.es/catalogo/organizaciones-profesionales/</dct:identifier>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Organizații profesionale, existente în Lorca</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Organizzazioni professionali</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Murcia"/>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Eagraíochtaí gairmiúla</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Yrkesorganisationer</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fcda3cee-699f-4402-940b-116f0d80fa3b">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:identifier>http://datos.lorca.es/catalogo/organizaciones-profesionales/XML</dct:identifier>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/organizaciones-profesionales/organizaciones-profesionales.xml"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Region-Murcia"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:keyword xml:lang="es">profesionales</dcat:keyword>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Organizações profissionais</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Επαγγελματικές οργανώσεις, που υπάρχουν στη Λόρκα</dct:description>
+        <dcat:keyword xml:lang="es">asociaciones</dcat:keyword>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Organizații profesionale</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Lorkoje veikiančios profesinės organizacijos</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Profesijné organizácie existujúce v Lorci</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Organizzazzjonijiet professjonali</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Kutseorganisatsioonid</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Profesinės organizacijos</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Професионални организации, съществуващи в Lorca</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Strokovne organizacije</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Organisations professionnelles, existantes à Lorca</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Lorcában működő szakmai szervezetek</dct:description>
+        <dcat:keyword xml:lang="es">organizaciones</dcat:keyword>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01300243">
+            <foaf:name>Ayuntamiento de Lorca</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Profesionālās organizācijas</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8e07fb60-6bf1-4c57-a334-42c171c5945c">
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:identifier>http://datos.lorca.es/catalogo/organizaciones-profesionales/HTML</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/organizaciones-profesionales/organizaciones-profesionales.html"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Organizacje zawodowe</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Organizações profissionais existentes em Lorca</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Lorkā esošās profesionālās organizācijas</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/91192304-ac8a-4c8e-9186-992c269d34d3">
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/organizaciones-profesionales/organizaciones-profesionales.json"/>
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:identifier>http://datos.lorca.es/catalogo/organizaciones-profesionales/JSON</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Strokovne organizacije, ki obstajajo v Lorci</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Faglige organisationer</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Eagraíochtaí gairmiúla, atá ann cheana i Lorca</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Yrkesorganisationer, som finns i Lorca</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Profesní organizace, existující v Lorca</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Profesionálne organizácie</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2014-07-18T00:00:00+02:00</dct:issued>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Beroepsorganisaties, bestaande in Lorca</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ea210ee5-e151-48e6-a9a5-ecc515e9b756">
+            <dct:license rdf:resource="http://datos.lorca.es/avisolegal"/>
+            <dct:identifier>http://datos.lorca.es/catalogo/organizaciones-profesionales/CSV</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="http://datos.lorca.es/catalogo/organizaciones-profesionales/organizaciones-profesionales.csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Organisations professionnelles</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Faglige organisationer, eksisterende i Lorca</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Strukovne organizacije koje postoje u Lorci</dct:description>
+        <dct:title xml:lang="es">Organizaciones profesionales</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Profesní organizace</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Berufsorganisationen</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+        <dct:description xml:lang="de-t-es-t0-mtec">Berufsverbände, die in Lorca existieren</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Професионални организации</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Professional organisations</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Beroepsorganisaties</dct:title>
+        <dct:valid rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-27T00:00:00+02:00</dct:valid>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-01T00:00:00+02:00</dct:modified>
+        <dct:title xml:lang="el-t-es-t0-mtec">Επαγγελματικές οργανώσεις</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Professional organisations, existing in Lorca</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Професійні організації, що існують в Лорці</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Profesionalne organizacije</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Ammatilliset järjestöt</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Organizzazzjonijiet professjonali, li jeżistu f’Lorca</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>http://datos.lorca.es/catalogo/organizaciones-profesionales/</dct:identifier>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-05T15:58:07Z</edp:transReceived>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:34:02Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:39:20Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

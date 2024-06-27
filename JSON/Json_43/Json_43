@@ -1,0 +1,160 @@
+// 20240610203009
+// https://datosabiertos.ayto-arganda.es/dataset/4f7b0c2b-e8f8-4712-8291-f6f0705c2f8f/resource/5fc914ff-6df1-4ebc-b96b-f705a378d312/download/ordenanzas-fiscales_.json
+
+[
+  {
+    "NUMERO": 1,
+    "ORDENANZA FISCAL": "Ordenanza fiscal general de gestión, recaudación e inspección tributaria",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010076454641153&HASH_CUD=68b2de58c3d33d87d82da573f8e0b2fb30c3a194&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 2,
+    "ORDENANZA FISCAL": "Ordenanza fiscal del impuesto sobre bienes inmuebles",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617011304201125156&HASH_CUD=cb2dcb0a7083c328c50a622bc545f1923b686935&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 3,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora del impuesto sobre actividades económicas",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617011404043202651&HASH_CUD=d231028cf352612828eac427ffec3cd3114b19cb&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 4,
+    "ORDENANZA FISCAL": "Ordenanza fiscal del impuesto sobre vehículos de tracción mecánica",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010435223000363&HASH_CUD=b5f3949d20298aa0dd4b60cefab5c73720c5197b&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 5,
+    "ORDENANZA FISCAL": "Ordenanza fiscal del impuesto sobre el incremento de valor de los terrenos de naturaleza urbana",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=15254073404267157741&HASH_CUD=9565fbef52f64ffae9595e0bfb73ff60df1d193f&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 6,
+    "ORDENANZA FISCAL": "Ordenanza fiscal del impuesto sobre construcciones,instalaciones y obras",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010352033541652&HASH_CUD=ed18e0d85b4d1f262c57b8aa488b7a82dbc80e0a&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 7,
+    "ORDENANZA FISCAL": "Ordenanza reguladora de la tasa por el servicio de recogida de basuras",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010222434101344&HASH_CUD=4a45244bb56451cd9ebd21dc126b730a0f7d0c9d&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 8,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de la tasa por entrada de vehículos a través de las aceras ó calzadas",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617011003502250452&HASH_CUD=2e166a8763147c866aa7f8069edc546ef22a2b07&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 9,
+    "ORDENANZA FISCAL": "Tasa por otorgamiento de licencias urbanísticas",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010225026246333&HASH_CUD=4a2f8f63e8bedcb8133c3e7180e0c4ea62796f78&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 10,
+    "ORDENANZA FISCAL": "Tasa por tramitación de licencias de instalación, apertura y funcionamiento de actividades",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010457315152424&HASH_CUD=b8e776be84712072267d7239ea47c4e19a94193a&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 11,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de las tasas por utilización privativa y aprovechamientos especiales del dominio publico local.",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010765566353227&HASH_CUD=e01ca9e4415e83fdfd763b94feca05a74ceba370&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 12,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de la tasa por utilizaciones privativas o aprovechamientos especiales del dominio público local  por empresas explotadoras de servicios de suministros que resulten de interés general o afecten a la generalidad....",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010260263531445&HASH_CUD=5baa9d768cbcb4862d399f09c2fc5bcbf617746b&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 13,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de los derechos y tasas sobre auto taxis y demás vehículos de alquiler",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617011263072726664&HASH_CUD=5a2fa23b2d9d856d860c825c25c6985a9787f00e&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 14,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de la tasa por la recogida de vehículos en la vía publica.",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010601150606701&HASH_CUD=825f8062ec31cf2d63d6a0464a2bc90537fcce5a&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 15,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de la tasa por servicio de regulación de aparcamiento de vehículos en la vía publica",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010557634323760&HASH_CUD=98e249c1a3aba67e0c538278c066673f9a578299&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 16,
+    "ORDENANZA FISCAL": "Tasa por prestación de servicios en los cementerios municipales",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617011164235036050&HASH_CUD=553b91f450318c1f8b73acf50e4a281854d4343d&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 17,
+    "ORDENANZA FISCAL": "Tasa por la prestación del servicio de celebración de matrimonio civil",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010043264653234&HASH_CUD=628aeb252103bac2f6547e81d64c977e567b6bd0&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 18,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de las tasas por prestación de actividades administrativas y expedición de documentos administrativos",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010535722636046&HASH_CUD=b1f4672391436241edd132f06a8ffb359fb2e56d&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 19,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de la tasa por derechos de examen",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617011141764227515&HASH_CUD=26425b3927d368862e92a95fd2af5ae5ae5e324b&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 20,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de la tasa por la prestación del servicio de recogida,custodia y manutención de animales domésticos y/o de compañía extraviados  perdidos o abandonados",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010143266715333&HASH_CUD=ca4ab97536136d4e022b2d636d3738fb081d8efd&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 21,
+    "ORDENANZA FISCAL": "Ordenanza reguladora de la gestión integral de los servicios de atención domiciliaria",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010433507635350&HASH_CUD=7fff1199ad6470b4be2928c9b5fb61deb34e75ac&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 22,
+    "ORDENANZA FISCAL": "Ordenanza reguladora del precio publico por prestación de servicios de los talleres culturales y juveniles municipales y cursos de formación",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010206343633635&HASH_CUD=f10a9a23837b06af638ba06e07f4b2bc7fc3fb6b&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 23,
+    "ORDENANZA FISCAL": "Ordenanza reguladora del precio publico y normas por la prestación de servicios del taller municipal de artes gráficas",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010606325235327&HASH_CUD=93912944e7c96c88396e1cf661a4a2e4f273e26b&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 24,
+    "ORDENANZA FISCAL": "Ordenanza reguladora de precio publico y de normas reguladoras por prestación de servicios en la escuela infantil municipal y casa de niños de Arganda del Rey",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617011064300562002&HASH_CUD=f95df1b024f53a377ef443a2438cf7fea12fe0c5&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 25,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de la tasa por servicios  y utilización de la galería de tiro instalada en policía local ",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010137213225414&HASH_CUD=76d04ba7b153f72b1d9ed106c267cd3f97845a13&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 26,
+    "ORDENANZA FISCAL": "Ordenanza reguladora del precio publico por prestación de servicios del conservatorio municipal de grado medio y de la escuela municipal de música y danza",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010064247200773&HASH_CUD=8afbcfccf7033d01638a575136916b74f5456531&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 27,
+    "ORDENANZA FISCAL": "Ordenanza reguladora del precio publico por venta de publicaciones municipales",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010671310320712&HASH_CUD=a026ab60f0596bdca3e0996386927e2785d1d3e2&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 28,
+    "ORDENANZA FISCAL": "Ordenanza reguladora del precio público por bastanteo,compulsa de documentos y copias de documentos de archivos y registros municipales",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010122657317001&HASH_CUD=40e8e57d44dc010cea5ddf3040b9481110c6662a&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 29,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de contribuciones especiales",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010427245552244&HASH_CUD=2d7814908ff789ca76e17e783658021399e50200&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 30,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de la gestión de cobro mediante el sistema de fraccionamiento gratuito unificado",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617010426347035575&HASH_CUD=411e838cbdbd99d2cb603d23af9fb0e08bcc810d&APP_CODE=STA"
+  },
+  {
+    "NUMERO": 31,
+    "ORDENANZA FISCAL": "Ordenanza fiscal reguladora de las tasas por la ocupación y uso del dominio público con terrazas de mesas, veladores y elementos auxiliares",
+    "TEXTO ORDENANZA": "https://sedeelectronica.argandadelrey.es/sta/docs/GetDocumentServlet?CUD=14617011227637057134&HASH_CUD=b6dee4d1e6691fc911d97e324ae9d4b8fb3838b0&APP_CODE=STA"
+  }
+]

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-parcan-es-dataset-iniciativas_tipoidc_anio2024_xilegislatura">
+    <dct:identifier>https://datos.parcan.es/dataset/iniciativas_tipoidc_anio2024_xilegislatura</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-parcan-es-dataset-iniciativas_tipoidc_anio2024_xilegislatura">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bf60c193-bc50-44fe-aec3-26156cfa9f8c">
+            <dct:title xml:lang="es">Iniciativas IDC - 2024 - XI Legislatura</dct:title>
+            <dcat:accessURL rdf:resource="https://parcan.es/api/iniciativas/2024/11/IDC?format=csv"/>
+            <dct:identifier>https://datos.parcan.es/dataset/iniciativas_tipoidc_anio2024_xilegislatura/resource/25dff11f-388e-4d08-acf6-be1b90341511</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/08fb29de-2d4e-4b49-a556-d60e554aa961">
+            <dct:title xml:lang="es">Iniciativas IDC - 2024 - XI Legislatura</dct:title>
+            <dcat:accessURL rdf:resource="https://parcan.es/api/iniciativas/2024/11/IDC?format=json"/>
+            <dct:identifier>https://datos.parcan.es/dataset/iniciativas_tipoidc_anio2024_xilegislatura/resource/6a870499-fb2a-4061-9110-3fbb28032747</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-pddl"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-23T00:00:00+01:00</dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:description xml:lang="es">INFORMES DEL DIPUTADO DEL COMUN - 2024 - XI Legislatura</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+        <dct:identifier>https://datos.parcan.es/dataset/iniciativas_tipoidc_anio2024_xilegislatura</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-23T00:00:00+01:00</dct:issued>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/I00000687">
+            <foaf:name>Parlamento de Canarias</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="es">Iniciativas IDC - 2024 - XI Legislatura</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:38:35Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>ac0afb9e453ba1b58066a4f0099ca888</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-parcan-es-dataset-iniciativas_tipoidc_anio2024_xilegislatura"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-28T23:38:41Z</edp:transIssued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-28T23:38:41Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

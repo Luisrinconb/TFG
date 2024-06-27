@@ -1,0 +1,920 @@
+[
+  {
+    "COD": "EPF428430",
+    "Nombre": "Base 2006. Anual. Total Nacional. Total. Coeficiente de variación. ",
+    "T3_Unidad": "Porcentaje",
+    "T3_Escala": " ",
+    "MetaData": [
+      {
+        "Id": 9026,
+        "T3_Variable": "Año Base",
+        "Nombre": "Base 2006. Anual",
+        "Codigo": ""
+      },
+      {
+        "Id": 16473,
+        "T3_Variable": "Total Nacional",
+        "Nombre": "Total Nacional",
+        "Codigo": "00"
+      },
+      {
+        "Id": 291976,
+        "T3_Variable": "Tamaño del municipio",
+        "Nombre": "Total",
+        "Codigo": ""
+      },
+      {
+        "Id": 8911,
+        "T3_Variable": "Tipo de dato",
+        "Nombre": "Coeficiente de variación",
+        "Codigo": "CV"
+      }
+    ],
+    "Data": [
+      {
+        "Fecha": "2022-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2022,
+        "Valor": 1.15
+      },
+      {
+        "Fecha": "2021-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2021,
+        "Valor": 0.97
+      },
+      {
+        "Fecha": "2020-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2020,
+        "Valor": 1.03
+      },
+      {
+        "Fecha": "2019-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2019,
+        "Valor": 0.9
+      },
+      {
+        "Fecha": "2018-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2018,
+        "Valor": 0.87
+      },
+      {
+        "Fecha": "2017-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2017,
+        "Valor": 0.79
+      },
+      {
+        "Fecha": "2016-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2016,
+        "Valor": 0.79
+      },
+      {
+        "Fecha": "2015-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2015,
+        "Valor": 0.77
+      },
+      {
+        "Fecha": "2014-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2014,
+        "Valor": 0.76
+      },
+      {
+        "Fecha": "2013-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2013,
+        "Valor": 0.76
+      },
+      {
+        "Fecha": "2012-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2012,
+        "Valor": 0.78
+      },
+      {
+        "Fecha": "2011-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2011,
+        "Valor": 0.79
+      },
+      {
+        "Fecha": "2010-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2010,
+        "Valor": 0.79
+      },
+      {
+        "Fecha": "2009-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2009,
+        "Valor": 0.83
+      },
+      {
+        "Fecha": "2008-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2008,
+        "Valor": 0.79
+      },
+      {
+        "Fecha": "2007-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2007,
+        "Valor": 0.84
+      },
+      {
+        "Fecha": "2006-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2006,
+        "Valor": 0.94
+      }
+    ]
+  },
+  {
+    "COD": "EPF428429",
+    "Nombre": "Base 2006. Anual. Total Nacional. De 100.000 o más habitantes. Coeficiente de variación. ",
+    "T3_Unidad": "Porcentaje",
+    "T3_Escala": " ",
+    "MetaData": [
+      {
+        "Id": 9026,
+        "T3_Variable": "Año Base",
+        "Nombre": "Base 2006. Anual",
+        "Codigo": ""
+      },
+      {
+        "Id": 16473,
+        "T3_Variable": "Total Nacional",
+        "Nombre": "Total Nacional",
+        "Codigo": "00"
+      },
+      {
+        "Id": 8679,
+        "T3_Variable": "Tamaño del municipio",
+        "Nombre": "De 100.000 o más habitantes",
+        "Codigo": ""
+      },
+      {
+        "Id": 8911,
+        "T3_Variable": "Tipo de dato",
+        "Nombre": "Coeficiente de variación",
+        "Codigo": "CV"
+      }
+    ],
+    "Data": [
+      {
+        "Fecha": "2022-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2022,
+        "Valor": 2.0
+      },
+      {
+        "Fecha": "2021-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2021,
+        "Valor": 1.6
+      },
+      {
+        "Fecha": "2020-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2020,
+        "Valor": 1.78
+      },
+      {
+        "Fecha": "2019-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2019,
+        "Valor": 1.53
+      },
+      {
+        "Fecha": "2018-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2018,
+        "Valor": 1.54
+      },
+      {
+        "Fecha": "2017-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2017,
+        "Valor": 1.4
+      },
+      {
+        "Fecha": "2016-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2016,
+        "Valor": 1.53
+      },
+      {
+        "Fecha": "2015-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2015,
+        "Valor": 1.49
+      },
+      {
+        "Fecha": "2014-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2014,
+        "Valor": 1.45
+      },
+      {
+        "Fecha": "2013-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2013,
+        "Valor": 1.4
+      },
+      {
+        "Fecha": "2012-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2012,
+        "Valor": 1.47
+      },
+      {
+        "Fecha": "2011-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2011,
+        "Valor": 1.44
+      },
+      {
+        "Fecha": "2010-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2010,
+        "Valor": 1.45
+      },
+      {
+        "Fecha": "2009-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2009,
+        "Valor": 1.52
+      },
+      {
+        "Fecha": "2008-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2008,
+        "Valor": 1.51
+      },
+      {
+        "Fecha": "2007-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2007,
+        "Valor": 1.52
+      },
+      {
+        "Fecha": "2006-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2006,
+        "Valor": 1.69
+      }
+    ]
+  },
+  {
+    "COD": "EPF428428",
+    "Nombre": "Base 2006. Anual. Total Nacional. De 50.000 a menos de 100.000 habitantes. Coeficiente de variación. ",
+    "T3_Unidad": "Porcentaje",
+    "T3_Escala": " ",
+    "MetaData": [
+      {
+        "Id": 9026,
+        "T3_Variable": "Año Base",
+        "Nombre": "Base 2006. Anual",
+        "Codigo": ""
+      },
+      {
+        "Id": 16473,
+        "T3_Variable": "Total Nacional",
+        "Nombre": "Total Nacional",
+        "Codigo": "00"
+      },
+      {
+        "Id": 8680,
+        "T3_Variable": "Tamaño del municipio",
+        "Nombre": "De 50.000 a menos de 100.000 habitantes",
+        "Codigo": ""
+      },
+      {
+        "Id": 8911,
+        "T3_Variable": "Tipo de dato",
+        "Nombre": "Coeficiente de variación",
+        "Codigo": "CV"
+      }
+    ],
+    "Data": [
+      {
+        "Fecha": "2022-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2022,
+        "Valor": 3.49
+      },
+      {
+        "Fecha": "2021-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2021,
+        "Valor": 4.13
+      },
+      {
+        "Fecha": "2020-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2020,
+        "Valor": 3.7
+      },
+      {
+        "Fecha": "2019-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2019,
+        "Valor": 3.33
+      },
+      {
+        "Fecha": "2018-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2018,
+        "Valor": 3.31
+      },
+      {
+        "Fecha": "2017-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2017,
+        "Valor": 3.2
+      },
+      {
+        "Fecha": "2016-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2016,
+        "Valor": 3.47
+      },
+      {
+        "Fecha": "2015-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2015,
+        "Valor": 3.76
+      },
+      {
+        "Fecha": "2014-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2014,
+        "Valor": 3.79
+      },
+      {
+        "Fecha": "2013-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2013,
+        "Valor": 4.05
+      },
+      {
+        "Fecha": "2012-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2012,
+        "Valor": 4.03
+      },
+      {
+        "Fecha": "2011-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2011,
+        "Valor": 4.11
+      },
+      {
+        "Fecha": "2010-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2010,
+        "Valor": 3.75
+      },
+      {
+        "Fecha": "2009-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2009,
+        "Valor": 4.04
+      },
+      {
+        "Fecha": "2008-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2008,
+        "Valor": 3.65
+      },
+      {
+        "Fecha": "2007-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2007,
+        "Valor": 3.46
+      },
+      {
+        "Fecha": "2006-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2006,
+        "Valor": 3.55
+      }
+    ]
+  },
+  {
+    "COD": "EPF428427",
+    "Nombre": "Base 2006. Anual. Total Nacional. De 20.000 a menos de 50.000 habitantes. Coeficiente de variación. ",
+    "T3_Unidad": "Porcentaje",
+    "T3_Escala": " ",
+    "MetaData": [
+      {
+        "Id": 9026,
+        "T3_Variable": "Año Base",
+        "Nombre": "Base 2006. Anual",
+        "Codigo": ""
+      },
+      {
+        "Id": 16473,
+        "T3_Variable": "Total Nacional",
+        "Nombre": "Total Nacional",
+        "Codigo": "00"
+      },
+      {
+        "Id": 8681,
+        "T3_Variable": "Tamaño del municipio",
+        "Nombre": "De 20.000 a menos de 50.000 habitantes",
+        "Codigo": ""
+      },
+      {
+        "Id": 8911,
+        "T3_Variable": "Tipo de dato",
+        "Nombre": "Coeficiente de variación",
+        "Codigo": "CV"
+      }
+    ],
+    "Data": [
+      {
+        "Fecha": "2022-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2022,
+        "Valor": 2.65
+      },
+      {
+        "Fecha": "2021-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2021,
+        "Valor": 2.51
+      },
+      {
+        "Fecha": "2020-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2020,
+        "Valor": 2.93
+      },
+      {
+        "Fecha": "2019-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2019,
+        "Valor": 2.89
+      },
+      {
+        "Fecha": "2018-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2018,
+        "Valor": 2.53
+      },
+      {
+        "Fecha": "2017-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2017,
+        "Valor": 2.77
+      },
+      {
+        "Fecha": "2016-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2016,
+        "Valor": 2.42
+      },
+      {
+        "Fecha": "2015-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2015,
+        "Valor": 2.82
+      },
+      {
+        "Fecha": "2014-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2014,
+        "Valor": 2.84
+      },
+      {
+        "Fecha": "2013-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2013,
+        "Valor": 2.76
+      },
+      {
+        "Fecha": "2012-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2012,
+        "Valor": 2.94
+      },
+      {
+        "Fecha": "2011-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2011,
+        "Valor": 3.21
+      },
+      {
+        "Fecha": "2010-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2010,
+        "Valor": 3.41
+      },
+      {
+        "Fecha": "2009-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2009,
+        "Valor": 3.28
+      },
+      {
+        "Fecha": "2008-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2008,
+        "Valor": 3.02
+      },
+      {
+        "Fecha": "2007-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2007,
+        "Valor": 2.67
+      },
+      {
+        "Fecha": "2006-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2006,
+        "Valor": 2.68
+      }
+    ]
+  },
+  {
+    "COD": "EPF428426",
+    "Nombre": "Base 2006. Anual. Total Nacional. De 10.000 a menos de 20.000 habitantes. Coeficiente de variación. ",
+    "T3_Unidad": "Porcentaje",
+    "T3_Escala": " ",
+    "MetaData": [
+      {
+        "Id": 9026,
+        "T3_Variable": "Año Base",
+        "Nombre": "Base 2006. Anual",
+        "Codigo": ""
+      },
+      {
+        "Id": 16473,
+        "T3_Variable": "Total Nacional",
+        "Nombre": "Total Nacional",
+        "Codigo": "00"
+      },
+      {
+        "Id": 8682,
+        "T3_Variable": "Tamaño del municipio",
+        "Nombre": "De 10.000 a menos de 20.000 habitantes",
+        "Codigo": ""
+      },
+      {
+        "Id": 8911,
+        "T3_Variable": "Tipo de dato",
+        "Nombre": "Coeficiente de variación",
+        "Codigo": "CV"
+      }
+    ],
+    "Data": [
+      {
+        "Fecha": "2022-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2022,
+        "Valor": 3.62
+      },
+      {
+        "Fecha": "2021-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2021,
+        "Valor": 3.11
+      },
+      {
+        "Fecha": "2020-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2020,
+        "Valor": 3.32
+      },
+      {
+        "Fecha": "2019-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2019,
+        "Valor": 3.18
+      },
+      {
+        "Fecha": "2018-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2018,
+        "Valor": 3.03
+      },
+      {
+        "Fecha": "2017-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2017,
+        "Valor": 2.9
+      },
+      {
+        "Fecha": "2016-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2016,
+        "Valor": 3.24
+      },
+      {
+        "Fecha": "2015-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2015,
+        "Valor": 4.24
+      },
+      {
+        "Fecha": "2014-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2014,
+        "Valor": 4.53
+      },
+      {
+        "Fecha": "2013-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2013,
+        "Valor": 3.99
+      },
+      {
+        "Fecha": "2012-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2012,
+        "Valor": 4.0
+      },
+      {
+        "Fecha": "2011-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2011,
+        "Valor": 4.29
+      },
+      {
+        "Fecha": "2010-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2010,
+        "Valor": 4.32
+      },
+      {
+        "Fecha": "2009-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2009,
+        "Valor": 4.04
+      },
+      {
+        "Fecha": "2008-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2008,
+        "Valor": 4.0
+      },
+      {
+        "Fecha": "2007-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2007,
+        "Valor": 3.89
+      },
+      {
+        "Fecha": "2006-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2006,
+        "Valor": 3.6
+      }
+    ]
+  },
+  {
+    "COD": "EPF428425",
+    "Nombre": "Base 2006. Anual. Total Nacional. Menos de 10.000 habitantes. Coeficiente de variación. ",
+    "T3_Unidad": "Porcentaje",
+    "T3_Escala": " ",
+    "MetaData": [
+      {
+        "Id": 9026,
+        "T3_Variable": "Año Base",
+        "Nombre": "Base 2006. Anual",
+        "Codigo": ""
+      },
+      {
+        "Id": 16473,
+        "T3_Variable": "Total Nacional",
+        "Nombre": "Total Nacional",
+        "Codigo": "00"
+      },
+      {
+        "Id": 8683,
+        "T3_Variable": "Tamaño del municipio",
+        "Nombre": "Menos de 10.000 habitantes",
+        "Codigo": ""
+      },
+      {
+        "Id": 8911,
+        "T3_Variable": "Tipo de dato",
+        "Nombre": "Coeficiente de variación",
+        "Codigo": "CV"
+      }
+    ],
+    "Data": [
+      {
+        "Fecha": "2022-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2022,
+        "Valor": 2.13
+      },
+      {
+        "Fecha": "2021-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2021,
+        "Valor": 2.2
+      },
+      {
+        "Fecha": "2020-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2020,
+        "Valor": 2.15
+      },
+      {
+        "Fecha": "2019-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2019,
+        "Valor": 1.95
+      },
+      {
+        "Fecha": "2018-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2018,
+        "Valor": 1.91
+      },
+      {
+        "Fecha": "2017-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2017,
+        "Valor": 1.58
+      },
+      {
+        "Fecha": "2016-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2016,
+        "Valor": 1.63
+      },
+      {
+        "Fecha": "2015-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2015,
+        "Valor": 1.89
+      },
+      {
+        "Fecha": "2014-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2014,
+        "Valor": 1.83
+      },
+      {
+        "Fecha": "2013-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2013,
+        "Valor": 1.85
+      },
+      {
+        "Fecha": "2012-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2012,
+        "Valor": 1.82
+      },
+      {
+        "Fecha": "2011-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2011,
+        "Valor": 1.98
+      },
+      {
+        "Fecha": "2010-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2010,
+        "Valor": 1.94
+      },
+      {
+        "Fecha": "2009-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2009,
+        "Valor": 2.07
+      },
+      {
+        "Fecha": "2008-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2008,
+        "Valor": 1.88
+      },
+      {
+        "Fecha": "2007-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2007,
+        "Valor": 1.93
+      },
+      {
+        "Fecha": "2006-01-01T00:00:00.000+01:00",
+        "T3_TipoDato": "Definitivo",
+        "T3_Periodo": "A",
+        "Anyo": 2006,
+        "Valor": 1.97
+      }
+    ]
+  }
+]

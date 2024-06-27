@@ -1,0 +1,260 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-dipcas-es-explore-dataset-listado-de-informacion-basica-de-unidades-organicas-de-la-age-">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:24:18Z</dct:modified>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-03T12:07:46Z</edp:transReceived>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:12:15Z</edp:transIssued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-dipcas-es-explore-dataset-listado-de-informacion-basica-de-unidades-organicas-de-la-age-">
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000012">
+            <foaf:name>Diputación Provincial de Castelló/Castellón</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Le répertoire commun fournit un inventaire unifié et commun à l’ensemble de l’administration des unités organiques/organismes publics, de leurs bureaux associés et des unités de gestion économique-budgétaire, ce qui facilite la diffusion et la gestion co-responsable de l’information.
+
+
+Cet ensemble de données recueille les unités organiques de l’administration générale de l’État.</dct:description>
+        <dct:description xml:lang="da-t-es-t0-mtec">Det fælles register stiller en samlet og fælles fortegnelse til rådighed for hele administrationen af de organiske enheder/offentlige organer, deres tilknyttede kontorer og de økonomiske og budgetmæssige forvaltningsenheder, hvilket letter den distribuerede og medansvarlige vedligeholdelse af oplysningerne. 
+
+Dette datasæt indsamler de organiske enheder i den generelle statsforvaltning.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Förteckning över grundläggande uppgifter om ekologiska enheter i AGE</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Pagrindinės informacijos apie AGE ekologinius vienetus sąrašas</dct:title>
+        <dcat:keyword xml:lang="es">organismos públicos</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-28T22:13:19+02:00</dct:modified>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:description xml:lang="es">El Directorio Común proporciona un Inventario unificado y común a toda la Administración de las unidades orgánicas / organismos públicos, sus oficinas asociadas y unidades de gestión económica - presupuestaria, facilitando el mantenimiento distribuido y corresponsable de la información.
+
+Este conjunto de datos recoge las unidades orgánicas de la Administración General del Estado.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:description xml:lang="el-t-es-t0-mtec">Ο Κοινός Κατάλογος παρέχει ενιαίο και κοινό κατάλογο σε ολόκληρη τη Διοίκηση των οργανικών μονάδων/δημόσιων φορέων, των συνδεδεμένων γραφείων τους και των μονάδων διαχείρισης οικονομικού προϋπολογισμού, διευκολύνοντας τη διανομή και συνυπεύθυνη συντήρηση των πληροφοριών. 
+
+Αυτό το σύνολο δεδομένων συλλέγει τις οργανικές μονάδες της Γενικής Κρατικής Διοίκησης.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Spoločný adresár poskytuje jednotnú a spoločnú inventúru celej správe ekologických jednotiek/verejných orgánov, ich pridruženým úradom a hospodárskym a rozpočtovým riadiacim jednotkám, čím uľahčuje distribuované a spoluzodpovedné uchovávanie informácií. 
+
+Tento súbor údajov zhromažďuje organické jednotky Všeobecnej štátnej správy.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Registrul comun asigură un inventar comun și unificat pentru întreaga administrație a unităților ecologice/organismelor publice, a birourilor asociate acestora și a unităților de gestionare economico-bugetară, facilitând menținerea distribuită și coresponsabilă a informațiilor. 
+
+Acest set de date colectează unitățile organice ale Administrației Generale de Stat.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">AGE mahepõllumajanduslike ühikute põhiteabe loetelu</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Liste des informations de base des unités organiques de l’AGE</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Id-Direttorju Komuni jipprovdi inventarju unifikat u komuni lill-Amministrazzjoni kollha tal-unitajiet organiċi/korpi pubbliċi, l-uffiċċji assoċjati tagħhom u l-unitajiet ta’ ġestjoni tal-baġit ekonomiku, li jiffaċilita l-manutenzjoni distribwita u koresponsabbli tal-informazzjoni.
+
+
+Dan is-sett ta’ data jiġbor l-unitajiet organiċi tal-Amministrazzjoni Ġenerali tal-Istat.</dct:description>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Lista informațiilor de bază privind unitățile ecologice ale AGE</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">O Repertório Comum fornece um inventário unificado e comum a toda a Administração das unidades orgânicas/organismos públicos, aos seus serviços associados e às unidades de gestão económica e orçamental, facilitando a manutenção distribuída e corresponsável da informação.
+
+
+Este conjunto de dados recolhe as unidades orgânicas da Administração Geral do Estado.</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Lijst van basisinformatie van de organische eenheden van de AGE</dct:title>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Kopējais direktorijs nodrošina vienotu un kopīgu uzskaiti visai bioloģiskās ražošanas vienību/publisko struktūru administrācijai, to saistītajiem birojiem un ekonomikas budžeta pārvaldības vienībām, veicinot informācijas izplatīšanu un līdzatbildīgu uzturēšanu.
+
+
+Šī datu kopa apkopo vispārējās valsts pārvaldes bioloģiskās ražošanas vienības.</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Castellon"/>
+        <dct:title xml:lang="it-t-es-t0-mtec">Elenco delle informazioni di base delle unità organiche dell'AGE</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e910bd5a-b04a-44aa-bb4a-9b3962aa2e59">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">iarratas/json</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">додаток/json</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">applicazione/json</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">alkalmazás/Json</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">aplikácia/json</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">applikazzjoni/json</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">pieteikums/json</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">ansökan/json</dct:title>
+            <dct:identifier>https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age/exports/json</dct:identifier>
+            <dct:title xml:lang="el-t-es-t0-mtec">εφαρμογή/json</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">application/json</dct:title>
+            <dct:title xml:lang="es">application/json</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">paraiška/Json</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">primjena/json</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">приложение/Json</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">sovellus/json</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">aplikacja/json</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">aplikace/json</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Anwendung/Json</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">aplicație/json</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">uporaba/json</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">demande/json</dct:title>
+            <dcat:accessURL rdf:resource="https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age/exports/json"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">taotlus/json</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">aplicação/json</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">toepassing/json</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">ansøgning/json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="de-t-es-t0-mtec">Das Gemeinsame Verzeichnis stellt der gesamten Verwaltung der organischen Einheiten/öffentlichen Stellen, deren zugehörigen Büros und Wirtschafts- und Haushaltsverwaltungseinheiten ein einheitliches und gemeinsames Inventar zur Verfügung, wodurch die verteilte und mitverantwortliche Pflege von Informationen erleichtert wird. 
+
+Dieser Datensatz erfasst die organischen Einheiten der General State Administration.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Ühine kataloog annab kogu mahepõllumajandusüksuste/avaliku sektori asutuste, nendega seotud büroode ja majanduseelarve haldamise üksuste kogu administratsioonile ühtse ja ühise inventuuri, hõlbustades teabe jagamist ja kaasvastutust. 
+
+See andmekogum kogub riigivalitsuse orgaanilisi üksusi.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Popis osnovnih informacija o organskim jedinicama AGE-a</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">List of basic information of organic units of the AGE</dct:title>
+        <dcat:keyword xml:lang="es">directorio</dcat:keyword>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Wspólny katalog zapewnia jednolity i wspólny wykaz dla całej administracji jednostek organicznych/organów publicznych, powiązanych z nimi biur i jednostek zarządzających budżetem ekonomicznym, ułatwiając rozpowszechnianie i współodpowiedzialne przechowywanie informacji. 
+
+Ten zbiór danych zbiera jednostki organiczne Generalnej Administracji Państwowej.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Cuireann an Comh-Eolaire fardal aontaithe coiteann ar fáil do riarachán iomlán na n-aonad orgánach/na gcomhlachtaí poiblí, na n-oifigí gaolmhara agus na n-aonad bainistíochta buiséid eacnamaíoch, rud a éascaíonn faisnéis a dháileadh agus a chothabháil ar bhonn comhfhreagrach. 
+
+Bailíonn an tacar sonraí seo aonaid orgánacha an Riaracháin Ghinearálta Stáit.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Lista ta’ informazzjoni bażika ta’ unitajiet organiċi tal-AGE</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Bendrame kataloge pateikiamas bendras visos organinių vienetų ir (arba) viešųjų įstaigų administracijos, su jais susijusių biurų ir ekonomikos ir biudžeto valdymo padalinių sąrašas, kuriuo palengvinamas informacijos platinimas ir bendra atsakomybė. 
+
+Šis duomenų rinkinys renka Generalinės valstybės administracijos organinius vienetus.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/31a5e40d-870d-445f-bf44-cd6b2704d93c">
+            <dct:title xml:lang="ro-t-es-t0-mtec">text/csv</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">text/csv</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">tekst/csv</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">tekst/csv</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">teksti/csv</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">szöveg/csv</dct:title>
+            <dct:identifier>https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age/exports/csv</dct:identifier>
+            <dct:title xml:lang="ga-t-es-t0-mtec">téacs/csv</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">tekst/csv</dct:title>
+            <dcat:accessURL rdf:resource="https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age/exports/csv"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">текст/csv</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">besedilo/csv</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">testi/csv</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">texte/csv</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">tekstas/csv</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">teksts/csv</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="it-t-es-t0-mtec">testo/csv</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Text/csv</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">текст / csv</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">κείμενο/csv</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">texto/csv</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">text/csv</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">text/csv</dct:title>
+            <dct:title xml:lang="es">text/csv</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">tekst/csv</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">tekst/csv</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">text/csv</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Seznam základních informací o organických jednotkách AGE</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Het gemeenschappelijke repertorium biedt een uniforme en gemeenschappelijke inventaris aan de gehele administratie van de organische eenheden/overheidsinstanties, hun bijbehorende kantoren en eenheden voor economisch begrotingsbeheer, waardoor het gedistribueerde en medeverantwoordelijke onderhoud van informatie wordt vergemakkelijkt. 
+
+Deze dataset verzamelt de organische eenheden van de Algemene Overheidsadministratie.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Liste over grundlæggende oplysninger om organiske enheder i AGE</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Общият указател осигурява единен и общ опис на цялата администрация на биологичните единици/публични органи, свързаните с тях офиси и звената за управление на икономическия бюджет, като улеснява разпространението и съвместното отговорно поддържане на информацията.
+
+
+Този набор от данни събира биологичните единици на Общата държавна администрация.</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Wykaz podstawowych informacji o jednostkach organicznych AGE</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Skupni imenik zagotavlja enotno in skupno evidenco za celotno upravo ekoloških enot/javnih organov, njihovih povezanih uradov in enot za ekonomsko-proračunsko upravljanje, s čimer omogoča porazdeljeno in soodgovorno vzdrževanje informacij.
+
+
+Ta podatkovni niz zbira organske enote splošne državne uprave.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Списък на основната информация за биологичните единици на AGE</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Luettelo AGE:n orgaanisten yksiköiden perustiedoista</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">The Common Directory provides a unified and common inventory to the entire Administration of the organic units/public bodies, their associated offices and economic-budget management units, facilitating the distributed and co-responsible maintenance of information. 
+
+This data set collects the organic units of the General State Administration.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Κατάλογος βασικών πληροφοριών οργανικών μονάδων της AGE</dct:title>
+        <dct:isReferencedBy rdf:resource="https://administracionelectronica.gob.es/ctt/dir3/descargas#.YkxTsMhByUk"/>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Společný adresář poskytuje jednotnou a společnou inventuru celé správě ekologických jednotek/veřejných subjektů, jejich přidruženým úřadům a jednotkám hospodářsko-rozpočtového řízení, což usnadňuje distribuovanou a spoluodpovědnou správu informací. 
+
+Tento soubor údajů shromažďuje organické jednotky Generální státní správy.</dct:description>
+        <dcat:keyword xml:lang="es">sepam</dcat:keyword>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Zoznam základných informácií o ekologických jednotkách AGE</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Az AGE szerves egységeire vonatkozó alapvető információk jegyzéke</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Перелік основних відомостей про органічні одиниці АГЕ</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Det gemensamma registret tillhandahåller en enhetlig och gemensam inventering för hela förvaltningen av de ekologiska enheterna/offentliga organen, deras tillhörande kontor och enheter för ekonomi- och budgetförvaltning, vilket underlättar ett distribuerat och medansvarigt upprätthållande av information.
+
+
+Denna datamängd samlar in de organiska enheterna inom den allmänna statliga förvaltningen.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-28T22:13:19+02:00</dct:issued>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Загальна Директорія забезпечує єдину та загальну інвентаризацію для всього управління органічними одиницями/державними органами, пов'язаними з ними офісами та підрозділами управління економіко-бюджетами, сприяючи розподіленому та співвідповідальному забезпеченню інформації.
+
+
+Цей набір даних збирає органічні одиниці Генеральної державної адміністрації.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Liosta d’fhaisnéis bhunúsach na n-aonad orgánach den AGE</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Zajednički direktorij pruža jedinstven i zajednički popis cijeloj upravi organskih jedinica/javnih tijela, njihovim pridruženim uredima i jedinicama za upravljanje ekonomskim proračunom, čime se olakšava distribuirano i suodgovorno održavanje informacija.
+
+
+Ovaj skup podataka prikuplja organske jedinice Opće državne uprave.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c2a4829e-c752-4897-a2b8-66aedb49c5b8">
+            <dct:title xml:lang="es">Listado de información básica de unidades orgánicas de la AGE</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Lista ta’ informazzjoni bażika ta’ unitajiet organiċi tal-AGE</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Wykaz podstawowych informacji o jednostkach organicznych AGE</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Liste der grundlegenden Informationen der organischen Einheiten der AGE</dct:title>
+            <dct:identifier>https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age</dct:identifier>
+            <dct:title xml:lang="it-t-es-t0-mtec">Elenco delle informazioni di base delle unità organiche dell'AGE</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Luettelo AGE:n orgaanisten yksiköiden perustiedoista</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Lista de informações básicas das unidades orgânicas da AGE</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Förteckning över grundläggande uppgifter om ekologiska enheter i AGE</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Lijst van basisinformatie van de organische eenheden van de AGE</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">AGE bioloģiskās ražošanas vienību pamatinformācijas saraksts</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Liste des informations de base des unités organiques de l’AGE</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Zoznam základných informácií o ekologických jednotkách AGE</dct:title>
+            <dcat:accessURL rdf:resource="https://dipcas.opendatasoft.com/api/v2/catalog/datasets/listado-de-informacion-basica-de-unidades-organicas-de-la-age"/>
+            <dct:title xml:lang="et-t-es-t0-mtec">AGE mahepõllumajanduslike ühikute põhiteabe loetelu</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Az AGE szerves egységeire vonatkozó alapvető információk jegyzéke</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="en-t-es-t0-mtec">List of basic information of organic units of the AGE</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Seznam osnovnih informacij o ekoloških enotah AGE</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Κατάλογος βασικών πληροφοριών οργανικών μονάδων της AGE</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Списък на основната информация за биологичните единици на AGE</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Lista informațiilor de bază privind unitățile ecologice ale AGE</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Popis osnovnih informacija o organskim jedinicama AGE-a</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Pagrindinės informacijos apie AGE ekologinius vienetus sąrašas</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Seznam základních informací o organických jednotkách AGE</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Перелік основних відомостей про органічні одиниці АГЕ</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Liste over grundlæggende oplysninger om organiske enheder i AGE</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Liosta d’fhaisnéis bhunúsach na n-aonad orgánach den AGE</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Listado de información básica de unidades orgánicas de la AGE</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Lista de informações básicas das unidades orgânicas da AGE</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Liste der grundlegenden Informationen der organischen Einheiten der AGE</dct:title>
+        <dct:identifier>https://datosabiertos.dipcas.es/explore/dataset/listado-de-informacion-basica-de-unidades-organicas-de-la-age/</dct:identifier>
+        <dct:description xml:lang="it-t-es-t0-mtec">Il Common Directory fornisce un inventario unificato e comune all'intera Amministrazione delle unità organiche/organiche pubbliche, dei loro uffici associati e delle unità di gestione economico-bilancio, facilitando il mantenimento distribuito e co-responsabile delle informazioni. 
+
+Questo set di dati raccoglie le unità organiche dell'Amministrazione Generale dello Stato.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">A közös jegyzék egységes és közös leltárt biztosít az organikus egységek/köztestületek teljes igazgatása, a hozzájuk tartozó hivatalok és a gazdaság-költségvetési igazgatási egységek számára, megkönnyítve az információk megosztott és társfelelős fenntartását. 
+
+Ez az adatkészlet összegyűjti az Általános Államigazgatás szerves egységeit.</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Seznam osnovnih informacij o ekoloških enotah AGE</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">AGE bioloģiskās ražošanas vienību pamatinformācijas saraksts</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Yhteinen hakemisto tarjoaa yhtenäisen ja yhteisen inventaarion koko luonnonmukaisesti tuotettujen yksiköiden/julkisten elinten, niihin liittyvien toimistojen ja talouden ja talousarvion hallintoyksiköiden koko hallinnolle, mikä helpottaa tiedon jakamista ja yhteisvastuullista ylläpitoa. 
+
+Tämä tietojoukko kerää valtionhallinnon orgaaniset yksiköt.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>https://datosabiertos.dipcas.es/explore/dataset/listado-de-informacion-basica-de-unidades-organicas-de-la-age/</dct:identifier>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>5165b3c21db47d8977db55d63dc031f5</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:12:15Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-dipcas-es-explore-dataset-listado-de-informacion-basica-de-unidades-organicas-de-la-age-"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

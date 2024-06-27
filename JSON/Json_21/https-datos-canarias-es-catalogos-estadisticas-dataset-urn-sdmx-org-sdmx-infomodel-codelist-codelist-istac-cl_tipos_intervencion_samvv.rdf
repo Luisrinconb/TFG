@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_tipos_intervencion_samvv">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:20:56Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:21:11Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>c0423a522f2249737eef1ee30c0e63b8</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_tipos_intervencion_samvv</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_tipos_intervencion_samvv"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-canarias-es-catalogos-estadisticas-dataset-urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_tipos_intervencion_samvv">
+        <dcat:keyword xml:lang="es">Clasificación</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/eb1a3eb2-ddd7-47dd-8d56-3a717f2e7205">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-tipos-de-intervencion-atendidas-por-el-servicio-de-atencion-a-las-mujeres-victimas-de-violencia-de-genero-samvv-istac-cl_tipos_intervencion_samvv/resource/283926b0-09ad-4481-a928-d2c36b7dbc29</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_TIPOS_INTERVENCION_SAMVV/01.000/codes.xlsx?fields=%2Bdescription"/>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_TIPOS_INTERVENCION_SAMVV (XLSX)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-10T10:03:27+02:00</dct:modified>
+        <dct:description xml:lang="es">Clasificación que recoge los tipos de demandas atendidas por el Servicio de Atención a las Mujeres Víctimas de Violencia de Género en el 112 (SAMVV).</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/259e1ab6-76f7-4b2a-b71e-5af833fb2609">
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-tipos-de-intervencion-atendidas-por-el-servicio-de-atencion-a-las-mujeres-victimas-de-violencia-de-genero-samvv-istac-cl_tipos_intervencion_samvv/resource/5b016846-d0c0-441e-9a07-37b60425235d</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_TIPOS_INTERVENCION_SAMVV/01.000/codes.xml?fields=%2Bdescription"/>
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_TIPOS_INTERVENCION_SAMVV (XML)</dct:title>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://datos.canarias.es/catalogos/estadisticas/dataset/urn-sdmx-org-sdmx-infomodel-codelist-codelist-istac-cl_tipos_intervencion_samvv</dct:identifier>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="es">Clasificación de tipos de intervención atendidas por el Servicio de Atención a las Mujeres Víctimas de Violencia de Género (SAMVV) (ISTAC: CL_TIPOS_INTERVENCION_SAMVV)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4e31e0b6-5e4c-4c03-b130-889738b76004">
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_TIPOS_INTERVENCION_SAMVV (CSV)</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-tipos-de-intervencion-atendidas-por-el-servicio-de-atencion-a-las-mujeres-victimas-de-violencia-de-genero-samvv-istac-cl_tipos_intervencion_samvv/resource/f58e6331-00d2-469b-a53a-19a2b51c5679</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_TIPOS_INTERVENCION_SAMVV/01.000/codes.csv?fields=%2Bdescription"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-10T10:03:27+02:00</dct:issued>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A05003423">
+            <foaf:name>Instituto Canario de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d1aec615-094e-42df-b465-56dc502ae09c">
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_TIPOS_INTERVENCION_SAMVV (JSON)</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-tipos-de-intervencion-atendidas-por-el-servicio-de-atencion-a-las-mujeres-victimas-de-violencia-de-genero-samvv-istac-cl_tipos_intervencion_samvv/resource/5745f386-c85e-4645-a642-542fc52d1cb6</dct:identifier>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_TIPOS_INTERVENCION_SAMVV/01.000/codes.json?fields=%2Bdescription"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/138c91d9-833a-4c05-87c1-954c12f00550">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/a05003423-clasificacion-de-tipos-de-intervencion-atendidas-por-el-servicio-de-atencion-a-las-mujeres-victimas-de-violencia-de-genero-samvv-istac-cl_tipos_intervencion_samvv/resource/73535002-0160-4343-b120-1883f722bf65</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_TIPOS_INTERVENCION_SAMVV/01.000/codes.tsv?fields=%2Bdescription"/>
+            <dct:title xml:lang="es">Clasificación. ISTAC:CL_TIPOS_INTERVENCION_SAMVV (TSV)</dct:title>
+            <dct:license rdf:resource="http://www.gobiernodecanarias.org/istac/aviso_legal.html"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:21:11Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

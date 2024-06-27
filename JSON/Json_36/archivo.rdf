@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:dcat="http://www.w3.org/ns/dcat#"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:ns1="http://data.europa.eu/r5r/"
+   xmlns:owl="http://www.w3.org/2002/07/owl#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/dataset/">
+    <dct:spatial rdf:resource="https://publications.europa.eu/resource/authority/country/ESP"/>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-07-18T20:08:31.590236</dct:issued>
+    <dcat:keyword>estiércol</dcat:keyword>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-26 20:41:14.767436</dct:modified>
+    <dct:title>códigos almacenamiento estiércol</dct:title>
+    <dct:description>Lista de códigos utilizados para describir diferentes tipos de almacenamiento de estiércol.</dct:description>
+    <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/AGRI"/>
+    <dct:identifier>_T</dct:identifier>
+    <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Dataset"/>
+    <dcat:contactPoint rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes"/>
+    <dcat:landingPage rdf:resource="http://data.europa.eu/"/>
+    <dcat:distribution rdf:resource="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1"/>
+    <dct:publisher rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes"/>
+    <dct:accessRights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <owl:versionInfo>1.0</owl:versionInfo>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes">
+    <dct:type rdf:resource="http://purl.org/adms/publishertype/Academia-ScientificOrganisation"/>
+    <foaf:name>http://data.europa.eu/88u/dataset/</foaf:name>
+    <vcard:fn>ISTAC</vcard:fn>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1">
+    <dcat:Distribution rdf:resource="http://data.europa.eu/88u/distribution/0e7c320c-03de-4faf-9c8e-63f47810d0e1"/>
+    <dct:description>Lista de códigos utilizados para describir diferentes tipos de almacenamiento de estiércol.</dct:description>
+    <ns1:availability rdf:resource="http://data.europa.eu/r5r/availability/available"/>
+    <dcat:mediaType rdf:resource="https://www.iana.org/assignments/media-types/application/ld+json"/>
+    <dct:title>códigos almacenamiento estiércol</dct:title>
+    <dcat:downloadURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-06-26 20:41:14.767436</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2022-01-01T00:00:00+00:00</dct:issued>
+    <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16671</dcat:byteSize>
+    <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON_LD"/>
+    <dct:rights rdf:resource="http://publications.europa.eu/resource/authority/access-right/PUBLIC"/>
+    <dct:license rdf:resource="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0"/>
+    <dcat:accessURL rdf:resource="https://datos.canarias.es/api/estadisticas/structural-resources/v1.0/codelists/ISTAC/CL_MANSTO/01.000/codes"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://www.iana.org/assignments/media-types/application/ld+json">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaType"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/MediaTypeOrExtent"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://publications.europa.eu/resource/authority/licence/CC_BY_4_0">
+    <rdf:type rdf:resource="http://purl.org/dc/terms/LicenseDocument"/>
+  </rdf:Description>
+</rdf:RDF>

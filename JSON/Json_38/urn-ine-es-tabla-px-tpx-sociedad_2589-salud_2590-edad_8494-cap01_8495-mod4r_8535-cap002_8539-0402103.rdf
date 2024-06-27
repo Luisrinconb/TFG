@@ -1,0 +1,248 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/urn-ine-es-tabla-px-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-0402103">
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:23:38Z</dct:issued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/urn-ine-es-tabla-px-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-0402103"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:32:08Z</dct:modified>
+    <dct:identifier>urn:ine:es:TABLA:PX:tpx:Sociedad_2589:Salud_2590:EDAD_8494:cap01_8495:mod4r_8535:Cap002_8539:0402103</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/urn-ine-es-tabla-px-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-0402103">
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-26T11:15:16+01:00</dct:modified>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Osoby starší 6 let se zdravotním postižením, kterým je poskytována péče podle místa bydliště a pohlaví primárního pečovatele. (Identifikátor API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Tabella ta’ INEBASE
+Il-popolazzjoni ta’ 6 snin u aktar b’diżabilità li tirċievi l-kura skont il-post ta’ residenza u s-sess tal-persuna li tieħu ħsiebha primarja. Nazzjonali. Stħarriġ dwar Diżabilità, Awtonomija Personali u Dipendenza</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ccd83b3f-84d6-4fb5-9b9d-ade7870e71fb">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/d2658ddd-dbf8-40ae-b6d6-67f8322fab03</dct:identifier>
+            <dct:title xml:lang="en">Excel: XLSx extension</dct:title>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxi/files/_px/xlsx/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/0402103.xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">Excel: Extension XLSx</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="en">Somewhere else</dcat:keyword>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A 6 éves és idősebb, fogyatékossággal élő népesség az alapgondozó lakóhelye és neme szerinti ellátásban részesül. (API-azonosító: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fb241893-5ca1-46e8-9012-06ffe8369fe5">
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxi/files/_px/px/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/0402103.px"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/bda20fed-585b-48e1-914d-ccfce4832ae9</dct:identifier>
+            <dct:title xml:lang="en">Pc-Axis</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">Pc-Axis</dct:title>
+            <dcat:mediaType>text/pc-axis</dcat:mediaType>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en">Population aged 6 years and over with disabilities that receives care, according to the place of residence and gender of the main caregiver. (API identifier: /tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Bevölkerung ab 6 Jahren mit Behinderungen, die nach Wohnort und Geschlecht der Grundbetreuerin betreut wird. (API-Kennung: /tpx/Gesellschaft_2589/Gesundheit_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:keyword xml:lang="es">Lugar de residencia</dcat:keyword>
+        <dct:description xml:lang="es">Tabla de INEbase
+Población de 6 y más años  con discapacidad que recibe cuidados según el lugar de residencia y el sexo del cuidador principal. Nacional. Encuesta de Discapacidad, Autonomía Personal y Situaciones de Dependencia</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Bevolking van 6 jaar en ouder met een handicap die zorg ontvangt volgens de woonplaats en het geslacht van de primaire verzorger. (API-identificatiecode: /tpx/Genootschap_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Tabela INEBASE
+Prebivalstvo, staro 6 let ali več, ki prejema oskrbo glede na kraj prebivališča in spol primarnega negovalca. Nacionalno. Anketa o invalidnosti, osebni avtonomiji in odvisnosti</dct:description>
+        <dct:conformsTo rdf:resource="https://www.ine.es/dynt3/metadatos/es/RespuestaDatos.htm?oe=30418"/>
+        <dct:title xml:lang="es">Población de 6 y más años  con discapacidad que recibe cuidados según el lugar de residencia y el sexo del cuidador principal. (Identificador API: /tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Tabella INEBASE
+Popolazione di età pari o superiore a 6 anni con disabilità che riceve cure in base al luogo di residenza e al sesso del prestatore di assistenza primaria. Nazionale. Indagine sulla disabilità, sull'autonomia personale e sulla dipendenza</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Tábla INEBASE
+Daonra atá 6 bliana d’aois agus os a chionn faoi mhíchumas a fhaigheann cúram de réir áit chónaithe agus inscne an phríomhchúramóra. Náisiúnta. Suirbhé um Míchumas, Féinriail Phearsanta agus Spleáchas</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Popolazione di età pari o superiore a 6 anni con disabilità che riceve cure in base al luogo di residenza e al sesso del prestatore di assistenza primaria. (Identificatore API: /tpx/Società_2589/Salute_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">INEBASE-bord
+Befolkning på 6 år og derover med handicap, der modtager pleje alt efter den primære omsorgspersons bopæl og køn. Nationalt. Undersøgelse af handicap, personlig autonomi og afhængighed</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Population âgée de 6 ans et plus qui reçoit des soins en fonction du lieu de résidence et du sexe de l’aidant principal. (Identifiant de l’API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:keyword xml:lang="en">Woman</dcat:keyword>
+        <dcat:keyword xml:lang="es">Nivel calidad y condiciones de vida</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/181eaa5a-23d9-4fa8-a2e8-4cadecb972d3">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxi/files/_px/csv/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/0402103.csv"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">Texto plano: separado por tabuladores</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/1015f587-056e-46c3-a730-30c8f552a05d</dct:identifier>
+            <dct:title xml:lang="en">Plain Text: separated by tab</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/43ff0d5f-7a56-4152-a822-f74a185fae9a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxi/files/_px/csv_c/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/0402103.csv_c"/>
+            <dct:title xml:lang="en">Plain Text: separated by comma</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">Texto plano: separado por ,</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/98eca4f6-ac87-405b-ae18-05224b694448</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Il-popolazzjoni ta’ 6 snin u aktar b’diżabilità li tirċievi l-kura skont il-post ta’ residenza u s-sess tal-persuna li tieħu ħsiebha primarja. (Identifikatur API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Tabulka INEBASE
+Osoby starší 6 let se zdravotním postižením, kterým je poskytována péče podle místa bydliště a pohlaví primárního pečovatele. Národní. Průzkum zdravotního postižení, osobní autonomie a závislosti</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">INEBASE lentelė
+Neįgalūs 6 metų ir vyresni gyventojai, kuriems teikiama priežiūra pagal pagrindinio slaugytojo gyvenamąją vietą ir lytį. Nacionalinis. Negalios, asmeninės autonomijos ir priklausomybės tyrimas</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">INEBASE-tabellen
+Befolkning som är 6 år och äldre med funktionsnedsättning som får vård enligt primärvårdarens bostadsort och kön. Nationellt. Funktionsnedsättning, personlig autonomi och beroendeundersökning</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Iedzīvotāji vecumā no 6 gadiem ar invaliditāti, kas saņem aprūpi pēc primārā aprūpētāja dzīvesvietas un dzimuma. (API identifikators: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:keyword xml:lang="es">Total</dcat:keyword>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Tabela INEBASE
+Ludność w wieku 6 lat i więcej z niepełnosprawnością otrzymująca opiekę w zależności od miejsca zamieszkania i płci głównego opiekuna. Krajowa. Badanie niepełnosprawności, autonomii osobistej i zależności</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2222f100-9164-46a7-8df4-00cf43637fc7">
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxi/files/_px/xls/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/0402103.xls"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="en">Excel: XLS extension</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/91c937d6-535f-483e-8669-18dd46c56a89</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:title xml:lang="es">Excel: Extensión XLS</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/ENG"/>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Население на възраст 6 и повече години с увреждания, получаващо грижи в зависимост от мястото на пребиваване и пола на лицето, полагащо грижи. (Идентификационен код на API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/804c2d00-32fb-4200-9538-c605cccf8272">
+            <dct:title xml:lang="es">Texto plano: separado por ;</dct:title>
+            <dct:title xml:lang="en">Plain Text: separated by semicolons</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxi/files/_px/csv_sc/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/0402103.csv_sc"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/ec8dcb47-de80-4f45-9058-379846182dc7</dct:identifier>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Neįgalūs 6 metų ir vyresni gyventojai, kuriems teikiama priežiūra pagal pagrindinio slaugytojo gyvenamąją vietą ir lytį. (API identifikatorius: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:keyword xml:lang="es">Estado de salud y factores condicionantes</dcat:keyword>
+        <dcat:keyword xml:lang="en">State of health and conditioning factors</dcat:keyword>
+        <dct:title xml:lang="et-t-es-t0-mtec">6-aastased ja vanemad puuetega inimesed, kes saavad hooldust vastavalt peamise hooldaja elukohale ja soole. (API identifikaator: /tpx/Ühiskond_2589/Tervis_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:keyword xml:lang="es">Encuesta de Discapacidad Autonomía Personal y Situaciones de Dependencia</dcat:keyword>
+        <dct:title xml:lang="el-t-es-t0-mtec">Πληθυσμός ηλικίας 6 ετών και άνω με αναπηρία που λαμβάνει φροντίδα ανάλογα με τον τόπο διαμονής και το φύλο του κύριου φροντιστή. (Αναγνωριστικό API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Таблица INEBASE
+Население на възраст 6 и повече години с увреждания, получаващо грижи в зависимост от мястото на пребиваване и пола на лицето, полагащо грижи. Национално. Проучване на инвалидността, личната автономност и зависимостта</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Daonra atá 6 bliana d’aois agus os a chionn faoi mhíchumas a fhaigheann cúram de réir áit chónaithe agus inscne an phríomhchúramóra. (Aitheantóir API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:isReferencedBy rdf:resource="https://www.ine.es/dyngs/IOE/es/operacion.htm?numinv=30418"/>
+        <dct:description xml:lang="el-t-es-t0-mtec">Πίνακας INEBASE
+Πληθυσμός ηλικίας 6 ετών και άνω με αναπηρία που λαμβάνει φροντίδα ανάλογα με τον τόπο διαμονής και το φύλο του κύριου φροντιστή. Εθνικό. Έρευνα για την αναπηρία, την προσωπική αυτονομία και την εξάρτηση</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Таблиця INEBASE
+Населення віком від 6 років і старше з інвалідністю отримує допомогу відповідно до місця проживання та статі первинного вихователя. Нацiонально. Обстеження інвалідності, особистої автономії та залежності</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b07df4ef-365d-4166-a849-59114046275f">
+            <dct:title xml:lang="en">CSV: Tab Separated</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxi/files/_px/csv_bd/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/0402103.csv"/>
+            <dct:title xml:lang="es">CSV: separado por tabuladores</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/b8a58abb-b48e-415e-984e-d65a627510f1</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/710f83b5-36ae-4837-a81e-edeab6b9a907">
+            <dct:title xml:lang="es">Html</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/6051be06-6c33-4cda-90b2-127098d95640</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxi/Tabla.htm?path=/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/&amp;file=0402103.px"/>
+            <dct:title xml:lang="en">Html</dct:title>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fi-t-es-t0-mtec">INEBASE-pöytä
+Vähintään 6-vuotiaat vammaiset henkilöt, jotka saavat hoitoa perusterveydenhoitajan asuinpaikan ja sukupuolen mukaan. Kansallinen. Vammaisuutta, henkilökohtaista autonomiaa ja riippuvuutta koskeva tutkimus</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Ludność w wieku 6 lat i więcej z niepełnosprawnością otrzymująca opiekę w zależności od miejsca zamieszkania i płci głównego opiekuna. (Identyfikator API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:keyword xml:lang="en">Health</dcat:keyword>
+        <dcat:keyword xml:lang="en">Statistics</dcat:keyword>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Pais/España"/>
+        <dct:description xml:lang="hu-t-es-t0-mtec">INEBASE táblázat
+A 6 éves és idősebb, fogyatékossággal élő népesség az alapgondozó lakóhelye és neme szerinti ellátásban részesül. Nemzeti. Fogyatékosság, személyi autonómia és függőség felmérése</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Stanovništvo u dobi od 6 godina i više s invaliditetom koje prima skrb prema mjestu prebivališta i spolu primarnog skrbnika. (Identifikacijska oznaka API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dct:description xml:lang="lv-t-es-t0-mtec">INEBASE tabula
+Iedzīvotāji vecumā no 6 gadiem ar invaliditāti, kas saņem aprūpi pēc primārā aprūpētāja dzīvesvietas un dzimuma. Valsts. Invaliditātes, personīgās autonomijas un atkarības apsekojums</dct:description>
+        <dcat:keyword xml:lang="es">Mujer</dcat:keyword>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Tabuľka INEBASE
+Obyvateľstvo vo veku 6 rokov a viac so zdravotným postihnutím, ktoré dostáva starostlivosť podľa miesta bydliska a pohlavia primárneho opatrovateľa. Národný. Prieskum zdravotného postihnutia, osobnej autonómie a závislosti</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">INEBASE tabel
+6-aastased ja vanemad puuetega inimesed, kes saavad hooldust vastavalt peamise hooldaja elukohale ja soole. Riiklik. Puude, isikliku autonoomia ja sõltuvuse uuring</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Prebivalstvo, staro 6 let ali več, ki prejema oskrbo glede na kraj prebivališča in spol primarnega negovalca. (Identifikacijska oznaka API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:keyword xml:lang="es">Salud</dcat:keyword>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Tabelul INEBASE
+Populația cu vârsta de 6 ani și peste cu handicap care beneficiază de îngrijire în funcție de locul de reședință și de sexul îngrijitorului primar. Națională. Studiu privind handicapul, autonomia personală și dependența</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/16f12f59-8598-4d25-9534-d3337966434c">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="en">Json</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/6fddbcd0-7039-4020-9598-bdcbbf0f4524</dct:identifier>
+            <dcat:accessURL rdf:resource="https://servicios.ine.es/wstempus/js/es/DATOS_TABLA/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/0402103.px?tip=AM"/>
+            <dct:title xml:lang="es">Json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0010587">
+            <foaf:name>Instituto Nacional de Estadística</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="en">Place of residence</dcat:keyword>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Obyvateľstvo vo veku 6 rokov a viac so zdravotným postihnutím, ktoré dostáva starostlivosť podľa miesta bydliska a pohlavia primárneho opatrovateľa. (Identifikátor API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Tableau INEBASE
+Population âgée de 6 ans et plus qui reçoit des soins en fonction du lieu de résidence et du sexe de l’aidant principal. National. Enquête sur le handicap, l’autonomie personnelle et la dépendance</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Tablica INEBASE
+Stanovništvo u dobi od 6 godina i više s invaliditetom koje prima skrb prema mjestu prebivališta i spolu primarnog skrbnika. Nacionalni. Istraživanje o invaliditetu, osobnoj autonomiji i ovisnosti</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Befolkning på 6 år og derover med handicap, der modtager pleje alt efter den primære omsorgspersons bopæl og køn. (API-identifikator: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c3028cda-7734-4bd6-bb1b-36cd89ae75f1">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://www.ine.es/jaxi/files/_px/csv_bdsc/tpx/Sociedad_2589/Salud_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/0402103.csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/ea0010587-poblacion-de-6-y-mas-anos-con-discapacidad-que-recibe-cuidados-segun-el-lugar-de-residencia-y-el-sexo-del-cuidador-principal-identificador-api-tpx-sociedad_2589-salud_2590-edad_8494-cap01_8495-mod4r_8535-cap002_8539-l0-0402103-px/resource/b2e89962-c103-4b6a-aa92-739b28ca4996</dct:identifier>
+            <dct:license rdf:resource="https://www.ine.es/aviso_legal"/>
+            <dct:title xml:lang="es">CSV: separado por ;</dct:title>
+            <dct:title xml:lang="en">CSV: Separated by ;</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:keyword xml:lang="es">En otro lugar</dcat:keyword>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Quadro INEBASE
+População com 6 anos ou mais com deficiência que recebe cuidados de acordo com o local de residência e o sexo do cuidador primário. Nacional. Inquérito à Deficiência, Autonomia Pessoal e Dependência</dct:description>
+        <dcat:keyword xml:lang="es">Hombre</dcat:keyword>
+        <dcat:keyword xml:lang="en">In the home of the person you care for</dcat:keyword>
+        <dct:description xml:lang="de-t-es-t0-mtec">INEBASE Tabelle
+Bevölkerung ab 6 Jahren mit Behinderungen, die nach Wohnort und Geschlecht der Grundbetreuerin betreut wird. Auf nationaler Ebene. Erhebung über Behinderung, persönliche Autonomie und Abhängigkeit</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Befolkning som är 6 år och äldre med funktionsnedsättning som får vård enligt primärvårdarens bostadsort och kön. (API-identifierare: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:description xml:lang="en">Table of INEBase
+Population aged 6 years and over with disabilities that receives care, according to the place of residence and gender of the main caregiver. National. Disability, Independence and Dependency Situations Survey</dct:description>
+        <dcat:keyword xml:lang="en">Quality of life and living conditions</dcat:keyword>
+        <dcat:keyword xml:lang="es">No consta</dcat:keyword>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Населення віком від 6 років і старше з інвалідністю отримує допомогу відповідно до місця проживання та статі первинного вихователя. (Ідентифікатор API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">População com 6 anos ou mais com deficiência que recebe cuidados de acordo com o local de residência e o sexo do cuidador primário. (Identificador API: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:keyword xml:lang="en">Gender of Caregiver</dcat:keyword>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Vähintään 6-vuotiaat vammaiset henkilöt, jotka saavat hoitoa perusterveydenhoitajan asuinpaikan ja sukupuolen mukaan. (API-tunniste: /tpx/Society_2589/Health_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px</dct:title>
+        <dcat:keyword xml:lang="en">Man</dcat:keyword>
+        <dct:identifier>urn:ine:es:TABLA:PX:tpx:Sociedad_2589:Salud_2590:EDAD_8494:cap01_8495:mod4r_8535:Cap002_8539:0402103</dct:identifier>
+        <dcat:keyword xml:lang="es">En el hogar de la persona que cuida</dcat:keyword>
+        <dcat:keyword xml:lang="es">Estadísticas</dcat:keyword>
+        <dcat:keyword xml:lang="en">Not given</dcat:keyword>
+        <dct:description xml:lang="nl-t-es-t0-mtec">INEBASE-tabel
+Bevolking van 6 jaar en ouder met een handicap die zorg ontvangt volgens de woonplaats en het geslacht van de primaire verzorger. Nationaal. Onderzoek naar handicaps, persoonlijke autonomie en afhankelijkheid</dct:description>
+        <dcat:keyword xml:lang="en">Disability Independence and Dependency Situations Survey</dcat:keyword>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Populația cu vârsta de 6 ani și peste cu handicap care beneficiază de îngrijire în funcție de locul de reședință și de sexul îngrijitorului primar. (Identificator API: /tpx/Societate_2589/Sănătate_2590/EDAD_8494/cap01_8495/mod4r_8535/Cap002_8539/l0/0402103.px)</dct:title>
+        <dcat:keyword xml:lang="es">Sexo del cuidador</dcat:keyword>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:32:08Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>15af44614dd3ab341f6ddc844d39e33e</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-catalogodatos-cnmc-es-dataset-ds_2370_1">
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-catalogodatos-cnmc-es-dataset-ds_2370_1">
+        <dcat:keyword xml:lang="es">renovables</dcat:keyword>
+        <dct:description xml:lang="es">Retribución anual total recibida por los productores de energía eléctrica a partir de fuentes de energía renovables, cogeneración y residuos en España según tecnología.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/11aae2a6-ed64-45eb-a419-d0636a5ce5fa">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0042931-retribucion-anual-total-recibida-por-los-productores-de-energia-electrica-a-partir-de-fuentes-de-energia-renovables-cogeneracion-y-residuos-en-espana-segun-tecnologia1/resource/928c6e82-8668-4758-b765-90a3576e2716</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >25642</dcat:byteSize>
+            <dcat:accessURL rdf:resource="https://catalogodatos.cnmc.es/dataset/c4b015a0-d7a8-4eac-8e4c-46f732fdab93/resource/d7b19311-ea8b-4ec0-8aa9-e2d9b86d95bb/download/ds_2370_1.xml"/>
+            <dct:license rdf:resource="https://data.cnmc.es/condiciones-de-uso"/>
+            <dct:title xml:lang="es">ds_2370_1.xml</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://catalogodatos.cnmc.es/dataset/ds_2370_1</dct:identifier>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-02T00:00:00+02:00</dct:issued>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c1798a4c-303b-43b6-ba44-81ae5ed56c83">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0042931-retribucion-anual-total-recibida-por-los-productores-de-energia-electrica-a-partir-de-fuentes-de-energia-renovables-cogeneracion-y-residuos-en-espana-segun-tecnologia1/resource/8f1bfaba-11dd-406e-bd37-b0d3bf8cf84e</dct:identifier>
+            <dct:title xml:lang="es">2370_1</dct:title>
+            <dct:license rdf:resource="https://data.cnmc.es/condiciones-de-uso"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://catalogodatos.cnmc.es/datastore/dump/2fae0416-0727-4880-95d0-f554b10cf8c9"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">retribución anual</dcat:keyword>
+        <dcat:keyword xml:lang="es">cogeneración</dcat:keyword>
+        <dcat:keyword xml:lang="es">residuos</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-02T00:00:00+02:00</dct:modified>
+        <dcat:keyword xml:lang="es">Energía</dcat:keyword>
+        <dct:title xml:lang="es">Retribución anual total recibida por los productores de energía eléctrica a partir de fuentes de energía renovables, cogeneración y residuos en España según tecnología.</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/EA0042931">
+            <foaf:name>Comisión Nacional de los Mercados y la Competencia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:keyword xml:lang="es">Energía eléctrica</dcat:keyword>
+        <dcat:keyword xml:lang="es">productores energía</dcat:keyword>
+        <dcat:keyword xml:lang="es">2024</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/34da8e69-dfe7-4db1-829f-eedf11944e2b">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0042931-retribucion-anual-total-recibida-por-los-productores-de-energia-electrica-a-partir-de-fuentes-de-energia-renovables-cogeneracion-y-residuos-en-espana-segun-tecnologia1/resource/be31bc6d-c68c-4892-8e7f-ffc91f0c32e9</dct:identifier>
+            <dcat:accessURL rdf:resource="https://catalogodatos.cnmc.es/dataset/c4b015a0-d7a8-4eac-8e4c-46f732fdab93/resource/a63f1086-cede-4696-8ebd-d4b9ffd9e272/download/ds_2370_1.json"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >16438</dcat:byteSize>
+            <dct:license rdf:resource="https://data.cnmc.es/condiciones-de-uso"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">ds_2370_1.json</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/29ac2f5b-4870-46c0-b2c4-342e5a02c08d">
+            <dct:identifier>https://datos.gob.es/catalogo/ea0042931-retribucion-anual-total-recibida-por-los-productores-de-energia-electrica-a-partir-de-fuentes-de-energia-renovables-cogeneracion-y-residuos-en-espana-segun-tecnologia1/resource/9f9d0ade-6a19-4d3c-8df9-1ec5f349ebf2</dct:identifier>
+            <dcat:accessURL rdf:resource="https://catalogodatos.cnmc.es/dataset/c4b015a0-d7a8-4eac-8e4c-46f732fdab93/resource/5bdcdf0d-10f5-429d-bea3-2f9a8c965858/download/ds_2370_1.csv"/>
+            <dct:title xml:lang="es">ds_2370_1.csv</dct:title>
+            <dct:license rdf:resource="https://data.cnmc.es/condiciones-de-uso"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >4662</dcat:byteSize>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>45e8e0006ad52b2c3d4bbec465ec2ace</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:25:13Z</dct:modified>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:25:13Z</edp:transIssued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:25:01Z</dct:issued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-catalogodatos-cnmc-es-dataset-ds_2370_1"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:identifier>https://catalogodatos.cnmc.es/dataset/ds_2370_1</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>

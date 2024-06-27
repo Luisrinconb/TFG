@@ -1,0 +1,650 @@
+[
+    {
+      "anno": "2017",
+      "tecnologia": "Biomasa",
+      "energia_primada": 3984.8567,
+      "retribucion_total": 536521.12,
+      "retribucion_inversion": 148150.2,
+      "retribucion_operacion": 178340.4,
+      "retribucion_especifica": 326490.61
+    },
+    {
+      "anno": "2017",
+      "tecnologia": "Cogeneración",
+      "energia_primada": 25266.4722,
+      "retribucion_total": 2507084.75,
+      "retribucion_inversion": 81640.23,
+      "retribucion_operacion": 1084490.35,
+      "retribucion_especifica": 1166130.58
+    },
+    {
+      "anno": "2017",
+      "tecnologia": "Eólica",
+      "energia_primada": 35149.794,
+      "retribucion_total": 3860554.53,
+      "retribucion_inversion": 1472879.98,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 1472879.98
+    },
+    {
+      "anno": "2017",
+      "tecnologia": "Hidráulica",
+      "energia_primada": 1697.8172,
+      "retribucion_total": 287163.31,
+      "retribucion_inversion": 83211.79,
+      "retribucion_operacion": 1063.03,
+      "retribucion_especifica": 84274.82
+    },
+    {
+      "anno": "2017",
+      "tecnologia": "Otras tecn. renovables",
+      "energia_primada": 0.2328,
+      "retribucion_total": 193.46,
+      "retribucion_inversion": 151.2,
+      "retribucion_operacion": 31.22,
+      "retribucion_especifica": 182.42
+    },
+    {
+      "anno": "2017",
+      "tecnologia": "Residuos",
+      "energia_primada": 2813.9292,
+      "retribucion_total": 265275.15,
+      "retribucion_inversion": 78490.99,
+      "retribucion_operacion": 26614.72,
+      "retribucion_especifica": 105105.72
+    },
+    {
+      "anno": "2017",
+      "tecnologia": "Solar FV",
+      "energia_primada": 8339.5535,
+      "retribucion_total": 2932781.09,
+      "retribucion_inversion": 2299801.38,
+      "retribucion_operacion": 202918.8,
+      "retribucion_especifica": 2502720.18
+    },
+    {
+      "anno": "2017",
+      "tecnologia": "Solar TE",
+      "energia_primada": 5347.6972,
+      "retribucion_total": 1594779.26,
+      "retribucion_inversion": 1085765.22,
+      "retribucion_operacion": 234998.04,
+      "retribucion_especifica": 1320763.25
+    },
+    {
+      "anno": "2017",
+      "tecnologia": "Trat.residuos",
+      "energia_primada": 2419.3571,
+      "retribucion_total": 292381.6,
+      "retribucion_inversion": 12428.54,
+      "retribucion_operacion": 152417.83,
+      "retribucion_especifica": 164846.37
+    },
+    {
+      "anno": "2018",
+      "tecnologia": "Biomasa",
+      "energia_primada": 3951.7731,
+      "retribucion_total": 554749.98,
+      "retribucion_inversion": 148533.7,
+      "retribucion_operacion": 176419.89,
+      "retribucion_especifica": 324953.59
+    },
+    {
+      "anno": "2018",
+      "tecnologia": "Cogeneración",
+      "energia_primada": 25938.8803,
+      "retribucion_total": 2714169.44,
+      "retribucion_inversion": 81542.64,
+      "retribucion_operacion": 1127208.69,
+      "retribucion_especifica": 1208751.33
+    },
+    {
+      "anno": "2018",
+      "tecnologia": "Eólica",
+      "energia_primada": 36213.6612,
+      "retribucion_total": 4014360.65,
+      "retribucion_inversion": 1433627.02,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 1433627.02
+    },
+    {
+      "anno": "2018",
+      "tecnologia": "Hidráulica",
+      "energia_primada": 2944.3644,
+      "retribucion_total": 461205.21,
+      "retribucion_inversion": 94989.85,
+      "retribucion_operacion": 2076.78,
+      "retribucion_especifica": 97066.63
+    },
+    {
+      "anno": "2018",
+      "tecnologia": "Otras tecn. renovables",
+      "energia_primada": 0.2602,
+      "retribucion_total": 198.09,
+      "retribucion_inversion": 151.2,
+      "retribucion_operacion": 34.01,
+      "retribucion_especifica": 185.2
+    },
+    {
+      "anno": "2018",
+      "tecnologia": "Residuos",
+      "energia_primada": 2675.2138,
+      "retribucion_total": 268155.49,
+      "retribucion_inversion": 76828.58,
+      "retribucion_operacion": 26072.29,
+      "retribucion_especifica": 102900.87
+    },
+    {
+      "anno": "2018",
+      "tecnologia": "Solar FV",
+      "energia_primada": 7709.2919,
+      "retribucion_total": 2925324.74,
+      "retribucion_inversion": 2290638.83,
+      "retribucion_operacion": 178544.14,
+      "retribucion_especifica": 2469182.97
+    },
+    {
+      "anno": "2018",
+      "tecnologia": "Solar TE",
+      "energia_primada": 4424.1117,
+      "retribucion_total": 1538735.55,
+      "retribucion_inversion": 1084136.18,
+      "retribucion_operacion": 194638.56,
+      "retribucion_especifica": 1278774.75
+    },
+    {
+      "anno": "2018",
+      "tecnologia": "Trat.residuos",
+      "energia_primada": 2582.1007,
+      "retribucion_total": 324364.94,
+      "retribucion_inversion": 7888.03,
+      "retribucion_operacion": 167514.61,
+      "retribucion_especifica": 175402.64
+    },
+    {
+      "anno": "2019",
+      "tecnologia": "Biomasa",
+      "energia_primada": 3945.1373,
+      "retribucion_total": 522080.9,
+      "retribucion_inversion": 150930.07,
+      "retribucion_operacion": 179178.59,
+      "retribucion_especifica": 330108.66
+    },
+    {
+      "anno": "2019",
+      "tecnologia": "Cogeneración",
+      "energia_primada": 26089.0878,
+      "retribucion_total": 2487151.55,
+      "retribucion_inversion": 81246.62,
+      "retribucion_operacion": 1146231.44,
+      "retribucion_especifica": 1227478.06
+    },
+    {
+      "anno": "2019",
+      "tecnologia": "Eólica",
+      "energia_primada": 39045.0526,
+      "retribucion_total": 3846902.3,
+      "retribucion_inversion": 1436998.76,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 1436998.76
+    },
+    {
+      "anno": "2019",
+      "tecnologia": "Hidráulica",
+      "energia_primada": 2193.5928,
+      "retribucion_total": 332507.66,
+      "retribucion_inversion": 79313.53,
+      "retribucion_operacion": 871.63,
+      "retribucion_especifica": 80185.16
+    },
+    {
+      "anno": "2019",
+      "tecnologia": "Otras tecn. renovables",
+      "energia_primada": 18.7948,
+      "retribucion_total": 1934.8,
+      "retribucion_inversion": 1076.29,
+      "retribucion_operacion": 25.72,
+      "retribucion_especifica": 1102.01
+    },
+    {
+      "anno": "2019",
+      "tecnologia": "Residuos",
+      "energia_primada": 2491.3602,
+      "retribucion_total": 230725.31,
+      "retribucion_inversion": 76686.17,
+      "retribucion_operacion": 23220.2,
+      "retribucion_especifica": 99906.37
+    },
+    {
+      "anno": "2019",
+      "tecnologia": "Solar FV",
+      "energia_primada": 8156.6934,
+      "retribucion_total": 2903520.86,
+      "retribucion_inversion": 2298045.03,
+      "retribucion_operacion": 166793.02,
+      "retribucion_especifica": 2464838.05
+    },
+    {
+      "anno": "2019",
+      "tecnologia": "Solar TE",
+      "energia_primada": 5163.2534,
+      "retribucion_total": 1534194.39,
+      "retribucion_inversion": 1080517.33,
+      "retribucion_operacion": 205081.08,
+      "retribucion_especifica": 1285598.41
+    },
+    {
+      "anno": "2019",
+      "tecnologia": "Trat.residuos",
+      "energia_primada": 3070.7963,
+      "retribucion_total": 372688.79,
+      "retribucion_inversion": 9594.83,
+      "retribucion_operacion": 214862.92,
+      "retribucion_especifica": 224457.75
+    },
+    {
+      "anno": "2020",
+      "tecnologia": "Biomasa",
+      "energia_primada": 4513.8461,
+      "retribucion_total": 516546.03,
+      "retribucion_inversion": 138974.92,
+      "retribucion_operacion": 209332.93,
+      "retribucion_especifica": 348307.85
+    },
+    {
+      "anno": "2020",
+      "tecnologia": "Cogeneración",
+      "energia_primada": 22975.68,
+      "retribucion_total": 1571387.97,
+      "retribucion_inversion": 44018.55,
+      "retribucion_operacion": 729266.02,
+      "retribucion_especifica": 773284.57
+    },
+    {
+      "anno": "2020",
+      "tecnologia": "Eólica",
+      "energia_primada": 34853.0487,
+      "retribucion_total": 2955173.43,
+      "retribucion_inversion": 1219275.19,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 1219275.19
+    },
+    {
+      "anno": "2020",
+      "tecnologia": "Hidráulica",
+      "energia_primada": 2317.7728,
+      "retribucion_total": 271631.53,
+      "retribucion_inversion": 68103.99,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 68103.99
+    },
+    {
+      "anno": "2020",
+      "tecnologia": "Otras tecn. renovables",
+      "energia_primada": 25.6282,
+      "retribucion_total": 2028.26,
+      "retribucion_inversion": 1135.7,
+      "retribucion_operacion": 35.05,
+      "retribucion_especifica": 1170.75
+    },
+    {
+      "anno": "2020",
+      "tecnologia": "Residuos",
+      "energia_primada": 1923.0426,
+      "retribucion_total": 157826.58,
+      "retribucion_inversion": 72693.2,
+      "retribucion_operacion": 6546.6,
+      "retribucion_especifica": 79239.8
+    },
+    {
+      "anno": "2020",
+      "tecnologia": "Solar FV",
+      "energia_primada": 7626.9588,
+      "retribucion_total": 2897513.13,
+      "retribucion_inversion": 2269859.11,
+      "retribucion_operacion": 135068.34,
+      "retribucion_especifica": 2404927.44
+    },
+    {
+      "anno": "2020",
+      "tecnologia": "Solar TE",
+      "energia_primada": 4542.6826,
+      "retribucion_total": 1380559.52,
+      "retribucion_inversion": 1062074.85,
+      "retribucion_operacion": 171165.47,
+      "retribucion_especifica": 1233240.32
+    },
+    {
+      "anno": "2020",
+      "tecnologia": "Trat.residuos",
+      "energia_primada": 3721.8749,
+      "retribucion_total": 344287.42,
+      "retribucion_inversion": 4356.07,
+      "retribucion_operacion": 210845.58,
+      "retribucion_especifica": 215201.65
+    },
+    {
+      "anno": "2021",
+      "tecnologia": "Biomasa",
+      "energia_primada": 4781.4013,
+      "retribucion_total": 912488.78,
+      "retribucion_inversion": 135981.47,
+      "retribucion_operacion": 203294.82,
+      "retribucion_especifica": 316030.43
+    },
+    {
+      "anno": "2021",
+      "tecnologia": "Cogeneración",
+      "energia_primada": 21734.9446,
+      "retribucion_total": 3171552.49,
+      "retribucion_inversion": 43628.86,
+      "retribucion_operacion": 652985.07,
+      "retribucion_especifica": 629996.69
+    },
+    {
+      "anno": "2021",
+      "tecnologia": "Eólica",
+      "energia_primada": 33484.4069,
+      "retribucion_total": 7340904.21,
+      "retribucion_inversion": 1218519.39,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 1126844.33
+    },
+    {
+      "anno": "2021",
+      "tecnologia": "Hidráulica",
+      "energia_primada": 1844.2187,
+      "retribucion_total": 565675.81,
+      "retribucion_inversion": 67937.71,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 63313.92
+    },
+    {
+      "anno": "2021",
+      "tecnologia": "Otras tecn. renovables",
+      "energia_primada": 17.7831,
+      "retribucion_total": 3105.35,
+      "retribucion_inversion": 1135.7,
+      "retribucion_operacion": 38.94,
+      "retribucion_especifica": 1094.79
+    },
+    {
+      "anno": "2021",
+      "tecnologia": "Residuos",
+      "energia_primada": 1820.3537,
+      "retribucion_total": 372347.51,
+      "retribucion_inversion": 67491.65,
+      "retribucion_operacion": 9364.61,
+      "retribucion_especifica": 69954.98
+    },
+    {
+      "anno": "2021",
+      "tecnologia": "Solar FV",
+      "energia_primada": 7570.1848,
+      "retribucion_total": 4375553.64,
+      "retribucion_inversion": 2268662.98,
+      "retribucion_operacion": 157392.96,
+      "retribucion_especifica": 2327068.67
+    },
+    {
+      "anno": "2021",
+      "tecnologia": "Solar TE",
+      "energia_primada": 4705.1845,
+      "retribucion_total": 1678739.48,
+      "retribucion_inversion": 1062634.1,
+      "retribucion_operacion": 193320.15,
+      "retribucion_especifica": 1201257.36
+    },
+    {
+      "anno": "2021",
+      "tecnologia": "Trat.residuos",
+      "energia_primada": 3687.7787,
+      "retribucion_total": 615624.33,
+      "retribucion_inversion": 4342.29,
+      "retribucion_operacion": 206323.11,
+      "retribucion_especifica": 195392.62
+    },
+    {
+      "anno": "2022",
+      "tecnologia": "Biomasa",
+      "energia_primada": 2369.1034,
+      "retribucion_total": 943049.42,
+      "retribucion_inversion": 95134.18,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 56134.76
+    },
+    {
+      "anno": "2022",
+      "tecnologia": "Cogeneración",
+      "energia_primada": 11788.1765,
+      "retribucion_total": 3279595.11,
+      "retribucion_inversion": 10906.52,
+      "retribucion_operacion": 577651.56,
+      "retribucion_especifica": 439262.12
+    },
+    {
+      "anno": "2022",
+      "tecnologia": "Eólica",
+      "energia_primada": 17810.599,
+      "retribucion_total": 10110789.52,
+      "retribucion_inversion": 540828.8,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 356310.5
+    },
+    {
+      "anno": "2022",
+      "tecnologia": "Hidráulica",
+      "energia_primada": 768.5767,
+      "retribucion_total": 747744.89,
+      "retribucion_inversion": 34487.85,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 23963.42
+    },
+    {
+      "anno": "2022",
+      "tecnologia": "Otras tecn. renovables",
+      "energia_primada": 21.3516,
+      "retribucion_total": 3897.85,
+      "retribucion_inversion": 514.74,
+      "retribucion_operacion": 14.79,
+      "retribucion_especifica": 289.44
+    },
+    {
+      "anno": "2022",
+      "tecnologia": "Residuos",
+      "energia_primada": 900.2582,
+      "retribucion_total": 436562.69,
+      "retribucion_inversion": 28309.25,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 17097.31
+    },
+    {
+      "anno": "2022",
+      "tecnologia": "Solar FV",
+      "energia_primada": 8348.6671,
+      "retribucion_total": 6298229.8,
+      "retribucion_inversion": 2212962.68,
+      "retribucion_operacion": 0.03,
+      "retribucion_especifica": 1997007.45
+    },
+    {
+      "anno": "2022",
+      "tecnologia": "Solar TE",
+      "energia_primada": 4124.9634,
+      "retribucion_total": 1534835.58,
+      "retribucion_inversion": 1025847.21,
+      "retribucion_operacion": 1679.81,
+      "retribucion_especifica": 914564.83
+    },
+    {
+      "anno": "2022",
+      "tecnologia": "Trat.residuos",
+      "energia_primada": 2198.2071,
+      "retribucion_total": 662521.5,
+      "retribucion_inversion": 0,
+      "retribucion_operacion": 302823.47,
+      "retribucion_especifica": 257324.89
+    },
+    {
+      "anno": "2023",
+      "tecnologia": "Biomasa",
+      "energia_primada": 1314.4589,
+      "retribucion_total": 400523.63,
+      "retribucion_inversion": 48709.86,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 48709.86
+    },
+    {
+      "anno": "2023",
+      "tecnologia": "Cogeneración",
+      "energia_primada": 13075.0857,
+      "retribucion_total": 1979414.88,
+      "retribucion_inversion": 2206.03,
+      "retribucion_operacion": 665531.21,
+      "retribucion_especifica": 667737.24
+    },
+    {
+      "anno": "2023",
+      "tecnologia": "Eólica",
+      "energia_primada": 147.1489,
+      "retribucion_total": 4830535.45,
+      "retribucion_inversion": 584.6,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 584.6
+    },
+    {
+      "anno": "2023",
+      "tecnologia": "Hidráulica",
+      "energia_primada": 104.7438,
+      "retribucion_total": 402940.03,
+      "retribucion_inversion": 1024.14,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 1024.14
+    },
+    {
+      "anno": "2023",
+      "tecnologia": "Otras tecn. renovables",
+      "energia_primada": 0.2667,
+      "retribucion_total": 1106.4,
+      "retribucion_inversion": 142.24,
+      "retribucion_operacion": 11.94,
+      "retribucion_especifica": 154.18
+    },
+    {
+      "anno": "2023",
+      "tecnologia": "Residuos",
+      "energia_primada": 0,
+      "retribucion_total": 191916.33,
+      "retribucion_inversion": 4851.88,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 4851.88
+    },
+    {
+      "anno": "2023",
+      "tecnologia": "Solar FV",
+      "energia_primada": 7448.0426,
+      "retribucion_total": 4817799.98,
+      "retribucion_inversion": 2112151.35,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 2112151.01
+    },
+    {
+      "anno": "2023",
+      "tecnologia": "Solar TE",
+      "energia_primada": 4698.1696,
+      "retribucion_total": 1360088.85,
+      "retribucion_inversion": 1007155.74,
+      "retribucion_operacion": 476.43,
+      "retribucion_especifica": 1007632.17
+    },
+    {
+      "anno": "2023",
+      "tecnologia": "Trat.residuos",
+      "energia_primada": 3353.6339,
+      "retribucion_total": 918687.98,
+      "retribucion_inversion": 0,
+      "retribucion_operacion": 601788.59,
+      "retribucion_especifica": 601788.59
+    },
+    {
+      "anno": "2024",
+      "tecnologia": "Biomasa",
+      "energia_primada": 243.0464,
+      "retribucion_total": 43910.01,
+      "retribucion_inversion": 8095.36,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 8095.36
+    },
+    {
+      "anno": "2024",
+      "tecnologia": "Cogeneración",
+      "energia_primada": 2158.1114,
+      "retribucion_total": 180241.35,
+      "retribucion_inversion": 384.19,
+      "retribucion_operacion": 34381.99,
+      "retribucion_especifica": 34766.18
+    },
+    {
+      "anno": "2024",
+      "tecnologia": "Eólica",
+      "energia_primada": 29.1632,
+      "retribucion_total": 591055.45,
+      "retribucion_inversion": 97.43,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 97.43
+    },
+    {
+      "anno": "2024",
+      "tecnologia": "Hidráulica",
+      "energia_primada": 26.086,
+      "retribucion_total": 66785.67,
+      "retribucion_inversion": 169.29,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 169.29
+    },
+    {
+      "anno": "2024",
+      "tecnologia": "Otras tecn. renovables",
+      "energia_primada": 0.0651,
+      "retribucion_total": 80.71,
+      "retribucion_inversion": 23.71,
+      "retribucion_operacion": 4.98,
+      "retribucion_especifica": 28.69
+    },
+    {
+      "anno": "2024",
+      "tecnologia": "Residuos",
+      "energia_primada": 0,
+      "retribucion_total": 19012.77,
+      "retribucion_inversion": 808.65,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 808.65
+    },
+    {
+      "anno": "2024",
+      "tecnologia": "Solar FV",
+      "energia_primada": 868.4694,
+      "retribucion_total": 547581.16,
+      "retribucion_inversion": 349932.48,
+      "retribucion_operacion": 0,
+      "retribucion_especifica": 349932.48
+    },
+    {
+      "anno": "2024",
+      "tecnologia": "Solar TE",
+      "energia_primada": 271.5581,
+      "retribucion_total": 181073.9,
+      "retribucion_inversion": 167859.29,
+      "retribucion_operacion": 269.44,
+      "retribucion_especifica": 168128.73
+    },
+    {
+      "anno": "2024",
+      "tecnologia": "Trat.residuos",
+      "energia_primada": 634.2868,
+      "retribucion_total": 85696.42,
+      "retribucion_inversion": 0,
+      "retribucion_operacion": 45867.14,
+      "retribucion_especifica": 45867.14
+    }
+  ]

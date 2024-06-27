@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datos-alcobendas-org-dataset-punto-limpio-movil">
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:39:39Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datos-alcobendas-org-dataset-punto-limpio-movil"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>c92b6858f76a7ed040ff4b8bb10c933e</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datos-alcobendas-org-dataset-punto-limpio-movil">
+        <dct:description xml:lang="lv-t-es-t0-mtec">Alkobendas pilsētas dome. Mobilās tīrās vietas atrašanās vieta.</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Gemeente Alcobendas.
+Locatie van mobiele schone plek.</dct:description>
+        <dct:identifier>https://datos.alcobendas.org/dataset/punto-limpio-movil</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7ca9469f-870b-400e-ad01-4adb1eb213ac">
+            <dct:title xml:lang="fr-t-es-t0-mtec">Emplacement Mobile Clean Point</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Posizione Mobile Clean Point</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Asukoht Mobiilne Puhastuspunkt</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1094</dcat:byteSize>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τοποθεσία Κινητό καθαρό σημείο</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Suíomh Glanphointe Soghluaiste</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Hoteller i nærheden af Mobile Clean Point</dct:title>
+            <dct:identifier>https://datos.alcobendas.org/dataset/punto-limpio-movil/resource/18f0814f-231b-4c57-a4a2-5df3890b7edc</dct:identifier>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Locatie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Umístění Mobile Clean Point</dct:title>
+            <dct:title xml:lang="es">Ubicación punto limpio móvil</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Standort Mobile Clean Point</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Vieta Mobilus Clean Point</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Atrašanās vieta Mobile Clean Point</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Sijainti Mobile Clean Point</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Location Mobile Clean Point</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Umiestnenie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Lokalizacja Mobile Clean Point</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Kundbetyg för Mobile Clean Point</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Місце розташування Мобільна чиста точка</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Местоположение Мобилна чиста точка</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Post ta’ Punt Nadif tal-Mowbajl</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Helyszín Mobile Clean Point</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.alcobendas.org/dataset/523d25bb-2461-49cd-b720-6ece9fa6fce7/resource/18f0814f-231b-4c57-a4a2-5df3890b7edc/download/ubicacion-punto-limpio-movil_fecha-adaaptada.csv"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Locație Mobile Clean Point</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Localização Mobile Clean Point</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Conseil municipal d’Alcobendas.
+Emplacement de l’endroit propre mobile.</dct:description>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Mestská rada Alcobendas.
+Umiestnenie mobilného čistého miesta.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Comhairle Cathrach Alcobendas. Suíomh an láthair soghluaiste glan.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Мобилна точка за почистване</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/63dbe648-d8a1-4277-957f-9798cd9c90ed">
+            <dct:title xml:lang="lv-t-es-t0-mtec">Atrašanās vieta Mobile Clean Point</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >12910</dcat:byteSize>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Vieta Mobilus Clean Point</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τοποθεσία Κινητό καθαρό σημείο</dct:title>
+            <dct:identifier>https://datos.alcobendas.org/dataset/punto-limpio-movil/resource/6ab198e5-a9e5-4361-9311-cf82a92eb695</dct:identifier>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Emplacement Mobile Clean Point</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Post ta’ Punt Nadif tal-Mowbajl</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Местоположение Мобилна чиста точка</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Locatie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Location Mobile Clean Point</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Localização Mobile Clean Point</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Helyszín Mobile Clean Point</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Standort Mobile Clean Point</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Suíomh Glanphointe Soghluaiste</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Asukoht Mobiilne Puhastuspunkt</dct:title>
+            <dct:title xml:lang="es">Ubicación punto limpio móvil</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Umístění Mobile Clean Point</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.alcobendas.org/dataset/523d25bb-2461-49cd-b720-6ece9fa6fce7/resource/6ab198e5-a9e5-4361-9311-cf82a92eb695/download/ubicacion-punto-limpio-movil_fecha-adaaptada.ods"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">Hoteller i nærheden af Mobile Clean Point</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Locație Mobile Clean Point</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Umiestnenie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Posizione Mobile Clean Point</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Lokalizacja Mobile Clean Point</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Kundbetyg för Mobile Clean Point</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Місце розташування Мобільна чиста точка</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-by"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Sijainti Mobile Clean Point</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">punto limpio</dcat:keyword>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280066">
+            <foaf:name>Ayuntamiento de Alcobendas</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Mobilus Clean Point</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Алькобендас міської ради.
+Розташування мобільного чистого місця.</dct:description>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Rada Miasta Alcobendas. Lokalizacja mobilnego czystego miejsca.</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Alcobendas City Council. Location of mobile clean spot.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Mobilní čistý bod</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Mobiilipuhdaspiste</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Mobilna čista točka</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Mobilna čista točka</dct:title>
+        <dcat:keyword xml:lang="es">reciclaje</dcat:keyword>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Mestni svet Alcobendasa. Lokacija mobilne čiste točke.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Alcobendas kommunfullmäktige.
+Placering av mobil ren plats.</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Il-Punt Nadif tal-Mobile</dct:title>
+        <dct:description xml:lang="es">Ayuntamiento de Alcobendas. Ubicación del punto limpio móvil.</dct:description>
+        <dcat:keyword xml:lang="es">medioambiente</dcat:keyword>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Punct de curățare mobil</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Gradsko vijeće Alcobendasa. Lokacija mobilnog čistog mjesta.</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Mobil tiszta pont</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Câmara Municipal de Alcobendas.
+Localização do local limpo móvel.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Mobiilne puhas punkt</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Byrådet i Alcobendas.
+Placering af mobile clean spot.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Общински съвет на Алкобендас. Местоположение на мобилното чисто място.</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Městská rada Alcobendas. Umístění mobilního čistého místa.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2016-12-16T00:00:00+01:00</dct:issued>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Mobiel schoon punt</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Consiliul Local Alcobendas. Amplasarea unui loc curat mobil.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a05098ea-7375-4c61-82ce-8639b562b55c">
+            <dct:title xml:lang="nl-t-es-t0-mtec">Locatie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Locație Mobile Clean Point</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Vieta Mobilus Clean Point</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Hoteller i nærheden af Mobile Clean Point</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Post ta’ Punt Nadif tal-Mowbajl</dct:title>
+            <dct:title xml:lang="es">Ubicación punto limpio móvil</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.alcobendas.org/dataset/523d25bb-2461-49cd-b720-6ece9fa6fce7/resource/c7094f16-0cea-4864-b0e2-4a72d8810128/download/ubicacion-punto-limpio-movil_fecha-adaaptada.xlsx"/>
+            <dct:title xml:lang="en-t-es-t0-mtec">Location Mobile Clean Point</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Helyszín Mobile Clean Point</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Lokalizacja Mobile Clean Point</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τοποθεσία Κινητό καθαρό σημείο</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Umiestnenie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Sijainti Mobile Clean Point</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Localização Mobile Clean Point</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Suíomh Glanphointe Soghluaiste</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-by"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Atrašanās vieta Mobile Clean Point</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Posizione Mobile Clean Point</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Asukoht Mobiilne Puhastuspunkt</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Umístění Mobile Clean Point</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >10693</dcat:byteSize>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Местоположение Мобилна чиста точка</dct:title>
+            <dct:identifier>https://datos.alcobendas.org/dataset/punto-limpio-movil/resource/c7094f16-0cea-4864-b0e2-4a72d8810128</dct:identifier>
+            <dct:title xml:lang="de-t-es-t0-mtec">Standort Mobile Clean Point</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Місце розташування Мобільна чиста точка</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Emplacement Mobile Clean Point</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Kundbetyg för Mobile Clean Point</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Мобільна чиста точка</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Alkobendo miesto taryba.
+Mobilios švarios vietos vieta.</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Alcobendas városi tanácsa.
+A mobil tiszta hely elhelyezkedése.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Alcobendase linnavolikogu.
+Asukoht mobiilne puhas koht.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Mobilny Clean Point</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6c5b4e30-52ad-4088-9f91-1b3e7a671ba0">
+            <dct:title xml:lang="cs-t-es-t0-mtec">Umístění mobilního bodu</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Lokalizacja punktu mobilnego</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Местоположение на мобилната точка</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Sijainti mobiilipiste</dct:title>
+            <dct:identifier>https://datos.alcobendas.org/dataset/punto-limpio-movil/resource/0b205b3d-d91f-4a5a-816a-38103495d0e6</dct:identifier>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Vieta mobili vieta</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Місце розташування мобільного пункту</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-by"/>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >2564</dcat:byteSize>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Locatie mobiel punt</dct:title>
+            <dct:title xml:lang="es">Ubicación punto móvil</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Asukoha mobiilne punkt</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Il-post fejn jinsab il-punt mobbli</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Lokalizačný mobilný bod</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Ponto móvel de localização</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Standort mobiler Punkt</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Location mobile point</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Suíomh pointe soghluaiste</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Placering af mobilt punkt</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Lokacija mobilna točka</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τοποθεσία κινητό σημείο</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Lokacija mobilna točka</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Posizione punto mobile</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Localisation point mobile</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Locație punct mobil</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Plats mobil punkt</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.alcobendas.org/dataset/523d25bb-2461-49cd-b720-6ece9fa6fce7/resource/0b205b3d-d91f-4a5a-816a-38103495d0e6/download/ubicacion-punto-limpio-movil_fecha-adaaptada.geojson"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Atrašanās vieta mobilais punkts</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Tartózkodási hely mobil pont</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Point propre mobile</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Alcobendas Stadtrat.
+Lage des mobilen sauberen Spots.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Alcobendasin kaupunginvaltuusto.
+Sijainti mobiili puhdas paikka.</dct:description>
+        <dct:title xml:lang="es">Punto limpio móvil</dct:title>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Mobilný Clean Point</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Δημοτικό Συμβούλιο Alcobendas.
+Τοποθεσία του κινητού καθαρού σημείου.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Mobil Clean Point</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Mobiler Clean Point</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Ponto limpo móvel</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Κινητό καθαρό σημείο</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Consiglio comunale di Alcobendas.
+Posizione del mobile clean spot.</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Pointe Glan Soghluaiste</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-06T00:00:00+02:00</dct:modified>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Kunsill tal-Belt ta’ Alcobendas.
+Il-post fejn jinsab il-post mobbli nadif.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/29c5afcb-da51-4438-8b6f-3bfdb0b157d0">
+            <dct:title xml:lang="mt-t-es-t0-mtec">Post ta’ Punt Nadif tal-Mowbajl</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τοποθεσία Κινητό καθαρό σημείο</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Vieta Mobilus Clean Point</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Localização Mobile Clean Point</dct:title>
+            <dct:identifier>https://datos.alcobendas.org/dataset/punto-limpio-movil/resource/3d01fb34-4624-443d-a4ed-a45b379b30bb</dct:identifier>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1759</dcat:byteSize>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Locație Mobile Clean Point</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Posizione Mobile Clean Point</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Місце розташування Мобільна чиста точка</dct:title>
+            <dct:title xml:lang="es">Ubicación punto limpio móvil</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Suíomh Glanphointe Soghluaiste</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Umístění Mobile Clean Point</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Sijainti Mobile Clean Point</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Местоположение Мобилна чиста точка</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Lokalizacja Mobile Clean Point</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-by"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">Hoteller i nærheden af Mobile Clean Point</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Locatie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Location Mobile Clean Point</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Umiestnenie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.alcobendas.org/dataset/523d25bb-2461-49cd-b720-6ece9fa6fce7/resource/3d01fb34-4624-443d-a4ed-a45b379b30bb/download/ubicacion-punto-limpio-movil_fecha-adaaptada.json"/>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Emplacement Mobile Clean Point</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Atrašanās vieta Mobile Clean Point</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Asukoht Mobiilne Puhastuspunkt</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Helyszín Mobile Clean Point</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Standort Mobile Clean Point</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Kundbetyg för Mobile Clean Point</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="da-t-es-t0-mtec">Mobile Clean Point</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Mobile Clean Point</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Mobile Clean Point</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Mobile Clean Point</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8cc5115a-e0ad-43f9-a104-68b2363a2ea0">
+            <dct:title xml:lang="da-t-es-t0-mtec">Hoteller i nærheden af Mobile Clean Point</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Emplacement Mobile Clean Point</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Helyszín Mobile Clean Point</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Τοποθεσία Κινητό καθαρό σημείο</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Местоположение Мобилна чиста точка</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Kundbetyg för Mobile Clean Point</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Post ta’ Punt Nadif tal-Mowbajl</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >1514</dcat:byteSize>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Umístění Mobile Clean Point</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Vieta Mobilus Clean Point</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Localização Mobile Clean Point</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Atrašanās vieta Mobile Clean Point</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Asukoht Mobiilne Puhastuspunkt</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-by"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Umiestnenie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Suíomh Glanphointe Soghluaiste</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Locație Mobile Clean Point</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Posizione Mobile Clean Point</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Locatie Mobile Clean Point</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Lokalizacja Mobile Clean Point</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Sijainti Mobile Clean Point</dct:title>
+            <dcat:accessURL rdf:resource="https://datos.alcobendas.org/dataset/523d25bb-2461-49cd-b720-6ece9fa6fce7/resource/c0a9205c-2328-4d16-8841-52fe683ce0f2/download/ubicacion-punto-limpio-movil_fecha-adaaptada.xml"/>
+            <dct:title xml:lang="en-t-es-t0-mtec">Location Mobile Clean Point</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dct:title xml:lang="es">Ubicación punto limpio móvil</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Lokacija Mobilna čista točka</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Місце розташування Мобільна чиста точка</dct:title>
+            <dct:identifier>https://datos.alcobendas.org/dataset/punto-limpio-movil/resource/c0a9205c-2328-4d16-8841-52fe683ce0f2</dct:identifier>
+            <dct:title xml:lang="de-t-es-t0-mtec">Standort Mobile Clean Point</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dct:identifier>https://datos.alcobendas.org/dataset/punto-limpio-movil</dct:identifier>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-05T16:49:59Z</edp:transReceived>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:34:29Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:34:29Z</edp:transIssued>
+  </dcat:CatalogRecord>
+</rdf:RDF>

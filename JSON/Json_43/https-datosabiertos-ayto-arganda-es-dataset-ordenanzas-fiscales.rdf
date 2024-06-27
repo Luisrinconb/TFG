@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-ayto-arganda-es-dataset-ordenanzas-fiscales">
+    <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/ordenanzas-fiscales</dct:identifier>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:19:39Z</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:04:55Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>cb267a16c5793e7e5353cd4eb50f50b6</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:04:55Z</edp:transIssued>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-ayto-arganda-es-dataset-ordenanzas-fiscales"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-02T01:47:47Z</edp:transReceived>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-ayto-arganda-es-dataset-ordenanzas-fiscales">
+        <dct:title xml:lang="de-t-es-t0-mtec">Steuerverordnungen</dct:title>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Ordnijiet ta’ Taxxa</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Ordonnances fiscales</dct:title>
+        <dcat:keyword xml:lang="es">fiscalización</dcat:keyword>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Daňová vyhláška</dct:title>
+        <dct:title xml:lang="es">Ordenanzas fiscales</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Кметството на Арганда дел Рей. Данъчни наредби</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Veromääräykset</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Normas fiscais</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Preskúmať mesto Arganda del Rey Daňové vyhlášky</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Arganda del Rey városháza. Adórendeletek</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Ратуша Арганда-дель-Рей. Податкові настанови</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Данъчни наредби</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L01280148">
+            <foaf:name>Ayuntamiento de Arganda del Rey</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="es">Ayuntamiento de Arganda del Rey. Ordenanzas fiscales</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2017-01-11T00:00:00+01:00</dct:issued>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Porezni propisi</dct:title>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/GOVE"/>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Miejscowość z Arganda del Rey. Rozporządzenia podatkowe</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Mestna hiša Arganda del Rey. Davčni odloki</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Town Hall of Arganda del Rey. Tax Ordinances</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Adórendeletek</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Stadshuset i Arganda del Rey. Skatteförordningar</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Φορολογικά διατάγματα</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Městská radnice Arganda del Rey. Daňová vyhláška</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Ordinanze fiscali</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Nodokļu noteikumi</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Ordonanțe fiscale</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Δημαρχείο της Arganda del Rey. Φορολογικά διατάγματα</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Rathaus von Arganda del Rey. Steuerverordnungen</dct:description>
+        <dcat:keyword xml:lang="es">ordenanzas</dcat:keyword>
+        <dct:description xml:lang="da-t-es-t0-mtec">Rådhus af Arganda del Rey. Skatteregler</dct:description>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Davčni odloki</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-04T00:00:00+01:00</dct:modified>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Mairie d’Arganda del Rey. Ordonnances fiscales</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Arganda del Rejas rātsnams. Nodokļu noteikumi</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Skatteregler</dct:title>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Câmara Municipal de Arganda del Rey. Normas fiscais</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Stadhuis van Arganda del Rey. Fiscale verordeningen</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Arganda del Rey raekoda. Maksukorraldused</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Mokesčių potvarkiai</dct:title>
+        <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/ordenanzas-fiscales</dct:identifier>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Primăria Arganda del Rey. Ordonanțe fiscale</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c66f5e62-40f9-465c-a4cf-e6a5eee35170">
+            <dct:title xml:lang="fr-t-es-t0-mtec">Ordonnances fiscales</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Fiscale verordeningen</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Tax Ordinances</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Податкові настанови</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Daňová vyhláška</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Ordanáis Chánach</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Mokesčių potvarkiai</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Porezni propisi</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Steuerverordnungen</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Davčni odloki</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >10571</dcat:byteSize>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Nodokļu noteikumi</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Skatteregler</dct:title>
+            <dct:title xml:lang="es">Ordenanzas fiscales</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Maksukorraldused</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Rozporządzenia podatkowe</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Veromääräykset</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Skatteförordningar</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Adórendeletek</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Ordinanze fiscali</dct:title>
+            <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/ordenanzas-fiscales/resource/5fc914ff-6df1-4ebc-b96b-f705a378d312</dct:identifier>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ordnijiet ta’ Taxxa</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Ordonanțe fiscale</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.ayto-arganda.es/dataset/4f7b0c2b-e8f8-4712-8291-f6f0705c2f8f/resource/5fc914ff-6df1-4ebc-b96b-f705a378d312/download/ordenanzas-fiscales_.json"/>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Normas fiscais</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Daňové vyhlášky</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-by"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">Φορολογικά διατάγματα</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Данъчни наредби</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Is-Sala tal-Belt ta’ Arganda del Rey. Ordnijiet ta’ Taxxa</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Provincia/Madrid"/>
+        <dct:title xml:lang="en-t-es-t0-mtec">Tax Ordinances</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Rozporządzenia podatkowe</dct:title>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Skatteförordningar</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Податкові настанови</dct:title>
+        <dct:title xml:lang="et-t-es-t0-mtec">Maksukorraldused</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1e406ebe-d289-4bf0-b680-b2641329f20a">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Nodokļu noteikumi</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Skatteregler</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Porezni propisi</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Ordonanțe fiscale</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Normas fiscais</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Φορολογικά διατάγματα</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Податкові настанови</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.ayto-arganda.es/dataset/4f7b0c2b-e8f8-4712-8291-f6f0705c2f8f/resource/7beffc02-4fd3-48e6-9cc4-9d9afbd1cfd0/download/ordenanzas-fiscales_.csv"/>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Daňové vyhlášky</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-by"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Mokesčių potvarkiai</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Skatteförordningar</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Ordonnances fiscales</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Adórendeletek</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Steuerverordnungen</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Davčni odloki</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Ordanáis Chánach</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Rozporządzenia podatkowe</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Fiscale verordeningen</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ordnijiet ta’ Taxxa</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Daňová vyhláška</dct:title>
+            <dct:title xml:lang="es">Ordenanzas fiscales</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Maksukorraldused</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >8287</dcat:byteSize>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Данъчни наредби</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Veromääräykset</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Tax Ordinances</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Ordinanze fiscali</dct:title>
+            <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/ordenanzas-fiscales/resource/7beffc02-4fd3-48e6-9cc4-9d9afbd1cfd0</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Daňové vyhlášky</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Fiscale verordeningen</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Municipio di Arganda del Rey. Ordinanze fiscali</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Arganda del Reyn kaupungintalo. Veromääräykset</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Arganda del Rey miesto rotušė. Mokesčių potvarkiai</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Video comhrá Arganda del Rey. Ordanáis Chánach</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Gradska vijećnica Arganda del Rey. Porezni propisi</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/28c9f25a-df99-4933-bb42-da9d45c02a1e">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/odc-by"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Veromääräykset</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Ordonnances fiscales</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Maksukorraldused</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Φορολογικά διατάγματα</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Tax Ordinances</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Skatteförordningar</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Ordinanze fiscali</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Ordnijiet ta’ Taxxa</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Adórendeletek</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.ayto-arganda.es/dataset/4f7b0c2b-e8f8-4712-8291-f6f0705c2f8f/resource/f9d5ee65-1820-4064-b30e-56ad831059ee/download/ordenanzas-fiscales_.xls"/>
+            <dct:title xml:lang="es">Ordenanzas fiscales</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Davčni odloki</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Daňová vyhláška</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Porezni propisi</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Daňové vyhlášky</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Ordanáis Chánach</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Mokesčių potvarkiai</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Steuerverordnungen</dct:title>
+            <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+            >49152</dcat:byteSize>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Данъчни наредби</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Rozporządzenia podatkowe</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Ordonanțe fiscale</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Skatteregler</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLS"/>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Fiscale verordeningen</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Normas fiscais</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Податкові настанови</dct:title>
+            <dct:identifier>https://datosabiertos.ayto-arganda.es/dataset/ordenanzas-fiscales/resource/f9d5ee65-1820-4064-b30e-56ad831059ee</dct:identifier>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Nodokļu noteikumi</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Ordanáis Chánach</dct:title>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+  </dcat:CatalogRecord>
+</rdf:RDF>

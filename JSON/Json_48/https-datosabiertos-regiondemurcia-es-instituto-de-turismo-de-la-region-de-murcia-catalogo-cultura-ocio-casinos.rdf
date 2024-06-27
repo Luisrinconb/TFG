@@ -1,0 +1,197 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-regiondemurcia-es-instituto-de-turismo-de-la-region-de-murcia-catalogo-cultura-ocio-casinos">
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-02T18:36:15Z</edp:transReceived>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:11:09Z</dct:issued>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:23:33Z</dct:modified>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-regiondemurcia-es-instituto-de-turismo-de-la-region-de-murcia-catalogo-cultura-ocio-casinos"/>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>d9bb92080741abb4cf56b9aa43e8084</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-regiondemurcia-es-instituto-de-turismo-de-la-region-de-murcia-catalogo-cultura-ocio-casinos">
+        <dct:title xml:lang="cs-t-es-t0-mtec">Kasina</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Kasina u regiji Murcia</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Cazinouri în Regiunea Murcia</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Igralnice v regiji Murcia</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/75579086-553f-4de5-b449-9c2fabba5e58">
+            <dct:title xml:lang="uk-t-es-t0-mtec">Казино для казино</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Kazino</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Kasyna</dct:title>
+            <dct:license rdf:resource="https://datosabiertos.regiondemurcia.es/avisolegal"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Казина</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Kockarnice</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Svenska</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Case da gioco</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Kasinoer</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Kaszinók</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Kasiinod</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Kasinot</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Casino’s</dct:title>
+            <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/casinos/19319bf6-dace-40d7-ae43-99e423017971</dct:identifier>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Kasina</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Kasinos</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Cazinouri</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Każinojiet</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Kasína</dct:title>
+            <dct:title xml:lang="es">Casinos</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Igralnice</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Καζίνο</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Kazino spēles</dct:title>
+            <dcat:accessURL rdf:resource="http://nexo.carm.es/nexo/archivos/recursos/opendata/json/Casinos.json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="da-t-es-t0-mtec">Kasinoer i regionen Murcia</dct:description>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Kasina v regionu Murcia</dct:description>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Kasyna</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Casinos i Réigiún Murcia</dct:description>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Kasinot</dct:title>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Kockarnice</dct:title>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Kasinot alueella Murcia</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Kasinos</dct:title>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Casino’s in de regio Murcia</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Казина</dct:title>
+        <dct:description xml:lang="es">Casinos en la Región de Murcia</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Kasinoer</dct:title>
+        <dct:description xml:lang="it-t-es-t0-mtec">Casinò nella regione di Murcia</dct:description>
+        <dct:description xml:lang="en-t-es-t0-mtec">Casinos in the Region of Murcia</dct:description>
+        <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/casinos</dct:identifier>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Kazino</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Kazino spēles</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Казино для казино</dct:title>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Casino’s</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Cazinouri</dct:title>
+        <dcat:keyword xml:lang="es">Turismo</dcat:keyword>
+        <dct:description xml:lang="et-t-es-t0-mtec">Kasiinod Murcia maakonnas</dct:description>
+        <dct:description xml:lang="el-t-es-t0-mtec">Καζίνο στην περιφέρεια της Μούρθια</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Kasiinod</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-02-14T00:00:00+01:00</dct:modified>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Kasyna w regionie Murcia</dct:description>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Kaszinók</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4ae9fece-950c-4d5d-8973-a6c464a9bc85">
+            <dct:title xml:lang="lv-t-es-t0-mtec">Kazino spēles</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Kasina</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Kazino</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Kasiinod</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Kasinot</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Kaszinók</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Kasyna</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Każinojiet</dct:title>
+            <dct:license rdf:resource="https://datosabiertos.regiondemurcia.es/avisolegal"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Kockarnice</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/RDF_XML"/>
+            <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/casinos/8f5f7d91-fe50-4280-8149-bb53d82568bb</dct:identifier>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Casino’s</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Cazinouri</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Kasinoer</dct:title>
+            <dcat:accessURL rdf:resource="http://nexo.carm.es/nexo/archivos/recursos/opendata/rdf/Casinos.rdf"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Казино для казино</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Svenska</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Καζίνο</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Kasinos</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Case da gioco</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="es">Casinos</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Kasína</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Казина</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Igralnice</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Casinos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Kasína</dct:title>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Kasína v regióne Murcia</dct:description>
+        <dct:title xml:lang="it-t-es-t0-mtec">Case da gioco</dct:title>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Казина в района на Мурсия</dct:description>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Każinojiet</dct:title>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Casinos</dct:title>
+        <dct:title xml:lang="en-t-es-t0-mtec">Casinos</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Casinos</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Casinos</dct:title>
+        <dct:title xml:lang="es">Casinos</dct:title>
+        <dct:description xml:lang="de-t-es-t0-mtec">Casinos in der Region Murcia</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Casinos na região de Murcia</dct:description>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A14002961">
+            <foaf:name>Región de Murcia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Svenska</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Casinos dans la région de Murcie</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2016-03-16T00:00:00+01:00</dct:issued>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Kazino Mursijos regione</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Καζίνο</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Igralnice</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Казино в регіоні Мурсія</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Kasinon i regionen Murcia</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Casinos fir-Reġjun ta ‘Murcia</dct:description>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Kaszinók Murcia régióban</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/43004c9e-edb2-4d53-8043-0c5371d366fb">
+            <dct:title xml:lang="it-t-es-t0-mtec">Case da gioco</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Kaszinók</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Każinojiet</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Svenska</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Igralnice</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Kockarnice</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Kazino</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Kasina</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Καζίνο</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Kazino spēles</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Cazinouri</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Казина</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Kasína</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Kasinos</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Kasiinod</dct:title>
+            <dcat:accessURL rdf:resource="http://nexo.carm.es/nexo/archivos/recursos/opendata/csv/Casinos.csv"/>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Kasyna</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Casino’s</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Казино для казино</dct:title>
+            <dct:title xml:lang="es">Casinos</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Kasinot</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Casinos</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Kasinoer</dct:title>
+            <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/casinos/7822c308-fd07-40fb-82d5-0ba7181cf753</dct:identifier>
+            <dct:license rdf:resource="https://datosabiertos.regiondemurcia.es/avisolegal"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Kazino Mursijas reģionā</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:11:09Z</edp:transIssued>
+    <dct:identifier>https://datosabiertos.regiondemurcia.es/instituto-de-turismo-de-la-region-de-murcia/catalogo/cultura-ocio/casinos</dct:identifier>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+  </dcat:CatalogRecord>
+</rdf:RDF>

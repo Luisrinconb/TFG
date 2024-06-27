@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-dadesobertes-gva-es-dataset-sanidad-sip-departamentos-salud">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-dadesobertes-gva-es-dataset-sanidad-sip-departamentos-salud">
+        <dct:description xml:lang="fi-t-es-t0-mtec">Kartografinen kerros muoto- ja geojson-muodossa, joka edustaa Valencian yhteisön 24 terveysosaston rajaa. Tiedoston lataaminen geojson-muodossa riippuu käytetystä selaimesta ja se on tehtävä oikealla hiiren toiminnon avulla valitsemalla vaihtoehto ”Tallenna linkki...”. Lisätietoja formaatin koostumuksesta saat alatunnisteen linkistä ”FAQs &gt; Minkä tyyppisiä formaatteja julkaistaan Dades obertesissa?”.</dct:description>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Kartografski sloj v obliki zapisa formata in geojson, ki predstavlja razmejitev 24 zdravstvenih oddelkov skupnosti Valencije. Prenos datoteke v formatu geojson bo odvisen od uporabljenega brskalnika in ga je treba izvesti s pomočjo desne miške, pri čemer izberete možnost „Shrani povezavo kot...“. Če želite več informacij o sestavi formata formata, obiščite nogo povezavo „Pogosta vprašanja &gt; Katere vrste oblik so objavljene v Dades obertes?“.</dct:description>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Kartogrāfiskais slānis formas datņu un geojson formātā, kas atspoguļo Valensijas kopienas 24 veselības departamentu robežas. Faila lejupielāde Geojson formātā būs atkarīga no izmantotās pārlūkprogrammas, un tā jāveic, izmantojot peles labo darbību, izvēloties opciju “Saglabāt saiti kā...”. Lai iegūtu papildinformāciju par formu faila formāta sastāvu, apmeklējiet kājenes saiti “FAQs &gt; Kāda veida formāti tiek publicēti Dades obertes?”.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Kartographische Schicht in Formdatei und Geojson-Format, die die Abgrenzung der 24 Gesundheitsabteilungen der valencianischen Gemeinschaft darstellt. Der Download der Datei im Geojson-Format hängt vom verwendeten Browser ab und muss mit der rechten Maustaste durchgeführt werden, indem Sie die Option „Link speichern als...“ auswählen. Weitere Informationen zur Zusammensetzung des Shapefile-Formats finden Sie im Footer-Link „FAQs &gt; Welche Arten von Formaten werden in Dades obertes veröffentlicht?“.</dct:description>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Картографски слой във формат и формат Geojson, който представлява разграничаването на 24-те здравни отдела на Валенсия. Изтеглянето на файла във формат geojson ще зависи от използвания браузър и трябва да се извърши с помощта на дясното действие на мишката, като изберете опцията „Запазване на връзката като...“. За повече информация относно състава на формата на файла, посетете долния линк „Често задавани въпроси &gt; Какви видове формати се публикуват в Dades obertes?“.</dct:description>
+        <dcat:keyword xml:lang="es">departamentos salud</dcat:keyword>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Kartografická vrstva v tvarovom súbore a geojsonovom formáte, ktorá predstavuje vymedzenie 24 zdravotníckych oddelení spoločenstva Valencia. Sťahovanie súboru vo formáte geojson bude závisieť od použitého prehliadača a musí byť vykonané pomocou pravej akcie myšou, výberom možnosti „Uložiť odkaz ako...“. Ďalšie informácie o zložení formátu súboru tvarov nájdete na odkaze päty „FAQs &gt; Aké typy formátov sú publikované v Dades obertes?“.</dct:description>
+        <dcat:keyword xml:lang="es">mapa sanitario</dcat:keyword>
+        <dct:description xml:lang="it-t-es-t0-mtec">Strato cartografico in formato shapefile e geojson che rappresenta la delimitazione dei 24 dipartimenti sanitari della Comunità Valenciana. Il download del file in formato geojson dipenderà dal browser utilizzato e deve essere effettuato tramite l'azione del mouse destra, selezionando l'opzione "Salva collegamento come...".
+Per ulteriori informazioni sulla composizione del formato shapefile, visitare il link piè di pagina "FAQs &gt; Quali tipi di formati sono pubblicati in Dades obertes?".</dct:description>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Картографічний шар у форматі Shapefile та Geojson, що представляє розмежування 24 відділів охорони здоров'я Валенсійської громади. Завантаження файлу у форматі geojson буде залежати від використовуваного браузера і повинно здійснюватися за допомогою правої дії миші, вибравши опцію "Зберегти посилання як...". Для отримання додаткової інформації про склад формату shapefile відвідайте посилання "FAQs &gt; Які типи форматів публікуються в Dades obertes?".</dct:description>
+        <dct:title xml:lang="de-t-es-t0-mtec">Ebene der Gesundheitsabteilung der Comunitat Valenciana</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Υγειονομικό τμήμα της Comunitat Valenciana</dct:title>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Valensijas Komunitatas veselības departamenta slānis</dct:title>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Ciseal cartagrafach i bhformáid chruthfile agus gheojson a léiríonn teorannú 24 roinn sláinte Chomhphobal Valencian. Beidh íoslódáil an chomhaid i bhformáid geojson ag brath ar an mbrabhsálaí a úsáidtear agus ní mór é a dhéanamh trí ghníomh na luchóige ceart, ag roghnú an rogha “Sábháil nasc mar...”. Chun tuilleadh eolais a fháil ar chomhdhéanamh na formáide shapefile, tabhair cuairt ar an nasc buntásc “FAQs &gt; Cad iad na cineálacha formáidí a fhoilsítear i Dades Obertes?”.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Camada cartográfica em formato shapefile e geojson que representa a delimitação dos 24 departamentos de saúde da Comunidade Valenciana. O download do arquivo no formato geojson dependerá do navegador usado e deve fazer-se por meio da ação do ratinho direita, selecionando a opção «Salvar ligação como...». Para mais informações sobre a composição do formato shapefile, visite o link rodapé «FAQs &gt; Que tipos de formatos são publicados em Dades obertes?».</dct:description>
+        <dcat:keyword xml:lang="es">Año 2024</dcat:keyword>
+        <dct:title xml:lang="es">Capa de departamentos de salud de la Comunitat Valenciana</dct:title>
+        <dct:description xml:lang="es">Capa cartográfica en formato shapefile y geojson que representa la delimitación de los 24 departamentos de salud de la Comunitat Valenciana. La descarga del fichero en formato geojson dependerá del navegador utilizado y se deberá realizar mediante la acción botón derecho del ratón, seleccionando la opción "Guardar enlace como…". Para conocer más información sobre la composición del formato shapefile, visite el enlace a pie de página "Preguntas más frecuentes &gt; ¿Qué tipos de formatos se publican en Dades obertes?".</dct:description>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Sraith roinne sláinte an Comunitat Valenciana</dct:title>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Kartografiskt lager i formfil och geojsonformat som representerar avgränsningen av de 24 hälsovårdsavdelningarna i Valencia. Nedladdningen av filen i geojson-format beror på vilken webbläsare som används och måste göras med hjälp av höger musåtgärd, välja alternativet ”Spara länk som...”. Mer information om formfilformatets sammansättning finns i sidfotslänken ”FAQs &gt; Vilka typer av format publiceras i Dades obertes?”.</dct:description>
+        <dcat:keyword xml:lang="es">shape</dcat:keyword>
+        <dcat:keyword xml:lang="es">capas</dcat:keyword>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Слой на здравния отдел на Comunitat Valenciana</dct:title>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Warstwa kartograficzna w pliku kształtowym i formacie geojsonowym, która reprezentuje wytyczenie 24 departamentów zdrowia Wspólnoty Walencji. Pobieranie pliku w formacie geojson będzie zależało od używanej przeglądarki i musi być wykonane za pomocą prawej akcji myszy, wybierając opcję „Zapisz link jako...”. Aby uzyskać więcej informacji na temat składu formatu pliku kształtowego, odwiedź link stopki „FAQs &gt; Jakie rodzaje formatów są publikowane w Dades obertes?”.</dct:description>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Couche du département de santé du Comunitat Valenciana</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Dipartimento Sanitario della Comunitat Valenciana</dct:title>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Kartografinis sluoksnis formos failo ir geojsono formatu, kuris atspindi 24 Valensijos bendruomenės sveikatos departamentų ribas. Failo atsisiuntimas geojson formatu priklausys nuo naudojamos naršyklės ir turi būti atliktas dešiniuoju pelės veiksmu, pasirenkant parinktį „Išsaugoti nuorodą kaip...“. Norėdami gauti daugiau informacijos apie formos failo formato sudėtį, apsilankykite poraštės nuorodoje „DUK &gt; Kokių tipų formatai skelbiami Dades obertes?“.</dct:description>
+        <dct:title xml:lang="en-t-es-t0-mtec">Health department layer of the Comunitat Valenciana</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Відділ охорони здоров'я Comunitat Valenciana</dct:title>
+        <dct:identifier>https://dadesobertes.gva.es/dataset/sanidad-sip-departamentos-salud</dct:identifier>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Nível do departamento de saúde da Comunitat Valenciana</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Valencian kunnan terveysosaston kerros</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Zdravstveni oddelek Comunitat Valenciana</dct:title>
+        <dct:description xml:lang="et-t-es-t0-mtec">Kartograafiline kiht kuju- ja geojsonformaadis, mis tähistab Valencia kogukonna 24 tervishoiuosakonna piiritlemist. Faili allalaadimine geojsoni vormingus sõltub kasutatavast brauserist ja seda tuleb teha hiire parema nupu abil, valides valiku „Salvesta link...“. Lisateabe saamiseks kujufaili vormingu koostise kohta külastage jaluse linki „KKK &gt; Millised vormingud on avaldatud Dades obertes?“.</dct:description>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2022-07-27T00:00:00+02:00</dct:issued>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Stratul departamentului de sănătate al Comunitat Valenciana</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Vrstva odboru zdravotnictví Comunitat Valenciana</dct:title>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Kartografski sloj u formatu formata i geojson koji predstavlja razgraničenje 24 odjela zdravstva u Valencijskoj zajednici. Preuzimanje datoteke u geojson formatu ovisit će o korištenom pregledniku i mora se obaviti desnom radnjom miša, odabirom opcije „Spremi vezu kao...”. Za više informacija o sastavu oblika formata, posjetite podnožje link „FAQs &gt; Koje vrste formata su objavljeni u Dades obertes?”.</dct:description>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Vrstva zdravotníckeho oddelenia Comunitat Valenciana</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dct:title xml:lang="et-t-es-t0-mtec">Tervishoiu osakonna kiht Comunitat Valenciana</dct:title>
+        <dct:description xml:lang="el-t-es-t0-mtec">Χαρτογραφικό στρώμα σε formatfile και geojson που αντιπροσωπεύει την οριοθέτηση των 24 υγειονομικών τμημάτων της Κοινότητας της Βαλένθια. Η λήψη του αρχείου σε μορφή geojson θα εξαρτηθεί από το πρόγραμμα περιήγησης που χρησιμοποιείται και πρέπει να γίνει μέσω της σωστής δράσης του ποντικιού, επιλέγοντας την επιλογή «Αποθήκευση συνδέσμου ως...». Για περισσότερες πληροφορίες σχετικά με τη σύνθεση της μορφής του αρχείου σχήματος, επισκεφθείτε τη σύνδεση υποσέλιδου «FAQs &gt; Ποιοι τύποι μορφών δημοσιεύονται στο Dades obertes;».</dct:description>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Gezondheidsafdeling van de Comunitat Valenciana</dct:title>
+        <dct:isReferencedBy rdf:resource="http://www.san.gva.es/"/>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A10002983">
+            <foaf:name>Generalitat Valenciana</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Kartografické vrstvy ve tvaru souboru a geojson formátu, která představuje vymezení 24 zdravotnických oddělení Valencie Společenství. Stahování souboru ve formátu geojson bude záviset na použitém prohlížeči a musí být provedeno pomocí správné akce myši, výběrem možnosti „Uložit odkaz jako...“. Další informace o složení formfile formátu naleznete v zápatí odkaz „FAQs &gt; Jaké typy formátů jsou publikovány v Dades obertes?“.</dct:description>
+        <dct:title xml:lang="da-t-es-t0-mtec">Sundhed afdeling lag af Comunitat Valenciana</dct:title>
+        <dcat:keyword xml:lang="es">integración</dcat:keyword>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Hälso- och sjukvårdsavdelning i Comunitat Valenciana</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Cartographic layer in shapefile and geojson format that represents the delimitation of the 24 health departments of the Valencian Community. The download of the file in geojson format will depend on the browser used and must be done by means of the right mouse action, selecting the option “Save link as...”. For more information on the composition of the shapefile format, visit the footer link “FAQs &gt; What types of formats are published in Dades obertes?”.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Odjel za zdravstvo Comunitat Valenciana</dct:title>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Valensijos autonominės srities sveikatos departamento sluoksnis</dct:title>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Couche cartographique au format shapefile et géojson qui représente la délimitation des 24 départements de santé de la Communauté valencienne. Le téléchargement du fichier au format geojson dépendra du navigateur utilisé et doit être effectué au moyen de l’action de la souris droite, en sélectionnant l’option «Enregistrer le lien sous...». Pour plus d’informations sur la composition du format shapefile, visitez le lien de bas de page «FAQs &gt; Quels types de formats sont publiés dans Dades obertes?».</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cd85d737-e45b-4c5b-8d7e-55413dfe9dda">
+            <dct:title xml:lang="de-t-es-t0-mtec">Laden Sie die Gesundheitsabteilungsdatei im.geojson-Format herunter</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Ladda ner filen för hälsoavdelningar i.geojson-format</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Завантажити файл відділів охорони здоров'я в форматі.geojson</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Preuzmite datoteku zdravstvenih odjela u.geojson formatu</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Stiahnuť súbor zdravotníckych oddelení vo formáte.geojson</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Descărcați fișierul departamentelor de sănătate în format.geojson</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Az egészségügyi részlegek fájljának letöltése.geojson formátumban</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Atsisiųskite sveikatos departamentų failą.geojson formatu</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Baixe o arquivo dos departamentos de saúde no formato.geojson</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Κατεβάστε το αρχείο των τμημάτων υγείας σε μορφή.geojson</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Íoslódáil comhad ranna sláinte i bhformáid.geojson</dct:title>
+            <dct:identifier>https://dadesobertes.gva.es/dataset/sanidad-sip-departamentos-salud/resource/01f82746-28c8-4be7-9604-9145e9517c64</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Stáhněte si soubor zdravotních oddělení ve formátu.geojson</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Prenesite datoteko zdravstvenih oddelkov v obliki.geojson</dct:title>
+            <dct:title xml:lang="es">Descarga fichero departamentos de salud en formato .geojson</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Pobierz plik departamentów zdrowia w formacie.geojson</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Lejupielādēt veselības nodaļu failu.geojson formātā</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Niżżel il-fajl tad-dipartimenti tas-saħħa fil-format.geojson</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Télécharger le fichier des départements de santé au format.geojson</dct:title>
+            <dcat:accessURL rdf:resource="https://dadesobertes.gva.es/dataset/ff6f20ee-aee6-4def-9f9b-451610ed47f9/resource/01f82746-28c8-4be7-9604-9145e9517c64/download/ca_departamentos_20240505.geojson"/>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Lataa terveysosastojen tiedosto.geojson-muodossa</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Scarica il file dei reparti sanitari in formato.geojson</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Изтеглете файла на здравните отдели във формат.geojson</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Download het dossier van gezondheidsafdelingen in.geojson-formaat</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Laadige alla terviseosakondade fail.geojson formaadis</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Hent sundhedsafdelinger fil i.geojson format</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Download health departments file in.geojson format</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Kartográfiai réteg alakfájlban és geojson formátumban, amely a Valenciai Közösség 24 egészségügyi osztályának elhatárolását jelenti. A fájl letöltése geojson formátumban függ a használt böngészőtől, és a megfelelő egérművelettel kell elvégezni, kiválasztva a „Kapcsolat mentése, mint...” opciót. Az alakfájl formátumának összetételéről bővebben a „GYIK &gt; Milyen formátumok jelennek meg a Dades obertes-ben?” linken.</dct:description>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Strat cartografic în format fișier de formă și geojson, care reprezintă delimitarea celor 24 de departamente de sănătate ale Comunității Valenciane. Descărcarea fișierului în format geojson va depinde de browserul utilizat și trebuie să se facă prin acțiunea corectă a mouse-ului, selectând opțiunea „Salvați link-ul ca...”. Pentru mai multe informații despre compoziția formatului de fișier de formă, vizitați linkul subsol „FAQ-uri &gt; Ce tipuri de formate sunt publicate în Dades obertes?”.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Saff kartografiku f’forma ta’ fajl u ġeojson li jirrappreżenta d-delimitazzjoni tal-24 dipartiment tas-saħħa tal-Komunità ta’ Valencia. It-tniżżil tal-fajl f’format geojson jiddependi fuq il-brawżer użat u għandu jsir permezz tal-azzjoni tal-maws it-tajba, bl-għażla tal-għażla “Issejvja l-link bħala...”. Għal aktar informazzjoni dwar il-kompożizzjoni tal-format formfile, żur il-link footer “FAQs &gt; Liema tipi ta ‘formati huma ppubblikati fil Dades obertes?”.</dct:description>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-05-06T00:00:00+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5e22ef05-bf46-42b0-9582-38355450a4f0">
+            <dct:title xml:lang="sk-t-es-t0-mtec">Stiahnuť súbor zdravotných oddelení vo formáte.zip</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Hent sundhedsafdelinger fil i.zip format</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Laadige alla tervishoiuosakondade fail.zip-vormingus</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Download het dossier van de gezondheidsafdeling in.zip-formaat</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Download health departments file in.zip format</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Atsisiųskite sveikatos departamentų failą.zip formatu</dct:title>
+            <dct:identifier>https://dadesobertes.gva.es/dataset/sanidad-sip-departamentos-salud/resource/72a7a1d2-0212-4331-887a-8ffc27c8245c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ZIP"/>
+            <dct:title xml:lang="el-t-es-t0-mtec">Κατεβάστε το αρχείο των τμημάτων υγείας σε μορφή.zip</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Scarica il file dei reparti sanitari in formato.zip</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Изтеглете файла на здравните отдели във формат.zip</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Ladda ner filen för hälsoavdelningar i.zip-format</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Pobierz plik departamentów zdrowia w formacie.zip</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Laden Sie die Gesundheitsabteilungsdatei im.zip-Format herunter</dct:title>
+            <dcat:accessURL rdf:resource="https://dadesobertes.gva.es/dataset/ff6f20ee-aee6-4def-9f9b-451610ed47f9/resource/72a7a1d2-0212-4331-887a-8ffc27c8245c/download/ca_departamentos_20240505.zip"/>
+            <dct:title xml:lang="es">Descarga fichero departamentos de salud en formato .zip</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Télécharger le fichier des départements de santé au format.zip</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Prenesite datoteko zdravstvenih oddelkov v obliki.zip</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Завантажити файл відділів охорони здоров'я в форматі.zip</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Az egészségügyi részlegek fájljának letöltése.zip formátumban</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Niżżel il-fajl tad-dipartimenti tas-saħħa fil-format.zip</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Preuzmite datoteku zdravstvenih odjela u.zip formatu</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Baixe o arquivo dos departamentos de saúde em formato.zip</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Lataa terveysosastojen tiedosto.zip-muodossa</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Íoslódáil comhad ranna sláinte i bhformáid.zip</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Descărcați fișierul departamentelor de sănătate în format.zip</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Lejupielādēt veselības nodaļu failu.zip formātā</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Stáhněte si soubor zdravotních oddělení ve formátu.zip</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Saff tad-dipartiment tas-saħħa tal-Comunitat Valenciana</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Warstwa departamentu zdrowia Comunitat Valenciana</dct:title>
+        <dct:title xml:lang="hu-t-es-t0-mtec">A Comunitat Valenciana egészségügyi osztályának rétege</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Kartografisk lag i formfil- og geojsonformat, der repræsenterer afgrænsningen af de 24 sundhedsafdelinger i Valencia-fællesskabet. Download af filen i geojson format vil afhænge af den anvendte browser og skal gøres ved hjælp af højre mus handling, vælge indstillingen "Gem link som...". Du kan finde flere oplysninger om sammensætningen af figurfilformatet i sidefodslinket "FAQ'er &gt; Hvilke typer formater offentliggøres i Dades obertes?".</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Cartografische laag in shapefile en geojson formaat dat de afbakening van de 24 gezondheidsafdelingen van de Valenciaanse Gemeenschap vertegenwoordigt. De download van het bestand in geojson formaat zal afhangen van de gebruikte browser en moet worden gedaan door middel van de juiste muis actie, het selecteren van de optie „Link opslaan als...”. Ga voor meer informatie over de samenstelling van de shapefile naar de voettekst link „FAQs &gt; Welke soorten formaten worden gepubliceerd in Dades obertes?”.</dct:description>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-dadesobertes-gva-es-dataset-sanidad-sip-departamentos-salud"/>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransCompleted"/>
+    <dct:identifier>https://dadesobertes.gva.es/dataset/sanidad-sip-departamentos-salud</dct:identifier>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:31:51Z</dct:modified>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:23:14Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>2dd1bda4b7785ecb42991f794fc70b8a</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:23:14Z</edp:transIssued>
+    <edp:transReceived rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-04T22:36:19Z</edp:transReceived>
+  </dcat:CatalogRecord>
+</rdf:RDF>

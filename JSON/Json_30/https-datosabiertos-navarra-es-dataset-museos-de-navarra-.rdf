@@ -1,0 +1,399 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-navarra-es-dataset-museos-de-navarra-">
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-navarra-es-dataset-museos-de-navarra-"/>
+    <dct:identifier>https://datosabiertos.navarra.es/dataset/museos-de-navarra-</dct:identifier>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-navarra-es-dataset-museos-de-navarra-">
+        <dct:title xml:lang="mt-t-es-t0-mtec">Mużewijiet ta’ Navarra</dct:title>
+        <dcat:keyword xml:lang="es">Historia</dcat:keyword>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Muzee din Navarra</dct:title>
+        <dcat:keyword xml:lang="es">Patrimonio</dcat:keyword>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Päivitettyä tietoa Navarran museoista ja pysyvistä muusografisista kokoelmista. Kuvaus museoista, niiden kokoelmista, vaihtuvista näyttelyistä, aikatauluista, hinnoista ja aktiviteeteista. Se myös helpottaa sen sijaintia ja miten sinne pääsee.  
+Tiedot ovat saatavilla myös muilla kielillä:
+Baski, englanti, ranska.Kuvaus museoista, niiden kokoelmista, vaihtuvista näyttelyistä, aikatauluista, hinnoista ja aktiviteeteista.
+Se myös helpottaa sen sijaintia ja miten sinne pääsee.
+
+ 
+Tiedot ovat saatavilla myös muilla kielillä:
+Baski, englanti, ranska.</dct:description>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Atnaujinta informacija apie Navaros muziejus ir nuolatines muziejines kolekcijas. Muziejų, jų kolekcijų, laikinų parodų, tvarkaraščių, įkainių ir veiklų aprašymas. Tai taip pat palengvina jo buvimo vietą ir kaip ten patekti.
+
+
+Duomenys taip pat prieinami ir kitomis kalbomis: Baskų, anglų, prancūzų.</dct:description>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Museer i Navarre</dct:title>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Muzeji v Navarre</dct:title>
+        <dcat:keyword xml:lang="es">Ondarea</dcat:keyword>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-30T00:00:00+02:00</dct:modified>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Aktuálne informácie o múzeách a stálych muzeografických zbierkach Navarra. Popis múzeí, ich zbierok, dočasných výstav, harmonogramov, sadzieb a aktivít. To tiež uľahčuje jeho umiestnenie a ako sa tam dostať.
+
+
+Údaje sú k dispozícii aj v iných jazykoch:Baskičtina, angličtina, francúzština. 
+
+
+Údaje sú k dispozícii aj v iných jazykoch:
+Baskičtina, angličtina, francúzština.</dct:description>
+        <dct:description xml:lang="de-t-es-t0-mtec">Aktualisierte Informationen zu den Museen und ständigen museographischen Sammlungen von Navarra. Beschreibung der Museen, ihrer Sammlungen, Wechselausstellungen, Zeitpläne, Preise und Aktivitäten. Es erleichtert auch seine Lage und wie man dorthin kommt.
+
+
+Die Daten sind auch in anderen Sprachen verfügbar: Baskisch, Englisch, Französisch.</dct:description>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Uppdaterad information om museer och permanenta museografiska samlingar i Navarra. Beskrivning av museerna, deras samlingar, tillfälliga utställningar, scheman, priser och aktiviteter. Det underlättar också dess läge och hur man kommer dit.
+
+
+Uppgifterna finns även på andra språk: Baskiska, engelska, franska.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">Informações atualizadas sobre os museus e coleções museográficas permanentes de Navarra. Descrição dos museus, suas coleções, exposições temporárias, horários, tarifas e atividades. Também facilita a sua localização e como chegar lá.
+
+
+Os dados também estão disponíveis noutras línguas: Basco, inglês, francês.</dct:description>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Ažurirane informacije o muzejima i stalnim muzeografskim zbirkama Navarre. Opis muzeja, njihovih zbirki, privremenih izložbi, rasporeda, cijena i aktivnosti. Također olakšava svoj položaj i kako doći do njega.
+
+
+Podaci su dostupni i na drugim jezicima: Baskijski, engleski, francuski.</dct:description>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Informazzjoni aġġornata dwar il-mużewijiet u l-kollezzjonijiet mużeografiċi permanenti ta’ Navarra. Deskrizzjoni tal-mużewijiet, il-kollezzjonijiet tagħhom, il-wirjiet temporanji, l-iskedi, ir-rati u l-attivitajiet. Hija tiffaċilita wkoll il-post tagħha u kif għandna naslu s’hemm.
+
+
+Id-data hija disponibbli wkoll f’lingwi oħra:Bask, Ingliż, Franċiż. 
+
+
+Id-data hija disponibbli wkoll f’lingwi oħra:
+Bask, Ingliż, Franċiż.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Aktualizované informace o muzeích a stálých muzeografických sbírkách Navarry. Popis muzeí, jejich sbírek, dočasných výstav, harmonogramů, sazeb a aktivit. To také usnadňuje jeho umístění a jak se tam dostat.
+
+
+Data jsou k dispozici i v jiných jazycích: Baskicky, anglicky, francouzsky.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d8fc121d-d2cc-4689-a4ec-f092c08771f4">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroako museoak - CSV</dct:title>
+            <dct:title xml:lang="es">Museos de Navarra - CSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?format=csv&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?format=csv&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Aktualne informacje na temat muzeów i stałych zbiorów muzealnych Nawarry. Opis muzeów, ich zbiorów, wystaw czasowych, harmonogramów, stawek i działań. Ułatwia również jego lokalizację i jak się tam dostać.
+
+
+Dane są również dostępne w innych językach: Baskijski, angielski, francuski.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/127d92ff-6a90-4ddc-a239-35d7d134831e">
+            <dct:title xml:lang="es">Museos de Navarra - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroako museoak - TSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?format=tsv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?format=tsv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Informations actualisées sur les musées et les collections muséographiques permanentes de Navarre.
+Description des musées, de leurs collections, expositions temporaires, horaires, tarifs et activités.
+Il facilite également son emplacement et comment s’y rendre.
+
+
+
+Les données sont également disponibles dans d’autres langues:
+Basque, anglais, français.</dct:description>
+        <dcat:keyword xml:lang="es">Instalazioak</dcat:keyword>
+        <dct:description xml:lang="es">Información actualizada sobre los museos y colecciones museográficas permanentes de Navarra. Descripción de los museos, sus colecciones, exposiciones temporales, horarios, tarifas y actividades. También se facilita su ubicación y cómo llegar.
+
+
+	Los datos también están disponibles en otros idiomas: euskera, inglés, francés.</dct:description>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/949088ed-5af2-4c3a-9ecc-61f97d7a6f34">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/ae82c27a-092c-4e1a-b2bd-0d8916ac0915.xlsx"/>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Музеи на Навара — XLSX</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Muzea Nawarry – XLSX</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Navarras muzeji — XLSX</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Navarran museot – XLSX</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Navarra muuseumid – XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/ae82c27a-092c-4e1a-b2bd-0d8916ac0915.xlsx</dct:identifier>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Museus de Navarra — XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Navaros muziejai – XLSX</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Museer i Navarra – XLSX</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Múzeá Navarra – XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Музеї Наварри - XLSX</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Mużewijiet ta’ Navarra — XLSX</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Museums of Navarra — XLSX</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Muzeji Navarra – XLSX</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Músaeim na hÉireann — XLSX</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Navarra múzeumai – XLSX</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Muzeji v Navarri – XLSX</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Musées de Navarra — XLSX</dct:title>
+            <dct:title xml:lang="es">Museos de Navarra - XLSX</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Muzee din Navarra – XLSX</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Musei di Navarra — XLSX</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Μουσεία της Ναβάρας — XLSX</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Seværdigheder i Navarra — XLSX</dct:title>
+            <dct:title xml:lang="eu">Nafarroako museoak - XLSX</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Museen von Navarra – XLSX</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Muzea Navarra – XLSX</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Musea van Navarra — XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="eu">Nafarroako museoei eta bilduma museografiko iraunkorrei buruzko informazio eguneratua. Museoen, bildumen, aldi baterako erakusketen, ordutegien, tarifen eta ekintzen deskribapena. Kokapena eta bertara iristeko modua ere azaltzen da.
+
+
+	Datuak beste hizkuntza batzuetan ere eskuragarri daude: euskara, ingelesa, frantsesa.</dct:description>
+        <dct:identifier>https://datosabiertos.navarra.es/dataset/museos-de-navarra-</dct:identifier>
+        <dct:title xml:lang="es">Museos de Navarra</dct:title>
+        <dct:title xml:lang="el-t-es-t0-mtec">Μουσεία της Ναβάρρας</dct:title>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Museus de Navarra</dct:title>
+        <dcat:keyword xml:lang="es">Erakusketak</dcat:keyword>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8cdee19a-945f-4dc0-9d2a-4f42ce6be35d">
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroako museoak - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?format=xml&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">Museos de Navarra - XML</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?format=xml&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Museoak</dcat:keyword>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Musées de Navarre</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5ad598a6-3314-4cea-8358-1043ecb16cb4">
+            <dct:title xml:lang="sk-t-es-t0-mtec">Múzeá v Navarre</dct:title>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Muzee din Navarra</dct:title>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Музеї Наварри</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Museer i Navarre</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Musea van Navarra</dct:title>
+            <dct:title xml:lang="es">Museos de Navarra</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Navaros muziejai</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/9bd85ef8-7d67-4f0b-90a5-8591bfebb0e5/resource/ae82c27a-092c-4e1a-b2bd-0d8916ac0915/download/museos_es.csv</dct:identifier>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Músaeim na hÉireann</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Musées de Navarre</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Navarra muuseumid</dct:title>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Navarre múzeumai</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Navarras muzeji</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Mużewijiet ta’ Navarra</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Muzea w Nawarrze</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/9bd85ef8-7d67-4f0b-90a5-8591bfebb0e5/resource/ae82c27a-092c-4e1a-b2bd-0d8916ac0915/download/museos_es.csv"/>
+            <dct:title xml:lang="da-t-es-t0-mtec">Seværdigheder i Navarre</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Museen von Navarra</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Μουσεία της Ναβάρρας</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Музеите на Навара</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Navarran museot</dct:title>
+            <dct:title xml:lang="eu">Nafarroako museoak</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Musei della Navarra</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Muzeji v Navarre</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Muzeji Navarre</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Museums of Navarre</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Museus de Navarra</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Hotely ve městě Navarre</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Актуална информация за музеите и постоянните музеографски колекции на Навара. Описание на музеите, техните колекции, временни изложби, графици, цени и дейности. Той също така улеснява неговото местоположение и как да стигне до там.  
+Данните са достъпни и на други езици:
+Баски, английски, френски.Описание на музеите, техните колекции, временни изложби, графици, цени и дейности.
+Той също така улеснява неговото местоположение и как да стигне до там.
+
+ 
+Данните са достъпни и на други езици:
+Баски, английски, френски.</dct:description>
+        <dct:title xml:lang="eu">Nafarroako museoak</dct:title>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Музеї Наварри</dct:title>
+        <dct:title xml:lang="it-t-es-t0-mtec">Musei della Navarra</dct:title>
+        <dct:title xml:lang="de-t-es-t0-mtec">Museen von Navarra</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Músaeim na hÉireann</dct:title>
+        <dcat:keyword xml:lang="es">Arte</dcat:keyword>
+        <dct:title xml:lang="en-t-es-t0-mtec">Museums of Navarre</dct:title>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2021-06-23T00:00:00+02:00</dct:issued>
+        <dct:description xml:lang="el-t-es-t0-mtec">Επικαιροποιημένες πληροφορίες για τα μουσεία και τις μόνιμες μουσειογραφικές συλλογές της Ναβάρρας. Περιγραφή των μουσείων, των συλλογών τους, των περιοδικών εκθέσεων, των χρονοδιαγραμμάτων, των τιμών και των δραστηριοτήτων τους. Διευκολύνει επίσης την τοποθεσία του και πώς να φτάσετε εκεί.  
+Τα δεδομένα είναι επίσης διαθέσιμα και σε άλλες γλώσσες:
+Βασκικά, αγγλικά, γαλλικά.Περιγραφή των μουσείων, των συλλογών τους, των περιοδικών εκθέσεων, των χρονοδιαγραμμάτων, των τιμών και των δραστηριοτήτων τους.
+Διευκολύνει επίσης την τοποθεσία του και πώς να φτάσετε εκεί.
+
+ 
+Τα δεδομένα είναι επίσης διαθέσιμα και σε άλλες γλώσσες:
+Βασκικά, αγγλικά, γαλλικά.</dct:description>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Navarras muzeji</dct:title>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Hotely ve městě Navarre</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Posodobljene informacije o muzejih in stalnih muzeografskih zbirkah Navarre. Opis muzejev, njihovih zbirk, začasnih razstav, urnikov, cen in dejavnosti. Prav tako olajša njegovo lokacijo in kako priti do tja.
+
+
+Podatki so na voljo tudi v drugih jezikih: Baskovščina, angleščina, francoščina.</dct:description>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Actuele informatie over de musea en permanente museografische collecties van Navarra. Beschrijving van de musea, hun collecties, tijdelijke tentoonstellingen, schema’s, tarieven en activiteiten. Het vergemakkelijkt ook de locatie en hoe er te komen.
+
+
+De gegevens zijn ook beschikbaar in andere talen: Baskisch, Engels, Frans.</dct:description>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Muzeji Navarre</dct:title>
+        <dct:description xml:lang="en-t-es-t0-mtec">Updated information on the museums and permanent museographic collections of Navarre. Description of the museums, their collections, temporary exhibitions, schedules, rates and activities. It also facilitates its location and how to get there.
+
+
+The data is also available in other languages: Basque, English, French.</dct:description>
+        <dct:title xml:lang="et-t-es-t0-mtec">Navarra muuseumid</dct:title>
+        <dcat:keyword xml:lang="es">Turismoa</dcat:keyword>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni aggiornate sui musei e le collezioni museografiche permanenti della Navarra. Descrizione dei musei, delle loro collezioni, mostre temporanee, orari, tariffe e attività. Facilita anche la sua posizione e come arrivarci.
+
+
+I dati sono disponibili anche in altre lingue: Basco, inglese, francese.</dct:description>
+        <dct:description xml:lang="et-t-es-t0-mtec">Ajakohastatud teave Navarra muuseumide ja püsivate museograafiliste kogude kohta. Muuseumide, nende kogude, ajutiste näituste, ajakavade, määrade ja tegevuste kirjeldus. See lihtsustab ka oma asukohta ja kuidas sinna jõuda.
+
+
+Andmed on kättesaadavad ka teistes keeltes: Baski, inglise, prantsuse.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e97b1ff5-5b00-4885-9113-b182c43eaa6c">
+            <dct:title xml:lang="eu">Nafarroako museoak - JSON - API</dct:title>
+            <dct:title xml:lang="es">Museos de Navarra - JSON - API</dct:title>
+            <dct:title xml:lang="es">Museos de Navarra - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Nafarroako museoak - JSON</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?format=json&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?format=json&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Múzeá v Navarre</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Frissített információk Navarra múzeumairól és állandó muzeográfiai gyűjteményeiről. A múzeumok, gyűjteményeik, időszaki kiállítások, menetrendek, árak és tevékenységek leírása. Ez is megkönnyíti a helyét, és hogyan juthat el oda.  
+Az adatok más nyelveken is elérhetők:
+Baszk, angol, francia.A múzeumok, gyűjteményeik, időszaki kiállítások, menetrendek, árak és tevékenységek leírása.
+Ez is megkönnyíti a helyét, és hogyan juthat el oda.
+
+ 
+Az adatok más nyelveken is elérhetők:
+Baszk, angol, francia.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d76b1e02-bbb7-48ca-ae27-ca02b03e2214">
+            <dct:title xml:lang="eu">Nafarroako museoak - ODS</dct:title>
+            <dct:title xml:lang="pl-t-es-t0-mtec">Muzea Nawarry – ODS</dct:title>
+            <dct:title xml:lang="el-t-es-t0-mtec">Μουσεία της Ναβάρας — ODS</dct:title>
+            <dct:title xml:lang="ga-t-es-t0-mtec">Músaeim Navarra — SÍÓnna</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/ae82c27a-092c-4e1a-b2bd-0d8916ac0915.ods"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="hu-t-es-t0-mtec">Navarra múzeumai – ODS</dct:title>
+            <dct:title xml:lang="lt-t-es-t0-mtec">Navaros muziejai – ODS</dct:title>
+            <dct:title xml:lang="da-t-es-t0-mtec">Seværdigheder i Navarra — ODS</dct:title>
+            <dct:title xml:lang="lv-t-es-t0-mtec">Navarras muzeji — ODS</dct:title>
+            <dct:title xml:lang="mt-t-es-t0-mtec">Mużewijiet ta’ Navarra — ODS</dct:title>
+            <dct:title xml:lang="sl-t-es-t0-mtec">Muzeji v Navarri – ODS</dct:title>
+            <dct:title xml:lang="sv-t-es-t0-mtec">Museer i Navarra – ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="ro-t-es-t0-mtec">Muzeele din Navarra – ODS</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/ae82c27a-092c-4e1a-b2bd-0d8916ac0915.ods</dct:identifier>
+            <dct:title xml:lang="uk-t-es-t0-mtec">Музеї Наварри - ODS</dct:title>
+            <dct:title xml:lang="es">Museos de Navarra - ODS</dct:title>
+            <dct:title xml:lang="fi-t-es-t0-mtec">Navarran museot – ODS</dct:title>
+            <dct:title xml:lang="et-t-es-t0-mtec">Navarra muuseumid – ODS</dct:title>
+            <dct:title xml:lang="bg-t-es-t0-mtec">Музеи на Навара — ВНОС</dct:title>
+            <dct:title xml:lang="sk-t-es-t0-mtec">Múzeá Navarra – ODS</dct:title>
+            <dct:title xml:lang="hr-t-es-t0-mtec">Muzeji Navarra – ODS</dct:title>
+            <dct:title xml:lang="nl-t-es-t0-mtec">Musea van Navarra — ODS</dct:title>
+            <dct:title xml:lang="it-t-es-t0-mtec">Musei di Navarra — ODS</dct:title>
+            <dct:title xml:lang="pt-t-es-t0-mtec">Museus de Navarra — ODS</dct:title>
+            <dct:title xml:lang="de-t-es-t0-mtec">Museen von Navarra – ODS</dct:title>
+            <dct:title xml:lang="en-t-es-t0-mtec">Museums of Navarra — ODS</dct:title>
+            <dct:title xml:lang="cs-t-es-t0-mtec">Muzea Navarra – ODS</dct:title>
+            <dct:title xml:lang="fr-t-es-t0-mtec">Musées de Navarre — ODS</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Navarre múzeumai</dct:title>
+        <dct:description xml:lang="da-t-es-t0-mtec">Opdateret information om museer og permanente museografiske samlinger af Navarra. Beskrivelse af museerne, deres samlinger, midlertidige udstillinger, tidsplaner, priser og aktiviteter. Det letter også sin placering og hvordan man kommer dertil.
+
+
+Dataene er også tilgængelige på andre sprog:Baskisk, engelsk, fransk. 
+
+
+Dataene er også tilgængelige på andre sprog:
+Baskisk, engelsk, fransk.</dct:description>
+        <dcat:keyword xml:lang="es">Museos</dcat:keyword>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Musea van Navarra</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Muzea w Nawarrze</dct:title>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A15002917">
+            <foaf:name>Comunidad Foral de Navarra</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/44f62188-732d-43ea-9126-4f15b271428a">
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/museos-de-navarra-/resource/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?view_id=35c33fb4-db39-457d-9e9b-9061a76718f4</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroako museoak - Explorador de Datos</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/museos-de-navarra-/resource/ae82c27a-092c-4e1a-b2bd-0d8916ac0915?view_id=35c33fb4-db39-457d-9e9b-9061a76718f4"/>
+            <dct:title xml:lang="es">Museos de Navarra - Explorador de Datos</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Exposiciones</dcat:keyword>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Aktualizēta informācija par Navarras muzejiem un pastāvīgajām muzeogrāfiskajām kolekcijām. Muzeju, to kolekciju, pagaidu izstāžu, grafiku, likmju un aktivitāšu apraksts. Tas arī atvieglo tās atrašanās vietu un to, kā tur nokļūt.
+
+
+Dati ir pieejami arī citās valodās:Basku, angļu, franču. 
+
+
+Dati ir pieejami arī citās valodās:
+Basku, angļu, franču.</dct:description>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Faisnéis nuashonraithe faoi mhúsaeim agus faoi bhailiúcháin mhúsagrafacha bhuana Navarre. Cur síos ar na músaeim, a mbailiúcháin, taispeántais shealadacha, sceidil, rátaí agus gníomhaíochtaí. Éascaíonn sé freisin a shuíomh agus conas a fháil ann.
+
+
+Tá na sonraí ar fáil i dteangacha eile freisin: Bascais, Béarla, Fraincis.</dct:description>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Музеите на Навара</dct:title>
+        <dcat:keyword xml:lang="es">Instalaciones</dcat:keyword>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a15002917-museos-de-navarra/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a15002917-museos-de-navarra/DurationDescription">
+                <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:months>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:title xml:lang="da-t-es-t0-mtec">Seværdigheder i Navarre</dct:title>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Оновлена інформація про музеї та постійні музеографічні колекції Наварри. Опис музеїв, їх колекцій, тимчасових виставок, графіків, тарифів і заходів. Це також полегшує його розташування і як туди дістатися.
+
+
+Дані також доступні іншими мовами:Баскська, Англійська, Французька. 
+
+
+Дані також доступні іншими мовами:
+Баскська, Англійська, Французька.</dct:description>
+        <dcat:keyword xml:lang="es">Artea</dcat:keyword>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Navaros muziejai</dct:title>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Navarran museot</dct:title>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Informații actualizate despre muzeele și colecțiile muzeografice permanente din Navarra. Descrierea muzeelor, colecțiilor acestora, expozițiilor temporare, orarelor, tarifelor și activităților acestora. De asemenea, facilitează localizarea și modul de a ajunge acolo.  
+Datele sunt disponibile și în alte limbi:
+Bască, engleză, franceză.Descrierea muzeelor, colecțiilor acestora, expozițiilor temporare, orarelor, tarifelor și activităților acestora.
+De asemenea, facilitează localizarea și modul de a ajunge acolo.
+
+ 
+Datele sunt disponibile și în alte limbi:
+Bască, engleză, franceză.</dct:description>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra"/>
+        <dcat:keyword xml:lang="es">Turismo</dcat:keyword>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>cc953fe8cd39d43b0a1b7c7ea57c0d9d</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:01:45Z</dct:issued>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:17:26Z</edp:transIssued>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:17:26Z</dct:modified>
+  </dcat:CatalogRecord>
+</rdf:RDF>

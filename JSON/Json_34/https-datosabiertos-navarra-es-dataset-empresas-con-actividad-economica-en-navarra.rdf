@@ -1,0 +1,501 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:schema="http://schema.org/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-datosabiertos-navarra-es-dataset-empresas-con-actividad-economica-en-navarra">
+    <edp:originalLanguage>es</edp:originalLanguage>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-26T23:33:05Z</dct:issued>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:33:14Z</dct:modified>
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <dct:identifier>https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra</dct:identifier>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-datosabiertos-navarra-es-dataset-empresas-con-actividad-economica-en-navarra"/>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-datosabiertos-navarra-es-dataset-empresas-con-actividad-economica-en-navarra">
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENVI"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cb6a55b9-3b3c-4aef-9af3-e7a31e06ff62">
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta baldintza juridikoaren arabera - TSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/05298aa0-fc1c-4bda-9a76-0242fd01ad87?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y condición jurídica  - TSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/05298aa0-fc1c-4bda-9a76-0242fd01ad87?format=tsv&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3d4ff5d0-5cff-41ad-9266-ae0926ba0683">
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten establezimenduak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Establecimientos con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000"</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696/download/0103_t06.xlsx</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696/download/0103_t06.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c30a8043-c9dc-4178-99cf-600494b92013">
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y condición jurídica  - JSON</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta baldintza juridikoaren arabera - JSON - API</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta baldintza juridikoaren arabera - JSON</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y condición jurídica  - JSON - API</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/05298aa0-fc1c-4bda-9a76-0242fd01ad87?format=json&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/05298aa0-fc1c-4bda-9a76-0242fd01ad87?format=json&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">sodatapeko enpleguaren geruza</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8c213433-2caf-47fb-9bad-c1f1517cfe14">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/fdf51e05-9da0-496b-9485-b5c2466e1d9f?format=json&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por municipio y sector económico  - JSON</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por municipio y sector económico  - JSON - API</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, udalerriaren eta sektore ekonomikoaren arabera - JSON</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/fdf51e05-9da0-496b-9485-b5c2466e1d9f?format=json&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, udalerriaren eta sektore ekonomikoaren arabera - JSON - API</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/JUST"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/604a341d-9e14-45f3-b023-575c64c260b7">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - TSV</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/a8848b1b-55c9-4605-b702-5510f724e83b?format=tsv&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/a8848b1b-55c9-4605-b702-5510f724e83b?format=tsv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/88f7f59b-8875-4ec4-a25c-d4c3ab52ba2e">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/fdf51e05-9da0-496b-9485-b5c2466e1d9f?format=csv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, udalerriaren eta sektore ekonomikoaren arabera - CSV</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por municipio y sector económico  - CSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/fdf51e05-9da0-496b-9485-b5c2466e1d9f?format=csv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ECON"/>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/a15002917-empresas-con-actividad-economica-en-navarra-dena/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/a15002917-empresas-con-actividad-economica-en-navarra-dena/DurationDescription">
+                <time:years rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >1</time:years>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6584b20a-bacb-44a4-8362-1b119421aebf">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/fdf51e05-9da0-496b-9485-b5c2466e1d9f.xlsx"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por municipio y sector económico  - XLSX</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, udalerriaren eta sektore ekonomikoaren arabera - XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/fdf51e05-9da0-496b-9485-b5c2466e1d9f.xlsx</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/48669d76-bb70-4552-a735-fb22f2a95e34">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/fdf51e05-9da0-496b-9485-b5c2466e1d9f.ods</dct:identifier>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por municipio y sector económico  - ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, udalerriaren eta sektore ekonomikoaren arabera - ODS</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/fdf51e05-9da0-496b-9485-b5c2466e1d9f.ods"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/43ef3e35-3fe2-4e6e-adff-0d03dafe507c">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15/download/0103_t04.xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15/download/0103_t04.xlsx</dct:identifier>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y actividad económica (CNAE-2009)</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta jarduera ekonomikoaren arabera (JESN-2009)</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2193c783-b334-4a5b-abaf-5d25b7dc45b4">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?view_id=1102e611-f48d-4d89-8efd-459736f13257"/>
+            <dct:title xml:lang="es">Establecimientos con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - Explorador de Datos</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten establezimenduak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?view_id=1102e611-f48d-4d89-8efd-459736f13257</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://nastat.navarra.es/es/operacion-estadistica/-/tag/empresas"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/447b8405-4216-4de9-b0e8-7a50463b3eff">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?format=csv&amp;bom=True"/>
+            <dct:title xml:lang="es">Establecimientos con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - CSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten establezimenduak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - CSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?format=csv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-19T00:00:00+02:00</dct:modified>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/47115b18-04e6-4595-a422-b0aa6efa138d">
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?format=xml&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta jarduera ekonomikoaren arabera (JESN-2009) - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y actividad económica (CNAE-2009) - XML</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?format=xml&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4081d1f5-4467-4ec1-90f4-8d15e64f026f">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?format=xml&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?format=xml&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="es">Establecimientos con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten establezimenduak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - XML</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">actividad económica principal</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/dd028c7b-19c6-4c90-a1fe-910f44388b91">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y condición jurídica  - XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/05298aa0-fc1c-4bda-9a76-0242fd01ad87.xlsx</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/05298aa0-fc1c-4bda-9a76-0242fd01ad87.xlsx"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta baldintza juridikoaren arabera - XLSX</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/63f0517b-3c8d-485c-804e-3129e3d4c514">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/a8848b1b-55c9-4605-b702-5510f724e83b?view_id=ac579707-b202-4bdd-ab74-33af74cd00b7"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - Explorador de Datos</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/a8848b1b-55c9-4605-b702-5510f724e83b?view_id=ac579707-b202-4bdd-ab74-33af74cd00b7</dct:identifier>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b1d0a59a-9410-414d-b0f5-993837ff428f">
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y actividad económica (CNAE-2009) - Explorador de Datos</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?view_id=2caa82ef-96b8-4a5a-895c-76ffa3144448"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?view_id=2caa82ef-96b8-4a5a-895c-76ffa3144448</dct:identifier>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta jarduera ekonomikoaren arabera (JESN-2009) - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8d714144-d5e7-4e9d-ae24-6b92cd636c53">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696.ods"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="es">Establecimientos con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - ODS</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten establezimenduak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696.ods</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/HEAL"/>
+        <dcat:keyword xml:lang="es">condición jurídica</dcat:keyword>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/A15002917">
+            <foaf:name>Comunidad Foral de Navarra</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e5747e5e-5737-404a-854d-b7bc854e994d">
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y actividad económica (CNAE-2009) - ODS</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15.ods</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15.ods"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta jarduera ekonomikoaren arabera (JESN-2009) - ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8c05c752-fdf8-4c82-8980-1e5d01789d07">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?format=json&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y actividad económica (CNAE-2009) - JSON</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta jarduera ekonomikoaren arabera (JESN-2009) - JSON</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta jarduera ekonomikoaren arabera (JESN-2009) - JSON - API</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?format=json&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y actividad económica (CNAE-2009) - JSON - API</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b7bb6550-5b9d-4bcb-ad64-b8f272de8e7d">
+            <dct:title xml:lang="es">Establecimientos con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - TSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?format=tsv&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten establezimenduak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - TSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?format=tsv&amp;bom=True</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TECH"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/30c1df9d-7626-48c5-af8f-396d2a743700">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/05298aa0-fc1c-4bda-9a76-0242fd01ad87?format=xml&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y condición jurídica  - XML</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta baldintza juridikoaren arabera - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/05298aa0-fc1c-4bda-9a76-0242fd01ad87?format=xml&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-03-18T00:00:00+01:00</dct:issued>
+        <dcat:keyword xml:lang="es">empresas</dcat:keyword>
+        <dcat:keyword xml:lang="es">estrato de empleo asalariado</dcat:keyword>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/SOCI"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d60366ff-bdb3-4d30-bc93-4ec4441e0d40">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/a8848b1b-55c9-4605-b702-5510f724e83b/download/0103_t03.xlsx</dct:identifier>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000"</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/a8848b1b-55c9-4605-b702-5510f724e83b/download/0103_t03.xlsx"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5caa9f32-79ba-4391-b698-ff560b986596">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta jarduera ekonomikoaren arabera (JESN-2009) - CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?format=csv&amp;bom=True"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?format=csv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y actividad económica (CNAE-2009) - CSV</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">baldintza juridikoa</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6a64360e-3379-4063-b607-6bac529ef094">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?format=tsv&amp;bom=True"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta jarduera ekonomikoaren arabera (JESN-2009) - TSV</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y actividad económica (CNAE-2009) - TSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15?format=tsv&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d18c8ef5-638f-4263-a65c-2fd2f4604bd5">
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/05298aa0-fc1c-4bda-9a76-0242fd01ad87.ods</dct:identifier>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y condición jurídica  - ODS</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta baldintza juridikoaren arabera - ODS</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/05298aa0-fc1c-4bda-9a76-0242fd01ad87.ods"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/68e77da5-e51a-433f-99e6-0f0d489b3f64">
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - JSON - API</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - JSON - API</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - JSON</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - JSON</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/a8848b1b-55c9-4605-b702-5510f724e83b?format=json&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/a8848b1b-55c9-4605-b702-5510f724e83b?format=json&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6c430198-9cf9-423a-b280-1369e3618695">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/fdf51e05-9da0-496b-9485-b5c2466e1d9f/download/0103_t07.xlsx"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, udalerriaren eta sektore ekonomikoaren arabera</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/fdf51e05-9da0-496b-9485-b5c2466e1d9f/download/0103_t07.xlsx</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por municipio y sector económico</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/91013c45-8ef2-4a1d-8d59-020426053d72">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/05298aa0-fc1c-4bda-9a76-0242fd01ad87/download/0103_t05.xlsx"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta baldintza juridikoaren arabera</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y condición jurídica</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/2970433e-e2a0-4481-8564-075d2fc50972/resource/05298aa0-fc1c-4bda-9a76-0242fd01ad87/download/0103_t05.xlsx</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5f8ad895-5226-4dd0-aed3-322e6a08349d">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - XML</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - XML</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/a8848b1b-55c9-4605-b702-5510f724e83b?format=xml&amp;bom=True</dct:identifier>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/a8848b1b-55c9-4605-b702-5510f724e83b?format=xml&amp;bom=True"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bd47aa89-80f0-423a-9d8e-95d971d37930">
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - CSV</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - CSV</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/a8848b1b-55c9-4605-b702-5510f724e83b?format=csv&amp;bom=True"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/a8848b1b-55c9-4605-b702-5510f724e83b?format=csv&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/ffa6c161-e1d9-4cb2-a05f-a0df6f6f28ad">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - XLSX</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/a8848b1b-55c9-4605-b702-5510f724e83b.xlsx</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/a8848b1b-55c9-4605-b702-5510f724e83b.xlsx"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Empresas con actividad económica en Navarra (DENA)</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/44edc519-2e86-4bde-8b77-14529b1bbb3e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/fdf51e05-9da0-496b-9485-b5c2466e1d9f?format=xml&amp;bom=True"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, udalerriaren eta sektore ekonomikoaren arabera - XML</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por municipio y sector económico  - XML</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/fdf51e05-9da0-496b-9485-b5c2466e1d9f?format=xml&amp;bom=True</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/047632e5-3bf0-4c01-872d-7d3800ec4de7">
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta jarduera ekonomikoaren arabera (JESN-2009) - XLSX</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y actividad económica (CNAE-2009) - XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15.xlsx</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/04e3f76f-102e-4fcb-b1d1-f8feedcc1d15.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/deb2c864-4ce8-4102-a100-6e2d6727ec90">
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y condición jurídica  - Explorador de Datos</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/05298aa0-fc1c-4bda-9a76-0242fd01ad87?view_id=d1841ea1-9ca7-44de-a405-fcc124923da0"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/05298aa0-fc1c-4bda-9a76-0242fd01ad87?view_id=d1841ea1-9ca7-44de-a405-fcc124923da0</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta baldintza juridikoaren arabera - Explorador de Datos</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/EDUC"/>
+        <dcat:keyword xml:lang="es">lokalak</dcat:keyword>
+        <dct:temporal>
+          <dct:PeriodOfTime rdf:about="https://datos.gob.es/catalogo/a15002917-empresas-con-actividad-economica-en-navarra-dena/PeriodOfTime-1">
+            <schema:startDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2018-01-01T00:00:00+01:00</schema:startDate>
+            <schema:endDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+            >2023-12-31T00:00:00+01:00</schema:endDate>
+          </dct:PeriodOfTime>
+        </dct:temporal>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/ENER"/>
+        <dct:identifier>https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra</dct:identifier>
+        <dct:description xml:lang="es">El conjunto de datos de empresas y establecimientos con actividad económica en Navarra presenta la información agregada clasificándola por tramos de número de asalariados y con la delimitación de las áreas de Navarra según la Zonificación "Navarra 2000", actividad económica según clarificación CNAE-2009, personalidad jurídica  de la empresa, municipio y sector económico de la empresa.  Su objetivo básico es posibilitar la realización de encuestas económicas por muestreo. Se actualiza una vez al año, a 1 de enero de cada periodo. Se incluyen todas las actividades económicas que se desarrollan en la Comunidad Foral de Navarra, excepto las siguientes secciones de la CNAE-2009: A. Actividades agrarias, O. Actividades de la Administración Pública, T. Actividades de los hogares como empleadores del personal doméstico; actividades de los hogares como productores de bienes y servicios para uso propio, U. Actividades de organizaciones y organismos extraterritoriales.</dct:description>
+        <dct:description xml:lang="eu">El conjunto de datos de empresas y establecimientos con actividad económica en Navarra presenta la información agregada clasificándola por tramos de número de asalariados y con la delimitación de las áreas de Navarra según la Zonificación "Navarra 2000", actividad económica según clarificación CNAE-2009, personalidad jurídica  de la empresa, municipio y sector económico de la empresa.  Su objetivo básico es posibilitar la realización de encuestas económicas por muestreo. Se actualiza una vez al año, a 1 de enero de cada periodo. Se incluyen todas las actividades económicas que se desarrollan en la Comunidad Foral de Navarra, excepto las siguientes secciones de la CNAE-2009: A. Actividades agrarias, O. Actividades de la Administración Pública, T. Actividades de los hogares como empleadores del personal doméstico; actividades de los hogares como productores de bienes y servicios para uso propio, U. Actividades de organizaciones y organismos extraterritoriales.</dct:description>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/REGI"/>
+        <dcat:keyword xml:lang="es">jarduera ekonomiko nagusia</dcat:keyword>
+        <dcat:keyword xml:lang="es">enpresak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5d822b24-4048-49f8-abf1-3be28e8f805e">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?format=json&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten establezimenduak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - JSON - API</dct:title>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten establezimenduak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - JSON</dct:title>
+            <dct:title xml:lang="es">Establecimientos con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - JSON</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696?format=json&amp;bom=True"/>
+            <dct:title xml:lang="es">Establecimientos con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - JSON - API</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f039ec2d-7676-44a8-b8d7-9d686fd80867">
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta baldintza juridikoaren arabera - CSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/05298aa0-fc1c-4bda-9a76-0242fd01ad87?format=csv&amp;bom=True</dct:identifier>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/05298aa0-fc1c-4bda-9a76-0242fd01ad87?format=csv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y condición jurídica  - CSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Comunidad-Foral-Navarra"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6c041509-1d3f-41b9-b999-65152d3a6302">
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/datastore/dump/fdf51e05-9da0-496b-9485-b5c2466e1d9f?format=tsv&amp;bom=True"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por municipio y sector económico  - TSV</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/datastore/dump/fdf51e05-9da0-496b-9485-b5c2466e1d9f?format=tsv&amp;bom=True</dct:identifier>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, udalerriaren eta sektore ekonomikoaren arabera - TSV</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/48e0adb0-dffa-4796-8a00-066428af9010">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/ODS"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - ODS</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/a8848b1b-55c9-4605-b702-5510f724e83b.ods</dct:identifier>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - ODS</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/a8848b1b-55c9-4605-b702-5510f724e83b.ods"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4a529ed1-3ab7-4790-b35a-c4fef182efba">
+            <dct:title xml:lang="es">Establecimientos con actividad económica en Navarra por estrato de empleo y zona "Navarra 2000" - XLSX</dct:title>
+            <dct:identifier>https://datosabiertos.navarra.es/api/services/datastore-downloader/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696.xlsx</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten establezimenduak, enplegu-geruzaren eta "Navarra 2000" eremuaren arabera - XLSX</dct:title>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/api/services/datastore-downloader/e25a53e0-f3d1-4cde-a5a5-7a9bb6d7b696.xlsx"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f3ae222f-bf65-43ae-be32-d8978143bfa3">
+            <dct:title xml:lang="eu">Nafarroan jarduera ekonomikoa duten enpresak, udalerriaren eta sektore ekonomikoaren arabera - Explorador de Datos</dct:title>
+            <dct:title xml:lang="es">Empresas con actividad económica en Navarra por municipio y sector económico  - Explorador de Datos</dct:title>
+            <dcat:accessURL rdf:resource="https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/fdf51e05-9da0-496b-9485-b5c2466e1d9f?view_id=b0aedbcd-8620-4dd4-98b3-d0f1169325ef"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/HTML"/>
+            <dct:license rdf:resource="http://www.opendefinition.org/licenses/cc-by"/>
+            <dct:identifier>https://datosabiertos.navarra.es/dataset/empresas-con-actividad-economica-en-navarra/resource/fdf51e05-9da0-496b-9485-b5c2466e1d9f?view_id=b0aedbcd-8620-4dd4-98b3-d0f1169325ef</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">locales</dcat:keyword>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:33:14Z</edp:transIssued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+        <spdx:checksumValue>f61f69f994eb3aa2aaf3c1978334bde8</spdx:checksumValue>
+      </spdx:Checksum>
+    </spdx:checksum>
+  </dcat:CatalogRecord>
+</rdf:RDF>

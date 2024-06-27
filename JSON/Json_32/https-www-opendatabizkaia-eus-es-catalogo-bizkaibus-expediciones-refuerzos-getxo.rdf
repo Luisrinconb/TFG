@@ -1,0 +1,924 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:edp="https://europeandataportal.eu/voc#"
+    xmlns:spdx="http://spdx.org/rdf/terms#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:time="http://www.w3.org/2006/time#"
+    xmlns:dqv="http://www.w3.org/ns/dqv#"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/">
+  <dcat:CatalogRecord rdf:about="http://data.europa.eu/88u/record/https-www-opendatabizkaia-eus-es-catalogo-bizkaibus-expediciones-refuerzos-getxo">
+    <edp:transStatus rdf:resource="https://europeandataportal.eu/voc#TransInProcess"/>
+    <foaf:primaryTopic>
+      <dcat:Dataset rdf:about="http://data.europa.eu/88u/dataset/https-www-opendatabizkaia-eus-es-catalogo-bizkaibus-expediciones-refuerzos-getxo">
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a2ce098a-3da7-4eb7-85cc-1e28d7a00792">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/abf56992-dd59-4025-9466-a479f941b581</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/028f78fb-5c19-4d8d-ab2f-7c7d2893d89c/refuerzos-planificados-getxo-2024?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2024</dct:title>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6739c9df-c00a-4528-a5ba-d0285696f7d3">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9485df6a-3032-43af-8c47-2a3dba77bf34/refuerzos-realizados-getxo-2024?format=xml"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/aacc4895-6238-4d89-8a35-7ba18b4ba4dc</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="es">Se ofrece información sobre expediciones y refuerzos de los autobuses Bizkaibus de las líneas que atraviesan el municipio.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e70b44fd-3cfa-4859-8b2d-83d0a804398c">
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2022</dct:title>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a7cc901-058b-429a-a3f5-6e73c0e0bd2f/refuerzos-planificados-getxo-2022?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/8fa5f6c4-3b2f-4e36-a5d9-38928ca2359a</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b1c435a1-1f72-4760-97b7-2122bac86c86">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aa6fba53-ef07-44ee-8a3d-02680e0f4e63/refuerzos-realizados-getxo-2021?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2021</dct:title>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/c90cd8ca-0641-4855-adb1-d5dc6f0c28dd</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/644bf8da-d2fa-4df0-a6f5-fb90fd7fc4de">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a7cc901-058b-429a-a3f5-6e73c0e0bd2f/refuerzos-planificados-getxo-2022?format=json"/>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/e8a7a625-a196-4ed4-9a87-8760522d6f82</dct:identifier>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="pl-t-es-t0-mtec">Informacje o ekspedycjach i wzmocnieniach autobusów Bizkaibus linii przecinających gminę.</dct:description>
+        <dcat:keyword xml:lang="es">Transporte</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b143b796-21ae-40cb-8107-40dd46ef6af8">
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fcab14ee-b7a3-4ca6-a3a0-89bca8d62c31/expediciones-realizadas-getxo-2024?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/dffdc2eb-f8a9-42bb-9cc8-341e4a9bc1c5</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4f453611-8048-477e-b247-11d8d559b0d7">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/3459ffcf-66ab-452b-a4fd-a4515aec669b</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f017a37a-34d0-4ebd-b252-667cf2e9f848/expediciones-planificadas-getxo-2023?format=xlsx"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cfcf1f54-9960-4e2a-aae3-6caaff75fc0c">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0a1a2acd-38f4-47c0-9e98-ee2ae1dde22e/refuerzos-realizados-getxo-2023?format=xlsx"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/d510dd70-0d13-4665-b81a-35bb5451e006</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Garraioa</dcat:keyword>
+        <dct:title xml:lang="fr-t-es-t0-mtec">Bizkaibus — Expéditions et renforcements — Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0ecad223-fbd7-4337-8183-4cbbf67d5cba">
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9176f7fe-b2be-44ca-85ee-107063d7dc12/expediciones-realizadas-getxo-2023?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/6ab7bb4b-951b-4194-9503-c85217e951ba</dct:identifier>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/575bc14d-6c14-40b4-b881-9220771bf45a">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/298a7e13-6bd7-44a7-bb08-4e7abbe65276/refuerzos-realizados-getxo-2022?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/b4c90e4a-ef6e-45cc-92be-191f4c49b300</dct:identifier>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/eb8b9573-5ae4-49cc-80f8-133cdc290ee6">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/868a46e0-026f-47b9-aaa2-e57e5a042cce/expediciones-planificadas-getxo-2022?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/a1fe0518-0960-4d73-92e2-2ac0d9bec37c</dct:identifier>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/bizkaibus-expediciones-refuerzos-getxo</dct:identifier>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a511fb4f-8f7d-40c9-808c-146536f23009">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f017a37a-34d0-4ebd-b252-667cf2e9f848/expediciones-planificadas-getxo-2023?format=xml"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/daf14731-09a1-4267-8eef-89c2617a7291</dct:identifier>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/946b976d-3a62-4cd1-b28b-ee938f81f827">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5bbf803-b937-4819-8e56-b12b59d722d4/expediciones-realizadas-getxo-2022?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/659e186f-b7c1-47a2-a80f-2ac05db6170b</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2022</dct:title>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cb50656e-b0cc-42ca-a4d5-da9109d66a81">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/298a7e13-6bd7-44a7-bb08-4e7abbe65276/refuerzos-realizados-getxo-2022?format=tsv"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/f2dcb342-47a5-44ad-8385-9c934a07292e</dct:identifier>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f4e5218c-bcd9-4a40-b1ba-ae0f82c7cb0d">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e6d2276-8421-49fb-89fd-e1e51072d2d9/refuerzos-planificados-getxo-2023?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2023</dct:title>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/b6819129-4b55-460f-b2dc-2a2238ca4e0a</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="de-t-es-t0-mtec">Bizkaibus – Expeditionen und Stärkungen – Getxo</dct:title>
+        <dct:description xml:lang="hu-t-es-t0-mtec">Tájékoztatást nyújtanak az önkormányzatot átlépő vonalak Bizkaibus buszainak expedícióiról és megerősítéséről.</dct:description>
+        <dct:title xml:lang="uk-t-es-t0-mtec">Bizkaibus — Експедиції і зміцнення — Getxo</dct:title>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/EUS"/>
+        <dct:description xml:lang="el-t-es-t0-mtec">Παρέχονται πληροφορίες σχετικά με τις αποστολές και τις ενισχύσεις των λεωφορείων Bizkaibus των γραμμών που διασχίζουν τον δήμο.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5b4b99a6-0a34-438e-babc-bae4285019e8">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f017a37a-34d0-4ebd-b252-667cf2e9f848/expediciones-planificadas-getxo-2023?format=csv"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/0e2c76ed-7334-42bd-b5bc-ccecc7081994</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="et-t-es-t0-mtec">Bizkaibus – ekspeditsioonid ja tugevdused – Getxo</dct:title>
+        <dct:description xml:lang="cs-t-es-t0-mtec">Informace jsou poskytovány o expedicích a posilách autobusů Bizkaibus na tratích, které procházejí obcí.</dct:description>
+        <dct:description xml:lang="fi-t-es-t0-mtec">Tietoa annetaan Bizkaibus-bussien retkistä ja vahvistuksista kunnan läpi kulkevilla radoilla.</dct:description>
+        <dcat:keyword xml:lang="es">Vehículos</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/983964f8-4634-42d3-8878-704b09828a03">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5bbf803-b937-4819-8e56-b12b59d722d4/expediciones-realizadas-getxo-2022?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/711023d4-a310-47d1-9f34-dd94574018a0</dct:identifier>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2022</dct:title>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/56db7726-a15c-4a08-acca-d89e6de3622c">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/a3787a3d-4384-4a79-95f7-d064c8cf2b4d</dct:identifier>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9176f7fe-b2be-44ca-85ee-107063d7dc12/expediciones-realizadas-getxo-2023?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/35b2202e-80f7-4513-b6c8-6f2e336944df">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/978ecc8e-120c-4ffe-bc8d-6abf2dc54922</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aa6fba53-ef07-44ee-8a3d-02680e0f4e63/refuerzos-realizados-getxo-2021?format=tsv"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1d020938-ba0c-4d57-aab6-fec750bd9f94">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0a1a2acd-38f4-47c0-9e98-ee2ae1dde22e/refuerzos-realizados-getxo-2023?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/bc217e98-00fa-42ed-8e1d-3ae7eceda449</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/catalogo/bizkaibus-expediciones-refuerzos-getxo"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a5eaf8ce-cb8d-4885-8606-9d29e4df0ea9">
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9176f7fe-b2be-44ca-85ee-107063d7dc12/expediciones-realizadas-getxo-2023?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/3a5291d2-14e5-49c3-9d1b-a052218fe964</dct:identifier>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="mt-t-es-t0-mtec">Bizkaibus — Espedizzjonijiet u tisħiħ — Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2a27a7f2-05bd-421e-88a2-f4a7051a9843">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/c1222ef6-1a63-4000-a32c-9abb8d2fe4ca</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/180fa4c6-1fbf-4f82-b297-0790cbaa380b/refuerzos-planificados-getxo-2021?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2021</dct:title>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="pt-t-es-t0-mtec">Bizkaibus — Expedições e reforços — Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/972c710e-8547-4e72-9bb8-562305c3c31a">
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2021</dct:title>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0e4ef539-d2c5-41f9-ab92-547d53e6f431/expediciones-realizadas-getxo-2021?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/124e1b7c-4618-4e0b-a0ab-e240151060aa</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="bg-t-es-t0-mtec">Bizkaibus — Експедиции и укрепване — Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c1147404-881d-4ee2-b3cf-c654910118c8">
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/afa2017d-cf67-4e30-a338-90169aad3021/expediciones-planificadas-getxo-2021?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/b4aac84e-50d0-4f01-8798-1d359f84a02a</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="eu">Udalerria zeharkatzen duten lineetako Bizkaibus autobusen espedizio eta errefortzuei buruzko informazioa eskaintzen da.</dct:description>
+        <dct:title xml:lang="lt-t-es-t0-mtec">Bizkaibus – Ekspedicijos ir sutvirtinimai – Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/41e4f2fe-5a1b-4af0-995f-0391fa43293b">
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5722abdc-0908-4517-8789-8c9b280105e5/expediciones-planificadas-getxo-2024?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/c63d715f-70e1-4d94-83df-a735668714f7</dct:identifier>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/0d911155-b0aa-44d2-9828-b200ee084963">
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f017a37a-34d0-4ebd-b252-667cf2e9f848/expediciones-planificadas-getxo-2023?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/99bf1598-ebc8-4aac-9fba-774369ca2068</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/1afd95e2-4d19-48b7-a737-04d6f1a84c23">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e6d2276-8421-49fb-89fd-e1e51072d2d9/refuerzos-planificados-getxo-2023?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/0095859d-3421-4b4a-862e-8374907fa140</dct:identifier>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2023</dct:title>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/84b4d062-00c0-430c-86fa-e27d8df57c96">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5bbf803-b937-4819-8e56-b12b59d722d4/expediciones-realizadas-getxo-2022?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/4c85c45e-8733-4dbe-80ea-bed43572b473</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2022</dct:title>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="it-t-es-t0-mtec">Bizkaibus — Spedizioni e rinforzi — Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6f7c6095-b732-4fc9-b06d-5ef9ef89cf43">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/298a7e13-6bd7-44a7-bb08-4e7abbe65276/refuerzos-realizados-getxo-2022?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/6962ba50-9942-43a9-9372-50777076dd91</dct:identifier>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d8762623-c65d-45ff-9609-22881522bb25">
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fcab14ee-b7a3-4ca6-a3a0-89bca8d62c31/expediciones-realizadas-getxo-2024?format=xml"/>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/36c6a38d-71f1-48ed-809f-04fbd1b35fda</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:language rdf:resource="http://publications.europa.eu/resource/authority/language/SPA"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b0dfc8df-c3d2-4738-82b0-b3a31b15f25f">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/028f78fb-5c19-4d8d-ab2f-7c7d2893d89c/refuerzos-planificados-getxo-2024?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/a2fe1de2-da9a-4a58-9126-45d7f5c5a870</dct:identifier>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="bg-t-es-t0-mtec">Предоставя се информация за експедициите и подкрепленията на автобусите Bizkaibus по линиите, които пресичат общината.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/56c8eb1a-802d-41f7-bccf-563dbd0e00b3">
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/f4ce7e18-699e-4bd9-90ae-6914184adac9</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9176f7fe-b2be-44ca-85ee-107063d7dc12/expediciones-realizadas-getxo-2023?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/5ff501fb-434d-41d3-9e0f-acfdcb992649">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/028f78fb-5c19-4d8d-ab2f-7c7d2893d89c/refuerzos-planificados-getxo-2024?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/a8836334-6468-41ac-9b53-b2e392e47465</dct:identifier>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="sl-t-es-t0-mtec">Bizkaibus – Razstave in ojačitve – Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/f8b79701-3592-4496-8808-20fcdac067c2">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/028f78fb-5c19-4d8d-ab2f-7c7d2893d89c/refuerzos-planificados-getxo-2024?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2024</dct:title>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/9f21ca14-3d70-4d04-b268-3b2e1a3f49c3</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/917a8d59-ad69-4dc6-b047-4658d786f399">
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fcab14ee-b7a3-4ca6-a3a0-89bca8d62c31/expediciones-realizadas-getxo-2024?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/5a48d32c-cd07-4fdd-bf97-ef7b5686d83a</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/735bc9e1-0a80-45dd-93d5-697a5da322d5">
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2022</dct:title>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a7cc901-058b-429a-a3f5-6e73c0e0bd2f/refuerzos-planificados-getxo-2022?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/8aa79874-fc10-43dd-b518-d573ca041ac2</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Espedizioak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/cfda42ed-dfef-4615-a821-286ce886eafe">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5722abdc-0908-4517-8789-8c9b280105e5/expediciones-planificadas-getxo-2024?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/0a7d3b19-0ada-497b-bd55-cc2e9ac410b0</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4bf135f8-ff83-4006-abe2-8d7922802a3c">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/f8cfdb69-e237-4182-b86d-a5ce19916486</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/298a7e13-6bd7-44a7-bb08-4e7abbe65276/refuerzos-realizados-getxo-2022?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2022</dct:title>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="nl-t-es-t0-mtec">Bizkaibus — Expedities en versterkingen — Getxo</dct:title>
+        <dcat:keyword xml:lang="es">Expediciones</dcat:keyword>
+        <dct:description xml:lang="de-t-es-t0-mtec">Informationen über Expeditionen und Verstärkungen der Bizkaibus-Busse der Linien, die die Gemeinde überqueren.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3f806d03-db6f-43a9-9c29-b93ae08d7b18">
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2024</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/8cabb7de-69fc-4d16-93f3-c0829e415f1c</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fcab14ee-b7a3-4ca6-a3a0-89bca8d62c31/expediciones-realizadas-getxo-2024?format=json"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="ga-t-es-t0-mtec">Cuirtear eolas ar fáil maidir le turais agus treisiú bhusanna Bizkaibus na línte a thrasnaíonn an bardas.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b6a1cda4-fd4c-4e60-9a2c-417992f89420">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/180fa4c6-1fbf-4f82-b297-0790cbaa380b/refuerzos-planificados-getxo-2021?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/271d0c76-93b4-44fb-9179-277b3f879c97</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2021</dct:title>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:theme rdf:resource="http://publications.europa.eu/resource/authority/data-theme/TRAN"/>
+        <dcat:keyword xml:lang="eu">Autobusa</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Ibilgailuak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/a47c5d3a-b225-43e9-890b-f1d2cf091840">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9485df6a-3032-43af-8c47-2a3dba77bf34/refuerzos-realizados-getxo-2024?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/1fbd6a46-9104-42aa-8793-2838411b4cc6</dct:identifier>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="hr-t-es-t0-mtec">Pružaju se informacije o ekspedicijama i pojačanjima autobusa Bizkaibus na linijama koje prelaze općinu.</dct:description>
+        <dct:title xml:lang="cs-t-es-t0-mtec">Bizkaibus – Expedice a posilování – Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fa1f12c7-563d-45d8-a8ab-e6aaa8b241f4">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0a1a2acd-38f4-47c0-9e98-ee2ae1dde22e/refuerzos-realizados-getxo-2023?format=tsv"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2023</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/e687e59f-2f30-472c-8a79-94d2bcb1e345</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sv-t-es-t0-mtec">Information ges om expeditioner och förstärkningar av Bizkaibusbussarna på de linjer som korsar kommunen.</dct:description>
+        <dct:description xml:lang="pt-t-es-t0-mtec">São fornecidas informações sobre expedições e reforços dos autocarros Bizkaibus das linhas que atravessam o município.</dct:description>
+        <dct:title xml:lang="el-t-es-t0-mtec">Bizkaibus — Εκστρατείες και ενισχύσεις — Getxo</dct:title>
+        <dct:title xml:lang="ro-t-es-t0-mtec">Bizkaibus – Expediții și întăriri – Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/73605173-9994-45fc-99b2-b73339ae47ed">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/9e7a7c43-b2af-46f4-a7ae-a384d5e050d5</dct:identifier>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2023</dct:title>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e6d2276-8421-49fb-89fd-e1e51072d2d9/refuerzos-planificados-getxo-2023?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Bizkaibus</dcat:keyword>
+        <dcat:keyword xml:lang="eu">Bizkaibus</dcat:keyword>
+        <dct:description xml:lang="uk-t-es-t0-mtec">Інформація надається про експедиціях та підкріпленнях автобусів «Бізкайбус» ліній, що перетинають муніципалітет.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4383249a-5df2-47f5-9185-a5541cb826c8">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/5f6ad164-713f-4d39-ab84-99d743e0c5de</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/afa2017d-cf67-4e30-a338-90169aad3021/expediciones-planificadas-getxo-2021?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="lv-t-es-t0-mtec">Bizkaibus — Ekspedīcijas un nostiprinājumi — Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/da061a1c-734d-4c83-8c05-9cc77798e162">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/180fa4c6-1fbf-4f82-b297-0790cbaa380b/refuerzos-planificados-getxo-2021?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/a8346c90-b5a1-4af8-9329-564e31762583</dct:identifier>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2021</dct:title>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="en-t-es-t0-mtec">Bizkaibus – Expeditions and Strengthenings – Getxo</dct:title>
+        <dct:isReferencedBy rdf:resource="https://www.opendatabizkaia.eus/es/"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/9319dd05-0615-42bc-9cf2-32c6331b6845">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2022</dct:title>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/cb1468e3-2dc5-4b90-97b3-59d52723fda7</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a7cc901-058b-429a-a3f5-6e73c0e0bd2f/refuerzos-planificados-getxo-2022?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Refuerzos</dcat:keyword>
+        <dct:title xml:lang="sv-t-es-t0-mtec">Bizkaibus – Expeditioner och förstärkningar – Getxo</dct:title>
+        <dct:description xml:lang="sl-t-es-t0-mtec">Na voljo so informacije o ekspedicijah in okrepitvah avtobusov Bizkaibus linij, ki prečkajo občino.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/7c538d39-d204-47b9-94b1-1cbc09a0640b">
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0a1a2acd-38f4-47c0-9e98-ee2ae1dde22e/refuerzos-realizados-getxo-2023?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2023</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/29a61647-f8eb-4fde-99ec-92e93437d107</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/d7b339cf-8e74-41c7-880a-d8dbc6ff5923">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5722abdc-0908-4517-8789-8c9b280105e5/expediciones-planificadas-getxo-2024?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/9291bcab-936b-423c-afd9-feda772eaf08</dct:identifier>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c8be7161-19d8-4b32-a301-6d2b8354c7ef">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/298a7e13-6bd7-44a7-bb08-4e7abbe65276/refuerzos-realizados-getxo-2022?format=json"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2022</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/b3fd7c5d-ec5b-45f3-8c33-b80893935baa</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:publisher>
+          <foaf:Agent rdf:about="http://datos.gob.es/recurso/sector-publico/org/Organismo/L02000048">
+            <foaf:name>Diputación Foral de Bizkaia</foaf:name>
+          </foaf:Agent>
+        </dct:publisher>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/05ba4100-8999-47c7-b427-559bb70ccf5e">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aa6fba53-ef07-44ee-8a3d-02680e0f4e63/refuerzos-realizados-getxo-2021?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2021</dct:title>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/d6f1f209-e28f-4d22-bba1-43439a583f71</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:accrualPeriodicity>
+          <dct:Frequency rdf:about="https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/Frequency">
+            <rdf:value>
+              <time:DurationDescription rdf:about="https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/DurationDescription">
+                <time:months rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"
+                >3</time:months>
+              </time:DurationDescription>
+            </rdf:value>
+          </dct:Frequency>
+        </dct:accrualPeriodicity>
+        <dct:title xml:lang="sk-t-es-t0-mtec">Bizkaibus – Expedície a posilňovania – Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/35d9c574-9652-41d7-a0ce-5268cd4d6c6e">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/028f78fb-5c19-4d8d-ab2f-7c7d2893d89c/refuerzos-planificados-getxo-2024?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2024</dct:title>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/6ce76119-f62c-4733-86a8-da0f7fc56ec5</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="es">Bizkaibus - Expediciones y Refuerzos - Getxo</dct:title>
+        <dct:title xml:lang="pl-t-es-t0-mtec">Bizkaibus – Ekspedycje i wzmocnienia – Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c992f1f5-0f1f-45b2-bd9a-726b01e337e1">
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0e4ef539-d2c5-41f9-ab92-547d53e6f431/expediciones-realizadas-getxo-2021?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/f989374c-e2c9-4f99-bfb1-bd66373dfb55</dct:identifier>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4aea84cb-0d7d-45cc-9a32-971aef747e87">
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/868a46e0-026f-47b9-aaa2-e57e5a042cce/expediciones-planificadas-getxo-2022?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/cf39e46a-8644-4597-b12a-351cbf90a3c3</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/bda72726-202c-46e5-a6f1-b187dc73955d">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/afa2017d-cf67-4e30-a338-90169aad3021/expediciones-planificadas-getxo-2021?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/18f4dcc5-6c36-48a8-84c5-bccd611cfdf9</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/fdb428a4-6b4a-4dfe-995c-953309f27187">
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/fcab14ee-b7a3-4ca6-a3a0-89bca8d62c31/expediciones-realizadas-getxo-2024?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/8795de68-dcdf-4ca8-9828-133de943ba69</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lt-t-es-t0-mtec">Pateikiama informacija apie „Bizkaibus“ autobusų ekspedicijas ir sutvirtinimus per savivaldybę kertančias linijas.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/6aa0879c-09cb-4829-8cbf-74f8afbbf12c">
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/868a46e0-026f-47b9-aaa2-e57e5a042cce/expediciones-planificadas-getxo-2022?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/fd3bb8cb-73d1-4e59-95d4-e7b9e6db914e</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="lv-t-es-t0-mtec">Tiek sniegta informācija par Bizkaibus autobusu ekspedīcijām un stiegrojumiem līnijās, kas šķērso pašvaldību.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4d2b7f54-2a12-410f-add3-fab434d6dab4">
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0a1a2acd-38f4-47c0-9e98-ee2ae1dde22e/refuerzos-realizados-getxo-2023?format=csv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/305b886c-20bd-4814-af02-608cfe72ae6d</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="sk-t-es-t0-mtec">Informácie sa poskytujú o expedíciách a výstužách autobusov Bizkaibus na tratiach, ktoré prechádzajú obcou.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e12f2c45-0a51-402d-a569-3be5bf63f55b">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/f017a37a-34d0-4ebd-b252-667cf2e9f848/expediciones-planificadas-getxo-2023?format=json"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/6ff0e2c1-d6f7-4838-ba5e-fc0f915e5816</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2023</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="da-t-es-t0-mtec">Der gives oplysninger om ekspeditioner og forstærkninger af Bizkaibus-busserne på de linjer, der krydser kommunen.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4dac77ed-01a6-46f4-b7e5-7dee59efde4d">
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/87b50643-c5f7-40cc-b351-5e6c78d11311</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5722abdc-0908-4517-8789-8c9b280105e5/expediciones-planificadas-getxo-2024?format=xml"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="nl-t-es-t0-mtec">Er wordt informatie verstrekt over expedities en versterkingen van de Bizkaibus-bussen van de lijnen die de gemeente doorkruisen.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/409fe834-944d-42e2-a23d-7520899df166">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/47f6a9ca-4861-4f32-877e-bd282c8388e8</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9485df6a-3032-43af-8c47-2a3dba77bf34/refuerzos-realizados-getxo-2024?format=csv"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/8a434007-d546-409e-9462-47116d9dcc33">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/c8e170f1-647c-4b69-ac01-3856e7ac4844</dct:identifier>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9176f7fe-b2be-44ca-85ee-107063d7dc12/expediciones-realizadas-getxo-2023?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2fb627ff-f8be-4abb-acd5-a02dfa00170d">
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/5722abdc-0908-4517-8789-8c9b280105e5/expediciones-planificadas-getxo-2024?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2024</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/feb0d488-db8f-477a-ac34-c29f3587aae3</dct:identifier>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e286c585-3648-40de-a778-0492e1de270c">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0e4ef539-d2c5-41f9-ab92-547d53e6f431/expediciones-realizadas-getxo-2021?format=xml"/>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XML"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/5d8a26b9-983d-47d1-9dc7-2baa26e178a9</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/19f416d7-41b1-4dd9-bc72-65d86486acca">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/96b923a1-7fc3-44e4-8bc9-de3b5c23b2f0</dct:identifier>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0e4ef539-d2c5-41f9-ab92-547d53e6f431/expediciones-realizadas-getxo-2021?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c6a96cc8-2706-4fcf-ae6f-798c0ab559e2">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e6d2276-8421-49fb-89fd-e1e51072d2d9/refuerzos-planificados-getxo-2023?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/29e3e462-0ddb-4729-ac20-274dd2dfaa36</dct:identifier>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2023</dct:title>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2023</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="fr-t-es-t0-mtec">Des informations sont fournies sur les expéditions et les renforts des bus Bizkaibus des lignes qui traversent la municipalité.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/b29d7330-7ac7-42f4-a4c1-f9caf4014d17">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/4f93b5cf-f271-4b6c-b8dd-55b2410ae858</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/afa2017d-cf67-4e30-a338-90169aad3021/expediciones-planificadas-getxo-2021?format=tsv"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="hu-t-es-t0-mtec">Bizkaibus – Expedíciók és erősítés – Getxo</dct:title>
+        <dct:spatial rdf:resource="http://datos.gob.es/recurso/sector-publico/territorio/Autonomia/Pais-Vasco"/>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/51b6b0bc-b348-4d72-a95c-4a1ea30dbf9f">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9485df6a-3032-43af-8c47-2a3dba77bf34/refuerzos-realizados-getxo-2024?format=tsv"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/b5d75828-c330-4ee1-b177-64527cb88fdf</dct:identifier>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2024</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="es">Autobús</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3fd497a9-4bd1-4dcf-ad60-4cdc9b8ccea1">
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2021</dct:title>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2021</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/0e4ef539-d2c5-41f9-ab92-547d53e6f431/expediciones-realizadas-getxo-2021?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/4b581866-8939-419e-9a67-b0f7cd41a9f4</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="da-t-es-t0-mtec">Bizkaibus — Ekspeditioner og forstærkninger — Getxo</dct:title>
+        <dct:description xml:lang="mt-t-es-t0-mtec">Tingħata informazzjoni dwar spedizzjonijiet u rinforzi tal-karozzi tal-linja Bizkaibus tal-linji li jaqsmu l-muniċipalità.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/71c68a85-8eea-47f1-998f-caba8bad6138">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5bbf803-b937-4819-8e56-b12b59d722d4/expediciones-realizadas-getxo-2022?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/0cdbce08-261b-4d97-9ac7-8f567715e8a4</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2022</dct:title>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="eu">Bizkaibus - Espedizioak eta Errefortzuak - Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/00d7f80b-624d-4531-a7e6-0d9d0005fa95">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aa6fba53-ef07-44ee-8a3d-02680e0f4e63/refuerzos-realizados-getxo-2021?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2021</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/1d2483b9-ac27-4228-9c19-8ec75b83791d</dct:identifier>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/eb375e8c-2ca8-4e13-bb3b-853cf4f0dd35">
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2024</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/9485df6a-3032-43af-8c47-2a3dba77bf34/refuerzos-realizados-getxo-2024?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/1b8bae37-a4af-4be6-870a-8b0bfb07153b</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2024</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/dcc05942-72a5-46f9-ba4a-42eeebe98742">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/afa2017d-cf67-4e30-a338-90169aad3021/expediciones-planificadas-getxo-2021?format=json"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/b4ac6efd-4227-4477-ab77-46f0196ef381</dct:identifier>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/685ccf9f-a3ef-43a1-a80a-a66a0dbf2b3c">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/b5bbf803-b937-4819-8e56-b12b59d722d4/expediciones-realizadas-getxo-2022?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/a4ba2b60-fc68-4771-bb75-a626926de0f5</dct:identifier>
+            <dct:title xml:lang="eu">Egindako espedizioak - Getxo 2022</dct:title>
+            <dct:title xml:lang="es">Expediciones realizadas - Getxo 2022</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/e25abcf3-f429-4492-b5c7-4573c6b9628b">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/868a46e0-026f-47b9-aaa2-e57e5a042cce/expediciones-planificadas-getxo-2022?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/9a0536a8-c76a-4351-b0b2-9e1ac1f222f9</dct:identifier>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:keyword xml:lang="eu">Errefortzuak</dcat:keyword>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/82f7363f-0656-40a6-b4ff-d8bc3e9be7ed">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/8b7e91ae-9036-4003-b8c7-0ad2fb1bd1f0</dct:identifier>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2022</dct:title>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2022</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1a7cc901-058b-429a-a3f5-6e73c0e0bd2f/refuerzos-planificados-getxo-2022?format=tsv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/TSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2021-09-15T00:00:00+02:00</dct:issued>
+        <dct:description xml:lang="ro-t-es-t0-mtec">Sunt furnizate informații privind expedițiile și întăririle autobuzelor Bizkaibus de pe liniile care traversează municipalitatea.</dct:description>
+        <dct:description xml:lang="it-t-es-t0-mtec">Informazioni sulle spedizioni e rinforzi degli autobus Bizkaibus delle linee che attraversano il comune.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/af3fb4a2-0813-4fc3-a007-28e3f95799a9">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/8d6ceee8-db9d-49a8-997b-912638a6e3f8</dct:identifier>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2023</dct:title>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2023</dct:title>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/1e6d2276-8421-49fb-89fd-e1e51072d2d9/refuerzos-planificados-getxo-2023?format=csv"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/CSV"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:title xml:lang="fi-t-es-t0-mtec">Bizkaibus – Tutkimusmatkat ja vahvistukset – Getxo</dct:title>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+        >2024-04-25T00:00:00+02:00</dct:modified>
+        <dct:title xml:lang="hr-t-es-t0-mtec">Bizkaibus – Ekspedicije i jačanje – Getxo</dct:title>
+        <dct:title xml:lang="ga-t-es-t0-mtec">Bizkaibus — Expeditions agus neartuithe — Getxo</dct:title>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/c4963d4a-3eea-4bf1-9b9c-b01e740454ca">
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/868a46e0-026f-47b9-aaa2-e57e5a042cce/expediciones-planificadas-getxo-2022?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="eu">Espedizio planifikatuak - Getxo 2022</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dct:title xml:lang="es">Expediciones planificadas - Getxo 2022</dct:title>
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/7694779f-7731-4688-a6d7-f16378393e87</dct:identifier>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/4b22bb2d-3199-4c65-a89a-b4cc758c39bc">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/319c6a86-4b3d-454d-b4e2-1358422323be</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/aa6fba53-ef07-44ee-8a3d-02680e0f4e63/refuerzos-realizados-getxo-2021?format=xlsx"/>
+            <dct:title xml:lang="eu">Egindako errefortzuak - Getxo 2021</dct:title>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos realizados - Getxo 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="en-t-es-t0-mtec">Information is provided on expeditions and reinforcements of the Bizkaibus buses of the lines that cross the municipality.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/2159b3be-a2d7-4702-a03b-3792b62ab307">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/992e8b30-67bd-473a-98be-5336de9a2011</dct:identifier>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/XLSX"/>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/180fa4c6-1fbf-4f82-b297-0790cbaa380b/refuerzos-planificados-getxo-2021?format=xlsx"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2021</dct:title>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2021</dct:title>
+          </dcat:Distribution>
+        </dcat:distribution>
+        <dct:description xml:lang="et-t-es-t0-mtec">Teavet antakse Bizkaibuse busside ekspeditsioonide ja täienduste kohta omavalitsust läbivatel liinidel.</dct:description>
+        <dcat:distribution>
+          <dcat:Distribution rdf:about="http://data.europa.eu/88u/distribution/3296a9e9-77a9-4a2a-898e-3586ccfb3bf4">
+            <dct:identifier>https://datos.gob.es/catalogo/l02000048-bizkaibus-expediciones-y-refuerzos-getxo/resource/757c6369-9363-42b0-ae3f-34bd205bb582</dct:identifier>
+            <dcat:accessURL rdf:resource="https://www.opendatabizkaia.eus/es/datastore/dump/180fa4c6-1fbf-4f82-b297-0790cbaa380b/refuerzos-planificados-getxo-2021?format=json"/>
+            <dct:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+            <dct:title xml:lang="es">Refuerzos planificados - Getxo 2021</dct:title>
+            <dct:title xml:lang="eu">Errefortzu planifikatuak - Getxo 2021</dct:title>
+            <dct:format rdf:resource="http://publications.europa.eu/resource/authority/file-type/JSON"/>
+          </dcat:Distribution>
+        </dcat:distribution>
+      </dcat:Dataset>
+    </foaf:primaryTopic>
+    <edp:transIssued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:20:23Z</edp:transIssued>
+    <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2023-02-01T09:05:58Z</dct:issued>
+    <spdx:checksum>
+      <spdx:Checksum>
+        <spdx:checksumValue>1854afc7b66ad2f07b6e3f66ef9ccc02</spdx:checksumValue>
+        <spdx:algorithm rdf:resource="http://spdx.org/rdf/terms#checksumAlgorithm_md5"/>
+      </spdx:Checksum>
+    </spdx:checksum>
+    <dqv:hasQualityMetadata rdf:resource="http://data.europa.eu/88u/metrics/https-www-opendatabizkaia-eus-es-catalogo-bizkaibus-expediciones-refuerzos-getxo"/>
+    <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime"
+    >2024-05-29T23:20:23Z</dct:modified>
+    <dct:creator rdf:resource="http://piveau.io"/>
+    <dct:identifier>https://www.opendatabizkaia.eus/es/catalogo/bizkaibus-expediciones-refuerzos-getxo</dct:identifier>
+    <edp:originalLanguage>es</edp:originalLanguage>
+  </dcat:CatalogRecord>
+</rdf:RDF>
